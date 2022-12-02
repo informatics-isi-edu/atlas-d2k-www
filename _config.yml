@@ -1,0 +1,9 @@
+name: "ATLAS Center: Data to Knowledge"
+
+description: "Demo name"
+
+markdown: kramdown
+
+permalink: pretty
+
+port: 8000

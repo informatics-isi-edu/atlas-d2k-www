@@ -1,0 +1,23 @@
+/* Data Browser spinner */
+
+.navbar-inverse {
+  background-color: #1b3455;
+  border-color: #1b3455;
+}
+
+.markdown-container table tr {
+    background: transparent !important;
+}
+.markdown-container table th:empty {
+    display: none;
+}
+.markdown-container table td, .markdown-container table th, .markdown-container table tr {
+    border: none !important;
+}
+.markdown-container table td, .markdown-container table th {
+    padding: 3px 5px !important;
+    vertical-align: top;
+}
+.s_Zebrafish.t_Cohort .c_RID {
+    min-width: 300px
+}

@@ -1,0 +1,61 @@
+	</div>
+</div>
+<div class="push"></div>
+<div id="footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-2 col-md-2">
+				<a href="https://www.psc.edu/">
+					<img src="/assets/img/PSClogo.jpg" alt="Logo of the Pittsburgh Super Computing Center" height="50px" style="padding-top:10px">
+				</a>
+
+
+			</div>
+			<div class="col-sm-2 col-md-2">
+				<a href="https://www.isi.edu/">
+					<img src="/assets/img/Informal_Viterbi_CardOnBlack.jpg" alt="Logo for NIH" height="50px" >
+				</a>
+			</div>
+			<div class="col-sm-4 col-md-4">
+				<p><a href="/about/">About</a> | <a href="/privacy-policy/">Privacy</a> | <a href="/contact/">Contact</a></p>
+			</div>
+			<div class="col-sm-2 col-md-2">
+
+				<a href="http://deriva.isrd.isi.edu/">
+					<img src="/assets/img/deriva-dark-bg.png" alt="Logo of the DERIVA system" height="50px">
+				</a>
+
+
+			</div>
+			<div class="col-sm-2 col-md-2">
+				<a href="#">
+					<img src="#" alt="Logo of BWH and WUSTL" height="50px">
+				</a>
+			</div>
+		</div>
+	</div>
+</div>
+	<!-- javascript -->
+
+	<script>
+	$(document).ready(function(){
+			HOME = window.location.origin;
+
+  			$('ul.nav li.toplevel a[href^="/' + location.pathname.split("/")[1] + '"]').parent(".toplevel").addClass('active');
+  			//getSession();
+		});
+	</script>
+	<!-- Notifies older browsers that they are too old -->
+	<script>
+		var $buoop = {vs:{i:9,f:40,o:30,s:7,c:50},c:4};
+		function $buo_f(){
+		 var e = document.createElement("script");
+		 e.src = "/assets/js/update.min.js";
+		 document.body.appendChild(e);
+		};
+		try {document.addEventListener("DOMContentLoaded", $buo_f,false)}
+		catch(e){window.attachEvent("onload", $buo_f)}
+</script>
+
+</body>
+</html>
