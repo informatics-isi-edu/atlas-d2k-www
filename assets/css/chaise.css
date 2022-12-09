@@ -362,16 +362,38 @@ img.centered-image-compact, img.centered-content-compact {
     min-width: 200px;
 }
 
-/* ------ Gene Expression: indent iframe -------------------------                                                                                                        
- tables: Image, Image_3D, Processd_3D_Image 
-         Image_Annotation, Image_Annotation_File                                                                                                         
-*/                                                                                                                                                                        
+/* ------ Gene Expression: indent iframe -------------------------
+ tables: Image, Image_3D, Processd_3D_Image
+         Image_Annotation, Image_Annotation_File
+*/
 .r_s_Gene_Expression.r_t_Image #row-uri .entity-value,                                                                                                                   \
-.r_s_Gene_Expression.r_t_Image_3D #row-lRpelvft99Dx7_YwQPuSpw .entity-value,   
+.r_s_Gene_Expression.r_t_Image_3D #row-lRpelvft99Dx7_YwQPuSpw .entity-value,
 .r_s_Gene_Expression.r_t_Image_3D #row-Processed_File_URL .entity-value,
 .r_s_Gene_Expression.r_t_Processed_3D_Image #row-File_URL .entity-value,
 .r_s_Gene_Expression.r_t_Image_Annotation_File #row-\$Preview .entity-value,                                                                                             \
-.r_s_Gene_Expression.r_t_Image_Annotation #row-\$Display .entity-value                                                                                                    
+.r_s_Gene_Expression.r_t_Image_Annotation #row-\$Display .entity-value
 {
   padding-left: 40px;
+}
+
+/* Common.Gene Thumbnail display generated using psudo-column and rowname */
+a.pseudo-column-rowname-thumbnail-link {
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+span.pseudo-column-rowname-thumbnail-title {
+    display: block;
+    height: 10px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+img.centered-image-compact, img.centered-content-compact {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
