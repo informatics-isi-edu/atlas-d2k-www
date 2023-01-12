@@ -46,7 +46,7 @@ html,body {
 
  h1, h2, h3 {
   margin-top: 20px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 h2, .h2 {
@@ -111,6 +111,12 @@ visibility: hidden;
 	font-size: 1.12em;
 }
 
+p.note {
+	padding: 20px;
+  background-color: #e4f5fa;
+  border-radius: 4px !important;
+  font-weight: bold;
+}
 
 
 #wrap {
@@ -234,10 +240,13 @@ visibility: hidden;
     border-radius: 6px 0 6px 6px;
 }
 
-#content {
-	padding-bottom: 120px;
-	font-size: 16px;
-}
+#content.container {
+    padding-bottom: 220px;
+    font-size: 18px;
+    margin: 0 auto;
+    width: 820px;
+		line-height: 25px;
+	}
 
 .innercontent {
 	padding: 20px 10%;
