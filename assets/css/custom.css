@@ -118,6 +118,11 @@ p.note {
   font-weight: bold;
 }
 
+p.acknowledgement {
+	font-size: .9;
+	font-style: italic;
+}
+
 
 #wrap {
 	min-height: 100%;
