@@ -50,7 +50,6 @@ html,body {
 
 #content h2, #home h2 {
 	font-size: 30px;
-	font-weight: 400;
 	margin-top: 40px;
 }
 
@@ -244,12 +243,15 @@ p.acknowledgement {
     border-radius: 6px 0 6px 6px;
 }
 
+#home.container, #content.container {
+	padding-bottom: 220px;
+	font-size: 18px;
+	margin: 0 auto;
+	line-height: 25px;
+}
+
 #content.container {
-    padding-bottom: 220px;
-    font-size: 18px;
-    margin: 0 auto;
     width: 820px;
-		line-height: 25px;
 	}
 
 .innercontent {
