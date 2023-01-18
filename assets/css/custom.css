@@ -299,6 +299,29 @@ p.acknowledgement {
 	margin-top: 35px;
 	text-align: center;
 }
+
+/* Shortcut links on home page */
+#home .shortcuts {
+  display: inline-block;
+  width: 100%;
+  background-color: #ffffff;
+  padding-bottom: 50px;
+/*  padding-left: 30px; */
+}
+
+.shortcut-links ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.shortcut-links ul li {
+font-size: .9em;
+}
+
+.pub-date {
+	font-style: italic;
+}
+
 /* next couple rules had weird conflict */
 .home p {
 	font-size: 18px;

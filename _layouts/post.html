@@ -1,9 +1,18 @@
 {% include header.html %}
 
-  <h2>{{ page.title }}</h2>
-  <h4 class="pub-date">Published {{ page.date | date_to_long_string }}</h4>
-  <div class="innercontent">
-		{{ content }}
-	</div>
-  
+<div class="container" id="content">
+<div class="col-md-12">
+
+  <h2 id="news">News</h2>
+	   <h3>{{ page.title }}</h3>
+	   <p class="pub-date">{{ page.date | date: "%b %-d, %Y" }}</p>
+
+    	{{ content }}
+
+     <div class="news-link">
+ 			<a href="/news/">See all news</a>
+ 		</div>
+
+</div>
+
 {% include footer.html %}

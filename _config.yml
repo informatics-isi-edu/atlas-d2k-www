@@ -6,4 +6,10 @@ markdown: kramdown
 
 permalink: pretty
 
+paginate: 10
+paginate_path: "news/page:num/"
+
 port: 8000
+
+plugins:
+  - jekyll-paginate
