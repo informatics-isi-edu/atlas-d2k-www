@@ -300,6 +300,16 @@ p.acknowledgement {
 	text-align: center;
 }
 
+.iotw h3 {
+	padding-top: 0;
+}
+
+.iotw p.caption {
+	font-style: italic;
+	font-size: .8em;
+	width: 280px;
+}
+
 /* Shortcut links on home page */
 #home .shortcuts {
   display: inline-block;
