@@ -1,6 +1,6 @@
 ---
 layout: default
-title: ATLAS-D2K Center Opportunity Pool
+title: (Re)Building a Kidney Consortium (RBK) Opportunity Pool - 2023
 ---
 
 The (Re)Building a Kidney consortium (RBK) is an initiative funded by the National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK) that has developed two strategies to address the challenges associated with treating kidney diseases:
