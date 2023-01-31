@@ -300,6 +300,10 @@ p.acknowledgement {
 	text-align: center;
 }
 
+.iotw img {
+	width: 280px;
+}
+
 .iotw h3 {
 	padding-top: 0;
 }
