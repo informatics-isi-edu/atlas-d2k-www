@@ -30,7 +30,7 @@ There are several key areas of scientific interest to the RBK which include, but
 
 ### Application
 
-Applications may request up to $100,000 (total costs) for one year and are due **March 31, 2023**.
+Applications may request up to $100,000 (total costs) for one year and are due **Monday, April 3, 2023**.
 
 - The application is the standard PHS 398 form including face, abstract, detailed budget, bio-sketches (up to 5 pages each), and research plan. The research plan is limited to 5 pages.
 - All applications must be milestone-driven and include a detailed list of expected deliverables and a well-defined timeline.
