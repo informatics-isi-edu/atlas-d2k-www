@@ -4,4 +4,4 @@ _site/
 .jekyll-metadata
 .DS_Store
 
-www/_includes/navbar-dependencies.html
+_includes/navbar-dependencies.html
