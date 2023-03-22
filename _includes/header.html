@@ -10,7 +10,6 @@
     <meta name="description" content="{{ site.description }}">
     <link rel="stylesheet" type="text/css" href="/assets/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="/assets/css/custom.css">
-    <script src="/gtm-id.js"></script>
   	<script src="/assets/js/jquery-latest.min.js"></script>
   	<script src="/assets/js/bootstrap.min.js"></script>
 <!--    <script src="/chaise/chaise-config.js"></script>
@@ -29,6 +28,15 @@
 </noscript>
 
 </head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FQ2FM2B9FJ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-FQ2FM2B9FJ');
+</script>
 <body>
 <div id="wrap">
   <navbar></navbar>
