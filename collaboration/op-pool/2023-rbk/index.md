@@ -35,7 +35,11 @@ Applications may request up to $100,000 (total costs) for one year and are due *
 - The application is the standard PHS 398 form including face, abstract, detailed budget, bio-sketches (up to 5 pages each), and research plan. The research plan is limited to 5 pages.
 - All applications must be milestone-driven and include a detailed list of expected deliverables and a well-defined timeline.
 - Applicants must state a willingness to travel key personnel once a year to the Bethesda, MD area for RBK meetings.
-- All applications must be submitted via the ATLAS-D2K Center website (single file PDF format only please). Submission portal will be available soon.
+- All applications must be submitted via the application portal available at the link below:
+
+**[Application Portal](https://idg.partners.org/prog/rebuilding_a_kidney_consortium_rbk_opportunity_pool_-_2023/)**
+
+If you have any questions about using the portal, please contact [help@atlas-d2k.org](help@atlas-d2k.org).
 
 ### Budget
 
