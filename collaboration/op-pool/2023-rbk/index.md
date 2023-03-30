@@ -39,7 +39,7 @@ Applications may request up to $100,000 (total costs) for one year and are due *
 
 **[Application Portal](https://idg.partners.org/prog/rebuilding_a_kidney_consortium_rbk_opportunity_pool_-_2023/)**
 
-If you have any questions about using the portal, please contact [help@atlas-d2k.org](help@atlas-d2k.org).
+If you have any questions about using the portal, please contact [help@atlas-d2k.org](mailto:help@atlas-d2k.org).
 
 ### Budget
 
