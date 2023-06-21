@@ -1,0 +1,23 @@
+---
+title: 'New Partnership Pilot Program'
+tag: rbk
+layout: post
+---
+
+The (Re)Building A Kidney Consortium is happy to announce that we are ready to accept new submissions to collaborate with us via our Partnership Program.
+
+Specifically, we are looking for additional projects in the following subject areas:
+
+1. Development of protocols for single cell analysis of human renal biopsy specimens. Protocols may involve tissue in situ analyses or digestion of specimens into single cells for transcriptional or proteomic analysis.
+
+2. Profiling and validation of normal adult kidney cell types isolated from human tissue using FACS, laser-capture or other approaches. Omic profiling of kidney cell types will inform in vitro and in vivo efforts to recreate or regenerate these cell types within the RBK Consortium and provide the research community with detailed expression profiles of specific kidney cell types.
+
+3. Development of protocols for proteomic profiling of kidney cell types using platforms amenable to single cell analysis (flow cytometry, microfluidics, mass cytometry or chemical cytometry) and/or the development of proteomic imaging methods at the single cell level (e.g., SWITCH, systems-wide control of interaction time and kinetics of chemicals, CyTOF mass cytometry, etc.)
+
+4. Bioengineering specific components of the kidney (e.g., convoluted proximal tubule, collecting duct, interstitium, etc.), including incorporation of appropriate cell types. Cell types may be informed by the RBK Consortium.
+
+Applications of 5 pages requesting up to $150,000 total costs for per year for a maximum of 2 years are due July 1, 2016 for a projected start date of October 3, 2016.
+
+For complete details about this program, go to:
+
+<a href="https://www.rebuildingakidney.org/partnership-project-program.html">rebuildingakidney.org/partnership-project-program.html</a>

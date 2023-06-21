@@ -11,8 +11,11 @@ sass:
         - assets/css
         - rebuildingakidney/assets/css
 
-paginate: 10
-paginate_path: "news/page:num/"
+pagination:
+  enabled: true
+  per_page: 10
+  permalink: "/page:num/"
+  sort_reverse: true
 
 scholar:
   bibliography: '**/*.bib'
@@ -34,7 +37,7 @@ page_gen:
 port: 8000
 
 plugins:
-  - jekyll-paginate
+  - jekyll-paginate-v2
   - jekyll-scholar
   - jekyll-seo-tag
   - jekyll-redirect-from
