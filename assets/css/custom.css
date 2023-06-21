@@ -1,12 +1,11 @@
-
 /* Using image for brand in navbar
 Comment out the next two rules to use text instead
 */
 
 navbar {
-	height: 50px;
-	background-color: #1b3455;
-	display: block;
+    height: 50px;
+    background-color: #1b3455;
+    display: block;
 }
 
 .navbar-brand {
@@ -28,106 +27,119 @@ span#brand-text {
   background-size: contain;
 }
 */
+
+
 /* The rest of the custom stylesheet */
 
 * {
-margin: 0;
+    margin: 0;
 }
 
-html,body {
-	height: 100%;
+html,
+body {
+    height: 100%;
 }
 
- body {
-	color: #212121;
-	font-size: 16px;
-  line-height: 1.5;
+body {
+    color: #212121;
+    font-size: 16px;
+    line-height: 1.5;
 }
 
- h1, h2, h3 {
-  margin-bottom: 20px;
+h1,
+h2,
+h3 {
+    margin-bottom: 20px;
 }
 
-#content h2, #home h2 {
-	font-size: 30px;
-	margin-top: 40px;
+#content h2,
+#home h2 {
+    font-size: 30px;
+    margin-top: 40px;
 }
 
 h3 {
-	padding-top: 20px;
+    padding-top: 20px;
 }
 
 h3.panel-title {
-  padding-top: 0px;
+    padding-top: 0px;
 }
 
 h4 {
-	font-size: 20px;
+    font-size: 20px;
 }
 
 h5 {
-  font-size: 16px;
-}
-h6 {
-  font-size: 16px;
+    font-size: 16px;
 }
 
-h4, h5, h6 {
-  margin-top: 20px;
-  margin-bottom: 10px;
+h6 {
+    font-size: 16px;
+}
+
+h4,
+h5,
+h6 {
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 figure {
-	padding-bottom: 10px;
+    padding-bottom: 10px;
 }
 
 figure img {
-	border: 1px solid #333;
+    border: 1px solid #333;
 }
 
-.bg-info, .bg-success, .bg-warning, .bg-danger {
-	padding: 15px;
+.bg-info,
+.bg-success,
+.bg-warning,
+.bg-danger {
+    padding: 15px;
 }
 
 a.anchor {
-display: block;
-position: relative;
-top: -45px;
-visibility: hidden;
+    display: block;
+    position: relative;
+    top: -45px;
+    visibility: hidden;
 }
 
 .btn.btn-success {
-		background: #1598db none repeat scroll 0 0 ;
-		border-color: #1598db;
+    background: #1598db none repeat scroll 0 0;
+    border-color: #1598db;
 }
 
 .lead.announce {
-	text-align: center;
-	margin-top: 20px;
-	padding-right: 40px;
-	padding-left: 40px;
-	font-size: 1.12em;
+    text-align: center;
+    margin-top: 20px;
+    padding-right: 40px;
+    padding-left: 40px;
+    font-size: 1.12em;
 }
 
 p.note {
-	padding: 20px;
-  background-color: #e4f5fa;
-  border-radius: 4px !important;
-  font-weight: bold;
+    padding: 20px;
+    background-color: #e4f5fa;
+    border-radius: 4px !important;
+    font-weight: bold;
 }
 
 p.acknowledgement {
-	font-size: .9;
-	font-style: italic;
+    font-size: .9;
+    font-style: italic;
 }
-
 
 #wrap {
-	min-height: 100%;
-	height: auto !important;
-	height: 100%;
-	margin-bottom: -150px;
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin-bottom: -150px;
 }
+
+
 /*
 .navbar {
 	min-height: 80px;
@@ -135,8 +147,8 @@ p.acknowledgement {
 */
 
 .navbar-inverse {
-  background-color: #1b3455;
-  border-color: #1b3455;
+    background-color: #1b3455;
+    border-color: #1b3455;
 }
 
 .navbar-inverse .navbar-toggle {
@@ -149,7 +161,8 @@ p.acknowledgement {
     color: #333;
 }
 
-.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+.navbar-inverse .navbar-toggle:hover,
+.navbar-inverse .navbar-toggle:focus {
     background-color: #CCC;
 }
 
@@ -162,25 +175,31 @@ p.acknowledgement {
     border-color: #150805;
 }
 
-.navbar-inverse .navbar-nav>li>a, .navbar-inverse .navbar-nav>.active>a {
+.navbar-inverse .navbar-nav>li>a,
+.navbar-inverse .navbar-nav>.active>a {
     color: #C1C1C1;
 }
 
-.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
-	background-color: #150805;
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.active>a:hover,
+.navbar-inverse .navbar-nav>.active>a:focus {
+    background-color: #150805;
 }
 
-.navbar-inverse .navbar-nav > li.login > a, .navbar-inverse .navbar-nav > li.signup > a, .navbar-inverse .navbar-nav > li.user > a, .navbar-inverse .navbar-nav > li.logout > a {
-	color: #6DD0FF;
+.navbar-inverse .navbar-nav>li.login>a,
+.navbar-inverse .navbar-nav>li.signup>a,
+.navbar-inverse .navbar-nav>li.user>a,
+.navbar-inverse .navbar-nav>li.logout>a {
+    color: #6DD0FF;
 }
 
 @media (min-width: 768px) {
-	.navbar-nav {
-	    float: left;
-	 /*   margin: 0 0 0 35px; */
-	}
-
+    .navbar-nav {
+        float: left;
+        /*   margin: 0 0 0 35px; */
+    }
 }
+
 
 /* for dropdown menu items */
 
@@ -221,14 +240,17 @@ p.acknowledgement {
     height: 0;
     border-color: transparent;
     border-style: solid;
-    border-width: 6px 0 6px 6px; /* was 5px 0 5px 5px */
-    border-left-color: #428bca; /* was #ccc */
+    border-width: 6px 0 6px 6px;
+    /* was 5px 0 5px 5px */
+    border-left-color: #428bca;
+    /* was #ccc */
     margin-top: 5px;
     margin-right: -10px;
 }
 
 .dropdown-submenu:hover>a:after {
-    border-left-color: #777; /* was #fff */
+    border-left-color: #777;
+    /* was #fff */
 }
 
 .dropdown-submenu.pull-left {
@@ -243,108 +265,113 @@ p.acknowledgement {
     border-radius: 6px 0 6px 6px;
 }
 
-#home.container, #content.container {
-	padding-bottom: 220px;
-	font-size: 18px;
-	margin: 0 auto;
-	line-height: 25px;
+#home.container,
+#content.container {
+    padding-bottom: 220px;
+    font-size: 18px;
+    margin: 0 auto;
+    line-height: 25px;
 }
 
 #content.container {
     width: 820px;
-	}
+}
 
 .innercontent {
-	padding: 20px 10%;
-	font-size: 1.2em;
-	line-height: 1.5;
+    padding: 20px 10%;
+    font-size: 1.2em;
+    line-height: 1.5;
 }
 
 .home h3 {
-	margin-top: 0;
-	text-align: left;
-	padding-bottom: 0;
+    margin-top: 0;
+    text-align: left;
+    padding-bottom: 0;
 }
 
 .container .jumbotron {
     padding: 20px 60px;
     margin-bottom: 0;
-	/* padding: 15px; */
+    /* padding: 15px; */
     /* background-color: inherit; */
     /* border: 1px solid #ccc; */
 }
 
 #content .jumbotron p {
-	font-size: 1.2em;
-	margin-bottom: 0;
-	font-weight: normal;
+    font-size: 1.2em;
+    margin-bottom: 0;
+    font-weight: normal;
 }
 
-
 .jumbotron .thumbnail {
-	border:0px;
-  border-radius:0px;
-  margin:0 0 10px 0;
-  padding:0px;
+    border: 0px;
+    border-radius: 0px;
+    margin: 0 0 10px 0;
+    padding: 0px;
 }
 
 .container .jumbotron .thumbnail.species {
-	margin-bottom: 0;
+    margin-bottom: 0;
 }
 
 .home h2 {
-	font-size: 40px;
-	font-weight: 200;
-	margin-bottom: 15px;
-	margin-top: 35px;
-	text-align: center;
+    font-size: 40px;
+    font-weight: 200;
+    margin-bottom: 15px;
+    margin-top: 35px;
+    text-align: center;
 }
 
 .iotw img {
-	width: 280px;
+    width: 280px;
 }
 
 .iotw h3 {
-	padding-top: 0;
+    padding-top: 0;
 }
 
 .iotw p.caption {
-	font-style: italic;
-	font-size: .8em;
-	width: 280px;
+    font-style: italic;
+    font-size: .8em;
+    width: 280px;
 }
 
+
 /* Shortcut links on home page */
+
 #home .shortcuts {
-  display: inline-block;
-  width: 100%;
-  background-color: #ffffff;
-  padding-bottom: 50px;
-/*  padding-left: 30px; */
+    display: inline-block;
+    width: 100%;
+    background-color: #ffffff;
+    padding-bottom: 50px;
+    /*  padding-left: 30px; */
 }
 
 .shortcut-links ul {
-  list-style: none;
-  padding-left: 0;
+    list-style: none;
+    padding-left: 0;
 }
 
 .shortcut-links ul li {
-font-size: .9em;
+    font-size: .9em;
 }
 
 .pub-date {
-	font-style: italic;
+    font-style: italic;
 }
 
+
 /* next couple rules had weird conflict */
+
 .home p {
-	font-size: 18px;
+    font-size: 18px;
 }
 
 .panel-primary {
     border-color: #727272;
-		border-color: #fff;
+    border-color: #fff;
 }
+
 
 /* Help page styles */
 
@@ -354,28 +381,28 @@ font-size: .9em;
     background-color: #d1353b;
 }
 
+
 /* Footer styles */
 
 #footer {
-	height: 150px;
-	background-color: #000;
-	color: #C1C1C1;
-	padding: 10px;
-	text-align: center;
-
+    height: 150px;
+    background-color: #000;
+    color: #C1C1C1;
+    padding: 10px;
+    text-align: center;
 }
 
 #footer a {
-	color: #C1C1C1;
-	text-decoration: none;
+    color: #C1C1C1;
+    text-decoration: none;
 }
 
 #footer img {
-	vertical-align: middle;
+    vertical-align: middle;
 }
 
 #footer.browser-footer {
-	margin-top: 0;
+    margin-top: 0;
 }
 
 .acks {
@@ -383,41 +410,45 @@ font-size: .9em;
     flex-direction: row;
     justify-content: space-evenly;
     margin-bottom: 15px;
-		align-items: center;
+    align-items: center;
 }
 
 .acks .ack-logo {
-	width: 215px;
+    width: 215px;
 }
+
 
 /* Breakout points */
 
-
 @media (max-width: 770px) {
-	.media-body, .media-left, .media-right {
-	    display: table-cell;
-	    vertical-align: top;
-	}
-
+    .media-body,
+    .media-left,
+    .media-right {
+        display: table-cell;
+        vertical-align: top;
+    }
 }
-.media-left, .media > .pull-left {
+
+.media-left,
+.media>.pull-left {
     padding-bottom: 10px;
-		padding-right: 10px;
+    padding-right: 10px;
 }
 
 .form-group.required label:after {
-  content:" *";
-  color:red;
+    content: " *";
+    color: red;
 }
 
 @media (max-width: 768px) {
-  #content {
-    margin-left: 0;
-  }
+    #content {
+        margin-left: 0;
+    }
 }
 
 
 /* Extra Large Col Styles */
+
 
 /*
 *   CSS file with Bootstrap grid classes for screens bigger than 1600px. Just add this file after the Bootstrap CSS file and you will be able to juse col-xl, col-xl-push, hidden-xl, etc.
@@ -437,256 +468,208 @@ font-size: .9em;
 .visible-xl-block,
 .visible-xl-inline,
 .visible-xl-inline-block,
-.visible-xl{
+.visible-xl {
     display: none !important;
 }
 
-
 @media (min-width: 1600px) {
     .container {
-        width: 1570px;
+        width: 100%;
     }
-
-    .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12 {
+    .col-xl-1,
+    .col-xl-2,
+    .col-xl-3,
+    .col-xl-4,
+    .col-xl-5,
+    .col-xl-6,
+    .col-xl-7,
+    .col-xl-8,
+    .col-xl-9,
+    .col-xl-10,
+    .col-xl-11,
+    .col-xl-12 {
         float: left;
     }
-
     .col-xl-12 {
         width: 100%;
     }
-
     .col-xl-11 {
         width: 91.66666667%;
     }
-
     .col-xl-10 {
         width: 83.33333333%;
     }
-
     .col-xl-9 {
         width: 75%;
     }
-
     .col-xl-8 {
         width: 66.66666667%;
     }
-
     .col-xl-7 {
         width: 58.33333333%;
     }
-
     .col-xl-6 {
         width: 50%;
     }
-
     .col-xl-5 {
         width: 41.66666667%;
     }
-
     .col-xl-4 {
         width: 33.33333333%;
     }
-
     .col-xl-3 {
         width: 25%;
     }
-
     .col-xl-2 {
         width: 16.66666667%;
     }
-
     .col-xl-1 {
         width: 8.33333333%;
     }
-
     .col-xl-pull-12 {
         right: 100%;
     }
-
     .col-xl-pull-11 {
         right: 91.66666667%;
     }
-
     .col-xl-pull-10 {
         right: 83.33333333%;
     }
-
     .col-xl-pull-9 {
         right: 75%;
     }
-
     .col-xl-pull-8 {
         right: 66.66666667%;
     }
-
     .col-xl-pull-7 {
         right: 58.33333333%;
     }
-
     .col-xl-pull-6 {
         right: 50%;
     }
-
     .col-xl-pull-5 {
         right: 41.66666667%;
     }
-
     .col-xl-pull-4 {
         right: 33.33333333%;
     }
-
     .col-xl-pull-3 {
         right: 25%;
     }
-
     .col-xl-pull-2 {
         right: 16.66666667%;
     }
-
     .col-xl-pull-1 {
         right: 8.33333333%;
     }
-
     .col-xl-pull-0 {
         right: auto;
     }
-
     .col-xl-push-12 {
         left: 100%;
     }
-
     .col-xl-push-11 {
         left: 91.66666667%;
     }
-
     .col-xl-push-10 {
         left: 83.33333333%;
     }
-
     .col-xl-push-9 {
         left: 75%;
     }
-
     .col-xl-push-8 {
         left: 66.66666667%;
     }
-
     .col-xl-push-7 {
         left: 58.33333333%;
     }
-
     .col-xl-push-6 {
         left: 50%;
     }
-
     .col-xl-push-5 {
         left: 41.66666667%;
     }
-
     .col-xl-push-4 {
         left: 33.33333333%;
     }
-
     .col-xl-push-3 {
         left: 25%;
     }
-
     .col-xl-push-2 {
         left: 16.66666667%;
     }
-
     .col-xl-push-1 {
         left: 8.33333333%;
     }
-
     .col-xl-push-0 {
         left: auto;
     }
-
     .col-xl-offset-12 {
         margin-left: 100%;
     }
-
     .col-xl-offset-11 {
         margin-left: 91.66666667%;
     }
-
     .col-xl-offset-10 {
         margin-left: 83.33333333%;
     }
-
     .col-xl-offset-9 {
         margin-left: 75%;
     }
-
     .col-xl-offset-8 {
         margin-left: 66.66666667%;
     }
-
     .col-xl-offset-7 {
         margin-left: 58.33333333%;
     }
-
     .col-xl-offset-6 {
         margin-left: 50%;
     }
-
     .col-xl-offset-5 {
         margin-left: 41.66666667%;
     }
-
     .col-xl-offset-4 {
         margin-left: 33.33333333%;
     }
-
     .col-xl-offset-3 {
         margin-left: 25%;
     }
-
     .col-xl-offset-2 {
         margin-left: 16.66666667%;
     }
-
     .col-xl-offset-1 {
         margin-left: 8.33333333%;
     }
-
     .col-xl-offset-0 {
         margin-left: 0;
     }
-
     .visible-xl {
         display: block !important;
     }
-
     table.visible-xl {
         display: table;
     }
-
     tr.visible-xl {
         display: table-row !important;
     }
-
-    th.visible-xl, td.visible-xl {
+    th.visible-xl,
+    td.visible-xl {
         display: table-cell !important;
     }
-
     .visible-xl-block {
         display: block !important;
     }
-
     .visible-xl-inline {
         display: inline !important;
     }
-
     .visible-xl-inline-block {
         display: inline-block !important;
     }
-
     .hidden-xl {
         display: none !important;
     }
 }
+
 
 /* Gene Expression Profiles
 

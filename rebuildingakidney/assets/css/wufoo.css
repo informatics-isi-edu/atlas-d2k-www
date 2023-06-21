@@ -1,0 +1,88 @@
+---
+
+---
+
+.wufoo {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.embed form {
+
+
+}
+
+
+.contact-content .embed form {
+  max-width: 620px;
+  padding: 0 20px;
+}
+
+/*
+.wufoo .info h2 {
+  display: none;
+}
+
+.wufoo .info div {
+  display: none;
+}
+*/
+.wufoo input.btTxt {
+  background: #002d73 none repeat scroll 0 0;
+  color: white;
+  font-size: 18px;
+  text-transform: uppercase;
+  width: 33%;
+  padding: 10px;
+  -moz-appearance: none;
+  border: 3px solid #ddd;
+  box-sizing: border-box;
+ }
+
+.wufoo input.btTxt:hover {
+  background-color: #407cca;
+}
+
+.wufoo label.desc, .wufoo legend.desc {
+  font-size: 1.2em;
+}
+
+form li div label, form li span label {
+  font-size: 1em;
+ }
+
+ .wufoo li {
+   width: auto;
+ }
+ /* section breaks */
+ .wufoo .section h3 {
+   font-size: 1.3em;
+   color: #444;
+ }
+
+ .wufoo .section div {
+   font-size: 100% !important;
+ }
+
+ .wufoo .section h3, .wufoo .captcha, #payment .paging-context {
+   border-top: 1px dotted #444;
+ }
+
+ button#previousPageButton {
+    float: left;
+    padding-top: 32px;
+    padding-right: 20px;
+}
+
+div#instruct130 {
+  padding-left: 20px;
+  /*font-family: monospace;*/
+  font-size: 1.2em;
+}
+
+div#instruct130 pre {
+  margin: 0;
+}
+
+div#instruct130 br {
+  display: none !important;
+}

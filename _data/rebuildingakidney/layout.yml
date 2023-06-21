@@ -1,0 +1,25 @@
+# Layout settings
+
+animation: "bounceOut"
+
+# Images
+
+logo: "logo.svg"
+hero: "rbk-background.jpg"
+pattern: "pattern.png"
+rbklogo: "logo.png"
+footerlogo: "logo-footer.png"
+
+# Colors
+accent: "#49B076"
+
+textColor: "#666"
+headlineColor: "#333"
+# bgcolor: "#e5eaee"
+#bgcolor: "#e3eef8"
+bgcolor: "#eef4f8"
+documentBackgroundColor: "#fff"
+
+branding: "#002d73"
+branding-light: "#407cca"
+rbkred: "#eb0029"
