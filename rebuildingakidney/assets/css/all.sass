@@ -1,0 +1,34 @@
+---
+---
+
+@import '1-tools/-tools-dir'
+
+//------------------------------------------------
+// Transition the image paths from the settings file to usable SASS variables
+$animation: {{ site.data.rebuildingakidney.layout.animation }}
+$logo-path: '{{ site.data.rebuildingakidney.layout.footerlogo }}'
+$hero-path: '{{ site.data.rebuildingakidney.layout.hero }}'
+$banner-path: '{{ site.data.rebuildingakidney.layout.banner }}'
+$pattern: '{{ site.data.rebuildingakidney.layout.pattern }}'
+$rbk-logo: '{{ site.data.rebuildingakidney.layout.rbklogo }}'
+$avatar-path: '{{ site.data.rebuildingakidney.layout.avatar }}'
+
+// $projects: {% for project in site.data.rebuildingakidney.settings.projects %} "{{ project.folder }}", {% endfor %}
+
+//------------------------------------------------
+// Set some colors as sass variables
+
+$accent: {{ site.data.rebuildingakidney.layout.accent }}
+$accent-light: adjust-hue(saturate(lighten($accent, 11%), 12.6%), 14%)
+
+$branding: {{ site.data.rebuildingakidney.layout.branding }}
+$branding-light: {{ site.data.rebuildingakidney.layout.branding-light }}
+$selectionColor: #ffffb2
+
+$textColor: {{ site.data.rebuildingakidney.layout.textColor }}
+$headlineColor: {{ site.data.rebuildingakidney.layout.branding-light }}
+$bgcolor: {{ site.data.rebuildingakidney.layout.bgcolor }}
+$documentBackgroundColor: {{ site.data.rebuildingakidney.layout.documentBackgroundColor }}
+
+@import '2-base/-base-dir'
+@import '3-sections/-sections-dir'

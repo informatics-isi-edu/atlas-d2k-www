@@ -2,10 +2,11 @@
 layout: default
 title: News
 tag: archive
+pagination:
+  enabled: true
 ---
 
 <div class="news">
-
   <!-- This loops through the paginated posts -->
 {% for post in paginator.posts %}
   <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
@@ -14,7 +15,7 @@ tag: archive
   </p>
 {% endfor %}
 
-<!-- Pagination links
+ {%- comment -%} Pagination links {%- endcomment -%}
 <div class="pagination">
   {% if paginator.previous_page %}
     <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
@@ -28,5 +29,5 @@ tag: archive
     <span class="next ">Next</span>
   {% endif %}
 </div>
--->
+
 </div>

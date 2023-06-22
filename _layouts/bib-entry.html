@@ -1,0 +1,25 @@
+<div class="btn-group btn-group-sm pull-right" role="group">
+
+  {% if entry.abstract %}<a class="btn btn-default" data-toggle="collapse" role="button" href="#{{key}}-abstract" title="Abstract">Abstract</a>{% endif %}
+
+  {% if entry.doi %}<a class="btn btn-default" role="button" href="https://www.doi.org/{{entry.doi}}" target="_blank"><i class="fa fa-link"></i></a>{% endif %}
+
+  {% if entry.file %}<a class="btn btn-default" role="button" href="{{ entry.file }}"><i class="fa fa-download"></i></a>{% endif %}
+</div>
+<p class="pub-title h4">{% if entry.doi %}<a href="https://www.doi.org/{{entry.doi}}" target="_blank">{% endif %}{{ entry.title }}</a></p>
+
+<p class="pub-venue">
+  {{ entry.author  | replace: " and", ";" }}.
+  {% if entry.journal %}
+	<em>{{ entry.journal }}</em>{% endif %} {% if entry.booktitle %}<em>{{ entry.booktitle }}</em>{% endif %}.
+	{% if entry.volume %}{{ entry.volume }}{% if entry.number %}({{ entry.number }}){% endif %}{% if entry.pages %}:{{ entry.pages }}{% endif %}.{% endif %} {% if entry.month %}{{ entry.month | date: "%B" }}{% endif %} {% if entry.year %}{{ entry.year }}{% endif %}.
+
+</p>
+
+<div id="{{key}}-materials">
+
+  {% if entry.abstract %}
+  <p id="{{key}}-abstract" class="collapse">{{entry.abstract}}</p>
+  {% endif %}
+
+</div>

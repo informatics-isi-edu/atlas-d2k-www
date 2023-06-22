@@ -1,0 +1,428 @@
+#-------------------------------
+# Projects Section
+
+- project_title: >
+    3D Bioprinting of Vascularized, Convoluted Renal Proximal Tubules
+  tag: bioprinting
+  category: bioengineering
+  pub: false
+  project-type: "PPP"
+  activity-code: "n/a"
+  pi: 'Jennifer Lewis'
+  institute: 'Harvard University'
+  img: lewis
+  status: Completed
+  description: >
+    We aim to build a 3D proximal tubule model that contains confluent epithelium, convoluted geometry, and controlled, physiologically relevant perfusion through an open lumen that is embedded within engineered ECM. Using this model, we will study the effect of proximal tubule geometry on epithelial cell structure and function to determine the optimal curvature, degree of convolution, and tubule diameter. Ultimately, we plan to create vascularized, convoluted proximal tubule models and study vectorial transport through the interstitium (ECM) between the endothelial and epithelial tubules.
+  personnel:
+    - person: 'Kimberly Homan'
+      key-institute: 'Harvard University'
+    - person: 'David Kolesky'
+      key-institute: 'Harvard University'
+- project_title: >
+    Adult Progenitors in Kidney Tubulointerstitium
+  slug: Adult Progenitors in Kidney Tubulointerstitium
+  tag: adult-progenitors
+  category: endogenous-repair
+  project-type: "parent"
+  activity-code: "UH2"
+  pi: 'Benjamin D. Humphreys'
+  institute: 'Washington University in St. Louis'
+  img: humphreys
+  status: Completed
+  description: >
+    We are interested in the capacities of adult kidney progenitor cells to model the kidney interstitium. Our project focuses on two such populations, a resident mesenchymal stem cell population characterized by expression of Gli1, and dedifferentiated tubular epithelial cells defined by expression of Havcr-1. We will isolate these cell types, define their differentiation capacity in vitro, and coculture them in collaboration with other RBK investigators to model the kidney interstitium in 3D.
+  data: '/chaise/record/#2/Common:Principal_Investigator/RID=W-Q47M?pcid=static'
+  personnel:
+    - person: 'Monica Chang-Panesso'
+      key-institute: 'Washington University in St. Louis'
+    - person: 'Eoghainin OhAinmhire'
+      key-institute: 'Washington University in St. Louis'
+    - person: 'Haojia Wu'
+      key-institute: 'Washington University in St. Louis'
+- project_title: >
+    Application of Progenitor Niche Signals to Ex Vivo Nephrogenesis
+  slug: Progenitor Nice Signals
+  tag: progenitor-niche-signals
+  category: bioengineering
+  project-type: "parent"
+  activity-code: "R24"
+  pi: 'Leif Oxburgh'
+  pub: false
+  multipis:
+    - multipi: 'Thomas Carroll'
+      mpi-institute: 'University of Texas Southwestern Medical Center'
+    - multipi: 'Ondine Cleaver'
+      mpi-institute: 'University of Texas Southwestern Medical Center'
+    - multipi: 'David Kaplan'
+      mpi-institute: 'Tufts University'
+  institute: 'Maine Medical Center'
+  img: oxburgh
+  Status: Completed (see TBD for next version of project)
+  description: >
+    In this multi-PI project we aim to understand how the three major cell types of the developing kidney can be integrated on a scaffold to reproduce key features of the kidney. Summaries of the 4 focus areas within the project are provided below. These lines of investigation are being pursued in parallel, with the 4 participating laboratories acting as a single integrated research group with the unified goal of developing engraftable laboratory-grown kidney tissue.<br/><br/><a href="https://isi.us10.list-manage.com/track/click?u=226fd3a78ad5e5c340a466add&id=3d22bbcbf6&e=906a198f83">At the 56 minute mark of this video of Dr. Francis Collins' testimony for the Senate Health Committee</a>, he refers to the Regenerative Medicine Innovation Project (RMIP) supplement to this project and work being done in kidney regeneration.
+  personnel:
+    - person: 'Thomas Carroll (PI)'
+      key-institute: 'University of Texas Southwestern'
+    - person: 'Ondine Cleaver (PI)'
+      key-institute: 'University of Texas Southwestern'
+    - person: 'David Kaplan (PI)'
+      key-institute: 'Tufts University'
+  subprojects:
+    - {project_title: 'Focus on: Stromal Biology', pi: 'Thomas Carroll', img: carroll , institute: 'University of Texas Southwestern', personnel: 'Alicia Fessler, Ashwani Kumar Gupta, Harini	Ramalingam', description: 'Optimal kidney functions require complex patterning of both the nephrons and blood vessels. We study how the distinct interstitial microenvironments that exist within the embryonic and adult kidney affect the development and function of this organ. Our ultimate goal is to define the stromal signals that promote the growth of 3-D, physiologically responsive nephrons with integrated vasculature in biological scaffolds.'}
+    - {project_title: 'Focus on: Vascular Biology', pi: 'Ondine Cleaver', img: cleaver , institute: 'University of Texas Southwestern', data: '/chaise/record/#2/Common:Principal_Investigator/RID=14-3Q4R', personnel: 'Edward Daniel', description: 'Nascent blood vessels develop in a coordinated manner with kidney nephrons. We aim to establish a molecular signature for endothelial cells (ECs) in the developing kidney, from nephron stem cell generation to nephron tubule differentiation, throughout embryonic development and into adulthood. Preliminary observations reveal distinct heterogeneity in EC gene expression in the developing kidney; however its functional impact is unknown. We will define when and where blood vessels appear during nephron formation, distinguishing vasculogenic versus angiogenic events. We will test necessity and sufficiency of endothelial signals on nephron progenitor self-renewal versus differentiation. We will also determine whether specific, regionally expressed factors play functional roles in either helping to sustain progenitors or trigger NPC expansion versus differentiation.'}
+    - {project_title: 'Focus on: Biomaterials', pi: 'David Kaplan', img: kaplan , institute: 'Tufts University', data: '/chaise/record/#2/Common:Principal_Investigator/RID=W-R134', personnel: 'Shreyas Jadhav, Sophia Szymkowiak', description: 'We focus on the design and study of 3D scaffolds to support kidney cell and tissue needs.  Silk protein scaffolds provide our framework due to the versatility and utility towards cell and tissue goals, including porous features for transport, tunable mechanical properties, support for long term tissue growth, controlled/slow degradation and an absence of cell-specific epitopes for signaling. We will use silk biomaterial scaffold systems to provide structure and, with the addition of appropriate ECM components, signaling cues for nephrogenesis via cells from our project collaborators (Leif, Tom, Ondine).  The goal is to utilize these scaffolds to engineer modular, compartmentalized systems that support and guide nephron progenitor cell (NPC) maintenance and differentiation, and cellular signaling between stromal cells, cells of the vasculature, and NPCs.'}
+    - {project_title: 'Focus on: Nephron Progenitor Biology', pi: 'Leif Oxburgh', img: oxburgh , institute: 'Maine Medical Center', data: '/chaise/record/#2/Common:Principal_Investigator/RID=W-R13G', personnel: 'Prasenjit Sarkar', description: 'We study the population dynamics of the nephron progenitor cell population with the aim of identifying the sub-populations that are best suited to new tissue formation. This in-depth study of the micro anatomy of the nephron progenitor cell niche involves understanding proliferation, adhesion, and signaling properties of the various nephron progenitor sub populations, defining their growth properties on biological scaffolds, and characterizing the influence of stromal and vascular cells on them.'}
+- project_title: >
+    Cellular Diversity in Human Nephrogenesis
+  slug: Cellular Diversity in Human Nephrogenesis
+  tag: cellular-diversity
+  category: transcriptional profiling
+  project-type: "PPP"
+  activity-code: "n/a"
+  pi: 'Andrew McMahon'
+  institute: 'University of Southern California'
+  img: mcmahon
+  status: Completed
+  description: >
+    The functional unit of the mammalian kidney is the nephron. Though there is a general appreciation for when and how different cell types of the nephron form from studies in the mouse, there is little understanding of these processes in the human kidney, and no rigorous accounting for the full range of mature cell types that underpin kidney function in either mouse or man. An understanding of the diversity of nephron cell types is essential for the goals of (Re)Building A Kidney Consortium where generating functional kidney structures is the consortium target. Further, individual cell types are likely targets for distinct disease features; as an example, mutations in genes producing podocyte specific gene products result in glomerular nephritis. We will combine two complementary strategies, MARIS (Method for Analyzing RNA following Intracellular Sorting) and Drop-seq, to obtain detailed comparative transcriptional profiles of mouse and human nephron progenitors and nephrons to address the question of cellular diversity.
+  data: '/chaise/record/#2/Common:Principal_Investigator/RID=W-Q45P?pcid=static'
+  personnel:
+    - person: 'Andy Ransick'
+      key-institute: 'University of Southern California'
+- project_title: >
+    Cytokines and Extracellular Matrix
+  slug: Cytokines and Extracellular Matrix
+  tag: cytokines-extracellular-matrix
+  category: bioengineering
+  project-type: "parent"
+  pi: 'Jeffrey A. Hubbell'
+  institute: 'University of Chicago'
+  img: hubbell
+  status: Completed
+  description: >
+    Morphogenetic signals from the cell’s microenvironment play important roles in stem and progenitor cell differentiation and in multicellular morphogenesis, being driven by extracellular matrix (ECM) proteins and cytokines. We focus on how signaling from cytokines is modulated by the presence of and interactions with ECM proteins and how this modulates morphogenesis. This interaction leads to synergistic signaling between adhesion receptors and cytokine receptors.  We develop molecular engineering approaches to create recombinant cytokine variants that bind the ECM with unusually high affinity, to enhance their translational potential. Recombinant ECM proteins can be built into biomaterials, or they can be assembled into a gel network to be used as a biomaterial matrix themselves. Our goal is to use these matrix and cytokine engineering approaches to support the multicellular morphogenesis that occurs between nephron progenitor cells, the developing microvasculature, and other stromal cells.
+  personnel:
+    - person: 'Michael White'
+      key-institute: 'University of Chicago'
+- project_title: >
+    Developing Pro-regenerative Drug Therapies for Acute Kidney Injury
+  slug: Pro-regenerative Drug Therapies
+  tag: pro-regenerative-therapies
+  category: organoids
+  project-type: "R01"
+  pi: 'Neil Hukriede'
+  copi: 'Alan Davidson'
+  institute: 'University of Pittsburgh'
+  coinstitute: 'University of Auckland'
+  img: hukriede
+  coimg: davidson
+  status: Completed
+  description: >
+    Acute kidney injury (AKI) is a major health problem and there are currently no effective treatments. We have identified a novel class of compounds (PTBA) that reduce AKI injury when administered days after the initiating injury. However, how PTBA prevents kidney injury remains unclear. Our goal is to use human kidney organoids generated from induced pluripotent stem cells (iPSCs) as a tool to understand the pro-regenerative mechanism-of-action of PTBA analogs during kidney injury and repair, and to further validate the kidney organoid system as a pre-clinical drug screening platform.
+- project_title: >
+    Differentiation of Fluorescent Reporter Human iPS Cell Lines for Monitoring Renal Cell Lineages
+  slug: Differentiation of Fluorescent Reporter Human iPS
+  tag: differentiation-fluorescent-ips
+  category: psc-reporter-lines
+  project-type: "PPP"
+  pi: 'Todd Valerius'
+  institute: 'Brigham and Women''s Hospital'
+  img: valerius
+  status: Completed
+  description: >
+    Our objective is to aid RBK studies of in vitro cell populations by generating kidney cell type specific human pluripotent stem cell (hPSC) reporter lines. Such cell lines will enable both the optimization of differentiation protocols tailored to achieve specific cell types, and comparisons to in vivo human kidney cell types that will advance our understanding of in vitro tissue development and maintenance. We will use CRISPR/Cas9 gene editing to create GFP knock-in cell lines, targeting genes expressed in discrete cell types and according to consortium needs. These lines will be designed to label nephron and stromal progenitors, podocytes, and proximal and distal tubules. Additionally, cell type transition points offer glimpses into the factors that drive differentiation. We will create three dual-label reporter lines to illuminate transitions between progenitor and advanced cell types including nephron progenitors, fibrotic interstitium, and the juxtaglomerular apparatus.
+  data: '/chaise/record/#2/Common:Principal_Investigator/RID=W-R13T'
+  personnel:
+    - person: 'Joseph V. Bonventre'
+      key-institute: 'Brigham and Women''s Hospital'
+    - person: 'Ryuji Morizane'
+      key-institute: 'Brigham and Women''s Hospital'
+- project_title: >
+    Differentiation of Human Pluripotent Stem Cells into Kidney Cell Lineages
+  slug: Human Pluripotent Stem Cells into Kidney Cell Lineages
+  tag: differentiation-pluripotent
+  category: growth-differentiation
+  project-type: "parent"
+  pi: 'Oliver Wessely'
+  copi: 'Jan Jensen'
+  institute: 'Cleveland Clinic'
+  coinstitute: 'Cleveland Clinic'
+  img: wessely
+  coimg: jensen
+  status: Completed
+  description: >
+    Kidney function is based on the intricate interplay of a range of highly specialized cells. Thus, any approach in rebuilding the kidney depends on the generation of the right cell types in sufficient amounts and purity. This project will address this critical need. We will use state-of-the-art technology and a Quality-by-Design approach to guide a multistep differentiation process of human pluripotent stem cells obtaining pure populations of functional kidney cells. We will then characterize those cells for their ability to assemble into kidney-like structures and perform some of the critical functions executed by a healthy kidney.
+  data: '/chaise/record/#2/Common:Principal_Investigator/RID=14-3QCR'
+  personnel:
+    - person: 'Mike Bukys'
+      key-institute: 'Cleveland Clinic'
+    - person: 'Uyen Tran'
+      key-institute: 'Cleveland Clinic'
+- project_title: >
+    Engineering Human Collecting System Reporter Pluripotent Stem Cell Lines
+  slug: Engineering Pluripotent Stem Cell Lines
+  tag: engineering-pluripotent
+  category: psc-reporter-lines
+  project-type: "PPP"
+  pi: 'Sanjay Jain'
+  institute: 'Washington University in St. Louis'
+  img: jain
+  status: Completed
+  description: >
+    We propose to generate modified human pluripotent stem cell (hPSC) reporter lines with a genetically encoded activity sensor that tags key cell types important in development and function of the urinary collecting system.   We will leverage an existing WTC11 hiPSC line that harbors GCaMP6 as an activity sensor thereby enhancing the functional utility of these lines by superimposing physiology onto development during or after a desired cell type or kidney organoid is formed.  Multi-labeled reporter hiPSC cell lines of the collecting system in this proposal will enable RBK members to incorporate this essential component of the kidneys in efforts to optimize nephron formation, patterning and organization in scaffolds with the goal of making a kidney that maintains homeostasis and successfully expels urine.
+  data: '/chaise/record/#2/Common:Principal_Investigator/RID=W-Q5FG?pcid=static'
+  personnel:
+    - person: 'Bendi Gong'
+      key-institute: 'Washington University in St. Louis'
+    - person: 'Shondra Miller'
+      key-institute: 'Washington University in St. Louis'
+- project_title: >
+    Generating an Interconnected Kidney Tubule Architecture
+  slug: Generating an Interconnected Kidney Tubule Architecture
+  tag: interconnected-tubule
+  category: generating-complex-structures
+  project-type: "parent"
+  pi: 'Iain A. Drummond'
+  institute: 'Mount Desert Island Biological Laboratory'
+  img: drummond
+  status: Completed
+  description: >
+    To restore kidney function, filtering nephrons must connect to a tubule network to pass fluid. How cells rearrange and form new connections is not known. We are using the regenerating zebrafish kidney as a model to discover how tubule interconnections are made and to uncover signals that drive cell rearrangments required to "plumb" the kidney. Knowledge of these signals will be an important part of the molecular toolbox for growing new organs.
+  data: '/chaise/record/#2/Common:Principal_Investigator/RID=W-QXH8?pcid=static'
+  personnel:
+    - person: 'Tom Gallegos'
+      key-institute: 'Massachusetts General Hospital'
+    - person: 'Nana Kamei'
+      key-institute: 'Massachusetts General Hospital'
+- project_title: >
+    Generating Kidney Organoids and Mature Renal Cell Types Via Directed iPSC Differentiation
+  slug: Generating Kidney Organoids
+  tag: generating-organoids
+  category: organoids
+  project-type: "parent"
+  pi: 'Melissa H. Little'
+  institute: 'Murdoch Childrens Research Institute'
+  img: little
+  status: Completed
+  description: >
+    We have previously shown that human kidney tissue can be generated from human pluripotent stem cells. Our project focuses on characterizing and optimizing this approach to improve tubular maturation and cellular function and generating reporter lines for the isolation of specific cell types. In the long term, human kidney tissue generated in this way may be used for drug screening, tissue regeneration or cell therapy.
+  data: '/chaise/record/#2/Common:Principal_Investigator/RID=W-Q5F2'
+  personnel:
+    - person: 'Andrew Elefanty'
+      key-institute: 'Murdoch Childrens Research Institute'
+    - person: 'Pei Er'
+      key-institute: 'Murdoch Childrens Research Institute'
+    - person: 'Sara Howden'
+      key-institute: 'Murdoch Childrens Research Institute'
+    - person: 'Alicia Oshlack'
+      key-institute: 'Murdoch Childrens Research Institute'
+    - person: 'Belinda Phipson'
+      key-institute: 'Murdoch Childrens Research Institute'
+    - person: 'Ed Stanley'
+      key-institute: 'Murdoch Childrens Research Institute'
+    - person: 'Jess Vanslambrouck'
+      key-institute: 'Murdoch Childrens Research Institute'
+- project_title: >
+    Human Kidney Biopsy Single Cell Protocols and Analysis
+  slug: Human Kidney Biopsy Single Cell Protocols and Analysis
+  tag: biopsy-single-cell
+  category: protocol-analysis-renal-biopsies
+  project-type: "PPP"
+  pi: 'Benjamin D. Humphreys'
+  institute: 'Washington University in St. Louis'
+  img: humphreys
+  status: Completed
+  description: >
+    Our partnership project aims to establish conditions for the transportation and storage of human kidney biopsies. These protocols will be optimized to ensure maximal cell viability and preservation of mRNA integrity. In the second phase of this project, we will compare single cell RNA sequencing technologies: FACS-seq and Drop-seq. Our goal is to determine which approach will be best adapted to the large-scale investigation of human kidney disease in large populations.
+  data: '/chaise/record/#2/Common:Principal_Investigator/RID=W-Q47M?pcid=static'
+- project_title: >
+    Identifying Kidney Cell Phenotype Factors Using Single Cell RNA Sequencing
+  slug: Single Cell RNA Sequencing
+  tag: identifying-phenotype-factors
+  category: protocol-analysis-renal-biopsies
+  project-type: "PPP"
+  pi: 'Junhyong Kim'
+  copi: 'James Eberwine'
+  institute: 'University of Pennsylvania'
+  coinstitute: 'University of Pennsylvania'
+  img: kim
+  coimg: eberwine
+  status: Completed
+  description: >
+    The goal of the Penn project is to develop molecular biology and informatics tools to identify key regulatory factors that determine kidney cell phenotypes. Single cell resolution transcriptome data can reveal cryptic cell types as well as help identify regulatory systems related to cell phenotypes. We hypothesize that cell phenotype determining genes are often at low to moderate abundance in a cell, making them difficult to approach using current methods. The Penn group will develop novel molecular biology techniques to enrich single cell transcriptomes for low abundance genes. We will also develop informatics tools that will help identify targets for trans-differentiation experiments, leveraging single cell level measurements.
+  personnel:
+    - person: 'Susanna Nazarian'
+      key-institute: 'University of Pennsylvania'
+- project_title: >
+    Identifying Mechanisms of Renal Repair
+  slug: mechanisms-of-renal-repair
+  tag: mechanisms-of-renal-repair
+  category: transcriptional profiling
+  project-type: "PPP"
+  pi: 'Andrew McMahon'
+  institute: 'University of Southern California'
+  img: mcmahon
+  status: Completed
+  description: >
+    An improved understanding of renal repair mechanisms, and their limits, may enable the development of approaches to lower renal burden. With this long-term goal in sight, we will apply approaches to identify the transcriptional signatures of reparative cell types in a mouse model of acute kidney injury to identify signatures that underlie effective and non-effective renal repair. We will employ FACS to isolate nuclei of replicating, reparative renal tubular cell types expressing a genetically activated green fluorescent protein restricted to nephron nuclei, and EDU-labeling to identify the replicating component of nephron nuclei post-ischemia reperfusion injury (IRI). Single nuclear transcriptional profiling (NUC-seq) will be performed in each model at 72hrs and 28days after IRI to provide new insights into the diversity of cellular responses associated with different stages and different outcomes to renal injury. Key predictions will be followed up by secondary molecular analysis of tissue sections by quantitative PCR, in situ hybridization and immunostaining. Further, findings will be related to human kidney transplant injury through the analysis of existing RNA-seq data from protocol biopsies. Together these studies aim to provide new insights into individual cell actions in injury and repair of the mammalian nephron.
+  data: '/chaise/record/#2/Common:Principal_Investigator/RID=W-Q45P?pcid=static'
+  personnel:
+    - person: 'Andrew Ransick'
+      key-institute: 'University of Southern California'
+    - person: 'Jing Liu'
+      key-institute: 'University of Southern California'
+- project_title: >
+    Molecular Characterization of Normal and Stem Cell Derived Kidney Cell Types
+  slug: Molecular Characterization of Kidney Cell Types
+  tag: molecular-characterization-kidney-cells
+  category: transcriptional-profiling
+  project-type: "parent"
+  pi: 'Andrew McMahon'
+  institute: 'University of Southern California'
+  img: mcmahon
+  status: Completed
+  description: >
+    We will extend our hGUDMAP studies of the human fetal kidney to generate new resources for the RBK consortium. In a collaboration with ABCAM, we will characterize rabbit monoclonal antibodies for cross species (mouse and human) cell-type specificity in identifying key cell types of the developing kidney. We will validate MARIS (Method for Analyzing RNA following Intracellular Sorting) as a broadly applicable approach for acquiring transcriptional signatures from specific cell types in the developing kidneys. Finally, recognizing the importance of Six2 in regulating nephron progenitors, we will compare the Six2 regulatory landscape in the embryonic kidney with that of pluripotent stem cell derived Six2+ nephron progenitors generated in cell culture.
+  data: '/chaise/record/#2/Common:Principal_Investigator/RID=W-Q45P?pcid=static'
+  personnel:
+    - person: 'Jill McMahon'
+      key-institute: 'University of Southern California'
+    - person: 'Albert Kim'
+      key-institute: 'University of Southern California'
+    - person: 'Nils Lindstrom'
+      key-institute: 'University of Southern California'
+    - person: 'Tracy Tran'
+      key-institute: 'University of Southern California'
+- project_title: >
+    Mechanoregulation of Cation Transport in Bioprinted Collecting Ducts
+  slug: mechanoregulation
+  tag: mechanoregulation
+  category: physiology
+  pub: false
+  project-type: "PPP"
+  pi: 'Lisa Satlin'
+  institute: 'Icahn School of Medicine at Mount Sinai'
+  img: satlin
+  status: Completed
+  description: >
+    Within the cortical collecting duct (CCD) of the mammalian kidney, increases in urinary flow rate, induced by volume expansion or diuretics, subject principal (PCs) and intercalated (ICs) cells to (i) fluid shear stress (FSS), (ii) circumferential stretch (CS), and (iii) drag/torque on apical cilia of PCs. We hypothesize flow-stimulated ENaC-mediated Na+ absorption by PCs and BK channel-mediated Ca2+-dependent K+ secretion by ICs depend on cell-specific autocrine/paracrine signaling. Given the cell heterogeneity of the native CCD and uncertainty as to which hydrodynamic forces are physiologically relevant in a native cylindrical and distensible tubule, we propose to utilize a novel in vitro 3D bioprinted CCD model to: (1) examine the capacity of PC-only, IC-only, and hybrid tubules for flow-stimulated ENaC-mediated Na+ absorption and iberiotoxin (IbTX)-sensitive (and thus BK channel-mediated) flow-induced K+ secretion (FIKS); (2) identify cell-specific paracrine/autocrine effectors released by an increase in luminal flow in PC-only, IC-only, and hybrid tubules that modulate basal and flow-stimulated cation transport; and (3) determine whether flow-stimulated cation transport and autocrine/paracrine factor release are elicited by FSS, CS, and/or deformation of apical cilia by altering the composition of the engineered extracellular matrix (ECM) to increase/decrease stiffness, or deciliating tubules.
+  personnel:
+    - person: 'Thomas Kleyman'
+      key-institute: 'University of Pittsburgh'
+    - person: 'Jennifer Lewis'
+      key-institute: 'Harvard'
+    - person: 'Shaohu Sheng'
+      key-institute: 'University of Pittsburgh'
+- project_title: >
+    Physiologic Properties of Human Kidney Organoids
+  slug: physiologic-properties-organoids
+  tag: physiologic-properties-organoids
+  category: physiology
+  project-type: "PPP"
+  pi: 'Thomas Kleyman'
+  institute: 'University of Pittsburgh'
+  img: kleyman
+  status: Completed
+  description: >
+    Proposed studies will determine specific functional properties of tubular epithelia in human kidney organoids. Key transporters, cytoskeletal elements, and other relevant proteins will be localized in epithelia within developing kidney organoids. Key physiological properties of epithelia within distinct tubular segments in organoids will be defined. The uptake of fluorescent albumin and dextran in proximal tubules will be examined to demonstrate cell specific receptor-mediated and/or fluid phase endocytosis. H<sup>+</sup> secretion by specific epithelial H<sup>+</sup> transporters in specific cells and tubular segments will be determined. Functional expression of K<sup>+</sup> and Na<sup>+</sup> channels in specific cells and tubular segments will be determined. Na<sup>+</sup> and K<sup>+</sup> transport in isolated, microperfused tubules will be determined.
+  personnel:
+    - person: 'Shaohu Sheng'
+      key-institute: 'University of Pittsburgh'
+    - person: 'Catherine Baty'
+      key-institute: 'University of Pittsburgh'
+    - person: 'Nicolas Montalbetti'
+      key-institute: 'University of Pittsburgh'
+    - person: 'Lisa Satlin'
+      key-institute: 'Icahn School of Medicine at Mount Sinai'
+    - person: 'Rolando Carrisoza'
+      key-institute: 'Icahn School of Medicine at Mount Sinai'
+- project_title: >
+    Rebuilding the Glomerular Filtration Barrier by Regenerating Adult Podocytes
+  slug: Rebuilding the Glomerular Filtration Barrier
+  tag: rebuilding-glomerular-filtration-barrier
+  category: bioengineering
+  project-type: "parent"
+  pi: 'Stuart J. Shankland'
+  copi: 'Ying Zheng'
+  institute: 'University of Washington'
+  coinstitute: 'University of Washington'
+  img: shankland
+  status: Completed
+  coimg: zheng
+  description: >
+    Our project aims to rebuild kidney glomeruli by regenerating podocytes, terminally differentiated cells in the kidney glomerular filtering units that limit the passage of proteins from the blood into the urine, from two candidate resident stem/progenitor cells, cells of renin lineage (CoRL) and parietal epithelial cells (PECs). We will use an in vitro flow-directed microphysiological system (3D MPS) to determine to what degree CoRL and PECs are truly podocyte progenitors to rebuild a kidney, how their micro-environment regulates their fate, and what critical pathways are required for their reprogramming and fate to replace depleted adult podocytes.
+  personnel:
+    - person: 'Ryan Nagao'
+      key-institute: 'University of Washington'
+    - person: 'Jeffrey Pippin'
+      key-institute: 'University of Washington'
+- project_title: >
+    Spatially-preserved Expression Analysis of Kidney Cells in Human Biopsy Tissue
+  slug: Spatially-preserved Expression Analysis
+  tag: spatially-preserved-expression-analysis
+  category: protocol-proteoimic-profiling
+  pub: false
+  project-type: "PPP"
+  pi: 'Lloyd Cantley'
+  institute: 'Yale University'
+  img: cantley
+  status: Completed
+  description: >
+    Kidney function, both under normal conditions and in the setting of disease, is predominantly controlled by the amount, localization and activation state of proteins in specific cells at specific sites and under specific spatial influences that in turn regulate cell differentiation, division, metabolism, morphology, membrane polarization, secretion and transport. Imaging mass cytometry (IMC) takes advantage of laser ionization and time of flight mass spectrometry to simultaneously identify up to 42 metal ion-conjugated antibodies from tissue sections at high spatial resolution with essentially no background signal. In the current proposal, human kidney samples will be used to develop protocols for high-fidelity staining with individual antibodies to identify cell types and protein activation states of interest in the kidney (SA 1) followed by staining of normal and diseased human kidney sections with pooled, metal ion-conjugated antibodies for multiplex IMC image reconstruction to simultaneously define the activation/expression states of multiple cells in the human kidney (SA 2).
+  data: '/chaise/record/#2/Common:Principal_Investigator/RID=14-3Q2R'
+  personnel:
+    - person: 'Nikhil Singh'
+      key-institute: 'Yale University'
+- project_title: >
+    Transcriptional Profiling of In Vivo Derived Human Kidney Tissue Using Single Cell RNA Sequencing
+  slug: transcriptional-profiling-human-kidney-issue
+  tag: transcriptional-profiling-in-vivo
+  category: transcriptional profiling
+  project-type: "PPP"
+  pi: 'Jason Spence'
+  institute: 'University of Michigan'
+  img: spence
+  status: Completed
+  description: >
+    Human pluripotent stem cell derived organoid models, including kidney organoids, are most similar to fetal tissue in vitro. Therefore, while the goal of directed differentiation is to generate bona fide mature, functional cell types or organ-like systems, it is critical to have a comprehensive understanding of in vitro derived tissues relative to immature and mature human tissue. By extension, it is important to have high quality, reproducible and accessible in vivo human-tissue derived data sets in order to confidently benchmark in vitro studies. However, significant limitations exist for purifying specific populations of cells from rare human tissue samples to obtain cell-specific transcriptional profiles. The goal of this proposal  is to provide high quality transcriptome data from the developing and adult human kidney using single cell RNA sequencing (scRNAseq), which is an unbiased approach that does not rely on specific reagents or bulk populations of cells.
+  data: '/chaise/record/#2/Common:Principal_Investigator/RID=W-R83G?pcid=static'
+  personnel:
+    - person: 'Cristina Cebrian Ligero'
+      key-institute: 'University of Michigan'
+    - person: 'Edgar Otto'
+      key-institute: 'University of Michigan'
+- project_title: >
+    ReBuilding the Kidney Coordinating Center
+  slug: rbk-coordinating-center
+  tag: coordinating-center
+  category: data-hub
+  project-type: "parent"
+  activity-code: "U01"
+  pi: 'Carl Kesselman'
+  institute: 'University of Southern California'
+  img: kesselman
+  status: Current
+  description: >
+    The Coordinating Center manages activities of the Consortium, including research and collaboration opportunities, and facilitates communication of research results, data, and methods within the Consortium and to the community. We created and manage a data hub to accelerate the pace of collaboration within the Consortium and disseminate results to the broader research community.
+  personnel:
+    - person: 'Hongsuda Tangmunarunkit'
+      key-institute: 'University of Southern California'
+    - person: 'Cris Williams'
+      key-institute: 'University of Southern California'
+- project_title: >
+    Using Cold Active Proteases for Single Cell Dissociation
+  slug: using-cold-active-proteases
+  tag: cold-active-proteases
+  category: protocol-analysis-renal-biopsies
+  pub: false
+  project-type: "PPP"
+  pi: 'S. Steven Potter'
+  institute: 'Cincinnati Children''s Hospital'
+  img: potter
+  status: Completed
+  description: >
+    Single cell RNA-Seq provides a powerful particle biology approach for the study of cellular level heterogeneities. The technology for single cell RNA-Seq is rapidly evolving, yet several fundamental challenges remain. First, there is gene expression noise, resulting from the pulsatile, bursting nature of gene expression. Second, there is the technical noise that results from the technical challenges of transcript detection when working with picogram amounts of RNA. A third problem is the artifact changes in gene expresso that result from the process of generating single cell suspensions for analysis. During enzymatic dissociation at 37 deg the gene expression patterns of cells are changing. In this project we test a novel method for single cell dissociation that uses proteases active in the cold. These proteases are isolated from organisms that thrive in extreme cold environments. The use of such "cold active" proteases for cell dissociation is analogous to the use heat stable polymerases from thermophilic organisms for PCR. By carrying out cell dissociation at 5-10 deg instead of 37 deg the gene expression artifacts normally associated with this process could be dramatically reduced. The proposed improvement in methodology could have widespread impact on single cell RNA-Seq studies, rendering results more realistic representations of the in vivo state.
+  data: '/chaise/record/#2/Common:Principal_Investigator/RID=W-Q5HT?pcid=static'
+  supplemental: >
+    <blockquote>With regards to the Potter project, the report commented: 'But it was pointed out that the dissociation process itself, as well as exposure to cold, also produce tissue changes that could make interpretation of data problematic – although this is a step in the right direction. It was also proposed to look for damage markers to determine the state of the samples. The RBK needs to meet these challenges head on – cell dissociation will lead to changes in the tissue. How can these be minimized?'<br/><br/>In response, there is possible concern that while the use of psychrophilic, cold active proteases will reduce the gene expression changes associated with 37O C dissociation protocols, it nevertheless will introduce cold shock stress artifacts associated with incubation at 6O C. Indeed, there is a well-documented cold shock response following a period of exposure to mild hypothermia, typically 25-33O C, with several genes, including Cirp, Rbm3, P53 and Il8 shown to be up-regulated in various cell types (Sonna et al., 2002).  Nevertheless, at much lower temperatures the mammalian transcriptional machinery is largely inactive and few if any RNA transcript level changes result. For example, no changes in gene transcript levels were found following incubation at temperatures below 5O C (Fujita, 1999). Although the cells surely experience a cold shock at these low temperatures, they are effectively unable to transcribe new RNA, or turnover old, and therefore their gene expression profiles remain unchanged.</blockquote><br/><span class="citation">Sonna, L. A., Fujita, J., Gaffin, S. L., & Lilly, C. M. (2002). Invited Review: Effects of heat and cold stress on mammalian gene expression. <em>Journal of Applied Physiology, 92</em>(4), 1725-1742. doi:10.1152/japplphysiol.01143.2001</span><br/><br/><span class="citation">Fujita, J. (1999). Cold shock response in mammalian cells. <em>J Mol Microbiol Biotechnol, 1</em>(2), 243-55.</span>

@@ -1,0 +1,206 @@
+/* _projects.sass */
+
+.section-work .sidebar
+  margin-top: 35px
+  padding-top: 15px
+  background-color: #efefef
+
+  h4
+    margin-top: 0
+    padding-left: 15px
+    font-size: 20px
+    font-style: italic
+
+  ul
+    list-style-type: none
+    padding-left: 15px
+
+    li
+      padding-bottom: 15px
+      line-height: 18px
+      font-size: 16px
+
+      a
+
+
+
+.projects-content a
+  font-size: 1.2em
+
+.section-work
+  overflow-x: hidden
+
+.row.lab
+  border-top: 1px solid #A9A9A9
+  margin-top: 1em
+  padding-top: 5px
+
+.pi-section
+  float: left
+  padding-right: 10px
+
+.personnel
+  padding-right: 10px
+  min-width: 410px
+
+  img
+    width: 200px
+    padding-right: 10px
+
+.personnel span.inst, .personnel-list span.key-inst
+  font-size: 0.9em
+  line-height: 140%
+  display: inherit
+  font-style: italic
+
+ul.personnel-list
+  margin-bottom: 20px
+  margin-top: 0
+  overflow: hidden
+  border-top: 1px solid #ccc
+  padding-left: 10px
+  list-style: none
+
+.row.lab ul.personnel-list
+  border-top: none
+
+ul.personnel-list li
+  line-height: 1.5em
+  padding-top: 5px
+  padding-bottom: 5px
+  font-size: .9em
+
+.project-image
+  width: 30%
+  float: left
+  padding-right: 25px
+
+.project-desc
+  max-width: 820px
+  margin-bottom: 25px
+  clear: both
+
+.project-desc .project-wrap
+  overflow: hidden
+  padding-left: 20px
+
+.project-desc .institute,
+.project-desc .coinstitute
+  font-size: .8em
+  font-style: italic
+
+.project-desc p
+  margin-bottom: 5px
+
+.project-desc .project-pi,
+.project-desc .project-copi
+  display: block
+  width: 130px
+  overflow: hidden
+
+.project-name
+  font-weight: bold
+  font-size: 24px
+
+img.pull-left
+  padding: 0 10px 10px 0
+
+.project-desc p.project-blurb
+  display: block
+  // margin-left: 140px
+  // min-height: 215px
+
+.project-desc p.personnel
+  font-weight: bold
+  margin-top: 15px
+
+.project-desc ul.personnel-list
+  margin-top: 0
+
+.subproject-desc
+  //max-width: 780px
+  //margin-left: 60px
+  //border-left: 4px #ccc solid
+  //padding-left: 15px
+
+.subproject-sect
+  border-top: 1px solid #ccc
+  padding-top: 10px
+
+.subproject-sect figure
+  margin: 0
+  float: left
+
+  img.subproject-pic
+    padding-right: 50px
+
+  figcaption.subproject-pi
+    text-align: left
+    font-size: .8em
+
+span.citation
+  font-size: .8em
+  font-weight: bold
+  line-height: 1
+
+.work-belt
+  max-width: 820px
+  margin: 0px auto
+  padding-left: 20px
+  padding-right: 20px
+  padding-bottom: 25px
+
+
+.work-container
+  max-width: 600px
+  margin: 0px auto
+  padding: 0 15px
+  +box-sizing(border-box)
+
+  position: relative
+  display: none
+
+  h4, noscript h4
+    color: $accent
+    font-weight: 300
+    text-transform: uppercase
+    font-size: 28px
+    line-height: 1.2
+    margin: 0 0 20px
+
+  img
+    max-width: 100%
+    margin-bottom: 20px
+
+  .work-return
+    +size(40px)
+    cursor: pointer
+    opacity: 0.5
+    +position(absolute, -4px null null -60px)
+
+    path
+      fill: rgba(0,0,0,0.4)
+
+    &:hover
+      opacity: 1
+
+.work-belt figure
+  float: left
+  margin: 0 1em 1em 0
+
+.clearfix
+  float: clear
+
+@media (max-width: 740px)
+
+  .work-container
+
+    .work-return
+      left: 0px
+
+    h4
+      margin-left: 60px
+
+
+  .pi-section
+    float: none

@@ -6,10 +6,39 @@ markdown: kramdown
 
 permalink: pretty
 
-paginate: 10
-paginate_path: "news/page:num/"
+sass:
+    load_paths:
+        - assets/css
+        - rebuildingakidney/assets/css
+
+pagination:
+  enabled: true
+  per_page: 10
+  permalink: "/page:num/"
+  sort_reverse: true
+
+scholar:
+  bibliography: '**/*.bib'
+  sort-by: year
+  order: descending
+  group_by: year
+  group_order: descending
+  bibliography_template: bib-entry
+  bibliography_group_tag: 'h4,h5,h6'
+
+page_gen-dirs: true # uncomment, if you prefer to generate named folders
+page_gen:
+  - data: 'rebuildingakidney.projects'
+    template: 'rbk_projects'
+    name: 'tag'
+    dir: 'rebuildingakidney/projects'
+
 
 port: 8000
 
 plugins:
-  - jekyll-paginate
+  - jekyll-paginate-v2
+  - jekyll-scholar
+  - jekyll-seo-tag
+  - jekyll-redirect-from
+  - jekyll-datapage-generator
