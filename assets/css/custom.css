@@ -44,6 +44,13 @@ body {
     color: #212121;
     font-size: 16px;
     line-height: 1.5;
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+}
+
+#content.container {
+    flex: 1 1 auto;
 }
 
 h1,
@@ -132,12 +139,13 @@ p.acknowledgement {
     font-style: italic;
 }
 
-#wrap {
+
+/* #wrap {
     min-height: 100%;
     height: auto !important;
     height: 100%;
     margin-bottom: -150px;
-}
+} */
 
 
 /*
@@ -267,7 +275,6 @@ p.acknowledgement {
 
 #home.container,
 #content.container {
-    padding-bottom: 220px;
     font-size: 18px;
     margin: 0 auto;
     line-height: 25px;
@@ -385,7 +392,6 @@ p.acknowledgement {
 /* Footer styles */
 
 #footer {
-    height: 150px;
     background-color: #000;
     color: #C1C1C1;
     padding: 10px;
@@ -671,13 +677,27 @@ p.acknowledgement {
 }
 
 
-/* Gene Expression Profiles
+/* Slick Styles */
 
-table td div {
-	width: 10px;
-  height: 10px;
-  float: left;
-  border: 3;
-  border-style: ridge;
+.slick-prev:before,
+.slick-next:before {
+    color: #555;
 }
-*/
+
+.image-carousel .slick-slide img {
+    width: 144px;
+    border: 5px white solid;
+}
+
+.image-carousel .students .slick-slide img {
+    width: 100px;
+    border: 5px white solid;
+}
+
+
+/* Tutorials */
+
+.tutorial img,
+.tutorial video {
+    max-width: 100%;
+}
