@@ -1,0 +1,108 @@
+---
+layout: tutorials
+title: Using Void Spot Assay (VSA) for Micturition Assessment in Mice
+attribution: Provided by Chad Vezina, University of Wisconsin-Madison.<br/><small>September 2018</small>
+category: education
+tags: [best practices, prostate, voiding, void spot assay, voiding behavior, urinary dysfunction]
+redirect_from:
+  - /resources/void_assay/
+---
+
+<div class="tutorial-gallery">
+  <a href="#definition">
+    <img src="/assets/img/tutorials/filter-to-uv-diagram-thumb.png" alt="..." class="img-thumbnail">
+  </a>
+  <a href="#best-practices">
+    <img src="/assets/img/tutorials/micturtion-protocol-video-thumb.png" alt="..." class="img-thumbnail">
+  </a>
+</div>
+
+<p><strong>On this page:</strong></p>
+    <ul>
+      <li><a href="#purpose">Purpose</a></li>
+      <li><a href="#definition">Definition of the Void Spot Assay (VSA)</a></li>
+      <li><a href="#best-practices">Best Practices and Recommended Procedure</a>
+        <ul>
+          <li><a href="#performing">Performing VSA</a></li>
+          <li><a href="#whizzard">Data Analysis: Void Whizzard</a></li>
+        </ul>
+      </li>
+      <li><a href="#reporting">Reporting recommendations for VSA</a></li>
+      <li><a href="#references">References</a></li>
+    </ul>
+
+<p class="lead">This resource is a protocol for evaluating spontaneous urination patterns in unrestrained mice. The spontaneous void spot assay (VSA), a popular micturition assessment tool, involves placing a mouse in an enclosure lined by filter paper and quantifying the resulting urine spot pattern.</p>
+
+<h2><a name="purpose" id="purpose" class="offset"></a>Purpose</h2>
+<p>To interrogate how urinary function changes in response to aging, diet, obesity, environmental chemicals, genetic mutations, and sex hormones as well as assess lower urinary tract dysfunction and serve as a proxy to model factors that give rise to lower urinary tract symptoms (LUTS) in humans.</p>
+
+<h2><a name="definition" id="definition" class="offset"></a>Definition of the Void Spot Assay (VSA)</h2>
+
+<p>The void spot assay (VSA), also known as voiding spot on paper (VSOP) assay, is performed by placing a single mouse in an enclosure lined with absorbent filter paper and allowing the mouse to move freely for a defined period, during which micturition events are captured and retained as void spots on paper.</p>
+<p>The assay environment, including enclosure shape and whether mice directly contact filter paper or are elevated on a wire grid above it, varies across studies.</p>
+
+<div class="well">
+  <figure>
+    <a class="colorbox" href="filter-to-uv-diagram.png" title="Diagram of spotted paper to UV">
+      <img src="filter-to-uv-diagram.png" alt="Diagram of spotted paper to UV" class="img-responsive center-block" />
+    </a>
+  </figure>
+</div>
+
+<p>The VSA is noninvasive and mice can be returned to normal housing after testing. Urine spots are either stained with ninhydrin, illuminated with UV light, or visualized with infrared or bright field light, imaged and voiding patterns are objectively or subjectively quantified.</p>
+
+<p>The VSA provides information about cumulative voiding behaviors over time, approximating the information provided by a voiding diary in human medicine. Mouse micturition is spontaneous and influenced by perception of bladder fullness and social behavior. The goal of many recent studies was to characterize assay design parameters to minimize the behavioral influence on voiding while extracting information about urinary physiology.</p>
+
+<h2><a name="best-practices" id="best-practices" class="offset"></a>Best Practices and Recommended Procedure</h2>
+
+<div class="video-well">
+  <video class="center-block" controls>
+      <source src="vsa-movie-opt.mp4" type="video/mp4" />
+      <p>Your browser doesn't support HTML5 video. Here is
+     a <a href="vsa-movie-opt.mp4">link to the video</a> instead.</p>
+  </video>
+</div>
+<p><small><em>The above video demonstrates the general procedure for VSA.</em></small></p>
+
+<h3><a name="performing" id="performing" class="offset"></a>Performing VSA</h3>
+
+<p>The following recommendations should help reduce psychological stress and allow more normal urodynamic function to occur:</p>
+
+<ul>
+  <li><strong>Grid vs non-grid</strong>: Place mice directly on filter paper.</li>
+  <li><strong>Assay duration</strong>: In our opinion 2 – 4 hours is optimal, although it appears useful information can be derived anywhere from 1 – 24 hours. Duration of testing should not exceed four hours if water is restricted since mice can become dehydrated relatively quickly. In cages with nothing but filter paper, there are likely to be psychological impacts from lack of enrichment. The balance for the investigator is to test mice for a sufficient length of time to obtain a ‘phenotype’.</li>
+  <li><strong>Time of day</strong>: Even though mice are nocturnal, performing the assay during normal laboratory hours has been shown to be informative for studies of genetics, disease, diet, aging and drugs. The time of day should necessarily be specified in any description of the experimental methods.</li>
+  <li><strong>Food and water</strong>: Ideally both should be provided throughout the period of the assay. There can be issues with water dripping onto the filter paper if it touches spots.</li>
+  <li><strong>Acclimation</strong>: The evidence on the need for acclimation to the cage and surroundings where VSA will be performed is mixed. We suggest that investigators repeat the VSA over several days to assess the tendency of their model to acclimate. A pilot trial could answer the question, and if it proves necessary, these procedures can be incorporated into the experimental protocol.</li>
+  <li><strong>Replicates/sample size</strong>: The answer depends largely on the individual study. If there is a reasonably robust effect of treatment or genetic alteration on lower urinary tract function, eight to ten mice/group should be enough based on a single assay round. We recommend having the same investigator analyze all results for a given experiment or that all members of the lab use the same automated analysis software to reduce variability and minimize mouse usage.</li>
+  <li><strong>Archiving</strong>: Retain and store void spot filter paper data as high quality digital images with appropriate annotation. Retain the raw data from these assays after the original experiments are concluded.</li>
+</ul>
+
+<h3><a name="whizzard" id="whizzard" class="offset"></a>Data Analysis: Void Whizzard</h3>
+<p><a href="http://imagej.net/Void_Whizzard" target="_blank">Void Whizzard</a>, a freely available FIJI plugin from University of Wisconsin-Madison, facilitates consistent and rapid analysis of images from the VSA towards the quantification of rodent voiding function, including overlapping urine spots. It packages macros for image straightening and cropping, background subtraction and thresholding, spotfinding and determination of area, volume and quantity.</p>
+
+<h2><a name="reporting" id="reporting" class="offset"></a>Reporting recommendations for VSA</h2>
+<p>To facilitate critical evaluation and increase rigor and reproducibility, GUDMAP recommends that all studies using the VSA report the minimal information listed below:</p>
+
+<ol>
+  <li>Gender and age</li>
+  <li>Mouse strain</li>
+  <li>Assay duration</li>
+  <li>Time of day</li>
+  <li>Whether acclimation was performed</li>
+  <li>Access to food and water during the assay</li>
+  <li>How assay papers were imaged</li>
+  <li>Spot size exclusion (if any)</li>
+  <li>How overlapping spots were analyzed</li>
+  <li>How data was quantitated</li>
+</ol>
+
+<h2><a name="references" id="references" class="offset"></a>References</h2>
+
+<ul>
+  <li>Hill WG, Zeidel ML, Bjorling DE, Vezina CM. <strong>The void spot assay: Recommendations on the use of a simple micturition assay for mice.</strong> Am J Physiol Renal Physiol. 2018 Aug 29. doi: 10.1152/ajprenal.00350.2018. [Epub ahead of print]</li>
+  <li>Chen H, Zhang L, Hill WG, Yu W. <strong><a href="https://www.ncbi.nlm.nih.gov/pubmed/28835420">Evaluating the voiding spot assay in mice: a simple method with complex environmental interactions</a>.</strong> Am J Physiol Renal Physiol. 2017 Dec 1;313(6):F1274-F1280. doi: 10.1152/ajprenal.00318.2017. Epub 2017 Aug 23.</li>
+  <li>Bjorling DE, Wang Z, Vezina CM, Ricke WA, Keil KP, Yu W, Guo L, Zeidel ML, Hill WG. <strong><a href="https://www.ncbi.nlm.nih.gov/pubmed/25904700">Evaluation of voiding assays in mice: impact of genetic strains and sex.</a></strong> Am J Physiol Renal Physiol. 2015 Jun 15;308(12):F1369-78. doi: 10.1152/ajprenal.00072.2015. Epub 2015 Apr 22.</li>
+  <li>Yu W, Ackert-Bicknell C, Larigakis JD, MacIver B, Steers WD, Churchill GA, Hill WG, Zeidel ML. <strong><a href="https://www.ncbi.nlm.nih.gov/pubmed/24717733">Spontaneous voiding by mice reveals strain-specific lower urinary tract function to be a quantitative genetic trait.</a></strong> Am J Physiol Renal Physiol. 2014 Jun 1;306(11):F1296-307. doi: 10.1152/ajprenal.00074.2014. Epub 2014 Apr 9.</li>
+  <li>Keil KP, Abler LL, Altmann HM, Bushman W, Marker PC, Li L, Ricke WA, Bjorling DE, Vezina CM. <strong><a href="https://www.ncbi.nlm.nih.gov/pubmed/25394276">Influence of animal husbandry practices on void spot assay outcomes in C57BL/6J male mice.</a></strong>  Neurourol Urodyn. 2016 Feb;35(2):192-8. doi: 10.1002/nau.22692. Epub 2014 Nov 12.</li>
+</ul>
