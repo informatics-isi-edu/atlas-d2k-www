@@ -140,66 +140,11 @@ p.acknowledgement {
 }
 
 
-/* #wrap {
-    min-height: 100%;
-    height: auto !important;
-    height: 100%;
-    margin-bottom: -150px;
-} */
-
-
-/*
-.navbar {
-	min-height: 80px;
-}
-*/
-
 .navbar-inverse {
     background-color: #1b3455;
     border-color: #1b3455;
 }
 
-.navbar-inverse .navbar-toggle {
-    border-color: #ccc;
-    color: #ccc;
-}
-
-.navbar-inverse .navbar-toggle:hover {
-    border-color: #ccc;
-    color: #333;
-}
-
-.navbar-inverse .navbar-toggle:hover,
-.navbar-inverse .navbar-toggle:focus {
-    background-color: #CCC;
-}
-
-.navbar-inverse .navbar-brand {
-    color: #4DB9EE;
-}
-
-.navbar-inverse {
-    background-color: #150805;
-    border-color: #150805;
-}
-
-.navbar-inverse .navbar-nav>li>a,
-.navbar-inverse .navbar-nav>.active>a {
-    color: #C1C1C1;
-}
-
-.navbar-inverse .navbar-nav>.active>a,
-.navbar-inverse .navbar-nav>.active>a:hover,
-.navbar-inverse .navbar-nav>.active>a:focus {
-    background-color: #150805;
-}
-
-.navbar-inverse .navbar-nav>li.login>a,
-.navbar-inverse .navbar-nav>li.signup>a,
-.navbar-inverse .navbar-nav>li.user>a,
-.navbar-inverse .navbar-nav>li.logout>a {
-    color: #6DD0FF;
-}
 
 @media (min-width: 768px) {
     .navbar-nav {
