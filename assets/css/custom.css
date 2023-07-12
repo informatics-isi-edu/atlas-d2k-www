@@ -2,11 +2,6 @@
 Comment out the next two rules to use text instead
 */
 
-navbar {
-    height: 50px;
-    background-color: #1b3455;
-    display: block;
-}
 
 .navbar-brand {
     float: left;
