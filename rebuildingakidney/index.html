@@ -1,0 +1,146 @@
+---
+layout: rbk
+tag:
+title: (Re)Building A Kidney (RBK) Consortium
+---
+
+<div class="home">
+  <div class="home-main">
+    <div class="row" id="home-search">
+      <div class="col-md-12 home-search">
+        <form class="input-group search">
+          <div class="input-group-btn search-panel">
+              <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                <span id="search_concept">Search by:</span> <span class="caret"></span>
+              </button>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="#gene">Gene</a></li>
+                <li><a href="#anatomy">Anatomy</a></li>
+              </ul>
+          </div>
+          <input type="hidden" name="search_param" value="all" id="search_param">
+          <input type="text" class="form-control" name="x" placeholder="Search our data...">
+
+          <span class="input-group-btn">
+            <button class="btn btn-default" type="submit" onClick="search('recordset')">
+              <i class="fa fa-search" aria-hidden="true"></i>
+            </button>
+          </span>
+
+        </form>
+      </div>
+    </div>
+    <div class="container content-inner">
+
+    <section class="section-cta section row clear">
+
+      <div class="col four blurb mobile-full">
+
+        <section class="section-resources">
+
+          <div class="ctas">
+
+
+              <div class="feature resources">
+                <i class="fa fa-database fa-fw cta-icon"></i>
+
+                <ul class="fa-ul">
+                  <li><i class="fa-li fa fa-arrow-circle-right"></i><a href="/chaise/recordset/#2/RNASeq:Study/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM6JAEsIAjdafEAJQDkBBAZRwEcQAaEANUKTTABtCALzAAXQiggB9BqLRQAnlIBmAaxwKQAXQC+bUOlFk0FBNXpNWHbrwHCxE6Tb6CR4yVLoAHL4KwOPNQ1tPWoASQARbQ4IFFEpCDR+fjhRDDQcHV0gA?pcid=static/home">scRNA-Seq Visualizations</a>
+                  </li>
+                  <li><i class="fa-li fa fa-arrow-circle-right"></i><a href="/chaise/recordset/#2/Protocol:Protocol/Consortium=RBK?pcid=static/home">Lab Protocols</a>
+                  </li>
+                  <li><i class="fa-li fa fa-arrow-circle-right"></i><a href="/chaise/recordset/#2/Common:Gene?pcid=static/home">Genes</a>
+                  </li>
+                  <li><i class="fa-li fa fa-arrow-circle-right"></i><a href="/cell-lines/">iPSC Cell Lines</a>
+                  </li>
+                  <li><i class="fa-li fa fa-arrow-circle-right"></i><a href="/chaise/recordset/#2/Antibody:Antibody_Tests/Consortium=RBK?pcid=static/home">Antibody Validation</a>
+                  </li>
+                  <li><i class="fa-li fa fa-arrow-circle-right"></i><a href="/chaise/recordset/#2/RNASeq:Study/Consortium=RBK?pcid=static/home">Gene Expression Data</a>
+                  </li>
+                </ul>
+              </div>
+            </a>
+
+        	</div>
+        </section>
+
+      </div>
+      <div class="col four mobile-full">
+        <div class="ctas">
+            <div class="feature collaborate">
+              <i class="fa fa-dollar fa-fw cta-icon"></i>
+              <h2>Funding opportunities</h2>
+              <ul class="fa-ul">
+                <li><i class="fa-li fa fa-arrow-circle-right"></i><a href="/collaborate.html#ppp" class="">
+                  Apply for the Partnership Project Program
+                </a></li>
+                <li><i class="fa-li fa fa-arrow-circle-right"></i><a href="/collaborate.html#collaborator" class="">
+                  Apply to become a Collaborating Project
+                </a></li>
+              </ul>
+
+            </div>
+        </div>
+      </div>
+      <div class="col four mobile-full">
+        <div class="ctas">
+            <div class="feature patients">
+              <i class="fa fa-users fa-fw cta-icon"></i>
+              <h2>Resources for patients</h2>
+              <ul class="fa-ul">
+                <li><i class="fa-li fa fa-arrow-circle-right"></i><a href="https://www.isscr.org/patients">Learn About Stem Cells</a></li>
+                <li><i class="fa-li fa fa-arrow-circle-right"></i><a href="http://www.closerlookatstemcells.org/patient-resources/">Patient Handbook on Stem Cell Therapies</a></li>
+              </ul>
+            </div>
+        </div>
+      </div>
+    </section>
+    </div>
+  </div>
+
+  <div class="container content-inner signup highlighted">
+  <p><i class="fa fa-envelope"></i> To stay updated about <a href="/collaborate.html">funding opportunities</a> and project updates, <a href="http://eepurl.com/buBSC5">sign up for our mailing list here</a>.</p>
+  </div>
+
+  <section class="section-blurb">
+    <div class="container content-inner features">
+      <section class="section-blurb section row clear">
+        <div class="col six blurb mobile-full">
+          <section id="twitter">
+            <a class="twitter-timeline"
+            data-lang="en"
+            data-width="500"
+            data-height="400"
+            data-theme="light"
+            data-link-color="#407cca"
+            dnt="true"
+            href="https://twitter.com/ReBuildaKidney">Tweets by ReBuildaKidney</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+          </section>
+
+        </div>
+        <div class="col six mobile-full">
+
+          <section id="news">
+            <h3>Latest News</h3>
+            <ul class="posts">
+              {% for post in site.posts limit: 4 %}
+            <li>
+              <h4>
+                <a href="{{ post.url }}">{{ post.title }}</a>
+              </h4>
+              <time>
+                {{ post.date | date: "%m/%d/%Y" }}
+                </time>
+            </li>
+            {% endfor %}
+            </ul>
+            <a id="more-news" href="/news/">more news ></a><br>
+            <a href="/publications/">publications ></a>
+          </section>
+        </div>
+      </section>
+    </div>
+  </section>
+
+</div>

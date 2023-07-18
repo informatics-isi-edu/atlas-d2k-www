@@ -1,0 +1,256 @@
+---
+layout: gudmap-home
+title: GUDMAP Consortium
+categories: []
+tags: []
+---
+
+<div class="row homeBanner">
+  <div class="col-md-1">
+
+  </div>
+  <div class="col-md-5 col-sm-3 logoBlock">
+	   <img src="/assets/img/gudmap-logo.svg" class="logo img-responsive">
+  </div>
+  <div class="col-md-5 cta">
+    <div class="formBlock">
+        <form class="search search-form" id="main-search">
+          <div class="input-group">
+            <input type="text" class="form-control" name="search_term" placeholder="Search genitourinary data in GUDMAP">
+            <span class="input-group-btn">
+              <button class="btn btn-default" type="submit">
+                <i class="fa fa-search" aria-hidden="true"></i>
+              </button>
+            </span>
+          </div>
+          <div class="search-panel">
+            <input type="radio" id="gene" name="search_param" value="gene"
+                   checked>
+            <label for="gene">GENE</label>
+            <input type="radio" id="anatomy" name="search_param" value="anatomy"
+                   >
+            <label for="anatomy">ANATOMY</label>
+            <input type="radio" id="species" name="search_param" value="species"
+                   >
+            <label for="species">SPECIES</label>
+            <input type="radio" id="proteins" name="search_param" value="proteins"
+                   >
+            <label for="proteins">PROTEIN</label>
+          </div>
+        </form>
+    </div>
+  </div>
+  <div class="col-md-1">
+
+  </div>
+</div>
+
+<div class="container-fluid content home">
+<div class="row">
+  <h1 class="tagline">The GenitoUrinary Development Molecular Anatomy Project (GUDMAP) provides data and tools<br/> that facilitate research on the GenitoUrinary (GU) tract for the scientific and medical community.</h1>
+  <div class="col-md-8">
+    <div class="shortcuts">
+
+
+    <h2>Browse these data shortcuts...<br/>
+      <small>For more search options, click the BROWSE DATA menu above.</small>
+  <!--
+<small>Over 11,000 records and 4,000 images</small>
+-->
+</h2>
+<div class="row shortcut-links">
+  <div class="col-md-4">
+    <ul>
+      <li class="sub-parent">SEARCH BY...</li>
+      <li><a href="/chaise/recordset/#2/Common:Gene?pcid=static/home">Gene</a></li>
+      <li><a href="/chaise/recordset/#2/Vocabulary:Anatomy/?pcid=static/home">Anatomy: Facet Search</a></li>
+      <li><a href="/deriva-webapps/treeview/">Anatomy: Tree View</a></li>
+      <!--
+      <li><a href="/deriva-webapps/boolean-search/">Anatomy: Boolean Search</a></li> -->
+      <li><a href="/chaise/recordset/#2/Common:Principal_Investigator/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM4gEkkB9AcQFUARAWQEEAFY+gkAGhCwAsUBLXJOPAAuGNDgC6AXylA@sort(MNv4BPeh3jGF-9rfFpULzQ,RID)?pcid=navbar/static">Investigator</a></li>
+    </ul>
+    <ul>
+      <li class="sub-parent">VISUALIZATIONS</li>
+      <li><a href="/deriva-webapps/plot/?config=study-violin">mRNA-Seq Data</a></li>
+      <li><a href="/chaise/recordset/#2/RNASeq:Study/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM6JAEsIAjdafEAJQDkBBAZRwEcQAaEANUKTTABtCALzAAXQiggB9BqLRQAnlIBmAaxwKQAXQC+bUOlFk0FBNXpNWHbrwHCxE6Tb6CR4yVLoAHL4KwOPNQ1tPWoASQARbQ4IFFEpCDR+fjhRDDQcHV0gA@sort(RMT::desc::,RID)?pcid=static/home">scRNA-Seq
+      Data</a></li>
+    </ul>
+    <ul>
+      <li class="sub-parent">DATA COLLECTIONS</li>
+<!--      <li><a href="/chaise/record/#2/Common:Collection/RID=17-3ZHJ?pcid=static/home">Featured Image Annotations</a></li> -->
+      <li><a href="/chaise/recordset/#2/Common:Collection@sort(RID)?pcid=static/home">All Data Collections</a></li>
+    </ul>
+  </div>
+  <div class="col-md-4">
+    <ul>
+      <li class="sub-parent">IMAGING</li>
+      <li><a href="/chaise/recordset/#2/Gene_Expression:Specimen/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM6JHQBcAjdafEAcRwhwH0BRADwAcMckkBLFCEADQgAyqxxZuAW1r0AglzABPegBVFY+gDMA1jkUgAugF8hAJQCSAEUNCsACxTdcSSgEYAbAFoATJYBipoZGxkA@sort(RCT::desc::,Stage_Ordinal,RID)?pcid=static/home">In-situ Hybridization</a></li>
+      <li><a href="/chaise/recordset/#2/Gene_Expression:Specimen/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM6JHQBcAjdafEAcRwhwH0BRADwAcMckkBLFCEADQgAyqxxZuAW1r0AglzABPegBVFY+gDMA1jkUgAugF8hAOTDTDQrAAsU3XEkoBJABIBhQ0eNA?pcid=static/home">Immunohistochemistry</a></li>
+      <li><a href="/chaise/recordset/#2/Gene_Expression:Specimen/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM6JHQBcAjdafEAcRwhwH0BRADwAcMckkBLFCEADQgAyqxxZuAW1r0AglzABPegBVFY+gDMA1jkUgAugF8hAOTDTDQrAAsU3XEkoAJbkiIoANigDm+48ZAA@sort(Stage_Ordinal,RID)?pcid=static/home">Histology</a></li>
+      <li><a href="/chaise/recordset/#2/Gene_Expression:Specimen/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM6JHQBcAjdafEAcRwhwH0BRADwAcMckkBLFCEADQgAyqxxZuAW1r0AglzABPegBVFY+gDMA1jkUgAugF8hAJQCSAEUNCsACxTdcSSgEYAbAFp3l2Y0NGxkA@sort(RCT::desc::,Stage_Ordinal,RID)">NanoCT</a></li>
+      <!--
+<li><a href="/chaise/recordset/#2/Gene_Expression:Specimen@sort(RCT::desc::,Stage_Ordinal,RID)?pcid=home/static">All Specimen Data</a></li>
+-->
+    </ul>
+    <ul>
+      <li class="sub-parent">SEQUENCING</li>
+      <li><a href="/chaise/recordset/#2/RNASeq:Study/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM6JAEsIAjdafEAJQDkBBAZRwEcQAaEAUQA8AHHDIQC2OCABcA+gzFooATwlUAkgBEJAMwDWOOSAC6AXzah0YsmgoJq9Jqw49+gkeIkOBw0ZIAqc-hu26hhzKKvocWAAWKIS4SJQAigC0AJoAUgAaAOr6BoZAA@sort(RMT::desc::,RID)?pcid=static/home">mRNA-Seq</a></li>
+      <li><a href="/chaise/recordset/#2/RNASeq:Study/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM6JAEsIAjdafEAJQDkBBAZRwEcQAaEAUQA8AHHDIQC2OCABcA+gzFooATwlUAkgBEJAMwDWOOSAC6AXzah0YsmgoJq9Jqw49+gkeIkOBw0ZIAqc-hu26hhzKKvocWAAWKIS4SJQAjABsALQAigDSNF7sIKnJAJoAUvkATPoGhkA@sort(RMT::desc::,RID)?pcid=static/home">scRNA-Seq/snRNA-Seq</a></li>
+      <li><a href="/chaise/recordset/#2/RNASeq:Study/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM6JAEsIAjdafEAJQDkBBAZRwEcQAaEAUQA8AHHDIQC2OCABcA+gzFooATwlUAkgBEJAMwDWOOSAC6AXzah0YsmgoJq9Jqw49+gkeIkOBw0ZIAqc-hu26hhzKKvocWAAWKIS4SJQAigC0AJoAUgAayfoGhkA@sort(RMT::desc::,RID)?pcid=static/home">ChIP-Seq</a></li>
+      <li><a href="/chaise/recordset/#2/Microarray:Sample@sort(RID)?pcid=static/home">Microarray</a></li>
+      <!--
+      <li><a href="/chaise/recordset/#2/RNASeq:Study/?pcid=static/home">All Studies</a></li>
+      -->
+    </ul>
+  </div>
+  <div class="col-md-4">
+    <ul>
+      <li class="sub-parent">EXPERIMENT PROTOCOLS</li>
+      <li><a href="/chaise/recordset/#2/Protocol:Protocol@sort(RMT::desc::,RID)?pcid=static/home">All Protocols</a></li>
+    </ul>
+    <ul>
+      <li class="sub-parent">CELL & ANIMAL MODELS</li>
+      <li><a href="/chaise/recordset/#2/Cell_Line:Reporter_Cell_Line@sort(ID)?pcid=static/home">Transgenic Reporter Cell Lines</a></li>
+      <li><a href="/chaise/recordset/#2/Cell_Line:Parental_Cell_Line?pcid=static/home">Parental Cell Lines</a></li>
+      <li><a href="/chaise/recordset/#2/Cell_Line:Mouse_Strain@sort(ID)?pcid=static/home">Transgenic Mouse Strains</a></li>
+    </ul>
+    <ul>
+      <li class="sub-parent">ANTIBODIES</li>
+      <li><a href="/chaise/recordset/#2/Antibody:Antibody_Tests@sort(RID)?pcid=static/home">Antibody Validation</a></li>
+      <li><a href="/chaise/recordset/#2/Antibody:Antibodies?pcid=static/home">Antibody Listings</a></li>
+    </ul>
+  </div>
+</div>
+
+<div class="row">
+
+<div class="col-md-12">
+      <iframe class="embed-responsive" name="resources-viewer" id="resources-viewer" style="width: 675px; height: 350px; border-style: none; border-color: inherit; border-width: 0px; " src="/deriva-webapps/plot/?config=gudmap-data-summary-responsive">
+      </iframe>
+</div>
+
+</div>
+</div>
+</div>
+  <div class="col-md-4 featured">
+    <h3>Examples of GUDMAP imaging data</h3>
+
+    <div class="image-carousel">
+		{% include carousel.html %}
+    </div>
+
+    <h3>GUDMAP Publications: <a href="/publications/">240+</a></h3>
+    <ul>
+      <li><a href="https://doi.org/10.1016/j.ydbio.2021.05.014">Single cell transcriptomic analysis of external genitalia reveals complex and sexually dimorphic cell populations in the early genital tubercle</a></li>
+      <li><a href="https://doi.org/10.1016/j.ydbio.2021.03.024">Altered sacral neural crest development in {Pax3} spina bifida mutants underlies deficits of bladder innervation and function</a></li>
+      <!--
+      <li><a href="https://doi.org/10.1152/ajprenal.00431.2020">A Uropathogenic E. coli UTI89 model of prostatic inflammation and collagen accumulation for use in studying aberrant collagen production in the prostate</a></li>
+      -->
+    </ul>
+
+      <p class="signup"><a href="http://eepurl.com/hyUyjD" class="btn btn-success" role="button">Join our announcements list!</a></p>
+	</div>
+</div>
+<div class="row bottom">
+
+  <div class="col-md-4">
+    <h3>Tutorials <small><em><a href="/tutorials/">View all</a></em></small></h3>
+
+    <div class="media">
+      <div class="media-left">
+        <a href="/tutorials/innervation/">
+          <img class="media-object" src="/assets/img/tutorials/Fig5C_Alice Illustrations_PG_v4.png" alt="Illustration of pelvic ganglia and nerves">
+        </a>
+      </div>
+      <div class="media-body">
+        <h4 class="media-heading"><a href="/tutorials/innervation/">Lower Urinary Tract Innervation and its Development</a> <sup><em>New</em></sup></h4>
+      </div>
+    </div>
+
+    <div class="media">
+      <div class="media-left">
+        <a href="/tutorials/urogenital-dev/">
+          <img class="media-object" src="/assets/img/tutorials/TS21_WMISH_Mventral_crop-thumb.jpg" alt="urogenital system at approximately TS21">
+        </a>
+      </div>
+      <div class="media-body">
+        <h4 class="media-heading"><a href="/tutorials/urogenital-dev/">Urogenital System Development</a></h4>
+      </div>
+    </div>
+    <!--
+    <div class="media">
+    <div class="media-left">
+      <a href="/tutorials/kidney-dev/">
+        <img class="media-object" src="/assets/img/tutorials/mouse-vs-human-kidneyx895-thumb.jpg" alt="Mouse vs human kidney illustration">
+      </a>
+    </div>
+    <div class="media-body">
+      <h4 class="media-heading"><a href="/tutorials/kidney-dev/">Development of the Kidney in Mouse and Human</a></h4>
+    </div>
+  </div>
+ -->
+  <div class="media">
+    <div class="media-left">
+      <a href="/tutorials/prostate-dev/">
+        <img class="media-object" src="/assets/img/tutorials/16dpc-UGS-wholemount-thumb.jpg" alt=" the UGS and other components of a 16 dpc (days post conception) male mouse lower urinary tract.">
+      </a>
+    </div>
+    <div class="media-body">
+      <h4 class="media-heading"><a href="/tutorials/prostate-dev/">Prostate Development</a></h4>
+    </div>
+  </div>
+
+</div>
+  <div class="col-md-4">
+    <h3>Reference <small><em><a href="/reference/">View all</a></em></small></h3>
+    <ul class="list-group">
+      <li class="list-group-item"><h4 class="media-heading"><a href="/reference/genital-tubercule-atlas/">Mouse Genital Tubercule Atlas</a></h4></li>
+      <li class="list-group-item"><h4 class="media-heading"><a href="/reference/adult-mouse-penis-3d/">Mouse Penis 3D Atlas</a></h4></li>
+      <li class="list-group-item"><h4 class="media-heading"><a href="/reference/ontology/">Ontology</a></h4></li>
+    </ul>
+
+    <h3>Using GUDMAP <small><em><a href="/using-gudmap/">View all</a></em></small></h3>
+    <ul class="list-group">
+      <li class="list-group-item"><h4 class="media-heading"><a href="/using-gudmap/">Using GUDMAP Data</a></h4></li>
+      <li class="list-group-item"><h4 class="media-heading"><a href="/using-gudmap/use-cases/">GUDMAP Use Cases</a></h4></li>
+      <li class="list-group-item"><h4 class="media-heading"><a href="/using-gudmap/citing-gudmap/">Citing GUDMAP Data</a></h4></li>
+    </ul>
+  </div>
+
+  <div class="col-md-4">
+
+    <h3>Announcements <small><em><a href="/news/">View all</a></em></small></h3>
+    <ul class="list-group posts">
+      {% for post in site.posts limit: 4 %}
+    <li class="list-group-item">
+      <h4 class="media-heading">
+        <a href="{{ post.url }}">{{ post.title }}</a>
+      </h4>
+      <time><small><em>
+        {{ post.date | date: "%m/%d/%Y" }}
+      </em></small></time>
+    </li>
+    {% endfor %}
+    </ul>
+
+    </div>
+    <!--
+    <section id="news">
+      <h3>Announcements</h3>
+      <ul class="list-group posts">
+        {% for post in site.posts limit: 4 %}
+      <li class="list-group-item">
+        <h4>
+          <a href="{{ post.url }}">{{ post.title }}</a>
+        </h4>
+        <time><small><em>
+          {{ post.date | date: "%m/%d/%Y" }}
+        </em></small></time>
+      </li>
+      {% endfor %}
+      </ul>
+  </section>
+  -->
+
+</div>
+</div>
