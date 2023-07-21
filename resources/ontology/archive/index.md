@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: resources
 title: GUDMAP Ontology Archive
 redirect_from:
   - /resources/ontology/ontologies_archive.html

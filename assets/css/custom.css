@@ -702,3 +702,41 @@ p.acknowledgement {
 .tutorial video {
     max-width: 100%;
 }
+
+
+/* Resources - Tissues Summary */
+
+.organs {
+    padding-top: 10px;
+    display: flex;
+}
+
+.organs .panel {
+    float: left;
+    width: 19%;
+    margin: 5px;
+}
+
+.organs .panel-heading {
+    background-color: transparent;
+    padding: 0;
+}
+
+.organs .panel-heading img {
+    margin: 0 auto;
+    height: 145px;
+}
+
+.organs h5.panel-title {
+    text-align: center;
+    font-size: .7em;
+}
+
+.organs .panel-body ul {
+    margin-top: 10px;
+    list-style-type: none;
+}
+
+.organs .panel-body li a {
+    font-size: .8em;
+}
