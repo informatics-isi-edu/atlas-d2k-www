@@ -576,6 +576,7 @@ p.acknowledgement {
 
 .breadcrumb * {
     padding-right: 5px;
+    padding-left: 5px;
 }
 
 a {
