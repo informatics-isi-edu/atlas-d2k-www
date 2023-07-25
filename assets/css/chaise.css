@@ -1,9 +1,174 @@
 /* Data Browser spinner */
 
+/* Navbar styles */
+
 .navbar-inverse {
-  background-color: #1b3455;
-  border-color: #1b3455;
+  background-color: #255F8C;
+  border-color: #255F8C;
 }
+
+.navbar {
+	/*min-height: 70px;*/
+  margin:0 auto;
+  padding: 10px;
+  width:100%;
+  font-size: 16px;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+
+.navbar-inverse .navbar-nav>li {padding-bottom:0;cursor:pointer;}
+.navbar-inverse .navbar-nav>li>a {color: #ddc785; font-size: .95em;}
+.navbar-inverse .navbar-nav>li>a:hover {background-color:rgb(221,199,133,.5);}
+.navbar-inverse .navbar-nav>li>a:visited {color:#ddc785;}
+.navbar-inverse .navbar-nav>li>a.disabled {color: #bbbbbb;}
+
+.navbar-form {padding: 15px;}
+
+.navbar-text {margin-right: 15px; padding-top: 15px; padding-bottom: 15px;}
+
+.navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav.navbar-right > li > a {
+  color: #59C4FF;
+}
+
+.navbar-brand {
+  padding: 0px;
+}
+
+span#brand-text {
+  display: block;
+	width: 250px;
+  height: 58px;
+  background: url(/assets/img/atlas-logo-inverted.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  margin-top: -6px;
+  margin-left: 10px
+}
+
+ul.nav.navbar-nav.navbar-right {
+	line-height: 30px;
+/*	padding-top: 10px;
+	padding-bottom: 10px;*/
+}
+
+.nav li {
+  margin-top: 0;
+}
+
+/* Prevent menu from collapsing */
+
+button.navbar-toggle.collapsed {
+    display: none;
+}
+
+.navbar-inverse .navbar-toggle {
+    border-color: #fff;
+		color: #fff;
+}
+
+.navbar-collapse.collapse {
+  display: block!important;
+}
+
+.navbar-nav>li, .navbar-nav {
+  float: left !important;
+}
+
+.navbar-nav.navbar-right:last-child {
+  margin-right: -15px !important;
+}
+
+.navbar-right {
+  float: right!important;
+}
+
+.homebg span#brand-text {
+    display: none;
+}
+
+.chaise-btn.chaise-btn-primary {
+    color: #fff;
+    background-color: #4674A7;
+    border-color: #333;
+}
+
+.chaise-btn.chaise-btn-sm {
+    height: 24px;
+    min-width: 24px;
+    font-size: 1rem;
+    padding: 2px 5px;
+}
+
+a#login-link {
+    margin-right: 15px;
+}
+
+/* breakpoint media queries for navbar when browser window is narrow */
+
+@media (max-width: 767px) {
+  body.homebg .navbar-header {
+    display: none;
+  }
+
+  .navbar-nav.navbar-right:last-child {
+    margin-right: 0 !important;
+}
+
+  .navbar-inverse .navbar-collapse {
+    border-color: #0A414E;
+  }
+
+  .navbar-inverse .navbar-nav li.dropdown.open {
+    color: #333;
+    background-color: #fff;
+  }
+
+  .navbar-inverse .navbar-nav li.dropdown.open>a:hover {
+    color: #333;
+    background-color:rgb(221,199,133,.5);
+  }
+/* this rule is still affecting both 1st and 2nd levels */
+  .navbar-inverse .navbar-nav .open .dropdown-menu>li {
+    padding-left: 10px;
+    background-color: #f5f5f5;
+  }
+
+  .navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
+    color: #333;
+  }
+
+  .navbar-inverse .navbar-nav .open .dropdown-menu>li>a:hover {
+    color: #333;
+    background-color:rgb(221,199,133,.5);
+  }
+
+  li.child-opened {
+    background-color: #fff;
+  }
+
+  .homeBanner {
+    height: 150px
+  }
+  .cta {
+    padding-top: 15px;
+  }
+  .formBlock {
+    margin: 0 auto;
+  }
+
+}
+
+/* ---------- chaise navbar banner style ---------- */
+.chaise-navbar-banner-container {
+    background-color: #447CC9; /* need to figure out a better color - probably lighter tone */
+    /* color: red; */
+}
+
+/* ---------- curation status and record status ---------- */
 
 .markdown-container table tr {
     background: transparent !important;

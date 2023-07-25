@@ -135,8 +135,8 @@ p.acknowledgement {
 }
 
 .navbar-inverse {
-    background-color: #1b3455;
-    border-color: #1b3455;
+    background-color: #255F8C;
+    border-color: #255F8C;
 }
 
 @media (min-width: 768px) {
@@ -160,6 +160,23 @@ p.acknowledgement {
     width: 60%;
     min-width: 300px;
     margin: 0 auto;
+    background-color:rgb(221,199,133,.2);
+}
+
+#main-search button.btn.btn-default {
+    background-color: #E0CC90;
+}
+
+.search-panel {
+  color: white;
+  padding-top: 5px;
+  padding-left: 5px;
+}
+
+.search-panel label {
+  font-weight: normal;
+  font-size: .9em;
+  padding-right: 2em;
 }
 
 #statistics {
