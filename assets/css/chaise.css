@@ -2,11 +2,6 @@
 
 /* Navbar styles */
 
-.navbar-inverse {
-  background-color: #0A2327; /* #255F8C */
-  border-color: #0A2327;
-}
-
 .navbar {
 	/*min-height: 70px;*/
   margin:0 auto;
@@ -16,6 +11,10 @@
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
+.navbar-inverse {
+  background-color: #0A2327; /* #255F8C */
+  border-color: #0A2327;
+}
 
 .navbar-inverse .navbar-nav>li {padding-bottom:0;cursor:pointer;}
 .navbar-inverse .navbar-nav>li>a {color: #ddc785; font-size: .95em;}
@@ -33,12 +32,12 @@
 
 .navbar-brand:not(#chaise-app-root #mainnav.navbar-inverse .navbar-brand) {
     padding: 5px 0 0 0;
+    height: 100px;
 }
 
 span#brand-text {
   display: block;
-	width: 250px;
-  height: 58px;
+  height: 98px;
   background: url(/assets/img/atlas-logo-inverted.png);
   background-size: cover;
   background-repeat: no-repeat;
