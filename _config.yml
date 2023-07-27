@@ -33,6 +33,11 @@ page_gen:
     name: 'tag'
     dir: 'rebuildingakidney/projects'
 
+collections:
+  events:
+    output: true
+    permalink: /events/:path/
+    title: Events
 
 port: 8000
 

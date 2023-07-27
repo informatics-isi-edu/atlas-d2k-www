@@ -1,0 +1,21 @@
+---
+layout: default
+title: ATLAS-D2K Events
+---
+
+<ul>
+  {% for event in site.events %}
+     <li>
+        <h3><a href="{{ event.url }}">{{ event.title }}</a></h3>
+        <p>Date:
+           {{ event.start_date | date: "%B %d, %Y" }} -
+           {{ event.end_date | date: "%B %d, %Y" }}
+        </p>
+        <p>Location: {{ event.location }}</p>
+     </li>
+  {% endfor %}
+
+</ul>
+<!-- add this after 10/24/23
+<h2>Past Events</h2>
+-->

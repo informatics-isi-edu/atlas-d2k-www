@@ -147,13 +147,13 @@ p.acknowledgement {
 }
 
 
+
 /* Home page styles */
 
-#homeBanner {}
 
-#main-search {
-    background-color: #255F8C;
-    padding: 20px;
+.homeBanner {
+  background-color: #255F8C;
+  padding: 20px;
 }
 
 .formBlock {
@@ -163,7 +163,7 @@ p.acknowledgement {
     background-color:rgb(221,199,133,.2);
 }
 
-#main-search button.btn.btn-default {
+.formBlock button.btn.btn-default {
     background-color: #E0CC90;
 }
 
@@ -179,26 +179,17 @@ p.acknowledgement {
   padding-right: 2em;
 }
 
-#statistics {
-    margin: 20px 0;
+.home .row {
+  max-width: 1140px;
+  margin: 0 auto;
 }
 
-#home.container,
-#content.container {
-    font-size: 18px;
-    margin: 0 auto;
-    line-height: 25px;
-}
-
-#content.container {
-    padding-bottom: 50px;
-    width: 820px;
-}
-
-.innercontent {
-    padding: 20px 10%;
-    font-size: 1.2em;
-    line-height: 1.5;
+.home h2 {
+    font-size: 40px;
+    font-weight: 200;
+    margin-bottom: 15px;
+    margin-top: 35px;
+    text-align: center;
 }
 
 .home h3 {
@@ -206,6 +197,8 @@ p.acknowledgement {
     text-align: left;
     padding-bottom: 0;
 }
+
+/* Jumbotron */
 
 .container .jumbotron {
     padding: 20px 60px;
@@ -232,32 +225,41 @@ p.acknowledgement {
     margin-bottom: 0;
 }
 
-.home h2 {
-    font-size: 40px;
-    font-weight: 200;
-    margin-bottom: 15px;
-    margin-top: 35px;
-    text-align: center;
+/* home jumbotron */
+.home .jumbotron {
+  text-align: center;
+  width: 70%;
+  margin: 0 auto;
 }
 
-.iotw img {
-    width: 280px;
+
+/* Rows of data statistics */
+
+#statistics {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* Optional, adds spacing between the rows */
+  margin: 20px auto;
 }
 
-.iotw h3 {
-    padding-top: 0;
+.stat-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
-.iotw p.caption {
-    font-style: italic;
-    font-size: .8em;
-    width: 280px;
+.stat-content.5across {
+  width: 20%;
 }
 
+
+.stat-content.4across {
+  width: 25%;
+}
 
 /* Shortcut links on home page */
 
-#home .shortcuts {
+.home .shortcuts {
     display: inline-block;
     width: 100%;
     background-color: #ffffff;
@@ -274,8 +276,70 @@ p.acknowledgement {
     font-size: .9em;
 }
 
+/* News, Events, consortium Ads */
+
+#news {
+  border-right: 1px solid #CCC;
+}
+
+ul.posts {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul.posts li {
+  padding-bottom: 10px;
+}
+
+
+ul.posts li time {
+  font-size: .9em;
+  color: #6E6E6E;
+}
+
+/* Homepage Pubs list */
+
 .pub-date {
     font-style: italic;
+}
+
+/* Image of the week - turn into image gallery? */
+
+.iotw img {
+    width: 280px;
+}
+
+.iotw h3 {
+    padding-top: 0;
+}
+
+.iotw p.caption {
+    font-style: italic;
+    font-size: .8em;
+    width: 280px;
+}
+
+
+
+/* Sub page styles */
+
+#home.container,
+#content.container {
+    font-size: 18px;
+    margin: 0 auto;
+    line-height: 25px;
+}
+
+#content.container {
+    padding-bottom: 50px;
+    width: 820px;
+}
+
+.innercontent {
+    padding: 20px 10%;
+    font-size: 1.2em;
+    line-height: 1.5;
 }
 
 
