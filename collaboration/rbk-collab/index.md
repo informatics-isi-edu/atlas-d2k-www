@@ -35,3 +35,7 @@ Eligible parent projects should be working in areas of relevance to RBK, have in
 - Provide a description of the parent project's relevance to the goals of RBK.
 - How would the project/investigator benefit from interactions with the RBK PIs and conversely, how would RBK benefit from collaborating with the project/investigator?
 - Provide a letter from an Institutional official indicating willingness to sign the Consortium's Confidentiality and Nondisclosure Policy and adhere to Standards of Conduct, including data sharing expectations.
+
+## Approved Projects To Date
+
+- **Zhongwei Li**, *University of Southern California* - “The Synthetic Kidney: A Revolutionary Solution for the Shortage of Kidneys for Transplantation”

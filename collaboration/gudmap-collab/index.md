@@ -35,3 +35,7 @@ Eligible projects should be working in areas of relevance to GUDMAP, have indepe
 - Project period (i.e., project start, and end dates documented in notice of grant award)
 - Include a description of the project's relevance to the goals of GUDMAP.
 - How would the project/investigator benefit from interactions with the GUDMAP PIs and, conversely, how would GUDMAP benefit from collaborating with the project/investigator?
+
+## Approved Projects To Date
+
+- **Maho Shibata**, *The George Washington University/Georgetown University* - “Regulation of prostate organogenesis by tissue-resident macrophages”

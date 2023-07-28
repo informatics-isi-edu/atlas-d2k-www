@@ -28,6 +28,16 @@ There are several key areas of scientific interest to the RBK which include, but
 * Develop new tools to non-invasively image repair and regeneration.
 * Develop mouse reporter lines to study adaptive, maladaptive and failed repair.
 
+### Awardees Announced
+
+The ATLAS-D2K is happy to announce the following awardees of the 2023 RBK Opportunity Pool:
+
+- **Nils Lindstrom**, *University of Souther California* - “Stepwise Developmental Mimicry Generates Proximal Tubules in Organoids”
+- **Kyle McCracken**, *Cincinnati Children’s Hospital* - “Integrating UB Collecting Systems into hPSC-derived Kidney Organoids”
+- **Elizabeth Nguyen**, *Seattle Children’s Hospital* - “Single-nuclei Multiome Atlas for a Mammalian Model of Kidney Regeneration”
+
+<!--
+
 ### Application
 
 Applications may request up to $100,000 (total costs) for one year and are due **Monday, April 3, 2023**.
@@ -149,3 +159,4 @@ Danny Gossett Ph.D.<br/>
 National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK)<br/>
 Telephone: 301- 569-0395<br/>
 Email: [daniel.gossett@nih.gov](daniel.gossett@nih.gov)
+-->
