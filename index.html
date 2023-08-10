@@ -259,20 +259,6 @@ title: ATLAS-D2K - Transforming Data into Knowledge
     <!--    <a href="/publications/">publications ></a> -->
 
   </div>
-  <div class="col-md-3" id="events">
-
-    <h3>Upcoming Events</h3>
-    <ul>
-      {% for event in site.events %}
-         <li>
-            <h3><a href="{{ event.url }}">{{ event.title }}</a></h3>
-         </li>
-      {% endfor %}
-</ul>
-
-
-  </div>
-
   <div class="col-md-6" id="consortiums">
   <h3>Consortiums</h3>
   <p>The ATLAS-D2K Center supports the data and resources of the RBK and GUDMAP Consortiums.</p>
@@ -294,6 +280,17 @@ title: ATLAS-D2K - Transforming Data into Knowledge
   </div> <!-- End of the row -->
 
 </div>
+  <div class="col-md-3" id="events">
+
+    <h3>Upcoming Events</h3>
+      <ul>
+        {% for event in site.events %}
+           <li>
+              <h4><a href="{{ event.url }}">{{ event.title }}</a></h4>
+           </li>
+        {% endfor %}
+      </ul>
+  </div>
 
 </div>
 <div class="row" id="featured-tools">
@@ -310,18 +307,23 @@ title: ATLAS-D2K - Transforming Data into Knowledge
       <!-- Wrapper for slides -->
       <div class="carousel-inner" role="listbox">
         <div class="item active">
-          <img src="..." alt="...">
+          <img src="/assets/img/home-slides/slide-1.png" alt="...">
           <div class="carousel-caption">
-            ...
+            ATLAS Cool Tool 1 - lorem ipsum dolor sit amet <a href="#">Learn more</a>
           </div>
         </div>
         <div class="item">
-          <img src="..." alt="...">
+          <img src="/assets/img/home-slides/slide-2.png" alt="...">
           <div class="carousel-caption">
-            ...
+            ATLAS Cool Tool 2 - lorem ipsum dolor sit amet <a href="#">Learn more</a>
           </div>
         </div>
-        ...
+        <div class="item">
+          <img src="/assets/img/home-slides/slide-3.png" alt="...">
+          <div class="carousel-caption">
+            Community Tool 1 - lorem ipsum dolor sit amet <a href="#">Learn more</a>
+          </div>
+        </div>
       </div>
 
       <!-- Controls -->
@@ -371,13 +373,13 @@ $(document).ready(function(){
     // attach the submit even for the forms
     // more could be added to the list in future if required
     var searchForms = [$("#main-search")];
-    
+
     searchForms.forEach(function ($form) {
       $form.submit(function (e) {
         e.preventDefault();
         var $inputs = {};
         $.each($(this).serializeArray(), function(i, field) {
-          console.log(field); 
+          console.log(field);
             $inputs[field.name] = field.value;
         });
         // call the search
@@ -389,4 +391,3 @@ $(document).ready(function(){
 </script>
 
 </div> <!-- end of home content div -->
-
