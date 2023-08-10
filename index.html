@@ -11,7 +11,7 @@ title: ATLAS-D2K - Transforming Data into Knowledge
 
   <div class="col-md-8">
     <div class="formBlock">
-        <form class="search search-form">
+        <form class="search search-form" id="main-search">
           <div class="input-group">
             <input type="text" class="form-control" name="search_term" placeholder="Search data in ATLAS-D2K">
             <span class="input-group-btn">
@@ -364,4 +364,28 @@ title: ATLAS-D2K - Transforming Data into Knowledge
   </div>
 </div>
 
+<script>
+
+$(document).ready(function(){
+    // attach the submit even for the forms
+    // more could be added to the list in future if required
+    var searchForms = [$("#main-search")];
+    
+    searchForms.forEach(function ($form) {
+      $form.submit(function (e) {
+        e.preventDefault();
+        var $inputs = {};
+        $.each($(this).serializeArray(), function(i, field) {
+          console.log(field); 
+            $inputs[field.name] = field.value;
+        });
+        // call the search
+        search($inputs.search_param, $inputs.search_term);
+      });
+    });
+
+});
+</script>
+
 </div> <!-- end of home content div -->
+
