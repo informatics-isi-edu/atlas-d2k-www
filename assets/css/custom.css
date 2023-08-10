@@ -198,6 +198,16 @@ p.acknowledgement {
     padding-bottom: 0;
 }
 
+#events h3 {
+    font-size: 1.2em;
+}
+
+#events ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
 /* Jumbotron */
 
 .container .jumbotron {
