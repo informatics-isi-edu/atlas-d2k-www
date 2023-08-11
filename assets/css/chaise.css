@@ -75,6 +75,8 @@ span#brand-text {
 
 #chaise-app-root span#brand-text {
     background: url(/assets/img/logo-cropped-for-chaise.png);
+    background-size: 100%;
+    height: 33px;
 }
 
 ul.nav.navbar-nav.navbar-right {
