@@ -246,7 +246,7 @@ title: ATLAS-D2K - Transforming Data into Knowledge
 
       <h3>Latest News</h3>
       <ul class="posts">
-        {% for post in site.posts limit: 4 %}
+        {% for post in site.posts limit: 3 %}
       <li>
         <a href="{{ post.url }}">{{ post.title }}</a><br/>
         <time>
@@ -260,8 +260,9 @@ title: ATLAS-D2K - Transforming Data into Knowledge
 
   </div>
   <div class="col-md-6" id="consortiums">
-  <h3>Consortiums</h3>
-  <p>The ATLAS-D2K Center supports the data and resources of the RBK and GUDMAP Consortiums.</p>
+  <h3>Consortiums<br/>
+  <small>The ATLAS-D2K Center supports the data and resources of the RBK and GUDMAP Consortiums. Click an image to learn more.</small></h3>
+
 
   <div class="row"> <!-- Start a new row for the ads -->
 
@@ -340,30 +341,31 @@ title: ATLAS-D2K - Transforming Data into Knowledge
 </div>
 
 <div class="row" id="opps">
-  <h2>Funding and Collaboration Opportunities</h2>
+  <h2>Consortia Highlights</h2>
   <div class="col-md-4">
-    <h3>RBK Opportunity Pool</h3>
-    <p>info...</p>
+    <h3>Funding Opportunities</h3>
+    <ul>
+      <li><a href="/collaboration/op-pool/">Learn about Opportunity Pools</a></li>
+      <li><a href="/collaboration/gudmap-collab/">Apply to be a GUDMAP Collaborating Group</a></li>
+      <li><a href="/collaboration/rbk-collab/">Apply to be a RBK Collaborating Group</a></li>
+    </ul>
   </div>
   <div class="col-md-4">
-    <h3>GUDMAP Collaborating Group</h3>
-    <p>info...</p>
+    <h3>Recent Publications</h3>
+    <ul>
+      <li><a href="https://doi.org/10.1016/j.ydbio.2021.05.014">Single cell transcriptomic analysis of external genitalia reveals complex and sexually dimorphic cell populations in the early genital tubercle</a></li>
+      <li><a href="https://doi.org/10.1016/j.ydbio.2021.03.024">Altered sacral neural crest development in {Pax3} spina bifida mutants underlies deficits of bladder innervation and function</a></li>
+      <!--
+      <li><a href="https://doi.org/10.1152/ajprenal.00431.2020">A Uropathogenic E. coli UTI89 model of prostatic inflammation and collagen accumulation for use in studying aberrant collagen production in the prostate</a></li>
+      -->
+    </ul>
   </div>
   <div class="col-md-4">
-    <h3>RBK Collaborating Group</h3>
-    <p>info...</p>
-  </div>
-</div>
+    <h3>Featured Imaging Data</h3>
 
-<div class="row" id="pubs">
-  <div class="col-md-4">
-    <h3>Publications</h3>
-    <p>list of publications</p>
-  </div>
-
-  <div class="col-md-8">
-    <h3>Featured Images</h3>
-    <p>gallery of images</p>
+    <div class="image-carousel">
+		{% include carousel.html %}
+    </div>
   </div>
 </div>
 
@@ -387,7 +389,36 @@ $(document).ready(function(){
       });
     });
 
+    //Carousel
+
+    $('.slider').slick({
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      infinite: false,
+      rows: 2
+    });
+/*
+    $('.slider.students').slick({
+      slidesToShow: 4,
+      slidesToScroll: 1,
+      infinite: false,
+      rows: 1
+    });
+*/
+
+    $('a.featured').colorbox({
+      maxWidth: "800px",
+      rel:'gal',
+      transition: 'fade',
+      title:function () {
+        var ridurl = $(this).find('img').attr('alt');
+        var txt = $(this).attr('title');
+        return txt+" More info".link(ridurl);
+      }
+    });
+
 });
 </script>
 
 </div> <!-- end of home content div -->
+<script type="text/javascript" src="/assets/slick/slick.min.js"></script>

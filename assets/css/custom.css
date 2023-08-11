@@ -288,7 +288,7 @@ p.acknowledgement {
 
 /* News, Events, consortium Ads */
 
-#news {
+#news, #consortiums {
   border-right: 1px solid #CCC;
 }
 
@@ -676,6 +676,17 @@ a {
 
 
 /* Slick Styles */
+
+.image-carousel {
+    height: 100%;
+    display: block;
+    margin-bottom: 30px;
+    margin-left: 15px;
+}
+
+.image-carousel .slider {
+    width: 100%;
+}
 
 .slick-prev:before,
 .slick-next:before {
