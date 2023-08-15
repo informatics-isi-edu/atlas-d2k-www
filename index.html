@@ -1,6 +1,8 @@
 ---
 layout: home
 title: ATLAS-D2K - Transforming Data into Knowledge
+custom_js:
+  - home-stat-queries
 ---
 
 <div class="row homeBanner">
@@ -53,103 +55,169 @@ title: ATLAS-D2K - Transforming Data into Knowledge
     <p class="cta"><a class="btn btn-primary btn-lg" href="/about/" role="button">Learn more</a></p>
   </div>
 
-<div class="row" id="statistics">
-  <div class="stat-row">
-    <div class="stat-container 5across">
-          <div class="stat-content">
-            <span class=""></span>
-            <span class="stat-header">Species:</span>
-            <a href="#">
-              <span class="stat-number" id="stat-species-number">3
-                <!-- spinner: -->
-              <i class="fas fa-sync-alt fa-spin"></i>
-            </span>
-            </a>
-          </div>
-          <div class="stat-content">
-            <span class="stat-header">Assay Types:</span>
-            <a href="#">
-              <span class="stat-number" id="stat-assays-number">15
-                <!-- spinner: -->
-              <i class="fas fa-sync-alt fa-spin"></i>
-            </span>
-            </a>
-          </div>
+<!-- Display statistics of data -->
 
-          <div class="stat-content">
-            <span class="stat-header">Bio-specimens:</span>
-            <a href="#">
-              <span class="stat-number" id="stat-specimen-number">324
-                <!-- spinner: -->
-            <i class="fas fa-sync-alt fa-spin"></i>
-          </span>
-            </a>
-          </div>
 
-          <div class="stat-content">
-            <span class="stat-header">Imaging:</span>
-            <a href="#">
-              <span class="stat-number" id="stat-imaging-number">1123
-                <!-- spinner: -->
-            <i class="fas fa-sync-alt fa-spin"></i>
-          </span>
-            </a>
-          </div>
+        <div class="row statistics" id="statistics-1">
 
-          <div class="stat-content">
-            <span class="stat-header">Transcriptomics:</span>
-            <a href="#">
-              <span class="stat-number" id="stat-transcriptomics-number">322
-                <!-- spinner: -->
-            <i class="fas fa-sync-alt fa-spin"></i>
-          </span>
-            </a>
-          </div>
-    </div>
-  </div>
-  <div class="stat-row">
-    <div class="stat-container 4across">
-            <div class="stat-content">
-              <span class="stat-header">Cell Lines:</span>
-              <a href="#">
-                <span class="stat-number" id="stat-cell-lines-number">10
-                  <!-- spinner: -->
-                <i class="fas fa-sync-alt fa-spin"></i>
-              </span>
-              </a>
-            </div>
-            <div class="stat-content">
-              <span class="stat-header">Protocols:</span>
-              <a href="#">
-                <span class="stat-number" id="stat-protocols-number">123
-                  <!-- spinner: -->
-                <i class="fas fa-sync-alt fa-spin"></i>
-              </span>
-              </a>
+            <!-- Data Section - Row 1 -->
+            <div class="col-md-4">
+                <div class="well">
+                    <div class="statistic-container">
+                        <i class="stat-icon fa-solid fa-mouse-field"></i>
+                        <div>
+                            <h2 class="stat-number"><a href="">3</a></h2>
+                            <p class="statistic-label"><a href="">Species</a></p>
+                        </div>
+                    </div>
+                </div>
             </div>
 
-            <div class="stat-content">
-              <span class="stat-header">Antibody Tests:</span>
-              <a href="#">
-                <span class="stat-number" id="stat-antibodytests-number">41
-                  <!-- spinner: -->
-              <i class="fas fa-sync-alt fa-spin"></i>
-            </span>
-              </a>
+            <div class="col-md-4">
+                <div class="well">
+                    <div class="statistic-container">
+                        <i class="stat-icon fa-solid fa-flask-gear"></i>
+                        <div>
+                            <h2 class="stat-number">
+                              <a href="/chaise/recordset/#2/Gene_Expression:Specimen/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM6JHQBcAjdafEAcRwhwH0BRADwAcMckkBLFCEADQgAyqxxZuAW1r0AwpjBFeEesKKK0SegDMA1jgCeIALoBfIQCUAkgBETQrAAsU3XEkoBFALQBNAGwAjACyJqZmQA@sort(RCT::desc::,Stage_Ordinal,RID)">
+                              <span class="stat-number" id="stat-assay-number">
+                                <!-- spinner: -->
+                                <i class="fas fa-sync-alt fa-spin"></i>
+                              </span>
+                            </a></h2>
+                            <p class="statistic-label">Assay Types</p>
+                        </div>
+                    </div>
+                </div>
             </div>
 
-            <div class="stat-content">
-              <span class="stat-header">Publications:</span>
-              <a href="#">
-                <span class="stat-number" id="stat-pubs-number">156
-                  <!-- spinner: -->
-              <i class="fas fa-sync-alt fa-spin"></i>
-            </span>
-              </a>
+            <div class="col-md-4">
+                <div class="well">
+                  <div class="statistic-container">
+                      <i class="stat-icon fa-solid fa-vial"></i>
+                      <div>
+                          <h2 class="stat-number"><a href="/chaise/recordset/#2/Gene_Expression:Specimen/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM6JHQBcAjdafEAcRwhwH0BRADwAcMckkBLFCEADQgAyqxxZuAW1r0AwpjBFeEesKKK0SegDMA1jgCeIALoBfIQCUAkgBETQrAAsU3XEkoBFALQBNAGwAjACyJqZmQA@sort(RCT::desc::,Stage_Ordinal,RID)">
+                            <span class="stat-number" id="stat-specimen-number">
+                              <!-- spinner: -->
+                              <i class="fas fa-sync-alt fa-spin"></i>
+                            </span>
+                          </a></h2>
+                          <p class="statistic-label"><a href="">Specimen</a></p>
+                      </div>
+                  </div>
+                </div>
             </div>
-    </div>
-  </div>
-</div>
+
+        </div>
+
+        <div class="row statistics" id="statistics-2">
+            <!-- Data Section - Row 2 -->
+            <div class="col-md-4">
+                <div class="well">
+                  <div class="statistic-container">
+                      <i class="stat-icon fa-solid fa-microscope"></i>
+                      <div>
+                          <h2 class="stat-number"><a href="/chaise/recordset/#2/Gene_Expression:Specimen/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM6JHQBcAjdafEAcRwhwH0BRADwAcMckkBLFCEADQgAyqxxZuAW1r0AglzABPegBVFY+gDMA1jkUgAugF8hAJQCSAEUNCsACxTdcSSgEYAbAFoATJYBiAAqCIB4+-qbBoQAaAMxUAJqRXr5Uskme7payjIYmyOjYeAigxGRoFAjUtAws7Jw8fMGi4lIyAMKYYES8EPTCRF1oSFq6+sZmVjYg9o7OlACKnvHurgCyucZAA@sort(RCT::desc::,Stage_Ordinal,RID)">
+                            <span class="stat-number" id="stat-imaging-number">
+                              <!-- spinner: -->
+                              <i class="fas fa-sync-alt fa-spin"></i>
+                            </span>
+                          </a></h2>
+                          <p class="statistic-label">Imaging</p>
+                      </div>
+                  </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="well">
+                  <div class="statistic-container">
+                      <i class="stat-icon fa-solid fa-dna"></i>
+                      <div>
+                          <h2 class="stat-number"><a href="/chaise/recordset/#2/RNASeq:Study/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM6JAEsIAjdafEAJQDkBBAZRwEcQAaEAUQA8AHHDIQC2OCABcA+gzFooATwlUAkgBEJAMwDWOOSAC6AXzah0YsmgoJq9Jqw49+gkeIkOBw0ZIAqc-hu26hhzKKvocWAAWKIS4SJQAigC0AJoAUgAaAOrsIACMAGyJ8QDSNF45uQDsiZwAnMUALDlJackATPpGyOjYeLAgAMKYYGKEKBBSYiNoceFRMThxVlQ4ADY4YEh4hoZAA@sort(RMT::desc::,RID)">
+                            <span class="stat-number" id="stat-transcriptomics-number">
+                              <!-- spinner: -->
+                              <i class="fas fa-sync-alt fa-spin"></i>
+                            </span>
+                            </a>
+                          </h2>
+                          <p class="statistic-label">Transcriptomics</p>
+                      </div>
+                  </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="well">
+                  <div class="statistic-container">
+                      <i class="stat-icon fa-solid fa-clone"></i>
+                      <div>
+                          <h2 class="stat-number"><a href="">
+                            <span class="stat-number" id="stat-cell-lines-number">
+                              <!-- spinner: -->
+                              <i class="fas fa-sync-alt fa-spin"></i>
+                            </span>
+                          </a></h2>
+                          <p class="statistic-label">Cell Lines</p>
+                      </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row statistics" id="statistics-3">
+            <div class="col-md-4">
+                <div class="well">
+                  <div class="statistic-container">
+                      <i class="stat-icon fa-solid fa-list"></i>
+                      <div>
+                          <h2 class="stat-number"><a href="">
+                            <span class="stat-number" id="stat-protocols-number">
+                            <!-- spinner: -->
+                            <i class="fas fa-sync-alt fa-spin"></i>
+                          </span>
+                      </a></h2>
+                          <p class="statistic-label">Protocols</p>
+                      </div>
+                  </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="well">
+                  <div class="statistic-container">
+                      <i class="stat-icon fa-solid fa-droplet"></i>
+                      <div>
+                          <h2 class="stat-number"><a href="">
+                            <span class="stat-number" id="stat-antibody-validation-number">
+                              <!-- spinner: -->
+                              <i class="fas fa-sync-alt fa-spin"></i>
+                            </span>
+                          </a></h2>
+                          <p class="statistic-label">Antibody Validation</p>
+                      </div>
+                  </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="well">
+                  <div class="statistic-container">
+                      <i class="stat-icon fa-solid fa-newspaper"></i>
+                      <div>
+                          <h2 class="stat-number"><a href="">
+                            <span class="stat-number" id="stat-pubs-number">
+                              <!-- spinner: -->
+                              <i class="fas fa-sync-alt fa-spin"></i>
+                            </span>
+                          </a></h2>
+                          <p class="statistic-label">Publications</p>
+                      </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+
 
 <div class="row" id="shortcuts">
 

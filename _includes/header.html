@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="{{ site.description }}" />
     <link href="/assets/css/font-awesome.css" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/94587e2b79.js" crossorigin="anonymous"></script>
     <link
       rel="stylesheet"
       type="text/css"
@@ -52,16 +53,16 @@
       			tableName = 'Gene';
       			break;
       	}
-      
+
       	// the origin of webstie.
       	var origin = window.location.protocol + "//" + window.location.hostname + (window.location.port ? ':' + window.location.port : '');
       	var pathArray = [origin, 'chaise', 'recordset'];
-      
+
       	// TODO this "if" case should be removed when the search-box annotation
       	//      is applied to customize the columns in the search box.
       	if (searchParam === "gene" || searchParam == "species") {
       		var columnName = (searchParam === "gene") ? "NCBI_Symbol" : "Name";
-      
+
       		var path = ERMrest.createPath("2", schemaName, tableName);
       		pathArray.push(path);
       		if (typeof searchText === "string" && searchText.trim().length > 0) {
@@ -69,7 +70,7 @@
       			var query = columnName + "::ciregexp::" + searchText.trim() + ";Synonyms::ciregexp::" + searchText.trim();
       			pathArray.push(query);
       		}
-      
+
       	} else {
       		var facets;
       		if (typeof searchText === "string" && searchText.trim().length > 0) {
@@ -78,19 +79,19 @@
       				"and": [{ "sourcekey": "search-box", "search": [searchText.trim()] }]
       			};
       		}
-      
+
       		// create a path that chaise understands
       		var path = ERMrest.createPath("2", schemaName, tableName, facets);
       		pathArray.push(path);
       	}
-      
+
       	// create the url to open
       	var finalURL = pathArray.join("/") + "?pcid=static/home/search";
-      
+
       	// open the url
       	window.open(finalURL);
       }
-       
+
     </script>
     <noscript>
       <p class="bg-warning">

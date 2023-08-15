@@ -48,6 +48,12 @@ body {
     flex: 1 1 auto;
 }
 
+.content {
+    min-height: 100%;
+    position: relative;
+    padding-top: 70px;
+}
+
 h1,
 h2,
 h3 {
@@ -245,11 +251,16 @@ p.acknowledgement {
 
 /* Rows of data statistics */
 
+div#statistics-1 {
+    margin-top: 30px;
+}
+
 #statistics {
   display: flex;
   flex-direction: column;
   gap: 20px; /* Optional, adds spacing between the rows */
   margin: 20px auto;
+  padding: 0 20px;
 }
 
 .stat-container {
@@ -258,13 +269,30 @@ p.acknowledgement {
   flex-wrap: wrap;
 }
 
-.stat-content.5across {
-  width: 20%;
+.statistics .well {
+  height: 100px;
 }
 
+.statistic-container {
+           display: flex;
+           align-items: center; /* Center content vertically */
+           justify-content: center; /* Center content horizontally */
+           height: 40px; /* Adjust height as needed */
+       }
 
-.stat-content.4across {
-  width: 25%;
+i.stat-icon {
+    font-size: 2.5em;
+    margin-right: 10px;
+}
+
+#home h2.stat-number {
+  margin-top: 10px;
+  margin-bottom: 0;
+  text-align: left;
+}
+
+.stat-label {
+  font-size: .7em;
 }
 
 /* Shortcut links on home page */
