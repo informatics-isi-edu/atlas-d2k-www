@@ -270,14 +270,15 @@ div#statistics-1 {
 }
 
 .statistics .well {
-  height: 100px;
+  height: 80px;
+  padding: 12px;
 }
 
 .statistic-container {
-           display: flex;
-           align-items: center; /* Center content vertically */
-           justify-content: center; /* Center content horizontally */
-           height: 40px; /* Adjust height as needed */
+   display: flex;
+   align-items: center; /* Center content vertically */
+   justify-content: center; /* Center content horizontally */
+   height: 60px; /* Adjust height as needed */
        }
 
 i.stat-icon {
@@ -311,7 +312,7 @@ i.stat-icon {
 }
 
 .shortcut-links ul li {
-    font-size: .9em;
+    font-size: 1em;
 }
 
 /* News, Events, consortium Ads */

@@ -2,7 +2,7 @@
 layout: home
 title: ATLAS-D2K - Transforming Data into Knowledge
 custom_js:
-  - home-stat-queries
+#  - home-stat-queries
 ---
 
 <div class="row homeBanner">
@@ -61,19 +61,8 @@ custom_js:
         <div class="row statistics" id="statistics-1">
 
             <!-- Data Section - Row 1 -->
-            <div class="col-md-4">
-                <div class="well">
-                    <div class="statistic-container">
-                        <i class="stat-icon fa-solid fa-mouse-field"></i>
-                        <div>
-                            <h2 class="stat-number"><a href="">3</a></h2>
-                            <p class="statistic-label"><a href="">Species</a></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
 
-            <div class="col-md-4">
+            <div class="col-md-3">
                 <div class="well">
                     <div class="statistic-container">
                         <i class="stat-icon fa-solid fa-flask-gear"></i>
@@ -91,7 +80,7 @@ custom_js:
                 </div>
             </div>
 
-            <div class="col-md-4">
+            <div class="col-md-3">
                 <div class="well">
                   <div class="statistic-container">
                       <i class="stat-icon fa-solid fa-vial"></i>
@@ -108,46 +97,47 @@ custom_js:
                 </div>
             </div>
 
+            <div class="col-md-3">
+              <div class="well">
+                <div class="statistic-container">
+                    <i class="stat-icon fa-solid fa-microscope"></i>
+                    <div>
+                        <h2 class="stat-number"><a href="/chaise/recordset/#2/Gene_Expression:Specimen/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM6JHQBcAjdafEAcRwhwH0BRADwAcMckkBLFCEADQgAyqxxZuAW1r0AglzABPegBVFY+gDMA1jkUgAugF8hAJQCSAEUNCsACxTdcSSgEYAbAFoATJYBiAAqCIB4+-qbBoQAaAMxUAJqRXr5Uskme7payjIYmyOjYeAigxGRoFAjUtAws7Jw8fMGi4lIyAMKYYES8EPTCRF1oSFq6+sZmVjYg9o7OlACKnvHurgCyucZAA@sort(RCT::desc::,Stage_Ordinal,RID)">
+                          <span class="stat-number" id="stat-imaging-number">
+                            <!-- spinner: -->
+                            <i class="fas fa-sync-alt fa-spin"></i>
+                          </span>
+                        </a></h2>
+                        <p class="statistic-label">Imaging</p>
+                    </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <div class="well">
+                <div class="statistic-container">
+                    <i class="stat-icon fa-solid fa-dna"></i>
+                    <div>
+                        <h2 class="stat-number"><a href="/chaise/recordset/#2/RNASeq:Study/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM6JAEsIAjdafEAJQDkBBAZRwEcQAaEAUQA8AHHDIQC2OCABcA+gzFooATwlUAkgBEJAMwDWOOSAC6AXzah0YsmgoJq9Jqw49+gkeIkOBw0ZIAqc-hu26hhzKKvocWAAWKIS4SJQAigC0AJoAUgAaAOrsIACMAGyJ8QDSNF45uQDsiZwAnMUALDlJackATPpGyOjYeLAgAMKYYGKEKBBSYiNoceFRMThxVlQ4ADY4YEh4hoZAA@sort(RMT::desc::,RID)">
+                          <span class="stat-number" id="stat-transcriptomics-number">
+                            <!-- spinner: -->
+                            <i class="fas fa-sync-alt fa-spin"></i>
+                          </span>
+                          </a>
+                        </h2>
+                        <p class="statistic-label">Transcriptomics</p>
+                    </div>
+                </div>
+              </div>
+            </div>
+
         </div>
 
         <div class="row statistics" id="statistics-2">
             <!-- Data Section - Row 2 -->
-            <div class="col-md-4">
-                <div class="well">
-                  <div class="statistic-container">
-                      <i class="stat-icon fa-solid fa-microscope"></i>
-                      <div>
-                          <h2 class="stat-number"><a href="/chaise/recordset/#2/Gene_Expression:Specimen/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM6JHQBcAjdafEAcRwhwH0BRADwAcMckkBLFCEADQgAyqxxZuAW1r0AglzABPegBVFY+gDMA1jkUgAugF8hAJQCSAEUNCsACxTdcSSgEYAbAFoATJYBiAAqCIB4+-qbBoQAaAMxUAJqRXr5Uskme7payjIYmyOjYeAigxGRoFAjUtAws7Jw8fMGi4lIyAMKYYES8EPTCRF1oSFq6+sZmVjYg9o7OlACKnvHurgCyucZAA@sort(RCT::desc::,Stage_Ordinal,RID)">
-                            <span class="stat-number" id="stat-imaging-number">
-                              <!-- spinner: -->
-                              <i class="fas fa-sync-alt fa-spin"></i>
-                            </span>
-                          </a></h2>
-                          <p class="statistic-label">Imaging</p>
-                      </div>
-                  </div>
-                </div>
-            </div>
 
-            <div class="col-md-4">
-                <div class="well">
-                  <div class="statistic-container">
-                      <i class="stat-icon fa-solid fa-dna"></i>
-                      <div>
-                          <h2 class="stat-number"><a href="/chaise/recordset/#2/RNASeq:Study/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM6JAEsIAjdafEAJQDkBBAZRwEcQAaEAUQA8AHHDIQC2OCABcA+gzFooATwlUAkgBEJAMwDWOOSAC6AXzah0YsmgoJq9Jqw49+gkeIkOBw0ZIAqc-hu26hhzKKvocWAAWKIS4SJQAigC0AJoAUgAaAOrsIACMAGyJ8QDSNF45uQDsiZwAnMUALDlJackATPpGyOjYeLAgAMKYYGKEKBBSYiNoceFRMThxVlQ4ADY4YEh4hoZAA@sort(RMT::desc::,RID)">
-                            <span class="stat-number" id="stat-transcriptomics-number">
-                              <!-- spinner: -->
-                              <i class="fas fa-sync-alt fa-spin"></i>
-                            </span>
-                            </a>
-                          </h2>
-                          <p class="statistic-label">Transcriptomics</p>
-                      </div>
-                  </div>
-                </div>
-            </div>
-
-            <div class="col-md-4">
+            <div class="col-md-3">
                 <div class="well">
                   <div class="statistic-container">
                       <i class="stat-icon fa-solid fa-clone"></i>
@@ -163,10 +153,8 @@ custom_js:
                   </div>
                 </div>
             </div>
-        </div>
 
-        <div class="row statistics" id="statistics-3">
-            <div class="col-md-4">
+            <div class="col-md-3">
                 <div class="well">
                   <div class="statistic-container">
                       <i class="stat-icon fa-solid fa-list"></i>
@@ -183,7 +171,7 @@ custom_js:
                 </div>
             </div>
 
-            <div class="col-md-4">
+            <div class="col-md-3">
                 <div class="well">
                   <div class="statistic-container">
                       <i class="stat-icon fa-solid fa-droplet"></i>
@@ -200,7 +188,7 @@ custom_js:
                 </div>
             </div>
 
-            <div class="col-md-4">
+            <div class="col-md-3">
                 <div class="well">
                   <div class="statistic-container">
                       <i class="stat-icon fa-solid fa-newspaper"></i>
