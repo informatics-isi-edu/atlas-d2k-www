@@ -29,7 +29,7 @@ scholar:
 page_gen-dirs: true # uncomment, if you prefer to generate named folders
 page_gen:
   - data: 'rebuildingakidney.projects'
-    template: 'rbk_projects'
+    template: 'rbk/projects'
     name: 'tag'
     dir: 'rebuildingakidney/projects'
 
