@@ -246,6 +246,12 @@ p.acknowledgement {
   text-align: center;
   width: 70%;
   margin: 0 auto;
+/*  background: rgba(22, 22, 30, 0.5) !important;*/
+  background-image: url("https://dev.rebuildingakidney.org/assets/img/carousel/17-CKXJ-southard-smith-ihc.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  color: #ffffff;
 }
 
 
@@ -337,13 +343,25 @@ ul.posts li time {
   color: #6E6E6E;
 }
 
+.consortium img {
+  width: 520px;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+/* Tools Carousel */
+
+.carousel-caption {
+    background-color: #777;
+}
+
 /* Homepage Pubs list */
 
 .pub-date {
     font-style: italic;
 }
 
-/* Image of the week - turn into image gallery? */
+/* Image of the week - turn into image gallery */
 
 .iotw img {
     width: 280px;

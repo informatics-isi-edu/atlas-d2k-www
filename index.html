@@ -298,11 +298,11 @@ custom_js:
 
 </div>
 <div class="row" id="community">
-  <div class="col-md-3" id="news">
+  <div class="col-md-6" id="news">
 
       <h3>Latest News</h3>
       <ul class="posts">
-        {% for post in site.posts limit: 3 %}
+        {% for post in site.posts limit: 4 %}
       <li>
         <a href="{{ post.url }}">{{ post.title }}</a><br/>
         <time>
@@ -318,35 +318,16 @@ custom_js:
   <div class="col-md-6" id="consortiums">
   <h3>Consortiums<br/>
   <small>The ATLAS-D2K Center supports the data and resources of the RBK and GUDMAP Consortiums. Click an image to learn more.</small></h3>
-
-
-  <div class="row"> <!-- Start a new row for the ads -->
-
-    <div class="col-md-6 rbk-ad">
+    <div class="consortium">
       <a href="/rebuildingakidney/">
-        <img src="/assets/img/rbk-ad.png" alt="RBK Consortium">
+        <img src="/assets/img/rbk-ad-horizontal.png" alt="RBK Consortium" class="img-responsive">
       </a>
     </div>
-
-    <div class="col-md-6 gudmap-ad">
+    <div class="consortium">
       <a href="/gudmap/">
-        <img src="/assets/img/gudmap-ad.png" alt="GUDMAP Consortium">
+        <img src="/assets/img/gudmap-ad-horizontal.png" alt="GUDMAP Consortium" class="img-responsive">
       </a>
     </div>
-
-  </div> <!-- End of the row -->
-
-</div>
-  <div class="col-md-3" id="events">
-
-    <h3>Upcoming Events</h3>
-      <ul>
-        {% for event in site.events %}
-           <li>
-              <h4><a href="{{ event.url }}">{{ event.title }}</a></h4>
-           </li>
-        {% endfor %}
-      </ul>
   </div>
 
 </div>
@@ -366,19 +347,19 @@ custom_js:
         <div class="item active">
           <img src="/assets/img/home-slides/slide-1.png" alt="...">
           <div class="carousel-caption">
-            ATLAS Cool Tool 1 - lorem ipsum dolor sit amet <a href="#">Learn more</a>
+            Bulk RNA-Seq Visualization (Violin Plots) <a href="/deriva-webapps/plot/?config=study-violin">Learn more</a>
           </div>
         </div>
         <div class="item">
           <img src="/assets/img/home-slides/slide-2.png" alt="...">
           <div class="carousel-caption">
-            ATLAS Cool Tool 2 - lorem ipsum dolor sit amet <a href="#">Learn more</a>
+            UCSC Cell Browser - Single Cell RNA-Seq Visualization <a href="/chaise/recordset/#2/RNASeq:Study/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM6JAEsIAjdafEAJQDkBBAZRwEcQAaEANUKTTABtCALzAAXQiggB9BqLRQAnlIBmAaxwKQAXQC+bUOlFk0FBNXpNWHbrwHCxE6Tb6CR4yVLoAHL4KwOPNQ1tPWoASQARbQ4IFFEpCDR+fjhRDDQcHV0gA@sort(RMT::desc::,RID)?pcid=static/home">Learn more</a>
           </div>
         </div>
         <div class="item">
           <img src="/assets/img/home-slides/slide-3.png" alt="...">
           <div class="carousel-caption">
-            Community Tool 1 - lorem ipsum dolor sit amet <a href="#">Learn more</a>
+            K.I.T. - Kidney Interactive Transcriptomics - an online analyzer for kidney single cell <br/>datasets (via the Humphreys Lab of the RBK Consortium) <a href="http://humphreyslab.com/SingleCell/" target="_blank">Learn more</a>
           </div>
         </div>
       </div>
