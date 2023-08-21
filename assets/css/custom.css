@@ -224,7 +224,7 @@ p.acknowledgement {
     /* border: 1px solid #ccc; */
 }
 
-#content .jumbotron p {
+.jumbotron p {
     font-size: 1.2em;
     margin-bottom: 0;
     font-weight: normal;
@@ -241,18 +241,24 @@ p.acknowledgement {
     margin-bottom: 0;
 }
 
-/* home jumbotron */
 .home .jumbotron {
   text-align: center;
-  width: 70%;
   margin: 0 auto;
 /*  background: rgba(22, 22, 30, 0.5) !important;*/
-  background-image: url("https://dev.rebuildingakidney.org/assets/img/carousel/17-CKXJ-southard-smith-ihc.jpg");
+  background-image: url("/assets/img/carousel/Snap-29081-cloaca-li.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
+  background-size: cover;
   color: #ffffff;
 }
+
+.home .jumbotron .overlay {
+    background-color: rgba(0, 0, 0, 0.6); /* This is a semi-transparent black color */
+    padding: 15px;
+    border-radius: 5px; /* This gives the overlay rounded corners. Optional. */
+}
+
 
 
 /* Rows of data statistics */
@@ -289,7 +295,7 @@ div#statistics-1 {
 
 i.stat-icon {
     font-size: 2.5em;
-    margin-right: 10px;
+    margin-right: 20px;
 }
 
 #home h2.stat-number {
