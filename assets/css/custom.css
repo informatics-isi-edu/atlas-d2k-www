@@ -257,6 +257,8 @@ p.acknowledgement {
     background-color: rgba(0, 0, 0, 0.6); /* This is a semi-transparent black color */
     padding: 15px;
     border-radius: 5px; /* This gives the overlay rounded corners. Optional. */
+    width: 70%;
+    margin: 0 auto;
 }
 
 
@@ -350,7 +352,7 @@ ul.posts li time {
 }
 
 .consortium img {
-  width: 520px;
+  width: 420px;
   margin: 0 auto;
   padding: 15px;
 }
@@ -434,6 +436,7 @@ ul.posts li time {
     color: #C1C1C1;
     padding: 10px;
     text-align: center;
+    margin-top: 60px;
 }
 
 #footer a {
