@@ -242,6 +242,46 @@ div#cboxCurrent {
 .shortcut-links ul li {
 font-size: 1em;
 }
+
+.shortcut-links ul.sub-list {
+  padding-left: 10px;
+}
+
+.sub-list i.fa-solid.fa-greater-than {
+    font-size: .8em;
+}
+
+.info-label {
+    position: relative;
+    /* cursor: help; */
+}
+
+.info-label i {
+    margin-left: 5px; /* Add some space between the label and the icon */
+}
+
+/* Change the default browser tooltip style (optional) */
+[data-tooltip]:hover::before {
+    content: attr(title);
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #333;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    pointer-events: none;
+    z-index: 10;
+    white-space: nowrap;
+}
+
+.info-label i:hover::before {
+    margin-bottom: 5px; /* Adjust based on your design needs */
+}
+
+
 /*
 .featured {
   padding-left: 30px;
@@ -333,11 +373,11 @@ figcaption {
     padding-top: 15px;
 }
 
-/* Footer style - static */
+/* Footer style - static
 
 #footer {
   padding-top: 20px;
-  background-color: #efefef;
+  background-color: #000;
 }
 
 #footer ul {
@@ -369,6 +409,7 @@ figcaption {
   display: flex;
 	justify-content: center;
 }
+*/
 
 /* Tutorials section */
 
