@@ -251,35 +251,33 @@ font-size: 1em;
     font-size: .8em;
 }
 
-.info-label {
+a.tooltiplink:hover {
     position: relative;
-    /* cursor: help; */
+    cursor: help;
 }
 
-.info-label i {
-    margin-left: 5px; /* Add some space between the label and the icon */
+a.tooltiplink span {
+    display: none;
 }
 
-/* Change the default browser tooltip style (optional) */
-[data-tooltip]:hover::before {
-    content: attr(title);
-    position: absolute;
-    bottom: 100%;
-    left: 50%;
-    transform: translateX(-50%);
-    background-color: #333;
-    color: #fff;
-    padding: 5px 10px;
-    border-radius: 5px;
-    font-size: 12px;
-    pointer-events: none;
-    z-index: 10;
-    white-space: nowrap;
-}
+a.tooltiplink:hover span {
+        border: #666 2px solid;
+        padding: 5px 20px 5px 5px;
+        display: block;
+        z-index: 100;
+        background: #000;
+        color: #fff;
+        left: 0px;
+        margin: 15px;
+        width: 300px;
+        position: absolute;
+        top: 15px;
+        text-decoration: none;
+        font-size: 16px;
+        border-radius: 5px;
+      }
 
-.info-label i:hover::before {
-    margin-bottom: 5px; /* Adjust based on your design needs */
-}
+
 
 
 /*
