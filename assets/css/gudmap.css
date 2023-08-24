@@ -227,52 +227,6 @@ div#cboxCurrent {
     visibility: hidden;
 }
 
-.shortcut-links ul {
-  list-style: none;
-  padding-left: 0;
-}
-
-.shortcut-links ul li {
-font-size: 1em;
-}
-
-.shortcut-links ul.sub-list {
-  padding-left: 10px;
-}
-
-.sub-list i.fa-solid.fa-greater-than {
-    font-size: .8em;
-}
-
-a.tooltiplink:hover {
-    position: relative;
-    cursor: help;
-}
-
-a.tooltiplink span {
-    display: none;
-}
-
-a.tooltiplink:hover span {
-        border: #666 2px solid;
-        padding: 5px 20px 5px 5px;
-        display: block;
-        z-index: 100;
-        background: #000;
-        color: #fff;
-        left: 0px;
-        margin: 15px;
-        width: 300px;
-        position: absolute;
-        top: 15px;
-        text-decoration: none;
-        font-size: 16px;
-        border-radius: 5px;
-      }
-
-
-
-
 /*
 .featured {
   padding-left: 30px;
