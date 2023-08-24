@@ -223,13 +223,6 @@ h1.tagline {
   margin-top: 10px;
 }
 
-.image-carousel {
-    height: 100%;
-    display: block;
-    margin-bottom: 30px;
-    margin-left: 15px;
-}
-
 div#cboxCurrent {
     visibility: hidden;
 }

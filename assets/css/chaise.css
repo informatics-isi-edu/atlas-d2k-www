@@ -64,8 +64,10 @@ span#brand-text {
     display: block;
     height: 98px;
     background: url(/assets/img/atlas-logo-inverted.png);
-    background-size: cover;
+  /*  background-size: cover; */
+    background-size: 120px 83px;
     background-repeat: no-repeat;
+    background-position: center;
     text-indent: 100%;
     white-space: nowrap;
     overflow: hidden;
@@ -89,6 +91,9 @@ ul.nav.navbar-nav.navbar-right {
     margin-top: 0;
 }
 
+a.nav-link span {
+    color: #fff;
+}
 
 /* Prevent menu from collapsing */
 
@@ -137,6 +142,7 @@ button.navbar-toggle.collapsed {
 
 a#login-link {
     margin-right: 15px;
+    color: #fff;
 }
 
 
