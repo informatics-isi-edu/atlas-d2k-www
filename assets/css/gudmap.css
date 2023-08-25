@@ -57,16 +57,6 @@ body.homebg {
 
 /* placeholder for navbar app while it's loading */
 
-navbar {
-/* height: 72px; */
-background-color: #0A414E;
-display: block;
-}
-
-.navbar-inverse .navbar-nav>li>a {
-  font-size: 14px;
-}
-
 .section-cta header .brand .cta-items, header .brand .row, header .brand .section-cta .cta-items {
     -ms-flex-wrap: nowrap;
     flex-wrap: nowrap;
@@ -193,7 +183,7 @@ h4 {
 /* Content area - home */
 .content.home {
   background-color: #efefef;
-  padding: 10px 25px 0;
+/*  padding: 10px 25px 0; */
   max-width: 1675px;
 }
 

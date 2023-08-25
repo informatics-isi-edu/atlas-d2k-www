@@ -1,6 +1,14 @@
+body {
+/*     padding-top: 70px;*/
+   margin: 0 0 50px;
+    font-size: 16px;
+    color: #4b4444;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    line-height: 1.7;
+}
 
 /*	Typography presets ------------------------------------	*/
-.bigger, .big, h1, h2, h3, h4, h5, h6 { color: #407cca; font-weight: bold; }
+/*.bigger, .big, h1, h2, h3, h4, h5, h6 { color: #407cca; font-weight: bold; } */
 
 h1 { font-size: 36px; line-height: 1.05; letter-spacing: -1px; text-align: center; }
 
@@ -246,7 +254,7 @@ body ::selection { background: #2c3e50; color: white; text-shadow: none; }
 
 section#news { border-left: 1px solid #bebebe; text-align: right; }
 
-section#news h3 { text-align: right; font-size: 2.5rem; margin-bottom: 3px; margin-top: 1.6em; text-transform: none; color: #303030; }
+section#news h3 { text-align: right; font-size: 2.5rem; margin-bottom: 3px; text-transform: none; color: #303030; }
 
 section#news h3:after { content: none; }
 
@@ -297,7 +305,7 @@ section.section-cta.section.row.clear li { padding: 0; }
 
 .feature ul { padding-left: 0; list-style-type: none; margin-left: 25px; }
 
-.feature a { color: #fff; font-weight: bold; }
+.feature a { color: #fff; font-weight: bold; padding: 10px 0; }
 
 .feature a a:hover { list-style-type: underline; }
 
@@ -398,8 +406,13 @@ span.citation { font-size: .8em; font-weight: bold; line-height: 1; }
 
 .clearfix { float: clear; }
 
-.home h2 {
+.shortcuts h2 {
     font-size: 1.3em;
+    color: #4b4444;
+}
+
+.resources ul.fa-ul {
+    padding-top: 10px;
 }
 
 @media (max-width: 740px) { .work-container .work-return { left: 0px; } .work-container h4 { margin-left: 60px; } .pi-section { float: none; } }
@@ -563,6 +576,7 @@ section#twitter { margin-top: 1em; font-family: "Helvetica Neue",Helvetica,Arial
     /* Add styles here to match your desired sub-navigation appearance */
     display: flex;
     background-color: #0a2e78;
+    background-image: linear-gradient(to right, #0a2e78, #3a7cca);
     height: 60px;
     padding-left: 35px;
 }
