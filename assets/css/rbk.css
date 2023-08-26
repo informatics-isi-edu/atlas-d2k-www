@@ -235,7 +235,11 @@ body ::selection { background: #2c3e50; color: white; text-shadow: none; }
 */
 .innercontent { max-width: 820px; margin: 0 auto; font-size: 21px; padding-bottom: 50px; }
 
-@media (max-width: 726px) { .container { padding-left: 20px; padding-right: 20px; } .mobile-full { clear: both; float: none; width: 100%; margin: 1em 0 0 0; } .mobile-full:first-child { margin-top: 0; } }
+@media (max-width: 726px) {
+  .container { padding-left: 20px; padding-right: 20px; }
+  .mobile-full { clear: both; float: none; width: 100%; margin: 1em 0 0 0; }
+  .mobile-full:first-child { margin-top: 0; }
+}
 
 /* blurb.sass */
 .home-main .container { padding-bottom: 0; }

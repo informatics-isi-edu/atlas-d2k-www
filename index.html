@@ -227,7 +227,7 @@ custom_js:
 
 <div class="row" id="community">
   <h2>Participating Consortia</h2>
-  <div class="col-md-6" id="news">
+  <div class="col-md-6" id="news-atlas">
 
     <h3>Featured Imaging Data</h3>
 
@@ -383,7 +383,7 @@ custom_js:
   <h2>Consortia Highlights</h2>
   <div class="col-md-4">
     <h3>Funding Opportunities</h3>
-    <ul>
+    <ul class="posts">
       <li><a href="/collaboration/op-pool/">Learn about Opportunity Pools</a></li>
       <li><a href="/collaboration/gudmap-collab/">Apply to be a GUDMAP Collaborating Group</a></li>
       <li><a href="/collaboration/rbk-collab/">Apply to be a RBK Collaborating Group</a></li>
@@ -391,18 +391,17 @@ custom_js:
   </div>
   <div class="col-md-4">
     <h3>Recent Publications</h3>
-    <ul>
+    <ul class="posts">
       <li><a href="https://doi.org/10.1016/j.ydbio.2021.05.014">Single cell transcriptomic analysis of external genitalia reveals complex and sexually dimorphic cell populations in the early genital tubercle</a></li>
       <li><a href="https://doi.org/10.1016/j.ydbio.2021.03.024">Altered sacral neural crest development in {Pax3} spina bifida mutants underlies deficits of bladder innervation and function</a></li>
-      <!--
       <li><a href="https://doi.org/10.1152/ajprenal.00431.2020">A Uropathogenic E. coli UTI89 model of prostatic inflammation and collagen accumulation for use in studying aberrant collagen production in the prostate</a></li>
-      -->
+
     </ul>
   </div>
   <div class="col-md-4">
     <h3>Latest News</h3>
     <ul class="posts">
-      {% for post in site.posts limit: 6 %}
+      {% for post in site.posts limit: 4 %}
     <li>
       <a href="{{ post.url }}">{{ post.title }}</a><br/>
       <time>
