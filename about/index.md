@@ -15,9 +15,7 @@ The ATLAS-D2K Center was formed to bridge this gap.
 
 ## Our Mission
 
-With the support of NIDDK and in collaboration with renowned research consortia, the ATLAS-D2K Center aims to be the foremost knowledgebase and public resource concentrating on renal and genitourinary development and disease research in both humans and mice. Our goal is to leverage the power of data science to push the boundaries of biomedical discoveries.
-
-## What We Offer
+With the support of NIDDK and in collaboration with renowned research consortia, the ATLAS-D2K Center aims to be the foremost knowledgebase and public resource concentrating on renal and genitourinary development and disease research in both humans and mice. Our goal is to leverage the power of data science to push the boundaries of biomedical discoveries through the following:
 
 - **Comprehensive Data Management:** Our platform guarantees a clean, harmonized, and constantly updated database, comprising data from the [GUDMAP consortium](/gudmap/), the [ReBuilding A Kidney (RBK) consortium](/rebuildingakidney/), and selected external sources.
 
