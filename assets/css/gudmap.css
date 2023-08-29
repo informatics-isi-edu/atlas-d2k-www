@@ -185,14 +185,7 @@ h4 {
   background-color: #efefef;
 /*  padding: 10px 25px 0; */
   max-width: 1675px;
-}
-
-.home .shortcuts {
-  display: inline-block;
-  width: 100%;
-  background-color: #ffffff;
-  padding-bottom: 50px;
-  padding-left: 30px;
+  padding-top: 30px;
 }
 
 h1.tagline {
@@ -203,19 +196,25 @@ h1.tagline {
   text-align: center;
   font-style: italic;
 }
-
+/*
 .home h2 {
   font-size: 1.3em;
 }
-
+*/
 .home .featured h3, .bottom h3 {
   font-size: 1.3em;
   margin-top: 10px;
 }
 
+#gudmap .signup a {
+    color: #fff;
+}
+
 div#cboxCurrent {
     visibility: hidden;
 }
+
+
 
 /*
 .featured {
@@ -597,6 +596,15 @@ ul.tut.nav>li>a:focus, ul.tut.nav>li>a:hover {
   background-color: #eee;
 }
 
+.posts small {
+    color: #6e6e6e;
+}
+
+div#opps {
+    background: #fff;
+    padding-bottom: 30px;
+}
+
 /* News */
 
 p.pub-date {
@@ -944,4 +952,5 @@ p.pub-date {
     /* Add styles here to customize your logo appearance */
     height: 40px;
     padding-top: 15px;
+    padding-left: 5px;
 }

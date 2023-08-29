@@ -13,7 +13,7 @@ body {
 h1 { font-size: 36px; line-height: 1.05; letter-spacing: -1px; text-align: center; }
 
 h1:after { content: url(/assets/img/header-chain.png); position: relative; text-align: center; width: 100%; height: 12px; display: block; margin-bottom: 44px; }
-
+/*
 h2 { font-size: 30px; line-height: 1.14; }
 
 h3 { font-size: 24px; line-height: 1; padding-top: 30px; }
@@ -21,7 +21,7 @@ h3 { font-size: 24px; line-height: 1; padding-top: 30px; }
 h4 { font-size: 20px; line-height: 1.38; color: #303030; margin-top: 30px; margin-bottom: 20px; }
 
 h5 { margin-top: 0; font-size: 1em; color: #444; }
-
+*/
 .small, small { font-size: .85em; line-height: 1.2; }
 
 p { margin: 0 0 20px 0; }
@@ -57,17 +57,17 @@ a.anchor:hover { color: inherit; }
 img::selection { background: transparent; }
 
 img::-moz-selection { background: transparent; }
-
+/*
 body { -webkit-tap-highlight-color: #ffffb2; }
-
+*/
 /* Basic Styles ------------------------------------	*/
 /*
 body { background: #fff; font-size: 14px; line-height: 1.6; font-family: 'Open Sans' sans-serif; color: #666; -webkit-font-smoothing: antialiased; -webkit-text-size-adjust: 100%; } */
 
 svg { height: 100%; width: 100%; }
-
+/*
 h3 { color: #407cca; padding: 0px; }
-
+*/
 fieldset { padding: 0; margin: 0; border: none; }
 
 .pull-right { float: right; }
@@ -176,10 +176,10 @@ form, fieldset { margin: 0; padding: 0; }
 /*
 .row { margin-bottom: 1em; }
 */
-.container { max-width: 820px; margin: 0 auto; padding-left: 10px; padding-right: 10px; padding-bottom: 50px; font-size: 18px; }
-
+.container { max-width: 820px; margin: 0 auto; padding-left: 10px; padding-right: 10px; padding-bottom: 50px;  }
+/*
 .container li { padding: 10px 0; }
-
+*/
 .home .container, .section-internal.container { max-width: 1200px; }
 
 .container-full { max-width: 1200px; margin: 0 auto; padding-bottom: 50px; }
@@ -254,7 +254,12 @@ body ::selection { background: #2c3e50; color: white; text-shadow: none; }
 
 .home-search .input-group .btn-default { background: #407cca; color: #fff; font-size: 18px; }
 
-.section-blurb h2 { font-size: 3rem; line-height: 3.8rem; padding-bottom: 0; -webkit-margin-after: 0; margin-bottom: 20px; margin-top: 1em; color: #303030; }
+.section-blurb h2, .shortcuts h2 { font-size: 3rem; line-height: 3.8rem; padding-bottom: 0; -webkit-margin-after: 0; margin-bottom: 20px; margin-top: 1em; /* color: #303030;*/ }
+
+#opps li small {
+    font-size: .9em;
+    color: #6E6E6E;
+}
 
 section#news { border-left: 1px solid #bebebe; text-align: right; }
 
@@ -277,47 +282,47 @@ section.section-cta.section.row.clear { margin-top: 1em; margin-bottom: 1.1em; }
 
 section.section-cta.section.row.clear li { padding: 0; }
 
-.highlighted { padding-top: 25px; padding-bottom: 25px; background-color: #4d4e4f; color: #fff; }
+#rbk .highlighted { padding-top: 25px; padding-bottom: 25px; background-color: #4d4e4f; color: #fff; }
 
-.highlighted a { color: inherit; text-decoration: underline; }
+#rbk .highlighted a { color: inherit; text-decoration: underline !important; }
 
-.highlighted p { margin: 0; }
+#rbk .highlighted p { margin: 0; }
 
-.feature { box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; min-height: 150px; padding: 1em 1em 1em 105px; position: relative; }
+#rbk .feature { box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; min-height: 150px; padding: 1em 1em 1em 105px; position: relative; }
 
-.feature i.cta-icon { font-size: 3em; padding: 0px 4px 0 20px; position: absolute; top: 0; left: 0; height: 100%; line-height: 2.2; }
+#rbk .feature i.cta-icon { font-size: 3em; padding: 0px 4px 0 20px; position: absolute; top: 0; left: 0; height: 100%; line-height: 2.2; }
 
-.feature { background: #e28394; line-height: 25px; font-size: 17px; height: 190px; }
+#rbk .feature { background: #e28394; line-height: 25px; font-size: 17px; height: 190px; }
 
-.feature i { background: #e28394; color: #fff; }
+#rbk .feature i { background: #e28394; color: #fff; }
 
-.feature h2 { color: #fff; margin-bottom: 10px; line-height: 25px; font-size: 1em; margin-top: 0; font-weight: 500; margin-left: -90px;}
+#rbk .feature h2 { color: #fff; margin-bottom: 10px; line-height: 25px; font-size: 1em; margin-top: 0; font-weight: 500; margin-left: -90px;}
 
-.feature.resources h2 { margin-bottom: 3px; }
+#rbk .feature.resources h2 { margin-bottom: 3px; }
 
-.feature p { color: #fff; margin-bottom: 5px; line-height: 25px; }
+#rbk .feature p { color: #fff; margin-bottom: 5px; line-height: 25px; }
 
-.feature { color: #0F2E42; }
+#rbk .feature { color: #0F2E42; }
 
-.feature.collaborate { background: #97be79; }
+#rbk .feature.collaborate { background: #97be79; }
 
-.collaborate i { background: #97be79; }
+#rbk .collaborate i { background: #97be79; }
 
-.feature.patients { background: #598cc9; }
+#rbk .feature.patients { background: #598cc9; }
 
-.patients i { background: #598cc9; }
+#rbk .patients i { background: #598cc9; }
 
-.feature ul { padding-left: 0; list-style-type: none; margin-left: 25px; }
+#rbk .feature ul { padding-left: 0; list-style-type: none; margin-left: 25px; }
 
-.feature a { color: #fff; font-weight: bold; padding: 10px 0; }
+#rbk .feature a { color: #fff; font-weight: bold; padding: 10px 0; }
 
-.feature a a:hover { list-style-type: underline; }
+#rbk .feature a a:hover { list-style-type: underline; }
 
-.signup { padding: 20px; text-align: center; }
+#rbk .signup { padding: 20px; text-align: center; }
 
-.signup i { display: inline; }
+#rbk .signup i { display: inline; }
 
-@media (max-width: 761px) { .section-cta.section.row.clear.highlighted { margin: 0; padding: 0; } .section-cta.section.row.clear.highlighted .content-inner.features { padding: 0; } }
+@media (max-width: 761px) { #rbk .section-cta.section.row.clear.highlighted { margin: 0; padding: 0; } #rbk .section-cta.section.row.clear.highlighted #rbk .content-inner.features { padding: 0; } }
 
 @media (max-width: 1199px) { div.feature { padding: 1em; } div.feature i.cta-icon { display: none; } }
 
@@ -340,7 +345,7 @@ p.note a { color: #fff; }
 
 .section-work .sidebar ul li { padding-bottom: 15px; line-height: 18px; font-size: 16px; }
 
-.projects-content a { font-size: 1.2em; }
+.projects-content a { font-size: 1.2em;}
 
 .section-work { overflow-x: hidden; }
 
@@ -410,9 +415,12 @@ span.citation { font-size: .8em; font-weight: bold; line-height: 1; }
 
 .clearfix { float: clear; }
 
-.shortcuts h2 {
-    font-size: 1.3em;
-    color: #4b4444;
+.shortcut-links ul li {
+  margin-bottom: 10px;
+}
+
+.container.content-inner.data {
+    padding-bottom: 0;
 }
 
 .resources ul.fa-ul {

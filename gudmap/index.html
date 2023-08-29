@@ -6,7 +6,7 @@ tags: []
 ---
 
 
-<div class="container-fluid content home">
+<div class="container-fluid content home" id="gudmap">
 <div class="row">
   <h1 class="tagline">The GenitoUrinary Development Molecular Anatomy Project (GUDMAP) provides data and tools<br/> that facilitate research on the GenitoUrinary (GU) tract for the scientific and medical community.</h1>
   <div class="col-md-12">
@@ -100,6 +100,7 @@ tags: []
       <h4 class="media-heading"><a href="/tutorials/kidney-dev/">Development of the Kidney in Mouse and Human</a></h4>
     </div>
   </div>
+  <!--
   <div class="media">
     <div class="media-left">
       <a href="/tutorials/prostate-dev/">
@@ -110,7 +111,7 @@ tags: []
       <h4 class="media-heading"><a href="/tutorials/prostate-dev/">Prostate Development</a></h4>
     </div>
   </div>
-
+-->
 </div>
   <div class="col-md-4">
     <h3>Resources <small><em><a href="/resources/">View all</a></em></small></h3>
@@ -118,14 +119,6 @@ tags: []
       <li class="list-group-item"><h4 class="media-heading"><a href="/resources/genital-tubercule-atlas/">Mouse Genital Tubercule Atlas</a></h4></li>
       <li class="list-group-item"><h4 class="media-heading"><a href="/resources/adult-mouse-penis-3d/">Mouse Penis 3D Atlas</a></h4></li>
       <li class="list-group-item"><h4 class="media-heading"><a href="/resources/ontology/">Ontology</a></h4></li>
-    </ul>
-
-    <h3>GUDMAP Publications: <a href="/chaise/recordset/#2/Common:Publication/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM6JHQBcAjdafEAYRQFtaUIQAaEABTRIBsBLLMIj0YB9GhFQZBaWsIBmAaxwBPEAF0AvqwBKASQAia1lgAWKPjiSUAigFoAzAGkArADY16jUA@sort(Year::desc::,Month::desc::,RID::desc::)">240+</a></h3>
-
-    <ul class="list-group">
-      <li class="list-group-item"><h4 class="media-heading"><a href="https://www.doi.org/10.1016/j.devcel.2022.07.004">Single-cell and spatial mapping identify cell types and signaling networks in the human ureter</a> <small><em>(Dev Cell, August 2022)</em></small></h4></li>
-      <li class="list-group-item"><h4 class="media-heading"><a href="https://doi.org/10.1016/j.ydbio.2021.05.014">Single cell transcriptomic analysis of external genitalia reveals complex and sexually dimorphic cell populations in the early genital tubercle</a> <small><em>(Dev Bio, September 2021)</em></small></h4></li>
-      <li class="list-group-item"><h4 class="media-heading"><a href="https://doi.org/10.1016/j.ydbio.2021.03.024">Altered sacral neural crest development in <em>Pax3</em> spina bifida mutants underlies deficits of bladder innervation and function</a> <small><em>(Dev Bio, August 2021)</em></small></h4></li>
     </ul>
   </div>
 
@@ -142,6 +135,53 @@ tags: []
     </div>
 
 </div>
+<!-- integrate with bottom of page -->
+<div class="row" id="opps">
+  <h2>GUDMAP Highlights</h2>
+  <div class="col-md-4">
+    <h3>Funding Opportunities</h3>
+    <ul class="posts">
+      <li><a href="/collaboration/op-pool/">Learn about the 2024 GUDMAP Opportunity Pool (coming soon)</a></li>
+      <li><a href="/collaboration/rbk-collab/">Apply to be a GUDMAP Collaborating Group (open)</a></li>
+    </ul>
+  </div>
+  <div class="col-md-4">
+    <h3>Recent Publications</h3>
+    <ul class="posts">
+      <li><a href="https://www.doi.org/10.1016/j.devcel.2022.07.004">Single-cell and spatial mapping identify cell types and signaling networks in the human ureter</a> <small><em>(Dev Cell, August 2022)</em></small></li>
+      <li><a href="https://doi.org/10.1016/j.ydbio.2021.05.014">Single cell transcriptomic analysis of external genitalia reveals complex and sexually dimorphic cell populations in the early genital tubercle</a> <small><em>(Dev Bio, September 2021)</em></small></li>
+      <li><a href="https://doi.org/10.1016/j.ydbio.2021.03.024">Altered sacral neural crest development in <em>Pax3</em> spina bifida mutants underlies deficits of bladder innervation and function</a> <small><em>(Dev Bio, August 2021)</em></small></li>
+    </ul>
+    <a id="more-news" href="/chaise/recordset/#2/Common:Publication/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM6JHQBcAjdafEAYRQFtaUIQAaEABTRIBsBLLMIj0YB9GhFQZBaWsIBmAaxwBPEAF0AvqwBKASQAia1lgAWKPjiSUAigFoAzAGkArABY16jUA@sort(Year::desc::,Month::desc::,RID::desc::)">more publications ></a>
+  </div>
+  <div class="col-md-4">
+    <h3>Latest News</h3>
+    <ul class="posts">
+      {% assign counter = 0 %}
+        {% for post in site.posts %}
+          {% if post.tags contains 'gudmap' %}
+          {% assign counter = counter | plus: 1 %}
+          <li>
+            <a href="{{ post.url }}">{{ post.title }}</a><br/>
+            <time>
+              {{ post.date | date: "%m/%d/%Y" }}
+            </time>
+          </li>
+          {% if counter == 4 %}
+          {% break %}
+          {% endif %}
+          {% endif %}
+        {% endfor %}
+    </ul>
+
+  <a id="more-news" href="/rebuildingakidney/news/">more news ></a><br>
+  <!--    <a href="/publications/">publications ></a> -->
+
+
+  </div>
+</div>
+
+
 </div>
 <script>
 

@@ -5,8 +5,6 @@ title: About the ATLAS-D2K Center
 
 In 2022, The NIDDK of NIH funded the creation of an Analysis, Technology, Leadership, Administration and Science (ATLAS) Center with the overarching goal of building the "go-to" open-access resource for the research community of mouse and human renal and genitourinary development and disease.
 
-## About the ATLAS-D2K Center
-
 In the current age of accelerated molecular technology advancements, biomedical research has witnessed important innovations, including cutting-edge techniques like single-cell transcriptomics, 2D/3D imaging technologies, and spatial transcriptomic methods. Simultaneously, we are observing exponential growth in data science technologies, offering novel ways to store, integrate, and analyze vast and diverse datasets. Such technologies, when combined, possess the potential to revolutionize our understanding of developmental processes and disease mechanisms, offering an unparalleled view into tissue organization, cell interactions, and gene regulation.
 
 However, despite these advancements, researchers face significant challenges in efficiently processing, accessing, and analyzing this deluge of data. Such challenges often hinder the exploration of renal and genitourinary biology – areas of immense significance. There is a pronounced gap in bioinformatic and computational tools tailored for users without extensive computational backgrounds, which restricts the full potential of existing datasets.
