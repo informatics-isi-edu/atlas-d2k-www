@@ -10,7 +10,7 @@ The (Re)Building a Kidney consortium (RBK) is an initiative funded by the Nation
 
 The RBK recognizes that collaborations are essential for the RBK to fully achieve the objectives of rebuilding and repairing kidneys. Thus, the ATLAS-D2K Center, the coordinating Hub for the RBK, will administer a funding opportunity to support research efforts that address scientific gaps and challenges identified by the RBK or to form new partnerships. Applications are sought from both internal and external investigators to support collaborative research efforts.
 
-### Funding Opportunity Announcement
+## Funding Opportunity Announcement
 
 The RBK Opportunity Pool (RBK OP) invites investigators to submit applications that, if successful, will become part of the RBK (For more information see [RFA-DK- 19-007](https://grants.nih.gov/grants/guide/rfa-files/RFA-DK-19-007.html)). The RBK OP aims to support the goals and address keys areas of scientific interest to the RBK through the solicitation of additional projects and/or expertise in specific subject areas that promote collaborative efforts between RBK researchers and/or forge new interactions with the outside community.
 
@@ -28,7 +28,7 @@ There are several key areas of scientific interest to the RBK which include, but
 * Develop new tools to non-invasively image repair and regeneration.
 * Develop mouse reporter lines to study adaptive, maladaptive and failed repair.
 
-### Application
+## Application
 
 Applications may request up to $100,000 (total costs) for one year and are due **Monday, April 3, 2023**.
 
@@ -41,20 +41,20 @@ Applications may request up to $100,000 (total costs) for one year and are due *
 
 If you have any questions about using the portal, please contact [help@atlas-d2k.org](mailto:help@atlas-d2k.org).
 
-### Budget
+## Budget
 
 - Applications may request **up to $100,000 (direct + indirect costs) total costs for one year**.
 - The costs must include travel of key personnel to at least one of the RBK semi-annual meetings in the Bethesda MD area.
 - Awards will be made as subcontracts from the ATLAS-D2K Center based at the Harvard University and not directly by the NIH.
 
-### Eligible Project Directors/Principal Investigators
+## Eligible Project Directors/Principal Investigators
 
 - Individuals with the skills, knowledge, and resources necessary to carry out the proposed research are invited to work with their institution to develop an application for support.
 - Individuals from underrepresented racial and ethnic groups as well as individuals with disabilities are always encouraged to apply for NIH support.
 - Early-stage investigators (ESIs) are encouraged to apply, but they must have a full-time faculty position, or an equivalent position at non- academic institutions.
 - Foreign Institutions are eligible to apply.
 
-### Eligible Organizations
+## Eligible Organizations
 
 Higher Education Institutions
 - Public/State Controlled Institution of Higher Education
@@ -76,7 +76,7 @@ For-Profit Organizations
 - Non-domestic (non-U.S.) components of U.S. Organizations are eligible to apply.
 - Foreign components, as defined in the NIH Grants Policy Statement, are allowed.
 
-### Peer Review
+## Peer Review
 
 - All applications will be peer-reviewed, and the reviews will be coordinated by the ATLAS-D2K Center and not the NIH/NIDDK.
 - Reviewers will score applications based on three scoring criteria:
@@ -98,7 +98,7 @@ For-Profit Organizations
     - Does the applicant(s) state a willingness to travel key personnel at least once a year to the RBK semi-annual meeting in the Bethesda MD area?
     - Does the applicant(s) state a willingness to adhere to all RBK practices, protocols, and policies including the expectation that participating Institutions are expected to sign-on to the Consortium’s Confidentiality and Nondisclosure Policy.
 
-### Additional Information
+## Additional Information
 
 - Applications that are incomplete, non-compliant, and/or nonresponsive will not be reviewed.
 - No additional materials may be submitted after the receipt date.
@@ -113,11 +113,11 @@ For-Profit Organizations
 - Funded awards are not allowed to submit a competitive renewal application.
 - Unfunded applications are not allowed to revise and resubmit an amended application.
 
-### Policies
+## Policies
 
 Awardees will become members of the RBK and have the same responsibilities and access to data and results as other RBK awardees and must follow the RBK sharing policies. As such, all awardees and the participating Institution(s) must sign the RBK Confidential Disclosure Agreement (CDA) and Material Transfer Agreement (MTA) documents. No edits to either the CDA or MTA will be allowed. Per the General Collaborations policy, roles of Collaborators, the RBK Steering Committee will be defined by the original RBK FOAs. As such, collaborators funded by this FOA will not be granted formal membership on the RBK Steering Committee (SC).
 
-### Progress Reports
+## Progress Reports
 
 A written summary of the accomplishments from the funded projects is due at the completion of the funding period.
 
@@ -127,13 +127,13 @@ Limited exceptions to the requirement for community dissemination may be identif
 
 Awardees will comply with and implement the recommendations and decisions of the SC with respect to the sharing of information, data, biosamples, protocols, resources, methods and analyses developed by the RBK investigators under the RBK.
 
-### Acknowledgment
+## Acknowledgment
 
 Awardees must acknowledge the RBK in all posters, manuscripts or scientific materials generated in part or whole using funds from the RBK using the following text:
 
 “Research reported in this [poster/manuscript] was supported by the National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK) Rebuilding a Kidney	(RBK)	Opportunity	Pool,	www.rebuildingakidney.org),	under	award	number 1U24DK135157-01”
 
-### Scientific/Research Contact(s)
+## Scientific/Research Contact(s)
 
 Eric W. Brunskill Ph.D.<br/>
 National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK) <br/>
