@@ -206,7 +206,7 @@ h1.tagline {
   margin-top: 10px;
 }
 
-#gudmap .home h2 {
+#gudmap.home h2 {
   font-size: 28px;
 }
 
@@ -214,7 +214,7 @@ h1.tagline {
     color: #fff;
 }
 
-#gudmap .content {min-height: auto;}
+#gudmap.content {min-height: auto;}
 
 div#cboxCurrent {
     visibility: hidden;
