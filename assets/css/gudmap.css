@@ -204,15 +204,19 @@ h1.tagline {
 .home .featured h3, .bottom h3 {
   font-size: 18px;
   margin-top: 10px;
+  font-weight: bold;
 }
 
 #gudmap.home .row {
   max-width: 100%;
 }
 
+#gudmap.home h1, #gudmap.home h2, #gudmap.home h3 {
+    margin-bottom: 10px;
+}
+
 #gudmap.home h2 {
-  font-size: 28px;
-  font-weight: 500;
+  font-weight: bold;
   text-align: left;
   font-size: 18px;
 }
