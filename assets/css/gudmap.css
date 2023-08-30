@@ -202,12 +202,23 @@ h1.tagline {
 }
 */
 .home .featured h3, .bottom h3 {
-  font-size: 1.3em;
+  font-size: 18px;
   margin-top: 10px;
+}
+
+#gudmap.home .row {
+  max-width: 100%;
 }
 
 #gudmap.home h2 {
   font-size: 28px;
+  font-weight: 500;
+  text-align: left;
+  font-size: 18px;
+}
+
+#gudmap.home .shortcuts {
+  padding-left: 30px;
 }
 
 #gudmap .signup a {
