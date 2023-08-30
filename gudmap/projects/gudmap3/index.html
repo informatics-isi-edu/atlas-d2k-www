@@ -1,0 +1,14 @@
+---
+layout: gudmap/projects-groups
+title: GUDMAP3 Projects
+---
+
+<h3>GUDMAP 3</h3>
+<p><em>Funding period: 2016 through 2021 (<a href="https://grants.nih.gov/grants/guide/rfa-files/RFA-DK-15-015.html">RFA-DK-15-015</a>)<br/>
+Main focus is expanding our understanding of human development of the genito-urinary system.</em></p>
+<ul class="projects-list">
+{% for project in site.data.gudmap.projects-g3 %}
+  <li><a href="/gudmap/projects/gudmap3/{{project.slug}}/">{{project.project_title}}</a>  <small>({{project.pi}}, <em>{{project.institute}}</em>{% if project.copi != null %}
+    / {{project.copi}}, <em>{{project.coinstitute}}</em>{% elsif project.multipis != null %}{% for item in project.multipis %}  / {{item.multipi}}, <em>{{item.mpi-institute}}</em>{% endfor %}{% endif %})</small></li>
+{% endfor %}
+</ul>

@@ -1,6 +1,86 @@
 ---
-layout: gudmap-sub
+layout: gudmap/page
 title: GUDMAP Projects
+redirect_from:
+  - /about/projects/
 ---
 
-TBD
+<h3>GUDMAP 4</h3>
+<p><em>Funding period: 2021 through 2026 (<a href="https://grants.nih.gov/grants/guide/rfa-files/RFA-DK-20-013.html">RFA-DK-20-013</a>)<br/>
+ The goal of this phase of GUDMAP is to establish a comprehensive understanding of kidney and lower urinary tract development and maturation to inform the study of tissue maturation and aging, organ dysgenesis and disease, and ultimately organ repair and regeneration.</em>
+<ul class="projects-list">
+{% for project in site.data.gudmap.projects-g4 %}
+	<li><a href="/gudmap/projects/gudmap4/{{ project.slug}}/">{{project.project_title}}</a>  <small>({{project.pi}}, <em>{{project.institute}}</em>{% if project.copi != null %}
+    / {{project.copi}}, <em>{{project.coinstitute}}</em>{% elsif project.multipis != null %}{% for item in project.multipis %}  / {{item.multipi}}, <em>{{item.mpi-institute}}</em>{% endfor %}{% endif %})</small></li>
+{% endfor %}
+</ul>
+
+<hr>
+
+<h3>GUDMAP 3</h3>
+<p><em>Funding period: 2016 through 2021 (<a href="https://grants.nih.gov/grants/guide/rfa-files/RFA-DK-15-015.html">RFA-DK-15-015</a>)<br/>
+Main focus is expanding our understanding of human development of the genito-urinary system.</em></p>
+<ul class="projects-list">
+{% for project in site.data.gudmap.projects-g3 %}
+	<li><a href="/gudmap/projects/gudmap3/{{ project.slug}}/">{{project.project_title}}</a>  <small>({{project.pi}}, <em>{{project.institute}}</em>{% if project.copi != null %}
+    / {{project.copi}}, <em>{{project.coinstitute}}</em>{% elsif project.multipis != null %}{% for item in project.multipis %}  / {{item.multipi}}, <em>{{item.mpi-institute}}</em>{% endfor %}{% endif %})</small></li>
+{% endfor %}
+</ul>
+
+<hr>
+
+<h3>GUDMAP 2</h3>
+
+<p><em>Funding period: 2011 through 2016 (<a href="http://grants.nih.gov/grants/guide/rfa-files/RFA-DK-11-001.html">RFA-DK-11-001</a>)<br>
+Main focus is lower urinary tract (includes human GUDMAP extension).</em></p>
+
+<p>Project descriptions for <a href="/gudmap/projects/gudmap2/">GUDMAP 2</a> :</p>
+
+<ul>
+	<li><a href="/gudmap/projects/gudmap2/cohn-group/">Marty Cohn </a></li>
+		<li><a href="/gudmap/projects/gudmap2/edinburgh-group/">Edinburgh Core Database</a></li>
+		<li><a href="/gudmap/projects/gudmap2/keast-group/">Janet Keast</a></li>
+		<li><a href="/gudmap/projects/gudmap2/mcmahon-group/">Andy McMahon </a></li>
+		<li><a href="/gudmap/projects/gudmap2/mendelsohn-group/">Cathy Mendelsohn</a></li>
+</ul>
+
+<hr>
+
+<h3>GUDMAP 1</h3>
+
+<p><em>Funding period: 2005 through 2011 (<a href="https://grants.nih.gov/grants/guide/pa-files/PAR-04-042.html">PAR-04-042</a>)<br>
+Main focus was the kidney, also minor focus on reproductive system, bladder, pelvic region and prostate.</em></p>
+<p>Project descriptions for <a href="/gudmap/projects/gudmap1/">GUDMAP 1:</a></p>
+<ul>
+<li><a href="/gudmap/projects/gudmap1/capel-group/">Blanche Capel</a></li>
+  <li><a href="/gudmap/projects/gudmap1/gaido-group/">Kevin Gaido</a></li>
+  <li><a href="/gudmap/projects/gudmap1/davidson-group/">Duncan Davidson (Editorial Office and Database Core)</a></li>
+  <li><a href="/gudmap/projects/gudmap1/lessard-group/">Jim Lessard</a></li>
+  <li><a href="/gudmap/projects/gudmap1/little-group/">Melissa Little</a></li>
+  <li><a href="/gudmap/projects/gudmap1/mcmahon-group/">Andy McMahon</a></li>
+  <li><a href="/gudmap/projects/gudmap1/mendelsohn-group/">Cathy Mendelsohn</a></li>
+  <li><a href="/gudmap/projects/gudmap1/potter-group/">Steve Potter </a></li>
+  <li><a href="/gudmap/projects/gudmap1/southard-smith-group/">Michelle Southard-Smith</a></li>
+  <li><a href="/gudmap/projects/gudmap1/vezina-group/">Chad Vezina</a></li>
+  <li><a href="/gudmap/projects/gudmap1/zhang-group/">Pumin Zhang </a></li>
+</ul>
+
+<hr>
+
+<h3>nGUDMAP</h3>
+
+<p><em>Funding period: 2013 through 2015 (<a href="http://grants.nih.gov/grants/guide/rfa-files/RFA-DK-12-024.html">RFA-DK-12-024</a>)<br>
+Focus on nociceptors (pain receptors) and associated cell types in pain processing of the urinary tract and pelvic region.</em></p>
+<p>Project descriptions for <a href="/gudmap/projects/ngudmap/">nGUDMAP</a>:</p>
+<ul>
+  <li><a href="/gudmap/projects/ngudmap/ahern-group/">Gerard Ahern</a></li>
+  <li><a href="/gudmap/projects/ngudmap/baldock-group/">Richard Baldock</a></li>
+  <li><a href="/gudmap/projects/ngudmap/edinburgh-group/">Edinburgh Core Database</a></li>
+  <li><a href="/gudmap/projects/ngudmap/jain-group/">Sanjay Jain</a></li>
+  <li><a href="/gudmap/projects/ngudmap/southard-smith-group/">Michelle Southard-Smith</a></li>
+  <li><a href="/gudmap/projects/ngudmap/keast-group/">Janet Keast</a></li>
+</ul>
+
+<hr>
+
+<p>The original database design &amp; implementation is credited to Derek Houghton (<a href="mailto:derek.houghton@igmm.ed.ac.uk">derek.houghton@igmm.ed.ac.uk</a>)</p>
