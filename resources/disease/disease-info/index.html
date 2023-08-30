@@ -15,7 +15,7 @@ redirect_from:
 
 <p>Disease terms are obtained by querying OMIM for a range of genitourinary related terms (for example - <strong><em>genitourinary</em></strong>, <strong><em>GU</em></strong>, <strong><em>renal, nephron, urologic</em> etc.</strong>" within the <strong><em>Clinical Synopsis, Title and Text</em></strong> fields of the OMIM entry. The search is restricted to entries with either the <strong>#(pound)</strong>, <strong>%(percent)</strong> or <strong>'none' prefix</strong>. These three properties ensure that only entries that describe phenotypes are returned (avoiding gene entries). </p>
 <p>Disease associations are determined for all genes that have in situ data in GUDMAP. In order to do this an additional text search for the orthologous human gene symbol within the main text of the OMIM entry is done. If the gene symbol is present an association between the disease and the gene is assumed. Associations are then assessed manually after including disease-gene associations from NCBI.</p>
-<h3>NCBI evidence for gene-disease associations</h3>
+<h4>NCBI evidence for gene-disease associations</h4>
 <p>In addition to text-mining OMIM entries for evidence of disease-gene associations, associations are also obtained direct from NCBI via the <em>mim2genes</em> file - downloaded from the NCBI ftp site (<a href="ftp://ftp.ncbi.nlm.nih.gov/gene/DATA/">ftp://ftp.ncbi.nlm.nih.gov/gene/DATA/</a>). The <em>mim2genes</em> file is curated by NCBI and is a list of Entrez Gene IDs and OMIM IDs that are associated with one another.</p>
 <!-- <p><strong>Assessing Disease-Gene Associations (Flags)</strong><br />
 If an association is included in NCBIs <em>mim2genes</em> file then the association is considered valid and has a normal (N) flag. If the association is not included in the NCBI <em>mim2genes</em> file then the main text of the OMIM entry is check manually to assess whether the association is genuine or not. </p>
@@ -31,10 +31,10 @@ If an association is included in NCBIs <em>mim2genes</em> file then the associat
 
 <h2><a name="Phenotype_Info" id="Phenotype_Info"></a>Phenotype-Gene Associations</h2>
 <h3>About phenotype associations</h3>
-  <p>The phenotype-gene associations are obtained from the <a href="http://www.informatics.jax.org/phenotypes.shtml" target="_blank">MGI (Mouse Genome Informatics)</a>. A gene is considered associated with a particular Mammalian Phenotype (MP) term if a mutant allele of that gene has been annotated with that MP term.</p>
+<p>The phenotype-gene associations are obtained from the <a href="http://www.informatics.jax.org/phenotypes.shtml" target="_blank">MGI (Mouse Genome Informatics)</a>. A gene is considered associated with a particular Mammalian Phenotype (MP) term if a mutant allele of that gene has been annotated with that MP term.</p>
 
-  <h3>Derived annotations</h3>
-  <p>When search for genes associated with a phenotpye term: If a gene has a derived annotation to the MP search term it means that the gene is directly annotated to a different MP term that, according to the MGI MP Ontology, is a child term of the MP search term.</p>
+<h3>Derived annotations</h3>
+<p>When search for genes associated with a phenotpye term: If a gene has a derived annotation to the MP search term it means that the gene is directly annotated to a different MP term that, according to the MGI MP Ontology, is a child term of the MP search term.</p>
 
 <p>For example, the gene <strong>Acvr2a</strong> has a derived annotation to <strong>abnormal corpus luteum</strong> due to the fact that <strong>Acvr2a</strong> is directly annotated to <strong>absent corpus luteum</strong> – which, according to the MGI MP Ontology is a child term of <strong>abnormal corpus luteum</strong>. </p>
 

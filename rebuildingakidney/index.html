@@ -4,32 +4,8 @@ tag:
 title: (Re)Building A Kidney (RBK) Consortium
 ---
 
-<div class="home">
+<div class="home" id="rbk">
   <div class="home-main">
-    <div class="row" id="home-search">
-      <div class="col-md-12 home-search">
-        <form class="input-group search">
-          <div class="input-group-btn search-panel">
-              <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-                <span id="search_concept">Search by:</span> <span class="caret"></span>
-              </button>
-              <ul class="dropdown-menu" role="menu">
-                <li><a href="#gene">Gene</a></li>
-                <li><a href="#anatomy">Anatomy</a></li>
-              </ul>
-          </div>
-          <input type="hidden" name="search_param" value="all" id="search_param">
-          <input type="text" class="form-control" name="x" placeholder="Search our data...">
-
-          <span class="input-group-btn">
-            <button class="btn btn-default" type="submit" onClick="search('recordset')">
-              <i class="fa fa-search" aria-hidden="true"></i>
-            </button>
-          </span>
-
-        </form>
-      </div>
-    </div>
     <div class="container content-inner">
 
     <section class="section-cta section row clear">
@@ -49,8 +25,11 @@ title: (Re)Building A Kidney (RBK) Consortium
                   </li>
                   <li><i class="fa-li fa fa-arrow-circle-right"></i><a href="/chaise/recordset/#2/Protocol:Protocol/Consortium=RBK?pcid=static/home">Lab Protocols</a>
                   </li>
+                  <!--
                   <li><i class="fa-li fa fa-arrow-circle-right"></i><a href="/chaise/recordset/#2/Common:Gene?pcid=static/home">Genes</a>
                   </li>
+                    -->
+
                   <li><i class="fa-li fa fa-arrow-circle-right"></i><a href="/cell-lines/">iPSC Cell Lines</a>
                   </li>
                   <li><i class="fa-li fa fa-arrow-circle-right"></i><a href="/chaise/recordset/#2/Antibody:Antibody_Tests/Consortium=RBK?pcid=static/home">Antibody Validation</a>
@@ -59,8 +38,6 @@ title: (Re)Building A Kidney (RBK) Consortium
                   </li>
                 </ul>
               </div>
-            </a>
-
         	</div>
         </section>
 
@@ -71,10 +48,10 @@ title: (Re)Building A Kidney (RBK) Consortium
               <i class="fa fa-dollar fa-fw cta-icon"></i>
               <h2>Funding opportunities</h2>
               <ul class="fa-ul">
-                <li><i class="fa-li fa fa-arrow-circle-right"></i><a href="/collaborate.html#ppp" class="">
-                  Apply for the Partnership Project Program
+                <li><i class="fa-li fa fa-arrow-circle-right"></i><a href="/collaborate/op-pools/" class="">
+                  Apply for an Opportunity Pool Program
                 </a></li>
-                <li><i class="fa-li fa fa-arrow-circle-right"></i><a href="/collaborate.html#collaborator" class="">
+                <li><i class="fa-li fa fa-arrow-circle-right"></i><a href="/collaborate/rbk-collab/" class="">
                   Apply to become a Collaborating Project
                 </a></li>
               </ul>
@@ -102,45 +79,108 @@ title: (Re)Building A Kidney (RBK) Consortium
   <p><i class="fa fa-envelope"></i> To stay updated about <a href="/collaborate.html">funding opportunities</a> and project updates, <a href="http://eepurl.com/buBSC5">sign up for our mailing list here</a>.</p>
   </div>
 
-  <section class="section-blurb">
-    <div class="container content-inner features">
-      <section class="section-blurb section row clear">
-        <div class="col six blurb mobile-full">
-          <section id="twitter">
-            <a class="twitter-timeline"
-            data-lang="en"
-            data-width="500"
-            data-height="400"
-            data-theme="light"
-            data-link-color="#407cca"
-            dnt="true"
-            href="https://twitter.com/ReBuildaKidney">Tweets by ReBuildaKidney</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-          </section>
-
-        </div>
-        <div class="col six mobile-full">
-
-          <section id="news">
-            <h3>Latest News</h3>
-            <ul class="posts">
-              {% for post in site.posts limit: 4 %}
-            <li>
-              <h4>
-                <a href="{{ post.url }}">{{ post.title }}</a>
-              </h4>
-              <time>
-                {{ post.date | date: "%m/%d/%Y" }}
-                </time>
+  <div class="container content-inner data">
+    <div class="col-md-12">
+      <div class="shortcuts alternate">
+      <h2>Browse these shortcuts to RBK's data available in ATLAS-D2K</h2>
+      <div class="row shortcut-links">
+        <div class="col-md-4">
+          <ul>
+            <li class="sub-parent">SPECIES include Human and Mouse</li>
+            <li class="sub-parent">IMAGING DATA</li>
+            <li class="info-label"><a class="tooltiplink" href="#">Specimen Data <i class="fas fa-info-circle"></i><span>Represents the tissue used in experiments and is where imaging data is stored.</span></a>
+              <ul class="sub-list">
+                <li><i class="fa-solid fa-greater-than"></i> <a href="/chaise/recordset/#2/Gene_Expression:Specimen/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM6JHQBcAjdafEAcRwhwH0BRADwAcMckkBLFCEADQgAyqxxZuAW1r0AglzABPegBVFY+gDMA1jkUgAugF8hAJQCSAEUNCsACxTdcSSgEYAbAFoATJYBiAAqGJsjo2HiwIADCfKgYRNxokoIg9o7OlKYAQgDSwcZAA@sort(RCT::desc::,Stage_Ordinal,RID)">Immunohistochemistry (IHC)</a></li>
+                <li><i class="fa-solid fa-greater-than"></i> <a href="/chaise/recordset/#2/Gene_Expression:Specimen/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM6JHQBcAjdafEAcRwhwH0BRADwAcMckkBLFCEADQgAyqxxZuAW1r0AglzABPegBVFY+gDMA1jkUgAugF8hAJQCSAEUNCsACxTdcSSgEYAbAFoATJYBipoYmyOjYeLAgAMJ8qBhE3GiSgiD2js6UpgBCANJBxkA@sort(RCT::desc::,Stage_Ordinal,RID)">In-Situ Hybridization (ISH)</a></li>
+                <!--
+                <li><i class="fa-solid fa-greater-than"></i> <a href="/chaise/recordset/#2/RNASeq:Study/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM6JAEsIAjdafEAJQDkBBAZRwEcQAaEAUQA8AHHDIQC2OCABcA+gzFooATwlUAkgBEJAMwDWOOSAC6AXzah0YsmgoJq9Jqw49+gkeIkOBw0ZIAqc-hu26hhzKKvocWAAWKIS4SJQAjABsALRU8fT6BoZAA@sort(RMT::desc::,RID)">Imaging Mass Cytometry (IMC)</a></li>
+                -->
+                <li class="sub-parent">VISUALIZATION TOOLS</li>
+                <li><a href="/deriva-webapps/plot/?config=study-violin">mRNA-Seq Violin Plots</a></li>
+                <li><a href="/chaise/recordset/#2/RNASeq:Study/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM6JAEsIAjdafEAJQDkBBAZRwEcQAaEANUKTTABtCALzAAXQiggB9BqLRQAnlIBmAaxwKQAXQC+bUOlFk0FBNXpNWHbrwHCxE6Tb6CR4yVLoAHL4KwOPNQ1tPWoASQARbQ4IFFEpCDR+fjhRDDQcPWR0bDxYEABhSVQMcTQAW3YQLAALFEJcJEoqACEAaRDdIA@sort(RMT::desc::,RID)">scRNA-Seq Scatter Plots</a></li>
+              </ul>
             </li>
-            {% endfor %}
-            </ul>
-            <a id="more-news" href="/news/">more news ></a><br>
-            <a href="/publications/">publications ></a>
-          </section>
+          </ul>
         </div>
-      </section>
-    </div>
-  </section>
+        <div class="col-md-4">
+          <ul>
+            <li class="sub-parent">OMICS DATA</li>
+            <li class="info-label"><a class="tooltiplink" href="">Study data  <i class="fas fa-info-circle"></i><span>Describes studies of omics data, organized by Experiment and Replicate records.</span></a>
+              <ul class="sub-list">
+                <li><i class="fa-solid fa-greater-than"></i> <a href="/chaise/recordset/#2/RNASeq:Study/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM6JAEsIAjdafEAJQDkBBAZRwEcQAaEAUQA8AHHDIQC2OCABcA+gzFooATwlUAkgBEJAMwDWOOSAC6AXzah0YsmgoJq9Jqw49+gkeIkOBw0ZIAqc-hu26hhzKKvocWAAWKIS4SJQAigC0AJoAUgAaAOr6Rsjo2HiwIADCKBCoGGKEaELsIJHRsZRUAEIA0jmGQA@sort(RMT::desc::,RID)">mRNA-Seq</a></li>
+                <li><i class="fa-solid fa-greater-than"></i> <a href="/chaise/recordset/#2/RNASeq:Study/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM6JAEsIAjdafEAJQDkBBAZRwEcQAaEAUQA8AHHDIQC2OCABcA+gzFooATwlUAkgBEJAMwDWOOSAC6AXzah0YsmgoJq9Jqw49+gkeIkOBw0ZIAqc-hu26hhzKKvocWAAWKIS4SJQAigC0AJoAUskATPpGyOjYeLAgAMIoEKgYYoRoQuwgkdGxlFQAQgDS2YZAA@sort(RMT::desc::,RID)">scRNA-Seq</a></li>
+                <li><i class="fa-solid fa-greater-than"></i> <a href="/chaise/recordset/#2/RNASeq:Study/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM6JAEsIAjdafEAJQDkBBAZRwEcQAaEAUQA8AHHDIQC2OCABcA+gzFooATwlUAkgBEJAMwDWOOSAC6AXzah0YsmgoJq9Jqw49+gkeIkOBw0ZIAqc-hu26hhzKKvocWAAWKIS4SJQAjABsALQAigDSNF76Rsjo2HiwIADCKBCoGGKEaELsIJHRsZRUAELpOYZAA@sort(RMT::desc::,RID)">snRNA-Seq</a></li>
+                <li><i class="fa-solid fa-greater-than"></i> <a href="/chaise/recordset/#2/RNASeq:Study/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM6JAEsIAjdafEAJQDkBBAZRwEcQAaEAUQA8AHHDIQC2OCABcA+gzFooATwlUAkgBEJAMwDWOOSAC6AXzah0YsmgoJq9Jqw49+gkeIkOBw0ZIAqc-hu26hhzKKvocWAAWKIS4SJQAigC0AJoAUgAayfpGyOjYeLAgAMIoEKgYYoRoQuwgkdGxlFQAQgDS2YZAA@sort(RMT::desc::,RID)">ChiP-Seq</a></li>
+                <li><i class="fa-solid fa-greater-than"></i> <a href="/chaise/recordset/#2/RNASeq:Study/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM6JAEsIAjdafEAJQDkBBAZRwEcQAaEAUQA8AHHDIQC2OCABcA+gzFooATwlUAkgBEJAMwDWOOSAC6AXzah0YsmgoJq9Jqw49+gkeIkOBw0ZIAqc-hu26hhzKKvocWAAWKIS4SJQAjABsALQqAJoAClT6Rsjo2HiwIADCKBCoGGKEaELsIJHRsZRUAEIA0jmGQA@sort(RMT::desc::,RID)">Metabolomics</a></li>
+                <li><i class="fa-solid fa-greater-than"></i> <a href="/chaise/recordset/#2/RNASeq:Study/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM6JAEsIAjdafEAJQDkBBAZRwEcQAaEAUQA8AHHDIQC2OCABcA+gzFooATwlUAkgBEJAMwDWOOSAC6AXzah0YsmgoJq9Jqw49+gkeIkOBw0ZIAqc-hu26hhzKKvocWAAWKIS4SJQAigC0AJoAUskADPpGyOjYeLAgAMIoEKgYYoRoQuwgkdGxlFQAQgDS2YZAA@sort(RMT::desc::,RID)">ATAC-Seq</a></li>
+                <li><i class="fa-solid fa-greater-than"></i> <a href="/chaise/recordset/#2/RNASeq:Study/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM6JAEsIAjdafEAJQDkBBAZRwEcQAaEAUQA8AHHDIQC2OCABcA+gzFooATwlUAkgBEJAMwDWOOSAC6AXzah0YsmgoJq9Jqw49+gkeIkOBw0ZIAqc-hu26hhzKKvocWAAWKIS4SJQAjADsALScAJwA0gAs+kbI6Nh4sCAAwigQqBhihGhC7CCR0bGUVABCGbmGQA@sort(RMT::desc::,RID)">Spatial Transcriptomics</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <ul>
+            <li class="sub-parent">RESOURCES</li>
+            <li><a href="/chaise/recordset/#2/Common:Publication/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM6JHQBcAjdafEAYRQFtaUIQAaEABTRIBsBLLMIj0YB9GhFQZBaWsIBmAaxwBPEAF0AvqwBKASQAia1lgAWKPjiSUAigFoAzAGkArABY16jUA@sort(Year::desc::,Month::desc::,RID::desc::)">Publications</a></li>
+            <li><a href="/chaise/recordset/#2/Protocol:Protocol/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM6JHQBcAjdafEABQxSJSxQBsQAaa2+xpgfQGEUEVBiIBLNAFseAMwDWOAJ4gAugF92AJQCSAERXssACxSjcSSgEUAtAGYA0gFYALCtVqgA@sort(RMT::desc::,RID)">Protocols</a></li>
+            <li><a class="tooltiplink" href="/resources/functional-assays/">Functional Assays Handbook <i class="fas fa-info-circle"></i><span>A collection of functional assays with a current focus on physiological assays.</span></a></li>
+            <li><a href="/resources/cell-lines/">Cell Lines (Available by request)</a></li>
+            <li><a href="/chaise/recordset/#2/Antibody:Antibody_Tests/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM6JHQBcAjdafEAQQiIEsyoBPEAGmtoZWYH0AVHEiJIeAYRQRUGemgC2PAGYBrHCwC6AX3YAlAJIAREGvZYAFijq4klAIoBaAMwBpAKwAWIxs1A@sort(RID)">Antibody Validation</a></li>
 
+            <li class="sub-parent">SEARCH BY...</li>
+            <li><a href="">RBK Investigator</a></li>
+            <li class="info-label"><a class="tooltiplink" href="/chaise/recordset/#2/Common:Collection/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM6JHQBcAjdafEAYRQFtaUIQAaalAG3ZyyIEtGA+jQioMfNLQEAzANY4AniAC6AX1YAlAJIARZaywALFL1xJKARQC0AZgDSAVgAsylaqA@sort(RMT::desc::,RID)">Data Collections <i class="fas fa-info-circle"></i><span>Customized collections of datasets, usually to collect data within a publication.</span></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+    <div class="container content-inner features section-blurb">
+      <div class="row" id="opps">
+        <h2>RBK Highlights</h2>
+        <div class="col-md-4">
+          <h3>Funding Opportunities</h3>
+          <ul class="posts">
+            <li><a href="/collaboration/op-pool/">Learn about Opportunity Pools</a></li>
+            <li><a href="/collaboration/rbk-collab/">Apply to be a RBK Collaborating Group</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h3>Recent Publications</h3>
+          <ul class="posts">
+            <li><a href="https://doi.org/10.1152/ajpcell.00288.2022">Functional maturation of kidney organoid tubules: PIEZO1-mediated Ca2+ signaling</a> <small><em>(American Physiological Society - Cell Physiology, 2023)</em></small></li>
+            <li><a href="https://doi.org/10.1681/asn.0000000000000057">Lineage Tracing and Single-Nucleus Multiomics Reveal Novel Features of Adaptive and Maladaptive Repair after Acute Kidney Injury</a> <small><em>(JASN, 2023)</em></small></li>
+            <li><a href="https://doi.org/10.1016/B978-0-12-823318-4.00037-8">Chapter 18 - Stress-induced senescence of tubular cells</a> <small><em>(Regenerative Nephrology, 2022)</em></small></li>
+            <li><a href="/chaise/recordset/#2/Common:Publication/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM6JHQBcAjdafEAYRQFtaUIQAaEABTRIBsBLLMIj0YB9GhFQZBaWsIBmAaxwBPEAF0AvqwBKASQAia1lgAWKPjiSUAigFoAzAGkArABY16jUA@sort(Year::desc::,Month::desc::,RID::desc::)">more RBK publications ></a></li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h3>Latest News</h3>
+          <ul class="posts">
+{% assign counter = 0 %}
+{% for post in site.posts %}
+  {% if post.tags contains 'rbk' %}
+    {% assign counter = counter | plus: 1 %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a><br/>
+      <time>
+        {{ post.date | date: "%m/%d/%Y" }}
+      </time>
+    </li>
+    {% if counter == 4 %}
+      {% break %}
+    {% endif %}
+  {% endif %}
+{% endfor %}
+</ul>
+
+        <a id="more-news" href="/rebuildingakidney/news/">more RBK news ></a><br>
+        <!--    <a href="/publications/">publications ></a> -->
+
+
+        </div>
+      </div>
+    </div>
 </div>

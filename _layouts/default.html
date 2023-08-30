@@ -1,7 +1,9 @@
 {% include header.html %}
 <div class="container" id="content">
 <div class="col-md-12">
-	{%- comment -%} <h2>{{ page.title }}</h2> {%- endcomment -%}
+	{% include breadcrumb.html %}
+	
+	<h1>{{ page.title }}</h1>
 
 		{{ content }}
 

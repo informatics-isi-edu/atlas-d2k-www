@@ -1,13 +1,11 @@
-/* Using image for brand in navbar
-Comment out the next two rules to use text instead
-*/
+/* Styles for placeholder navbar - before navbar kicks in */
 
-.navbar-brand {
-    float: left;
-    height: 50px;
-    padding: 15px 15px;
-    font-size: 18px;
-    line-height: 20px;
+navbar {
+    height: 102px;
+    background-color: #0A2327;
+    display: block;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 
@@ -35,7 +33,7 @@ body {
 }
 
 body {
-    color: #212121;
+    color: #333;
     font-size: 16px;
     line-height: 1.5;
     display: flex;
@@ -49,27 +47,38 @@ body {
 }
 
 .content {
-    min-height: 95%;
+    /* min-height: 100%; */
     position: relative;
     padding-top: 70px;
+    padding-bottom: 60px;
 }
 
 h1,
 h2,
 h3 {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
-#content h2,
-#home h2 {
+#content h1,
+#home h1 {
+    margin-top: 20px;
+}
+
+#content h2 {
     font-size: 30px;
-    /* margin-top: 40px; */
 }
 
-h3 {
-    /* padding-top: 20px; */
-    margin-top: 0px;
+#content .news h2 {
+    font-size: 20px;
+    margin-top: 20px;
 }
+
+
+/*
+h3 {
+    padding-top: 20px;
+}
+*/
 
 h3.panel-title {
     padding-top: 0px;
@@ -190,7 +199,8 @@ p.acknowledgement {
 }
 
 .home h2 {
-    font-size: 40px;
+    /* font-size: 40px; */
+    font-size: 3rem;
     font-weight: 200;
     margin-bottom: 15px;
     margin-top: 35px;
@@ -201,6 +211,10 @@ p.acknowledgement {
     margin-top: 0;
     text-align: left;
     padding-bottom: 0;
+}
+
+p.cta {
+    padding-top: 10px;
 }
 
 #events h4 {
@@ -224,7 +238,7 @@ p.acknowledgement {
     /* border: 1px solid #ccc; */
 }
 
-#content .jumbotron p {
+.jumbotron p {
     font-size: 1.2em;
     margin-bottom: 0;
     font-weight: normal;
@@ -241,11 +255,24 @@ p.acknowledgement {
     margin-bottom: 0;
 }
 
-
-/* home jumbotron */
-
 .home .jumbotron {
     text-align: center;
+    margin: 0 auto;
+    /*  background: rgba(22, 22, 30, 0.5) !important;*/
+    background-image: url("/assets/img/carousel/Snap-29081-cloaca-li.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    color: #ffffff;
+}
+
+.home .jumbotron .overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    /* This is a semi-transparent black color */
+    padding: 15px;
+    border-radius: 5px;
+    /* This gives the overlay rounded corners. Optional. */
     width: 70%;
     margin: 0 auto;
 }
@@ -289,7 +316,7 @@ div#statistics-1 {
 
 i.stat-icon {
     font-size: 2.5em;
-    margin-right: 10px;
+    margin-right: 20px;
 }
 
 #home h2.stat-number {
@@ -322,13 +349,53 @@ i.stat-icon {
     font-size: 1em;
 }
 
+.shortcut-links ul.sub-list {
+    padding-left: 10px;
+}
+
+.sub-list i.fa-solid.fa-greater-than {
+    font-size: .8em;
+}
+
+#home .cta a {
+    color: #ffffff;
+}
+
+a.tooltiplink:hover {
+    position: relative;
+    cursor: help;
+}
+
+a.tooltiplink span {
+    display: none;
+}
+
+a.tooltiplink:hover span {
+    border: #666 2px solid;
+    padding: 5px 20px 5px 5px;
+    display: block;
+    z-index: 100;
+    background: #000;
+    color: #fff;
+    left: 0px;
+    margin: 15px;
+    width: 300px;
+    position: absolute;
+    top: 15px;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
 
 /* News, Events, consortium Ads */
 
-#news,
-#consortiums {
-    border-right: 1px solid #CCC;
+
+/*
+#news-atlas, #consortiums {
+  border-right: 1px solid #CCC;
 }
+*/
 
 ul.posts {
     list-style-type: none;
@@ -345,6 +412,19 @@ ul.posts li time {
     color: #6E6E6E;
 }
 
+.consortium img {
+    width: 420px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+
+/* Tools Carousel */
+
+.carousel-caption {
+    background-color: #777;
+}
+
 
 /* Homepage Pubs list */
 
@@ -353,7 +433,7 @@ ul.posts li time {
 }
 
 
-/* Image of the week - turn into image gallery? */
+/* Image of the week - turn into image gallery */
 
 .iotw img {
     width: 280px;
@@ -379,16 +459,17 @@ ul.posts li time {
     line-height: 25px;
 }
 
-
-/* #content.container {
+#content.container {
     padding-bottom: 50px;
-    width: 820px;
-} */
+    max-width: 1100px;
+}
 
 .innercontent {
-    padding: 20px 10%;
-    font-size: 0.9em;
+    /*  padding: 20px 10%; */
+    max-width: 1100px;
+    /*    font-size: 1.2em; */
     line-height: 1.5;
+    margin: 0 auto;
 }
 
 
@@ -413,6 +494,167 @@ ul.posts li time {
 }
 
 
+/* Tutorials - styles originally from GUDMAP */
+
+.well {
+    margin-top: 20px;
+}
+
+.flyer.well {
+    margin-top: 0;
+    margin-left: 15px;
+}
+
+div.tutorial-pages {
+    font-size: 18px;
+    line-height: 1.5;
+    max-width: 1000px;
+}
+
+.video-well {
+    background-color: #f0f0f0;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.video-well video {
+    display: block;
+}
+
+ul.subpage {
+    padding-bottom: 20px;
+}
+
+ul.subpage li {
+    margin-top: 0;
+}
+
+.tutorial-img {
+    max-width: 750px;
+}
+
+.figcaption {
+    padding-bottom: 20px;
+}
+
+
+/* Tutorials - styles originally from GUDMAP */
+
+.well {
+    margin-top: 20px;
+}
+
+.flyer.well {
+    margin-top: 0;
+    margin-left: 15px;
+}
+
+div.tutorial-pages {
+    font-size: 18px;
+    line-height: 1.5;
+    max-width: 1000px;
+}
+
+.video-well {
+    background-color: #f0f0f0;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.video-well video {
+    display: block;
+}
+
+ul.subpage {
+    padding-bottom: 20px;
+}
+
+ul.subpage li {
+    margin-top: 0;
+}
+
+.tutorial-img {
+    max-width: 750px;
+}
+
+.figcaption {
+    padding-bottom: 20px;
+}
+
+
+/* Documentation pages */
+
+.callout td {
+    vertical-align: top;
+    padding-top: 15px;
+    padding-right: 15px;
+}
+
+img.screenshot {
+    width: 800px;
+    border: 1px #CCC solid;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+img.screenshot-sm {
+    width: 600px;
+    border: 1px #CCC solid;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+figure {
+    padding-bottom: 20px;
+}
+
+figcaption {
+    font-style: italic;
+    line-height: 1.25;
+    padding-top: 15px;
+}
+
+div.pagination,
+div.tutorial-series {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+div.pagination div,
+div.tutorial-series div {
+    flex-grow: 1;
+}
+
+div.next-topic {
+    text-align: right;
+}
+
+div.5A5B {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+div.bottom-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+div.bottom-img img {
+    width: 470px;
+}
+
+.tutmd {
+    width: 520px;
+}
+
+.tutsm {
+    max-width: 370px;
+}
+
+
 /* Footer styles */
 
 #footer {
@@ -420,6 +662,7 @@ ul.posts li time {
     color: #C1C1C1;
     padding: 10px;
     text-align: center;
+    /*    margin-top: 60px; */
 }
 
 #footer a {
@@ -700,24 +943,29 @@ ul.posts li time {
     }
 }
 
-.breadcrumb {
-    padding: 8px 15px !important;
-}
-
 .breadcrumb * {
     padding-right: 5px;
     padding-left: 5px;
 }
 
-a {
+#breadcrumbs {
+    /* margin-top: 15px; */
+    font-size: 14px;
+}
+
+#content a,
+#home a,
+#gudmap a,
+#rbk a {
     text-decoration: none !important;
+    color: #428bca;
 }
 
 
 /* Slick Styles */
 
 .image-carousel {
-    height: 100%;
+    /*  height: 100%; */
     display: block;
     margin-bottom: 30px;
     margin-left: 15px;
@@ -786,4 +1034,72 @@ a {
 
 .organs .panel-body li a {
     font-size: .8em;
+}
+
+
+/* adding styles from media.less */
+
+.media {
+    // Proper spacing between instances of .media
+    margin-top: 15px;
+    &:first-child {
+        margin-top: 0;
+    }
+}
+
+.media,
+.media-body {
+    zoom: 1;
+    overflow: hidden;
+}
+
+.media-body {
+    width: 10000px;
+}
+
+.media-object {
+    display: block;
+    // Fix collapse in webkit from max-width: 100% and display: table-cell.
+    &.img-thumbnail {
+        max-width: none;
+    }
+}
+
+.media-right,
+.media>.pull-right {
+    padding-left: 10px;
+}
+
+.media-left,
+.media>.pull-left {
+    padding-right: 10px;
+}
+
+.media-left,
+.media-right,
+.media-body {
+    display: table-cell;
+    vertical-align: top;
+}
+
+.media-middle {
+    vertical-align: middle;
+}
+
+.media-bottom {
+    vertical-align: bottom;
+}
+
+// Reset margins on headings for tighter default spacing
+.media-heading {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+// Media list variation
+//
+// Undo default ul/ol styles
+.media-list {
+    padding-left: 0;
+    list-style: none;
 }

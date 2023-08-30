@@ -17,7 +17,7 @@ Over the past fifteen years, the GUDMAP project has been building upon its long-
     - Innervation of the kidney and lower urinary tract.
     - Development of the lower urinary tract, including the male external genitalia of mouse pre-clinical models of urinary developmental diseases or defects (e.g., congenital anomalies of the UGT).
 
-### ATLAS-D2K Center: GUDMAP Collaborating Projects
+## ATLAS-D2K Center: GUDMAP Collaborating Projects
 
 For the GUDMAP consortium to fully achieve the goals of understanding lower urinary tract development, collaboration with the broader research community is essential. As such, the GUDMAP consortium will be augmented by Collaboration Projects, defined as projects working in areas of high relevance to GUDMAP and currently supported by other significant non-GUDMAP funding sources. Principal Investigators (Pls) of such projects may apply for integration of their project into the GUDMAP consortium.
 

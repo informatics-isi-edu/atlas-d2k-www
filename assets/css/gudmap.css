@@ -16,8 +16,6 @@ body {
 }
 
 body {
-    /* padding-top: 70px;*/
-    /* margin: 0 0 50px; */
     font-size: 16px;
     color: #4b4444;
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
@@ -82,16 +80,6 @@ body.homebg {
 
 /* placeholder for navbar app while it's loading */
 
-navbar {
-    /* height: 72px; */
-    background-color: #0A414E;
-    display: block;
-}
-
-.navbar-inverse .navbar-nav>li>a {
-    font-size: 14px;
-}
-
 .section-cta header .brand .cta-items,
 header .brand .row,
 header .brand .section-cta .cta-items {
@@ -127,7 +115,6 @@ div.homeBanner {
 }
 
 .cta {
-    /*min-height: 100px;*/
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -198,24 +185,15 @@ a.btn-success {
 /* Typography */
 
 h1 {
-    /*font-size: 32px;
-   margin: 0 0 30px; */
     line-height: 1.5;
-    margin-left: 10%;
 }
 
 h2 {
-    /*  font-size: 24px; */
     line-height: 1.5;
 }
 
 h3 {
-    /*  font-size: 20px;*/
     line-height: 1.5;
-}
-
-h4 {
-    /*  font-size: 18px;*/
 }
 
 .bg-info {
@@ -227,16 +205,9 @@ h4 {
 
 .content.home {
     background-color: #efefef;
-    padding: 10px 25px 0;
+    /*  padding: 10px 25px 0; */
     max-width: 1675px;
-}
-
-.home .shortcuts {
-    display: inline-block;
-    width: 100%;
-    background-color: #ffffff;
-    padding-bottom: 50px;
-    padding-left: 30px;
+    padding-top: 30px;
 }
 
 h1.tagline {
@@ -248,9 +219,12 @@ h1.tagline {
     font-style: italic;
 }
 
+
+/*
 .home h2 {
     font-size: 1.3em;
 }
+*/
 
 .home .featured h3,
 .bottom h3 {
@@ -258,24 +232,12 @@ h1.tagline {
     margin-top: 10px;
 }
 
-.image-carousel {
-    height: 100%;
-    display: block;
-    margin-bottom: 30px;
-    margin-left: 15px;
+#gudmap .signup a {
+    color: #fff;
 }
 
 div#cboxCurrent {
     visibility: hidden;
-}
-
-.shortcut-links ul {
-    list-style: none;
-    padding-left: 0;
-}
-
-.shortcut-links ul li {
-    font-size: 1em;
 }
 
 
@@ -373,10 +335,11 @@ figcaption {
 }
 
 
-/* Footer style - static */
+/* Footer style - static
 
 #footer {
-    padding-top: 20px;
+  padding-top: 20px;
+  background-color: #000;
 }
 
 #footer ul {
@@ -408,6 +371,7 @@ figcaption {
     display: flex;
     justify-content: center;
 }
+*/
 
 
 /* Tutorials section */
@@ -663,6 +627,15 @@ ul.tut.nav>li>a:focus,
 ul.tut.nav>li>a:hover {
     text-decoration: none;
     background-color: #eee;
+}
+
+.posts small {
+    color: #6e6e6e;
+}
+
+div#opps {
+    background: #fff;
+    padding-bottom: 30px;
 }
 
 
@@ -968,4 +941,5 @@ p.pub-date {
     /* Add styles here to customize your logo appearance */
     height: 40px;
     padding-top: 15px;
+    padding-left: 5px;
 }
