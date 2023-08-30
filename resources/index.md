@@ -11,5 +11,4 @@ title: Resources
 - [Tissue Summaries](/resources/tissue-summaries/)
 - [GUDMAP Ontology](/resources/ontology/)
 - [Disease Resource](/resources/disease/)
-- [External Resources](/resources/external-resources/)
-- [Tools](/resources/tools)
+- [Community Tools and Resources](/resources/tools)
