@@ -1,0 +1,141 @@
+- project_title: >
+    Mapping Molecular Regionalization of Cell Types along the Anterior-Posterior Axis of the Urethra
+  slug: cohn-group
+  title: Cohn Group
+  category: cat1
+  data: '/chaise/record/#2/Common:Principal_Investigator/RID=W-Q5YJ?pcid=static'
+  pi: 'Marty Cohn'
+  institute: 'University of Florida'
+  img: cohn
+  description: >
+    Building on our GUDMAP2 project, which focused on the dorsoventral (D-V) axis of the LUT, this study aims to identify and map the molecular regionalization of cells along the A-P axis of the mouse and human urethra, from the bladder to the urethral meatus. Our goal is to generate the foundation of data necessary to study how cell type identity along the urethra relates to development of congenital defects, such as urethral valves, enlarged prostatic utricle, urethral polyps, strictures, and agenesis of urethral structures.
+- project_title: >
+    GUDMAP Tissue Hub and Collection Site
+  slug: tissue-repo
+  title: Tissue Hub
+  category: cat1
+  pub: false
+  pi: 'Rajiv Dhir'
+  institute: 'University of Pittsburgh'
+  img: dhir
+  description: >
+    We have preliminary data that we can isolate human genitourinary tissues (kidneys, ureters and bladders) from various developmental ages (6-24 weeks). We have produced publication quality histological images of the developing urogenital organs (including kidneys and bladder), and have immunostained kidneys for endothelium, nephron progenitors and early-differentiated nephron structures and bladders for the urothelium and muscle layers. We have utilized Dynabeads® to separate distinct cellular subpopulations in the kidney including: nephron progenitors, ureteric epithelium, podocytes and endothelium, and have confirmed that we can produce high quality material that is appropriate for RNA sequencing. We propose to act as both the GUDMAP Tissue Hub and Tissue Gathering site to build upon the pre-existing HSTB and provide top quality genitourinary samples to members of the scientific community including those within GUDMAP.
+  personnel:
+    - person: 'Stefan Kostadinov'
+      key-institute: 'University of Pittsburgh'
+    - person: 'Sunder Sims-Lucas'
+      key-institute: 'University of Pittsburgh'
+    - person: 'Susan Kelly'
+      key-institute: 'University of Pittsburgh'
+- project_title: >
+    GUDMAP Coordinating Center
+  slug: hub
+  title: Coordinating Center
+  category: cat1
+  pi: 'Carl Kesselman'
+  institute: 'University of Southern California'
+  img: kesselman
+  copi: 'M. Todd Valerius'
+  coinstitute: "Brigham and Women's Hospital, Harvard Medical School"
+  coimg: valerius
+  description: >
+    We are developing and maintaining a GUDMAP Database and Hub that will: 1) create organizational structure and processes that will enable seamless and frequent communication and collaboration between GUDMAP researchers, the NIDDK and the broader research community; 2) create a highly usable database that will empower changing collections of researchers to rapidly upload, organize, and search heterogeneous data types; 3) build a comprehensive toolkit for data annotation, curation, analysis, visualization, and cross validation; 4) broaden the research community and create a framework for targeted shorter term research results by establishing an opportunity pool program; 5) disseminate consortium resources to the wider research community. In total, the impact of these elements of the GUDMAP will accelerate the rate of discovery within the consortium and the broader community.
+  personnel:
+    - person: 'Hongsuda Tangmunarunkit'
+      key-institute: 'University of Southern California'
+    - person: 'Laura Pearlman'
+      key-institute: 'University of Southern California'
+    - person: 'Cris Williams'
+      key-institute: 'University of Southern California'
+- project_title: >
+    Li Group
+  slug: li-group
+  title: Li Group
+  category: cat1
+  pi: 'Sean Li'
+  institute: 'Cedars-Sinai Medical Center'
+  img: li
+  description: >
+     Congenital penile anomalies including hypospadias and ambiguous genitalia occur in 7.8/1,000 newborns. Despite their biological and medical significance, the molecular basis of such birth defects remains largely unexplained. Moreover, the critical GT-specific downstream effectors of sex hormones are yet to be defined. Our findings suggest that the vGTMspecific dimorphic genes may play critical roles in the gender-specific GT differentiation. We hypothesize that Wnt4 expressed from the GT epithelium functions as the permissive signal and; inductive signals including the sex hormones reprogram the GT-specific dimorphic enhancers and induce dimorphic gene expression to form the penis in males and clitoris in female. We aim to  determine whether Wnt4 expressed from the GT epithelium is the permissive signal required for penile development, whether sex hormones reprogram the GT-specific landscape of transcription enhancers to control dimorphic gene expression and identify critical GT-specific downstream effectors of sex hormones that induce dimorphic GT differentiation.
+- project_title: >
+    Four-Dimensional Modeling of Mouse and Human Nephrogenesis
+  slug: mcmahon-group
+  title: McMahon Group
+  category: cat1
+  data: '/chaise/record/#2/Common:Principal_Investigator/RID=W-Q45P?pcid=static'
+  pi: 'Andrew McMahon'
+  institute: 'University of Southern California'
+  img: mcmahon
+  description: >
+    The functional unit of the kidney is the nephron — hence, our focus on obtaining a thorough understanding of mammalian nephrogenesis. The current GUDMAP view of this process reflects the general view from the literature: largely two-dimensional, mouse kidney focused snapshots depict the progression of a sub-set of mesenchymal nephron progenitors through a mesenchymal to epithelial transition, followed by the complex morphogenesis and patterning process that establishes the nephron. To augment this understanding of the mammalian kidney, we can now harness recent advances in both static and live dynamic cell imaging, the access to human fetal kidney specimens and the development of pluripotent stem cell (PSC) culture-seeded nephrogenesis. With this goal, we will generate comparative 4D views of nephron development in the mouse and human, extending these studies to the imaging of selected mutants in the nephrogenic program. Given the recent advances in the directed differentiation of PSCs into nephron-like structures, a benchmark for normal nephrogenesis will have considerable value to the emerging field of regenerative kidney biology.
+- project_title: >
+    Generating an Atlas of the Developing Human Urinary Outflow Tract
+  slug: mendelsohn-group
+  title: Mendelsohn Group
+  category: cat1
+  data: '/chaise/record/#2/Common:Principal_Investigator/RID=W-Q6T0?pcid=static'
+  pi: 'Cathy Mendelsohn'
+  institute: 'Columbia University'
+  img: mendelsohn
+  description: >
+     At present there is no way to repair or regenerate the damaged urothelium. The studies proposed here are aimed at generating a molecular atlas of urothelial/stromal signaling molecules that are important for urothelial patterning in the UPJ, straight ureter, distal ureter, bladder and trigone. We propose to identify a set of markers that can be used for isolation and purification of urothelial sub-populations. <br/><br/>This molecular atlas will be important for developing strategies for urothelial repair and regeneration and for programming IPS cells to generate urothelial sub-populations. The urothelium is also a source of cells that give rise to bladder cancers, a group of lesions with distinct morphology and clinical behavior. Although cancer is outside the scope of NIDDK, our studies in the mouse paved the way for identification of urothelial progenitor populations that give rise to distinct bladder cancer subtypes (Van Batavia et al., 2014), a study that helps explain the diversity in clinical and morphological features observed in urothelial carcinoma in human patients.
+  personnel:
+    - person: 'Ekatherina Batourina'
+      key-institute: 'Columbia University'
+    - person: 'Tiffany Tate'
+      key-institute: 'Columbia University'
+    - person: 'Greg Wiessner'
+      key-institute: 'Columbia University'
+- project_title: >
+    Atlas of Autonomic and Neuromodulatory Lineages in the Developing Lower Urinary Tract
+  slug: southard-smith-group
+  title: Southard-Smith Group
+  category: cat1
+  data: '/chaise/record/#2/Common:Principal_Investigator/RID=W-Q5GW?pcid=static'
+  pi: 'Michelle Southard-Smith'
+  institute: 'Vanderbilt University Medical Center'
+  img: southard-smith
+  description: >
+     Knowledge of the developmental cues that promote growth, survival, and appropriate synaptic targeting during formation of pelvic ganglia is essential for regenerative strategies to repair pelvic innervation in adults. Presently, we do not know when distinct pelvic ganglia neuron subtypes appear during fetal organogenesis or what genes regulate their development and postnatal maturation – nor do we know the full complement of genes expressed in pelvic ganglia neurons at maturity. The goal of this Atlas proposal is to produce a unified, consistently annotated dataset that will provide researchers ready access to a portfolio of genes expressed in LUT autonomic neurons and neuromodulatory cells.
+- project_title: >
+    A Cellular Atlas of the Normal Human Prostate
+  slug: strand-group
+  title: Strand Group
+  category: cat1
+  pub: false
+  data: '/chaise/record/#2/Common:Principal_Investigator/RID=W-R83A?pcid=static'
+  pi: 'Doug Strand'
+  institute: 'University of Texas Southwestern Medical Center'
+  img: strand
+  description: >
+    It is widely known that human prostate diseases (BPH and cancer) are located in specific anatomical regions, but these regions are defined by ambiguous morphological criteria. To understand the cellular changes in disease we must first understand the cellular anatomy of the normal prostate. To accomplish this, we partnered with a local organ transplant alliance to collect fresh young human prostate specimens. We used single cell sequencing to identify known and novel cell types and optimized new flow cytometry panels based on the single cell data to isolate each cell type. We also used the single cell data to find anchor genes that could selectively identify these cell types in prostate whole mounts and discovered that the distribution of the two novel epithelial cell types we discovered also demarcate prostate zonal anatomy.
+  personnel:
+    - person: 'Gervaise Henry'
+      key-institute: 'University of Texas Southwestern Medical Center'
+- project_title: >
+    Molecular and Fate Maps of Prostatic Stroma
+  slug: vezina-group
+  title: Vezina Group
+  category: cat1
+  data: '/chaise/record/#2/Common:Principal_Investigator/RID=W-Q46W?pcid=static'
+  pi: 'Chad Vezina'
+  institute: 'University of Wisconsin-Madison'
+  img: vezina
+  description: >
+     Our goals are to identify mouse cell lineages giving rise to key prostatic stromal subtypes, map RNAs/proteins that mediate stromal cell behaviors in developing human prostate, and generate searchable resources and tutorials to enable researchers to leverage this data. We are ideally positioned to meet these objectives. Our research team has the expertise (>500 publications in clinical urology and mechanism based prostatic research), experience (previous contributions of >1300 mouse prostatic RNA expression images to the GUDMAP database) and research tools (deep tissue and multispectral imaging, extensive experience with mouse genetics, 28 human fetal prostates ready for analysis, and access to ~50 fresh human fetal prostatic specimens per year) to achieve these goals.
+  personnel:
+    - person: 'Mark Cadena'
+      key-institute: 'University of Wisconsin-Madison'
+    - person: 'Anne Turco'
+      key-institute: 'University of Wisconsin-Madison'
+- project_title: >
+    Understanding Functional Connectivity of Sensory and Motor Pathways to Specific Regions of the Lower Urinary Tract
+  slug: keast-group
+  title: Keast Group
+  category: cat1
+  data: '/chaise/record/#2/Common:Principal_Investigator/RID=W-Q9Z2?pcid=static'
+  pi: 'Janet Keast'
+  institute: 'University of Melbourne'
+  img: keast
+  description: >
+     This foundational project will produce mesoscopic and microscopic functional anatomical maps of the sensory and autonomic (motor) neurons that regulate the lower urinary tract (LUT). Neural dysfunction is a major contributor to diverse, largely intractable urological problems, including overactive or underactive bladder, incontinence due to ageing or pelvic surgery, and painful bladder syndrome/interstitial cystitis. We will fill knowledge gaps and overcome diverse technical roadblocks to develop maps that provide a critical foundation for modeling different LUT behaviors, understanding neuromodulatory mechanisms, and determining off-target effects of neuromodulation. We will conduct this study in adult rats, the species where the peripheral and spinal circuitry of the LUT is defined in the most detail and, compared with mice, their larger size facilitates development of devices. Together, this will facilitate development of new methods for normalizing over- or underactivity in these circuits.

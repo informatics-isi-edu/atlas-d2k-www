@@ -1,0 +1,55 @@
+---
+layout: gudmap/default
+---
+{% include breadcrumb.html %}
+
+
+
+	<div id="tut-bar" class="col-md-3 col-xl-3">
+		<p><small>Tutorials navigation</small></p>
+		<ul class="tut-nav nav nav-pills nav-stacked">
+			<li role="presentation"><a href="/tutorials/kidney-dev/">Kidney Development</a></li>
+	    <li role="presentation"><a href="/tutorials/prostate-dev/">Prostate Development</a></li>
+	    <li role="presentation"><a href="/tutorials/urogenital-dev/">Urogenital Development: <br/>Overview</a></li>
+	    <li role="presentation"><a href="/tutorials/urogenital-dev/reproductive-system/">Urogenital Development: <br/>Reproductive</a></li>
+	    <li role="presentation"><a href="/tutorials/urogenital-dev/urinary-system/">Urogenital Development: <br/>Urinary</a></li>
+			<li role="presentation"><a href="/tutorials/void-assay/">Micturition Assessment in Mice</a></li>
+		</ul>
+	</div>
+
+
+	<div class="tutorial-pages col-md-9 col-xl-6">
+
+	<h1>{{ page.title }}</h1>
+
+
+			{{ content }}
+
+	</div>
+
+
+
+<script src="/slick/slick.js" type="text/javascript" charset="utf-8"></script>
+<script type='text/javascript' src='/assets/js/functions.js'></script>
+
+<script type="text/javascript">
+
+	$(document).activeNavigation("ul.tut-nav")
+
+	$('.tutorial-gallery').slick({
+		variableWidth: true,
+	  infinite: true,
+	  slidesToShow: 4,
+	  slidesToScroll: 3
+	});
+
+	$('.segmentation-slides').slick({
+		variableWidth: true,
+	  infinite: true,
+	  slidesToShow: 1,
+	  slidesToScroll: 1
+	});
+
+$('a.colorbox').colorbox({rel:'gal'});
+
+</script>

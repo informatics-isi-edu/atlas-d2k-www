@@ -32,6 +32,15 @@ page_gen:
     template: 'rbk/projects'
     name: 'tag'
     dir: 'rebuildingakidney/projects'
+  - data: 'gudmap.projects-g3'
+    template: 'gudmap/projects'
+    name: 'slug'
+    dir: 'gudmap/projects/gudmap3'
+  - data: 'gudmap.projects-g4'
+    template: 'gudmap/projects'
+    name: 'slug'
+    dir: 'gudmap/projects/gudmap4'
+  
 
 collections:
   events:

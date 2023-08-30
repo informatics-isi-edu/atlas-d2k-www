@@ -49,7 +49,7 @@ body {
 }
 
 .content {
-    min-height: 100%;
+    min-height: 95%;
     position: relative;
     padding-top: 70px;
 }
@@ -63,11 +63,12 @@ h3 {
 #content h2,
 #home h2 {
     font-size: 30px;
-    margin-top: 40px;
+    /* margin-top: 40px; */
 }
 
 h3 {
-    padding-top: 20px;
+    /* padding-top: 20px; */
+    margin-top: 0px;
 }
 
 h3.panel-title {
@@ -153,20 +154,18 @@ p.acknowledgement {
 }
 
 
-
 /* Home page styles */
 
-
 .homeBanner {
-  background-color: #255F8C;
-  padding: 20px;
+    background-color: #255F8C;
+    padding: 20px;
 }
 
 .formBlock {
     width: 60%;
     min-width: 300px;
     margin: 0 auto;
-    background-color:rgb(221,199,133,.2);
+    background-color: rgb(221, 199, 133, .2);
 }
 
 .formBlock button.btn.btn-default {
@@ -174,20 +173,20 @@ p.acknowledgement {
 }
 
 .search-panel {
-  color: white;
-  padding-top: 5px;
-  padding-left: 5px;
+    color: white;
+    padding-top: 5px;
+    padding-left: 5px;
 }
 
 .search-panel label {
-  font-weight: normal;
-  font-size: .9em;
-  padding-right: 2em;
+    font-weight: normal;
+    font-size: .9em;
+    padding-right: 2em;
 }
 
 .home .row {
-  max-width: 1140px;
-  margin: 0 auto;
+    max-width: 1140px;
+    margin: 0 auto;
 }
 
 .home h2 {
@@ -213,6 +212,7 @@ p.acknowledgement {
     margin: 0;
     padding: 0;
 }
+
 
 /* Jumbotron */
 
@@ -241,11 +241,13 @@ p.acknowledgement {
     margin-bottom: 0;
 }
 
+
 /* home jumbotron */
+
 .home .jumbotron {
-  text-align: center;
-  width: 70%;
-  margin: 0 auto;
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
 }
 
 
@@ -256,30 +258,34 @@ div#statistics-1 {
 }
 
 #statistics {
-  display: flex;
-  flex-direction: column;
-  gap: 20px; /* Optional, adds spacing between the rows */
-  margin: 20px auto;
-  padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /* Optional, adds spacing between the rows */
+    margin: 20px auto;
+    padding: 0 20px;
 }
 
 .stat-container {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .statistics .well {
-  height: 80px;
-  padding: 12px;
+    height: 80px;
+    padding: 12px;
 }
 
 .statistic-container {
-   display: flex;
-   align-items: center; /* Center content vertically */
-   justify-content: center; /* Center content horizontally */
-   height: 60px; /* Adjust height as needed */
-       }
+    display: flex;
+    align-items: center;
+    /* Center content vertically */
+    justify-content: center;
+    /* Center content horizontally */
+    height: 60px;
+    /* Adjust height as needed */
+}
 
 i.stat-icon {
     font-size: 2.5em;
@@ -287,14 +293,15 @@ i.stat-icon {
 }
 
 #home h2.stat-number {
-  margin-top: 10px;
-  margin-bottom: 0;
-  text-align: left;
+    margin-top: 10px;
+    margin-bottom: 0;
+    text-align: left;
 }
 
 .stat-label {
-  font-size: .7em;
+    font-size: .7em;
 }
+
 
 /* Shortcut links on home page */
 
@@ -315,33 +322,36 @@ i.stat-icon {
     font-size: 1em;
 }
 
+
 /* News, Events, consortium Ads */
 
-#news, #consortiums {
-  border-right: 1px solid #CCC;
+#news,
+#consortiums {
+    border-right: 1px solid #CCC;
 }
 
 ul.posts {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 ul.posts li {
-  padding-bottom: 10px;
+    padding-bottom: 10px;
 }
-
 
 ul.posts li time {
-  font-size: .9em;
-  color: #6E6E6E;
+    font-size: .9em;
+    color: #6E6E6E;
 }
+
 
 /* Homepage Pubs list */
 
 .pub-date {
     font-style: italic;
 }
+
 
 /* Image of the week - turn into image gallery? */
 
@@ -360,7 +370,6 @@ ul.posts li time {
 }
 
 
-
 /* Sub page styles */
 
 #home.container,
@@ -370,14 +379,15 @@ ul.posts li time {
     line-height: 25px;
 }
 
-#content.container {
+
+/* #content.container {
     padding-bottom: 50px;
     width: 820px;
-}
+} */
 
 .innercontent {
     padding: 20px 10%;
-    font-size: 1.2em;
+    font-size: 0.9em;
     line-height: 1.5;
 }
 

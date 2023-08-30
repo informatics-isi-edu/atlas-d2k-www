@@ -1,0 +1,466 @@
+- title: "An immunohistochemical identification key for cell types in adult mouse prostatic and urethral tissue sections"
+  href: "http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0188413"
+  authors: Wegner KA, Cadena MT, Trevena R, Turco AE, Gottschalk A, Halberg RB, Guo J, McMahon JA, McMahon AP, Vezina CM
+  date: 11-16-2017
+  published: true
+  journal: PLoS ONE
+  journalcite: 12(11):e0188413
+  journaldoi: https://doi.org/10.1371/journal.pone.0188413
+  journalimg: plosone.png
+- title: "Migration pathways of sacral neural crest during development of lower urogenital tract innervation"
+  href: "http://www.sciencedirect.com/science/article/pii/S0012160616308259"
+  authors: Wiese CB, Deal KK, Ireland SJ, Cantrell VA, Southard-Smith EM
+  date: 09-01-2017
+  published: true
+  journal: Dev Biol
+  journalcite: 429(1):356-369
+  journaldoi: 10.1016/j.ydbio.2017.04.011
+  journalimg: dev_biol_final2.jpg
+- title: "Dynamic Expression of Serotonin Receptor 5-HT3A in Developing Sensory Innervation of the Lower Urinary Tract"
+  href: "http://journal.frontiersin.org/article/10.3389/fnins.2016.00592/full"
+  authors: Ritter KE, Southard-Smith EM
+  date: 01-06-2017
+  published: true
+  journal: Front Neurosci
+  journalcite: 10:592
+  journaldoi: 10.3389/fnins.2016.00592
+  journalimg: frontiers-logo.png
+- title: "Sex-dependent expression of TRPV1 in bladder arterioles"
+  href: "https://www.ncbi.nlm.nih.gov/pubmed/27654891"
+  authors: Phan TX, Ton HT, Chen Y, Basha ME, Ahern GP
+  date: 11-01-2016
+  published: true
+  journal: Am J Physiol Renal Physiol
+  journalcite: 311(5):F1063-F1073
+  journaldoi: 10.1152/ajprenal.00234.2016
+  journalother: Epub 2016 Sep 21.
+  journalimg: invisible.png  
+- title: "Molecular characterization of the genital organizer: Gene expression profile of the mouse urethral plate epithelium."
+  href: "http://www.ncbi.nlm.nih.gov/pubmed/27173853"
+  authors: Armfield BA, Seifert AW, Zheng Z, Merton EM, Rock JR, Lopez MC, Baker HV, Cohn MJ.
+  date: 05-09-2016
+  published: true
+  journal: J Urol
+  journalcite: pii - S0022-5347(16)30364-0
+  journaldoi: 10.1016/j.juro.2016.04.091
+  journalother: 
+  journalimg: invisible.png  
+- title: "Uroplakin 1b is critical in urinary tract development and urothelial differentiation and homeostasis"
+  href: "https://www.ncbi.nlm.nih.gov/pubmed/26880456"
+  authors: Carpenter AR, Becknell MB, Ching CB, Cuaresma EJ, Chen X, Hains DS, McHugh KM
+  date: 03-06-2016
+  published: true
+  journal: Kidney Int
+  journalcite: 89(3):612-24
+  journaldoi: 10.1016/j.kint.2015.11.017
+  journalimg: kint-logo4.jpg
+- title: "Differential regulation of mouse and human nephron progenitors by the Six family of transcriptional regulators."
+  href: "http://www.ncbi.nlm.nih.gov/pubmed/26884396"
+  authors: O’Brien LL, Guo Q, Lee Y, Tran T, Benazet JD, Whitney PH, Valouev A, McMahon AP
+  date: 02-15-2016
+  published: true
+  journal: Development
+  journalcite: 143(4):595-608
+  journaldoi: 10.1242/dev.127175
+  journalother: 
+  journalimg: development_final2.jpg
+- title: "Development of the mammalian kidney"
+  href: "http://www.ncbi.nlm.nih.gov/pubmed/26969971"
+  authors: McMahon AP
+  date: 2016
+  published: true
+  journal: Curr Top Dev Biol
+  journalcite: 117:31-64
+  journaldoi: 10.1016/bs.ctdb.2015.10.010
+  journalother: Epub 2016 Jan 23.
+  journalimg: currTopDevBiol.jpg
+- title: "Developing a functional urinary bladder: a neuronal context"
+  href: "http://www.ncbi.nlm.nih.gov/pubmed/26389118"
+  authors: Keast JR, Smith-Anttila CJ, Osborne PB
+  date: 09-01-2015
+  published: true
+  journal: Front Cell Dev Biol
+  journalcite: 3:53
+  journaldoi: 10.3389/fcell.2015.00053
+  journalother: eCollection 2015.
+  journalimg: invisible.png  
+- title: "Menthol enhances the desensitization of human α3β4 nicotinic acetylcholine receptors"
+  href: "http://www.ncbi.nlm.nih.gov/pubmed/25964258"
+  authors: Ton HT, Smart AE, Aguilar BL, Olson TT, Kellar KJ, Ahern GP
+  date: 08-11-2015
+  published: true
+  journal: Mol Pharmacol
+  journalcite: 88(2):256-64
+  journaldoi: 10.1124/mol.115.098285
+  journalother: Epub 2015 May 11.
+  journalimg: invisible.png   
+- title: "An illustrated anatomical ontology of the developing mouse lower urogenital tract"
+  href: "http://www.ncbi.nlm.nih.gov/pubmed/25968320"
+  authors: Georgas KM, Armstrong J, Keast JR, Larkins CE, McHugh KM, Southard-Smith EM, Cohn MJ, Batourina E, Dan H, Schneider K, Buehler DP, Wiese CB, Brennan J, Davies JA, Harding SD, Baldock RA, Little MH, Vezina CM, Mendelsohn C
+  date: 05-15-2015
+  published: true
+  journal: Development
+  journalcite: 142(10):1893-908
+  journaldoi: 10.1242/dev.117903
+  journalother: Epub 2015 May 12.
+  journalimg: development_final2.jpg  
+- title: "Induction and patterning of the metanephric nephron"
+  href: "http://www.ncbi.nlm.nih.gov/pubmed/25194660"
+  authors: O&rsquo;Brien LL, McMahon AP
+  date: 12-01-2014
+  published: true
+  journal: Semin Cell Dev Biol
+  journalcite: 36:31-8
+  journaldoi: 10.1016/j.semcdb.2014.08.014
+  journalother: Epub 2014 Sep 3.
+  journalimg: invisible.png  
+- title: "Embryonic origin and compartmental organization of the external genitalia"
+  href: "http://www.ncbi.nlm.nih.gov/pubmed/25372631"
+  authors: Herrera AM, Cohn MJ
+  date: 11-05-2014
+  published: true
+  journal: Sci Rep
+  journalcite: 4:6896
+  journaldoi: 10.1038/srep06896
+  journalother: 
+  journalimg: invisible.png 
+- title: "Defining the acute kidney injury and repair transcriptome"
+  href: "http://www.ncbi.nlm.nih.gov/pubmed/25217269"
+  authors: Kumar S, Liu J, McMahon AP
+  date: 07-01-2014
+  published: true
+  journal: Semin Nephrol
+  journalcite: 34(4):404-17
+  journaldoi: 10.1016/j.semnephrol.2014.06.007
+  journalother: Epub 2014 Jun 13.
+  journalimg: invisible.png
+- title: "Formation and regeneration of the urothelium"
+  href: "http://www.ncbi.nlm.nih.gov/pubmed/24752063"
+  authors: Yamany T, Van Batavia J, Mendelsohn C
+  date: 06-01-2014
+  published: true
+  journal: Curr Opin Organ Transplant
+  journalcite: 19(3):323-30
+  journaldoi: 10.1097/MOT.0000000000000084
+  journalother: 
+  journalimg: invisible.png
+- title: "Defining kidney biology to understand renal disease"
+  href: "http://www.ncbi.nlm.nih.gov/pubmed/24370769"
+  authors: Little MH, Brown D, Humphreys BD, McMahon AP, Miner JH, Sands JM, Weisz OA, Mullins C, Hoshizaki D
+  date: 04-01-2014
+  published: true
+  journal: Clin J Am Soc Nephrol
+  journalcite: 9(4):809-11
+  journaldoi: 10.2215/CJN.10851013
+  journalother: Epub 2013 Dec 26.
+  journalimg: invisible.png
+- title: "Retinoid signaling in progenitors controls specification and regeneration of the urothelium"
+  href: "http://www.ncbi.nlm.nih.gov/pubmed/23993789"
+  authors: Gandhi D, Molotkov A, Batourina E, Schneider K, Dan H, Reiley M, Laufer E, Metzger D, Liang F, Liao Y, Sun TT, Aronow B, Rosen R, Mauney J, Adam R, Rosselot C, Van Batavia J, McMahon A, McMahon J, Guo JJ, Mendelsohn C
+  date: 09-16-2013
+  published: true
+  journal: Dev Cell
+  journalcite: 26(5):469-82
+  journaldoi: 10.1016/j.devcel.2013.07.017
+  journalother: Epub 2013 Aug 29.
+  journalimg: devel-cell-2013-09.jpg
+- title: "Catalog of mRNA expression patterns for DNA methylating and demethylating genes in developing mouse lower urinary tract"
+  href: "http://www.ncbi.nlm.nih.gov/pubmed/23920106"
+  authors: Keil KP, Altmann HM, Mehta V, Abler LL, Elton, EA, Vezina CM
+  date: 08-03-2013
+  published: true
+  journal: Gene Expr Patterns
+  journalcite: 13(8):413-424
+  journaldoi: 10.1016/j.gep.2013.07.008
+  journalother: 
+  journalimg: gep1_final2.jpg
+- title: "Wnt inhibitory factor 1 (wif1) is regulated by androgens and enhances androgen-dependent prostate development"
+  href: "http://www.ncbi.nlm.nih.gov/pubmed/23087175"
+  authors: Keil KP, Mehta V, Branam AM, Abler LL, Buresh-Stiemke RA, Joshi PS, Schmitz CT, Marker PC, Vezina CM
+  date: 12-01-2012
+  published: true
+  journal: Endocrinology
+  journalcite: 153(12):6091-103
+  journaldoi: 10.1210/en.2012-1564
+  journalother: Epub 2012 Oct 18.
+  journalimg: front-endocrinology.jpg
+- title: "Temporal transcriptional profiling of somatic and germ cells reveals biased lineage priming of sexual fate in the fetal mouse gonad"
+  href: "http://www.ncbi.nlm.nih.gov/pubmed/22438826"
+  authors: Jameson SA, Natarajan A, Cool J, DeFalco T, Maatouk DM, Mork L, Munger SC, Capel B
+  date: 03-15-2012
+  published: true
+  journal: PLoS Genet
+  journalcite: 8(3):e1002575
+  journaldoi: 10.1371/journal.pgen.1002575
+  journalother: Epub 2012 Mar 15.
+  journalimg: Plos_geneetics.jpg
+- title: "A genome-wide screen to identify transcription factors in pelvic ganglia of the lower urinary tract"
+  href: "http://www.ncbi.nlm.nih.gov/pubmed/22988430"
+  authors: Wiese CB, Ireland S, Fleming NL, Yu J, Valerius MT, Georgas K, Chiu H, Brennan J, Armstrong J, Little MH, McMahon AP, Southard-Smith EM
+  date: 09-12-2012
+  published: true
+  journal: Frontiers in Neuroscience
+  journalcite: 6:130
+  journaldoi: 10.3389/fnins.2012.00130
+  journalother: eCollection 2012.
+  journalimg: frontins.jpg  
+- title: "Identification of novel cell lineage markers in the mouse fetal ovary"
+  href: "http://www.ncbi.nlm.nih.gov/pubmed/22844512"
+  authors: Chen J, Palmer J, Thiagarajan R, Dinger ME, Lesieur E, Chiu H, Schulz A, Spiller C, Grimmond SM, Little MH, Koopman PA, Wilhelm D
+  date: 07-01-2012
+  published: true
+  journal: PLoS One
+  journalcite: 7(7):e41683
+  journaldoi: 10.1371/journal.pone.0041683
+  journalother: Epub 2012 Jul 26.
+  journalimg: plosone.png
+- title: "Visualization and quantification of mouse prostate development by in situ hybridization"
+  href: "http://www.ncbi.nlm.nih.gov/pubmed/22898663"
+  authors: Keil KP, Mehta V, Abler LL, Joshi PS, Schmitz CT, Vezina CM
+  date: 10-01-2012
+  published: true
+  journal: Differentiation
+  journalcite: 84(3):232-9
+  journaldoi: 10.1016/j.diff.2012.07.005
+  journalother: Epub 2012 Aug 13.
+  journalimg: differentiation_img.jpg
+- title: "An Optimized Procedure for Fluorescence-activated Cell Sorting (FACS) Isolation of Autonomic Neural Progenitors from Visceral Organs of Fetal Mice"
+  href: "http://www.ncbi.nlm.nih.gov/pubmed/22929412"
+  authors: Buehler DP, Wiese CB, Skelton SB, Southard-Smith EM
+  date: 08-17-2012
+  published: true
+  journal: J Vis Exp
+  journalcite: (68):e5027
+  journaldoi: 10.3791/4188
+  journalother: 
+  journalimg: jove.jpg
+- title: "Identification of molecular compartments and genetic circuitry in the developing mammalian kidney"
+  href: "http://www.ncbi.nlm.nih.gov/pubmed/22510988"
+  authors: Yu J, Valerius MT, Duah M, Staser K, Hansard JK, Guo JJ, McMahon J, Vaughan J, Faria D, Georgas K, Rumballe B, Ren Q, Krautzberger AM, Junker JP, Thiagarajan RD, Machanick P, Gray PA, van Oudenaarden A, Rowitch DH, Stiles CD, Ma Q, Grimmond SM, Bailey TL, Little MH, McMahon AP
+  date: 05-01-2012
+  published: true
+  journal: Development
+  journalcite: 139(10):1863-73
+  journaldoi: 10.1242/dev.074005
+  journalother: 
+  journalimg: development_final2.jpg  
+- title: "Use of in situ hybridization to examine gene expression in the embryonic, neonatal, and adult urogenital system"
+  href: "http://www.ncbi.nlm.nih.gov/pubmed/22639265"
+  authors: Rumballe BA, Chiu HS, Georgas KM, Little MH
+  date: 05-01-2012
+  published: true
+  journal: Methods Mol Biol
+  journalcite: 886:223-39
+  journaldoi: 10.1007/978-1-61779-851-1_20
+  journalother: 
+  journalimg: invisible.png  
+- title: "Access and use of the GUDMAP database of genitourinary development"
+  href: "http://www.ncbi.nlm.nih.gov/pubmed/22639262"
+  authors: Davies JA, Little MH, Aronow B, Armstrong J, Brennan J, Lloyd-MacGilp S, Armit C, Harding S, Piu X, Roochun Y, Haggarty B, Houghton D, Davidson D, Baldock R
+  date: 05-01-2012
+  published: true
+  journal: Methods Mol Biol
+  journalcite: 886:185-201
+  journaldoi: 10.1007/978-1-61779-851-1_17
+  journalother: 
+  journalimg: invisible.png  
+- title: "Nephron formation adopts a novel spatial topology at cessation of nephrogenesis"
+  href: "http://www.ncbi.nlm.nih.gov/pubmed/21963425"
+  authors: Rumballe BA, Georgas KM, Combes AN, Ju AL, Gilbert T, Little MH
+  date: 12-01-2011
+  published: true
+  journal: Dev Biol
+  journalcite: 360(1):110-22
+  journaldoi: 10.1016/j.ydbio.2011.09.011
+  journalother: Epub 2011 Sep 21.
+  journalimg: dev_biol_final2.jpg
+- title: "A high-resolution molecular atlas of the fetal mouse lower urogenital tract"
+  href: "http://www.ncbi.nlm.nih.gov/pubmed/21905163"
+  authors: Abler LL, Keil KP, Mehta V, Joshi PS, Schmitz CT, Vezina CM
+  date: 10-01-2011
+  published: true
+  journal: Dev Dyn
+  journalcite: 240(10):2364-77
+  journaldoi: 10.1002/dvdy.22730
+  journalother: Epub 2011 Sep 8.
+  journalimg: dev_dynamics_final2.jpg
+- title: "Atlas of Wnt and R-spondin gene expression in the developing male mouse lower urogenital tract"
+  href: "http://www.ncbi.nlm.nih.gov/pubmed/21936019"
+  authors: Mehta V, Abler LL, Keil KP, Schmitz CT, Joshi PS, Vezina CM
+  date: 11-01-2011
+  published: true
+  journal: Dev Dyn
+  journalcite: 240(11):2548-60
+  journaldoi: 10.1002/dvdy.22741
+  journalother: Epub 2011 Sep 20.
+  journalimg: dev_dynamics_final2.jpg
+- title: "Defining and redefining the nephron progenitor population"
+  href: "http://www.ncbi.nlm.nih.gov/pubmed/21229268"
+  authors: Hendry C, Rumballe B, Moritz K, Little MH
+  date: 09-01-2011
+  published: true
+  journal: Pediatr Nephrol
+  journalcite: 26(9):1395-406
+  journaldoi: 10.1007/s00467-010-1750-4
+  journalother: Epub 2011 Jan 14.
+  journalimg: PEDNePH.png
+- title: "Defining the molecular character of the developing and adult kidney podocyte"
+  href: "http://www.ncbi.nlm.nih.gov/pubmed/21931791"
+  authors: Brunskill EW, Georgas K, Rumballe B, Little MH, Potter SS
+  date: 09-08-2011
+  published: true
+  journal: PLoS One
+  journalcite: 6(9):e24640
+  journaldoi: 10.1371/journal.pone.0024640
+  journalother: Epub 2011 Sep 8.
+  journalimg: plosone.png
+- title: "Refining transcriptional programs in kidney development by integration of deep RNA-sequencing and array-based spatial profiling"
+  href: "https://www.ncbi.nlm.nih.gov/pubmed/21888672"
+  authors: Thiagarajan RD, Cloonan N, Gardiner BB, Mercer TR, Kolle G, Nourbaksh E, Wani S, Tang D, Krishnan K, Georgas KM, Rumballe BA, Chiu HS, Steen JA, Mattick JS, Little MH, Grimmond SM
+  date: 09-05-2011
+  published: true
+  journal: BMC Genomics
+  journalcite: 12:441
+  journaldoi: 10.1186/1471-2164-12-441
+  journalother: Epub 2011 Sep 8.
+  journalimg: bmc_genomics.jpg
+- title: "A High Throughput in situ Hybridization Method to Characterize mRNA Expression Patterns in the Fetal Mouse Lower Urogenital Tract"
+  href: "http://www.ncbi.nlm.nih.gov/pubmed/21876526"
+  authors: Abler LL, Mehta V, Keil KP, Joshi PS, Flucus CL, Hardin HA, Schmitz CT, Vezina CM
+  date: 08-19-2011
+  published: true
+  journal: J Vis Exp
+  journalcite: (54). pii 2912
+  journaldoi: 10.3791/2912
+  journalother: 
+  journalimg: jove.jpg
+- title: "Expression of metanephric nephron-patterning genes in differentiating mesonephric tubules"
+  href: "http://www.ncbi.nlm.nih.gov/pubmed/21491542"
+  authors: Georgas KM, Chiu HS, Lesieur E, Rumballe BA, Little MH
+  date: 06-01-2011
+  published: true
+  journal: Dev Dyn
+  journalcite: 240(6):1600-12
+  journaldoi: 10.1002/dvdy.22640
+  journalother: Epub 2011 Apr 12.
+  journalimg: Georgas_et_al-DevDyn_201108.jpg
+- title: "The GUDMAP database – an online resource for genitourinary research"
+  href: "http://www.ncbi.nlm.nih.gov/pubmed/21652655"
+  authors: Harding SD, Armit C, Armstrong J, Brennan J, Cheng Y, Haggarty B, Houghton D, Lloyd-MacGilp S, Pi X, Roochun Y, Sharghi M, Tindal C, McMahon AP, Gottesman B, Little MH, Georgas K, Aronow BJ, Potter SS, Brunskill EW, Southard-Smith EM, Mendelsohn C, Baldock RA, Davies JA, Davidson D
+  date: 07-01-2011
+  published: true
+  journal: Development
+  journalcite: 138(13):2845-53
+  journaldoi: 10.1242/dev.063594
+  journalother: 
+  journalimg: development_final2.jpg
+- title: "Identification of anchor genes during kidney development defines ontological relationships, molecular subcompartments and regulatory pathways"
+  href: "http://www.ncbi.nlm.nih.gov/pubmed/21386911"
+  authors: Thiagarajan RD, Georgas KM, Rumballe BA, Lesieur E, Chiu HS, Taylor D, Tang DT, Grimmond SM, Little MH
+  date: 02-28-2011
+  published: true
+  journal: Plos One
+  journalcite: 6(2):e17286
+  journaldoi: 10.1371/journal.pone.0017286
+  journalother: 
+  journalimg: plosone.png
+- title: "Comparative gene expression analysis of genital tubercle development reveals a putative appendicular Wnt7 network for the epidermal differentiation"
+  href: "http://www.ncbi.nlm.nih.gov/pubmed/20510229"
+  authors: Chiu HS, Szucsik JC, Georgas KM, Jones JL, Rumballe BA, Tang D, Grimmond SM, Lewis AG, Aronow BJ, Lessard JL, Little MH
+  date: 08-15-2010
+  published: true
+  journal: Dev Biol
+  journalcite: 344(2):1071-87
+  journaldoi: 10.1016/j.ydbio.2010.05.495
+  journalother: Epub 2010 May 24.
+  journalimg: dev_biol_final2.jpg
+- title: "Molecular anatomy of the kidney: what have we learned from gene expression and functional genomics?"
+  href: "http://www.ncbi.nlm.nih.gov/pubmed/20049614"
+  authors: Rumballe B, Georgas K, Wilkinson L, Little M
+  date: 06-01-2010
+  published: true
+  journal: Pediatr Nephrol
+  journalcite: 25(6):1005-16
+  journaldoi: 10.1007/s00467-009-1392-6
+  journalother: Epub 2010 Jan 5.
+  journalimg: PEDNePH.png
+- title: "High-resolution gene expression analysis of the developing mouse kidney defines novel cellular compartments within the nephron progenitor population"
+  href: "http://www.ncbi.nlm.nih.gov/pubmed/19591821"
+  authors: Mugford JW, Yu J, Kobayashi A, McMahon AP
+  date: 09-15-2009
+  published: true
+  journal: Dev Biol
+  journalcite: 333(2):312-23
+  journaldoi: 10.1016/j.ydbio.2009.06.043
+  journalother: Epub 2009 Jul 8.
+  journalimg: Mugford_et_al.jpg
+- title: "Analysis of early nephron patterning reveals a role for distal RV proliferation in fusion to the ureteric tip via a cap mesenchyme-derived connecting segment"
+  href: "http://www.ncbi.nlm.nih.gov/pubmed/19501082"
+  authors: Georgas K, Rumballe B, Valerius MT, Chiu HS, Thiagarajan RD, Lesieur E, Aronow BJ, Brunskill EW, Combes AN, Tang D, Taylor D, Grimmond SM, Potter SS, McMahon AP, Little MH
+  date: 08-15-2009
+  published: true
+  journal: Dev Biol
+  journalcite: 332(2):273-86
+  journaldoi: 10.1016/j.ydbio.2009.05.578
+  journalother: Epub 2009 Jun 6.
+  journalimg: Georgas_et_al.jpg
+- title: "Three-dimensional visualization of testis cord morphogenesis, a novel tubulogenic mechanism in development"
+  href: "http://www.ncbi.nlm.nih.gov/pubmed/19334288"
+  authors: Combes AN, Lesieur E, Harley VR, Sinclair AH, Little MH, Wilhelm D, Koopman P
+  date: 05-01-2009
+  published: true
+  journal: Dev Dyn
+  journalcite: 238(5):1033-41
+  journaldoi: 10.1002/dvdy.21925
+  journalother: 
+  journalimg: dev_dynamics_final2.jpg
+- title: "Atlas of gene expression in the developing kidney at microanatomic resolution"
+  href: "http://www.ncbi.nlm.nih.gov/pubmed/19000842"
+  authors: Brunskill EW, Aronow BJ, Georgas K, Rumballe B, Valerius MT, Aronow J, Kaimal V, Jegga AG, Grimmond S, McMahon AP, Patterson LT, Little MH, Potter SS
+  date: 11-01-2008
+  published: true
+  journal: Dev Cell
+  journalcite: 15(5):781-91
+  journaldoi: 10.1016/j.devcel.2008.09.007
+  journalother: 
+  journalimg: Brunskill.jpg  
+- title: "High-throughput paraffin section in situ hybridisation and dual immunohistochemistry"
+  href: "https://www.ncbi.nlm.nih.gov/pubmed/21356874"
+  authors: Rumballe B, Georgas K, Little MH
+  date: 07-01-2008
+  published: true
+  journal: CSH Protoc
+  journalcite: 2008:pdb.prot5030
+  journaldoi: 10.1101/pdb.prot5030
+  journalother: 
+  journalimg: Rumballe_et_al_protocols_2008.jpg 
+- title: "Use of dual section mRNA in situ hybridisation/immunohistochemistry to clarify gene expression patterns during the early stages of nephron development in the embryo and in the mature nephron of the adult mouse kidney"
+  href: "http://www.ncbi.nlm.nih.gov/pubmed/18618131"
+  authors: Georgas K, Rumballe B, Wilkinson L, Chiu HS, Lesieur E, Gilbert T, Little MH
+  date: 11-01-2008
+  published: true
+  journal: Histochem Cell Biol
+  journalcite: 130(5):927-42
+  journaldoi: 10.1007/s00418-008-0454-3
+  journalother: Epub 2008 Jul 11.
+  journalimg: histo_final2.jpg
+- title: "GUDMAP: the genitourinary developmental molecular anatomy project"
+  href: "http://www.ncbi.nlm.nih.gov/pubmed/18287559"
+  authors: McMahon AP, Aronow BJ, Davidson DR, Davies JA, Gaido KW, Grimmond S, Lessard JL, Little MH, Potter SS, Wilder EL, Zhang P; GUDMAP project
+  date: 04-01-2008
+  published: true
+  journal: J Am Soc Nephrol
+  journalcite: 19(4):667-71
+  journaldoi: 10.1681/ASN.2007101078
+  journalother: Epub 2008 Feb 20.
+  journalimg: McMahon.jpg
+- title: "A high-resolution anatomical ontology of the developing murine genitourinary tract"
+  href: "http://www.ncbi.nlm.nih.gov/pubmed/17452023"
+  authors: Little MH, Brennan J, Georgas K, Davies JA, Davidson DR, Baldock RA, Beverdam A, Bertram JF, Capel B, Chiu HS, Clements D, Cullen-McEwen L, Fleming J, Gilbert T, Herzlinger D, Houghton D, Kaufman MH, Kleymenova E, Koopman PA, Lewis AG, McMahon AP, Mendelsohn CL, Mitchell EK, Rumballe BA, Sweeney DE, Valerius MT, Yamada G, Yang Y, Yu J
+  date: 06-01-2007
+  published: true
+  journal: Gene Expr Patterns
+  journalcite: 7(6):680-99
+  journaldoi: 10.1016/j.modgep.2007.03.002
+  journalother: 
+  journalimg: gep1_final2.jpg
