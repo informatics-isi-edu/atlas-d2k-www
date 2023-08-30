@@ -12,10 +12,19 @@
 			</ul>
 </div>
 
-		{{ content }}
+		{%- comment -%} {{ content }} {%- endcomment -%}
+		<section class="section-{{page.tag}} container">
+  			<h1 id="{{page.tag}}">{{ page.title }}</h1>
+  			<div class="{{page.tag}}-content">
+
+				{{ content }}
+
+			</div>
+		</section>
 
 
 
 {% include footer.html %}
 
 <script type="text/javascript" src="/assets/slick/slick.min.js"></script>
+
