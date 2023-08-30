@@ -206,9 +206,15 @@ h1.tagline {
   margin-top: 10px;
 }
 
+#gudmap .home h2 {
+  font-size: 28px;
+}
+
 #gudmap .signup a {
     color: #fff;
 }
+
+#gudmap .content {min-height: auto;}
 
 div#cboxCurrent {
     visibility: hidden;
