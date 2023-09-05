@@ -367,6 +367,13 @@ i.stat-icon {
 
 #home .cta a {
     color: #ffffff;
+    background-color: #255F8C;
+    border-color: #255F8C;
+}
+
+#home .cta a:hover {
+    background-color: #1E4B70;
+    border-color: #1E4B70;
 }
 
 a.tooltiplink:hover {
