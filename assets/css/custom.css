@@ -965,6 +965,11 @@ div.bottom-img img {
     color: #428bca;
 }
 
+#home .carousel-caption a {
+    color: #fff;
+    text-decoration: underline !important;
+}
+
 
 /* Slick Styles */
 
