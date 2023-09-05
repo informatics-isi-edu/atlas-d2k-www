@@ -129,8 +129,13 @@ a.anchor {
 }
 
 .btn.btn-success {
-    background: #1598db none repeat scroll 0 0;
-    border-color: #1598db;
+    background: ##255F8C none repeat scroll 0 0;
+    border-color: ##255F8C;
+}
+
+#home .btn.btn-primary, #content .btn.btn-primary, {
+  background: ##255F8C none repeat scroll 0 0;
+  border-color: ##255F8C;
 }
 
 .lead.announce {
