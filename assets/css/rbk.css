@@ -415,10 +415,6 @@ span.citation { font-size: .8em; font-weight: bold; line-height: 1; }
 
 .clearfix { float: clear; }
 
-.shortcut-links ul li {
-  margin-bottom: 10px;
-}
-
 .container.content-inner.data {
     padding-bottom: 0;
 }

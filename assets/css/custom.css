@@ -350,6 +350,7 @@ i.stat-icon {
 
 .shortcut-links ul li {
     font-size: 1em;
+    margin-top: .75em;
 }
 
 .shortcut-links ul.sub-list {
