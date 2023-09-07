@@ -326,6 +326,11 @@ div#cboxCurrent {
     max-width: 1100px;
 }
 
+#content.gudmap-home {
+    max-width: 100%;
+    padding: 0;
+}
+
 
 /* Documentation pages */
 

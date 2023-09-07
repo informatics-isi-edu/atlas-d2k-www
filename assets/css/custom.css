@@ -129,8 +129,13 @@ a.anchor {
 }
 
 .btn.btn-success {
-    background: #1598db none repeat scroll 0 0;
-    border-color: #1598db;
+    background: ##255F8C none repeat scroll 0 0;
+    border-color: ##255F8C;
+}
+
+#home .btn.btn-primary, #content .btn.btn-primary, {
+  background: ##255F8C none repeat scroll 0 0;
+  border-color: ##255F8C;
 }
 
 .lead.announce {
@@ -303,8 +308,7 @@ div#statistics-1 {
 }
 
 .statistics .well {
-    height: 80px;
-    padding: 12px;
+    padding: 20px;
 }
 
 .statistic-container {
@@ -350,6 +354,7 @@ i.stat-icon {
 
 .shortcut-links ul li {
     font-size: 1em;
+    margin-top: .75em;
 }
 
 .shortcut-links ul.sub-list {
@@ -362,6 +367,13 @@ i.stat-icon {
 
 #home .cta a {
     color: #ffffff;
+    background-color: #255F8C;
+    border-color: #255F8C;
+}
+
+#home .cta a:hover {
+    background-color: #1E4B70;
+    border-color: #1E4B70;
 }
 
 a.tooltiplink:hover {
@@ -962,6 +974,11 @@ div.bottom-img img {
 #rbk a {
     text-decoration: none !important;
     color: #428bca;
+}
+
+#home .carousel-caption a {
+    color: #fff;
+    text-decoration: underline !important;
 }
 
 
