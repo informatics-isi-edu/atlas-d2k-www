@@ -208,11 +208,12 @@ custom_js:
   <h2>Participating Consortia</h2>
   <div class="col-md-6" id="news-atlas">
 
-    <h3>Featured Imaging Data</h3>
-
-    <div class="image-carousel">
-		{% include carousel.html %}
-    </div>
+    <h3>Funding Opportunities</h3>
+    <ul class="posts">
+      <li><a href="/collaboration/op-pool/">Learn about Opportunity Pools</a></li>
+      <li><a href="/collaboration/gudmap-collab/">Apply to be a GUDMAP Collaborating Group</a></li>
+      <li><a href="/collaboration/rbk-collab/">Apply to be a RBK Collaborating Group</a></li>
+    </ul>
 
   </div>
   <div class="col-md-6" id="consortiums">
@@ -237,8 +238,6 @@ custom_js:
 <h2>Browse these shortcuts for GUDMAP and RBK data</h2>
 <div class="col-md-12">
   <div class="shortcuts">
-
-    <h3>For more search options, click the DATA menu above.</h3>
 <!--
 <small>Over 11,000 records and 4,000 images</small>
 -->
@@ -246,13 +245,15 @@ custom_js:
 <div class="row shortcut-links">
 <div class="col-md-4">
   <ul>
+    <li class="sub-parent">Available Species: Human, Mouse and Canine</li>
     <li class="sub-parent">SEARCH BY...</li>
     <li><a href="/chaise/recordset/#2/Common:Gene">Gene</a></li>
     <li><a href="/chaise/recordset/#2/Vocabulary:Anatomy/">Anatomy: Facet Search</a></li>
     <li><a href="/deriva-webapps/treeview/">Anatomy: Tree View</a></li>
     <!--
-    <li><a href="/deriva-webapps/boolean-search/">Anatomy: Boolean Search</a></li> -->
+    <li><a href="/deriva-webapps/boolean-search/">Anatomy: Boolean Search</a></li>
     <li><a href="/chaise/recordset/#2/Common:Principal_Investigator@sort(Person)">Investigator</a></li>
+    -->
   </ul>
   <ul>
     <li class="sub-parent">VISUALIZATIONS</li>
@@ -269,40 +270,30 @@ custom_js:
 <div class="col-md-4">
   <ul>
     <li class="sub-parent">IMAGING</li>
-    <li><a href="/chaise/recordset/#2/Gene_Expression:Specimen/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM6JHQBcAjdafEAcRwhwH0BRADwAcMckkBLFCEADQgAyqxxZuAW1r0AglzABPegBVFY+gDMA1jkUgAugF8hAJQCSAEUNCsACxTdcSSgEYAbAFoATJYBipoZGxkA@sort(RCT::desc::,Stage_Ordinal,RID)">In-situ Hybridization</a></li>
-    <li><a href="/chaise/recordset/#2/Gene_Expression:Specimen/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM6JHQBcAjdafEAcRwhwH0BRADwAcMckkBLFCEADQgAyqxxZuAW1r0AglzABPegBVFY+gDMA1jkUgAugF8hAOTDTDQrAAsU3XEkoBJABIBhQ0eNA">Immunohistochemistry</a></li>
     <li><a href="/chaise/recordset/#2/Gene_Expression:Specimen/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM6JHQBcAjdafEAcRwhwH0BRADwAcMckkBLFCEADQgAyqxxZuAW1r0AglzABPegBVFY+gDMA1jkUgAugF8hAOTDTDQrAAsU3XEkoAJbkiIoANigDm+48ZAA@sort(Stage_Ordinal,RID)">Histology</a></li>
+    <li><a href="/chaise/recordset/#2/Gene_Expression:Specimen/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM6JHQBcAjdafEAcRwhwH0BRADwAcMckkBLFCEADQgAyqxxZuAW1r0AglzABPegBVFY+gDMA1jkUgAugF8hAOTDTDQrAAsU3XEkoBJABIBhQ0eNA">Immunohistochemistry</a></li>
+    <li><a href="/chaise/recordset/#2/Gene_Expression:Specimen/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM6JHQBcAjdafEAcRwhwH0BRADwAcMckkBLFCEADQgAyqxxZuAW1r0AglzABPegBVFY+gDMA1jkUgAugF8hAJQCSAEUNCsACxTdcSSgEYAbAFoATJYBipoZGxkA@sort(RCT::desc::,Stage_Ordinal,RID)">In-situ Hybridization</a></li>
     <li><a href="/chaise/recordset/#2/Gene_Expression:Specimen/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM6JHQBcAjdafEAcRwhwH0BRADwAcMckkBLFCEADQgAyqxxZuAW1r0AglzABPegBVFY+gDMA1jkUgAugF8hAJQCSAEUNCsACxTdcSSgEYAbAFp3l2Y0NGxkA@sort(RCT::desc::,Stage_Ordinal,RID)">NanoCT</a></li>
-    <!--
-<li><a href="/chaise/recordset/#2/Gene_Expression:Specimen@sort(RCT::desc::,Stage_Ordinal,RID)">All Specimen Data</a></li>
--->
   </ul>
   <ul>
-    <li class="sub-parent">SEQUENCING</li>
+    <li class="sub-parent">OMICS</li>
     <li><a href="/chaise/recordset/#2/RNASeq:Study/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM6JAEsIAjdafEAJQDkBBAZRwEcQAaEAUQA8AHHDIQC2OCABcA+gzFooATwlUAkgBEJAMwDWOOSAC6AXzah0YsmgoJq9Jqw49+gkeIkOBw0ZIAqc-hu26hhzKKvocWAAWKIS4SJQAigC0AJoAUgAaAOr6BoZAA@sort(RMT::desc::,RID)">mRNA-Seq</a></li>
     <li><a href="/chaise/recordset/#2/RNASeq:Study/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM6JAEsIAjdafEAJQDkBBAZRwEcQAaEAUQA8AHHDIQC2OCABcA+gzFooATwlUAkgBEJAMwDWOOSAC6AXzah0YsmgoJq9Jqw49+gkeIkOBw0ZIAqc-hu26hhzKKvocWAAWKIS4SJQAjABsALQAigDSNF7sIKnJAJoAUvkATPoGhkA@sort(RMT::desc::,RID)">scRNA-Seq/snRNA-Seq</a></li>
-    <li><a href="/chaise/recordset/#2/RNASeq:Study/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM6JAEsIAjdafEAJQDkBBAZRwEcQAaEAUQA8AHHDIQC2OCABcA+gzFooATwlUAkgBEJAMwDWOOSAC6AXzah0YsmgoJq9Jqw49+gkeIkOBw0ZIAqc-hu26hhzKKvocWAAWKIS4SJQAigC0AJoAUgAayfoGhkA@sort(RMT::desc::,RID)">ChIP-Seq</a></li>
     <li><a href="/chaise/recordset/#2/Microarray:Sample@sort(RID)">Microarray</a></li>
-    <!--
-    <li><a href="/chaise/recordset/#2/RNASeq:Study/">All Studies</a></li>
-    -->
+    <li><a href="/chaise/recordset/#2/RNASeq:Study/*::facets::N4IghgdgJiBcDaoDGALA9gSyQUwM53hAEUBaATQCkyAGEAXQBoRc0BXAJxwGtsBPOENgAeAB2zsMAW2wQALgH1ZvMfIBmPfgF8GydFjwFi5AGwBGALL0mLDtz4CkHMLIxoI83LOetcajSE06TSA">ATAC-Seq</a></li>
+    <li><a href="/chaise/recordset/#2/RNASeq:Study/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM6JAEsIAjdafEAJQDkBBAZRwEcQAaEAUQA8AHHDIQC2OCABcA+gzFooATwlUAkgBEJAMwDWOOSAC6AXzah0YsmgoJq9Jqw49+gkeIkOBw0ZIAqc-hu26hhzKKvocWAAWKIS4SJQAigC0AJoAUgAayfoGhkA@sort(RMT::desc::,RID)">ChIP-Seq</a></li>
+    <li><a href="/chaise/recordset/#2/RNASeq:Study/*::facets::N4IghgdgJiBcDaoDGALA9gSyQUwM53hAEYA2AWgBEBNABQCUQBdAGhFzQFcAnHAa2wCecENgAeAB2xcMAW2wQALgH0FAyUoBm-IQF9mydFjwEQARTJUSRALJNW7bn0HCk3MAoxoIS3AvcdcTW0QHUYdIA">Metabolomics</a></li>
   </ul>
 </div>
 <div class="col-md-4">
   <ul>
-    <li class="sub-parent">EXPERIMENT PROTOCOLS</li>
-    <li><a href="/chaise/recordset/#2/Protocol:Protocol@sort(RMT::desc::,RID)">All Protocols</a></li>
-  </ul>
-  <ul>
-    <li class="sub-parent">CELL & ANIMAL MODELS</li>
-    <li><a href="/chaise/recordset/#2/Cell_Line:Reporter_Cell_Line@sort(ID)">Transgenic Reporter Cell Lines</a></li>
-    <li><a href="/chaise/recordset/#2/Cell_Line:Parental_Cell_Line">Parental Cell Lines</a></li>
-    <li><a href="/chaise/recordset/#2/Cell_Line:Mouse_Strain@sort(ID)">Transgenic Mouse Strains</a></li>
-  </ul>
-  <ul>
-    <li class="sub-parent">ANTIBODIES</li>
+    <li class="sub-parent">LAB RESOURCES & TOOLS</li>
     <li><a href="/chaise/recordset/#2/Antibody:Antibody_Tests@sort(RID)">Antibody Validation</a></li>
-    <li><a href="/chaise/recordset/#2/Antibody:Antibodies">Antibody Listings</a></li>
+    <li><a href="/resources/cell-lines/">Request iPSC Cell Lines</a></li>
+    <li><a href="/chaise/recordset/#2/Cell_Line:Mouse_Strain@sort(ID)">Transgenic Mouse Strains</a></li>
+    <li><a href="/chaise/recordset/#2/Protocol:Protocol@sort(RMT::desc::,RID)">Protocols</a></li>
+    <li><a href="/resources/functional-assays/">Functional Assays Handbook</a></li>
+    <li><a href="/chaise/recordset/#2/Common:Publication/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM6JHQBcAjdafEAYRQFtaUIQAaEABTRIBsBLLMIj0YB9GhFQZBaWsIBmAaxwBPEAF0AvqwBKASQAia1lgAWKPjiSUAigFoAzAGkArABYWIW46cA2Neo1AA@sort(Year::desc::,Month::desc::,RID::desc::)?pcid=navbar&ppid=1qns20zx1wfw2gvf260c2htn">Publications</a></li>
   </ul>
 </div>
 </div>
@@ -361,12 +352,13 @@ custom_js:
 <div class="row" id="opps">
   <h2>Consortia Highlights</h2>
   <div class="col-md-4">
-    <h3>Funding Opportunities</h3>
-    <ul class="posts">
-      <li><a href="/collaboration/op-pool/">Learn about Opportunity Pools</a></li>
-      <li><a href="/collaboration/gudmap-collab/">Apply to be a GUDMAP Collaborating Group</a></li>
-      <li><a href="/collaboration/rbk-collab/">Apply to be a RBK Collaborating Group</a></li>
-    </ul>
+
+    <h3>Featured Imaging Data</h3>
+
+    <div class="image-carousel">
+    {% include carousel.html %}
+    </div>
+
   </div>
   <div class="col-md-4">
     <h3>Recent Publications</h3>
