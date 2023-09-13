@@ -149,6 +149,14 @@ img.navlogo {
     width: 200px;
 }
 
+#whoweare {
+    display: inline-block;
+    background-color: #ffffff;
+    padding-bottom: 50px;
+    padding-left: 30px;
+    height: 570px;
+}
+
 
 /* Embedded graph on homepage */
 
@@ -207,10 +215,10 @@ h3 {
     background-color: #efefef;
     /*  padding: 10px 25px 0; */
     max-width: 1675px;
-    padding-top: 30px;
+    padding-top: 10px;
 }
 
-h1.tagline {
+#gudmap.home h1.tagline {
     margin-top: 15px;
     margin-bottom: 18px;
     font-size: 20px;

@@ -1,67 +1,34 @@
 ---
 layout: gudmap/home
 title: GUDMAP Consortium
-categories: []
-tags: []
+custom_css:
+  - colorbox
+custom_js:
+  - jquery.colorbox
 ---
 
 
 <div class="container-fluid content home" id="gudmap">
 <div class="row">
   <h1 class="tagline">The GenitoUrinary Development Molecular Anatomy Project (GUDMAP) provides data and tools<br/> that facilitate research on the GenitoUrinary (GU) tract for the scientific and medical community.</h1>
-  <div class="col-md-8">
-    <div class="shortcuts alternate">
-      <h2>Browse these data shortcuts for GUDMAP...</h2>
-    <div class="row shortcut-links">
-      <div class="col-md-4">
-        <ul>
-          <li class="sub-parent">SPECIES: Mouse, Human and Dog</li>
-          <li class="sub-parent"></li>
-          <li class="sub-parent info-label">IMAGING DATA <a class="tooltiplink" href="#"><i class="fas fa-info-circle"></i><span>Represents the tissue used in experiments and is where imaging data is stored.</span></a></li>
-          <li><a href="/chaise/recordset/#2/Gene_Expression:Specimen/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM6JHQBcAjdafEAcRwhwH0BRADwAcMckkBLFCEADQgAyqxxZuAW1r0AglzABPegBVFY+gDMA1jkUgAugF8hAJQCSAEUNCsACxTdcSSgEYAbAFoATJYBiAAqGJsjo2HiwIADCfKgYRNxokoIg9o7OlFQAqpYAsrJBxsZAA@sort(RCT::desc::,Stage_Ordinal,RID)">Immunohistochemistry (IHC)</a></li>
-          <li><a href="/chaise/recordset/#2/Gene_Expression:Specimen/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM6JHQBcAjdafEAcRwhwH0BRADwAcMckkBLFCEADQgAyqxxZuAW1r0AglzABPegBVFY+gDMA1jkUgAugF8hAJQCSAEUNCsACxTdcSSgEYAbAFoATJYBipoYmyOjYeLAgAMJ8qBhE3GiSgiD2js6UVACqlgCysgAKQcZAA@sort(RCT::desc::,Stage_Ordinal,RID)">In-Situ Hybridization (ISH)</a></li>
-          <li><a href="/chaise/recordset/#2/Gene_Expression:Specimen/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM6JHQBcAjdafEAcRwhwH0BRADwAcMckkBLFCEADQgAyqxxZuAW1r0AglzABPegBVFY+gDMA1jkUgAugF8hAJQCSAEUNCsACxTdcSSgEYAbAFoATJaqzDE2R0bDxYEABhPlQMIm40SUEQe0dnSioAVUsAWVkABUDjIA@sort(RCT::desc::,Stage_Ordinal,RID)">Histology</a></li>
-          <li><a href="/chaise/recordset/#2/Gene_Expression:Specimen/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM6JHQBcAjdafEAcRwhwH0BRADwAcMckkBLFCEADQgAyqxxZuAW1r0AglzABPegBVFY+gDMA1jkUgAugF8hAJQCSAEUNCsACxTdcSSgEYAbAFp3l2Y0MmyOjYeLAgAMJ8qBhE3GiSgiD2js6UVACqlgCysgAKAcZAA@sort(RCT::desc::,Stage_Ordinal,RID)">NanoCT</a></li>
-          <li><a href="/chaise/recordset/#2/Gene_Expression:Specimen/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM6JHQBcAjdafEAcRwhwH0BRADwAcMckkBLFCEADQgAyqxxZuAW1r0AglzABPegBVFY+gDMA1jkUgAugF8hAJQCSAEUNCsACxTdcSSgEYAbAFoATJYBiAJqGJsjo2HiwIADCfKgYRNxokoIg9o7OlFQAqpYAsrIACsHGQA@sort(RCT::desc::,Stage_Ordinal,RID)">Transgenic Fluorescent Imaging (TG)</a></li>
-          <li><a href="/chaise/recordset/#2/Gene_Expression:Specimen/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM6JHQBcAjdafEAcRwhwH0BRADwAcMckkBLFCEADQgAyqxxZuAW1r0AglzABPegBVFY+gDMA1jkUgAugF8hAJQCSAEUNCsACxTdcSSgEYAbAFoAGgGYqAJqGJsjo2HiwIADCfKgYRNxokoIg9o7OlFQAqpYAsrIACsHGQA@sort(RCT::desc::,Stage_Ordinal,RID)">Enzyme Histochemistry</a></li>
-        </ul>
-      </div>
-      <div class="col-md-4">
-        <ul>
-          <li class="sub-parent info-label">OMICS DATA <a class="tooltiplink" href="#"><i class="fas fa-info-circle"></i><span>Describes studies of omics data, organized by Experiment and Replicate records.</span></a></li>
-          <li><a href="/chaise/recordset/#2/RNASeq:Study/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM6JAEsIAjdafEAJQDkBBAZRwEcQAaEAUQA8AHHDIQC2OCABcA+gzFooATwlUAkgBEJAMwDWOOSAC6AXzah0YsmgoJq9Jqw49+gkeIkOBw0ZIAqc-hu26hhzKKvocWAAWKIS4SJQAigC0AJoAUgAaAOr6Rsjo2HiwIADCKBCoGGKEaELsIJHRsZQA4gCqKgCydAAKOYZAA@sort(RMT::desc::,RID)">mRNA-Seq</a></li>
-          <li><a href="/chaise/recordset/#2/RNASeq:Study/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM6JAEsIAjdafEAJQDkBBAZRwEcQAaEAUQA8AHHDIQC2OCABcA+gzFooATwlUAkgBEJAMwDWOOSAC6AXzah0YsmgoJq9Jqw49+gkeIkOBw0ZIAqc-hu26hhzKKvocWAAWKIS4SJQAigC0AJoAUskATPpGyOjYeLAgAMIoEKgYYoRoQuwgkdGxlADiAKoqALJ0AArZhkA@sort(RMT::desc::,RID)">scRNA-Seq</a></li>
-          <li><a href="/chaise/recordset/#2/RNASeq:Study/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM6JAEsIAjdafEAJQDkBBAZRwEcQAaEAUQA8AHHDIQC2OCABcA+gzFooATwlUAkgBEJAMwDWOOSAC6AXzah0YsmgoJq9Jqw49+gkeIkOBw0ZIAqc-hu26hhzKKvocWAAWKIS4SJQAigC0AJoAUgAayfpGyOjYeLAgAMIoEKgYYoRoQuwgkdGxlADiAKoqALJ0AArZhkA@sort(RMT::desc::,RID)">ChiP-Seq</a></li>
-          <li><a href="/chaise/recordset/#2/RNASeq:Study/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM4gBUAFAWQH0ARMAFzBABoQsALFAS1yTnmozRwC6AX3rJ02PLBABhFBFQZqbNAFsGTVhxxcEIAOIBVCiQCCREMOFA@sort(RMT::desc::,RID)">mRNA-Seq Expression Data</a></li>
-          <li><a href="/chaise/recordset/#2/Microarray:Sample@sort(RID)">Microarray (Sample)</a></li>
-          <li class="sub-parent">VISUALIZATION TOOLS</li>
-          <li><a href="/deriva-webapps/plot/?config=study-violin">mRNA-Seq Violin Plots</a></li>
-          <li><a href="/chaise/recordset/#2/RNASeq:Study/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM6JAEsIAjdafEAJQDkBBAZRwEcQAaEANUKTTABtCALzAAXQiggB9BqLRQAnlIBmAaxwKQAXQC+bUOlFk0FBNXpNWHbrwHCxE6Tb6CR4yVLoAHL4KwOPNQ1tPWoASQARbQ4IFFEpCDR+fjhRDDQcPWR0bDxYEABhSVQMcTQAW3YQLAALFEJcJEoAcQBVCIBZOgAFEN0gA@sort(RMT::desc::,RID)">scRNA-Seq Scatter Plots</a></li>
-        </ul>
-      </div>
-      <div class="col-md-4">
-        <ul>
-          <li class="sub-parent">RESOURCES</li>
-          <li><a href="/chaise/recordset/#2/Common:Publication/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM6JHQBcAjdafEAYRQFtaUIQAaEABTRIBsBLLMIj0YB9GhFQZBaWsIBmAaxwBPEAF0AvqwBKASQAia1lgAWKPjiSUAigFoAzAGkArADY16jUA@sort(Year::desc::,Month::desc::,RID::desc::)">Publications</a></li>
-          <li><a href="/chaise/recordset/#2/Protocol:Protocol/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM6JHQBcAjdafEABQxSJSxQBsQAaa2+xpgfQGEUEVBiIBLNAFseAMwDWOAJ4gAugF92AJQCSAERXssACxSjcSSgEUAtAGYA0gFYAbCtVqgA@sort(RMT::desc::,RID)">Protocols</a></li>
-          <li><a href="/chaise/recordset/#2/Schematics:Schematic_Group@sort(ID)">Mouse Schematics</a></li>
-          <li><a href="/chaise/recordset/#2/Cell_Line:Mouse_Strain/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM6JHQBcAjdafEAYRwBtaB9AGQEsI8AaEAWXSRwYBlIhjBsGVFBFQYiLNAFsGAMwDWOAJ4gAugF8uAJQCSAER1csACxQtcSSgEUAtAGYA0gFYAbDt16gA@sort(ID)">Mouse Strains</a></li>
-          <li><a href="/chaise/recordset/#2/Antibody:Antibody_Tests/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM6JHQBcAjdafEAQQiIEsyoBPEAGmtoZWYH0AVHEiJIeAYRQRUGemgC2PAGYBrHCwC6AX3YAlAJIAREGvZYAFijq4klAIoBaAMwBpAKwA2Ixs1A@sort(RID)">Antibody Validation</a></li>
-          <li class="sub-parent">SEARCH BY...</li>
-          <li><a href="/chaise/recordset/#2/Common:Principal_Investigator/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM4gEkkB9AcQFUARAWQEEAFY+gkAGhCwAsUBLXJOPAAuGNDgC6AXylA@sort(RID)">GUDMAP Investigator</a></li>
-          <li class="info-label"><a class="tooltiplink" href="/chaise/recordset/#2/Common:Collection/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM6JHQBcAjdafEAYRQFtaUIQAaalAG3ZyyIEtGA+jQioMfNLQEAzANY4AniAC6AX1YAlAJIARZaywALFL1xJKARQC0AZgDSAVgBsylaqA@sort(RID)">Data Collections <i class="fas fa-info-circle"></i><span>Customized collections of datasets, usually to collect data within a publication.</span></a></li>
-        </ul>
-      </div>
-    </div>
-    <div class="row">
+  <div class="col-md-8 featured" id="whoweare">
+    <h3>Who We Are</h3>
 
-    <div class="col-md-12">
-          <iframe class="embed-responsive" name="resources-viewer" id="resources-viewer" style="width: 675px; height: 350px; border-style: none; border-color: inherit; border-width: 0px; " src="/deriva-webapps/plot/?config=gudmap-data-summary">
-          </iframe>
-    </div>
+    <p>Since its inception, GUDMAP has focused on the kidney, lower urinary tract and nociceptors (pain receptors) and associated cell types in pain processing of the urinary tract and pelvic region.</p>
 
-    </div>
-  </div>
+    <p>The main focus of the current GUDMAP3 phase is expanding our understanding of human development of the genito-urinary system.</p>
+
+    <p>The <strong>GenitoUrinary Development Molecular Anatomy Project (GUDMAP)</strong> is a consortium of laboratories working to provide the scientific and medical community with curated data and tools to facilitate research on the GenitoUrinary (GU) tract. The key components are:</p>
+
+    <ol>
+      <li>a molecular atlas of gene expression for the developing and mature organs of the human and mouse GU tract;</li>
+      <li>a high resolution molecular anatomy that highlights development of the GU system;</li>
+      <li>mouse strains to facilitate developmental and functional studies within the GU system;</li>
+      <li>tutorials describing GU organogenesis and innervation; and</li>
+      <li>access to consortium generated data, unpublished and  published, via the GUDMAP data repository.</li>
+    </ol>
+
+    <p>The GUDMAP tools, website and database are a public resource funded by the <a href="https://www.nih.gov/">National Institutes of Health, USA</a>.</p>
 </div>
   <div class="col-md-4 featured">
     <h3>Examples of GUDMAP imaging data</h3>
@@ -69,15 +36,6 @@ tags: []
     <div class="image-carousel">
     {% include carousel.html %}
     </div>
-
-    <h3>GUDMAP Publications: <a href="/chaise/recordset/#2/Common:Publication/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM6JHQBcAjdafEAYRQFtaUIQAaEABTRIBsBLLMIj0YB9GhFQZBaWsIBmAaxwBPEAF0AvqwBKASQAia1lgAWKPjiSUAigFoAzAGkArABY16jUA@sort(Year::desc::,Month::desc::,RID::desc::)">240+</a></h3>
-    <ul class="posts">
-      <li><a href="https://www.doi.org/10.1016/j.devcel.2022.07.004">Single-cell and spatial mapping identify cell types and signaling networks in the human ureter</a> <small><em>(Dev Cell, August 2022)</em></small></li>
-      <li><a href="https://doi.org/10.1016/j.ydbio.2021.05.014">Single cell transcriptomic analysis of external genitalia reveals complex and sexually dimorphic cell populations in the early genital tubercle</a> <small><em>(Dev Bio, September 2021)</em></small></li>
-      <li><a href="https://doi.org/10.1016/j.ydbio.2021.03.024">Altered sacral neural crest development in <em>Pax3</em> spina bifida mutants underlies deficits of bladder innervation and function</a> <small><em>(Dev Bio, August 2021)</em></small></li>
-    </ul>
-
-    <p class="signup"><a href="http://eepurl.com/hyUyjD" class="btn btn-success" role="button">Join our announcements list!</a></p>
 
   </div>
 
@@ -132,15 +90,17 @@ tags: []
   -->
     </div>
     <div class="col-md-4">
-      <h3>Resources <small><em><a href="/resources/">View all</a></em></small></h3>
-      <ul class="list-group">
-        <li class="list-group-item"><h4 class="media-heading"><a href="/resources/genital-tubercule-atlas/">Mouse Genital Tubercule Atlas</a></h4></li>
-        <li class="list-group-item"><h4 class="media-heading"><a href="/resources/adult-mouse-penis-3d/">Mouse Penis 3D Atlas</a></h4></li>
-        <li class="list-group-item"><h4 class="media-heading"><a href="/resources/ontology/">Ontology</a></h4></li>
+      <h3>GUDMAP Publications: <a href="/chaise/recordset/#2/Common:Publication/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM6JHQBcAjdafEAYRQFtaUIQAaEABTRIBsBLLMIj0YB9GhFQZBaWsIBmAaxwBPEAF0AvqwBKASQAia1lgAWKPjiSUAigFoAzAGkArABY16jUA@sort(Year::desc::,Month::desc::,RID::desc::)">240+</a></h3>
+      <ul class="list-group posts">
+        <li class="list-group-item"><a href="https://www.doi.org/10.1016/j.devcel.2022.07.004">Single-cell and spatial mapping identify cell types and signaling networks in the human ureter</a> <small><em>(Dev Cell, August 2022)</em></small></li>
+        <li class="list-group-item"><a href="https://doi.org/10.1016/j.ydbio.2021.05.014">Single cell transcriptomic analysis of external genitalia reveals complex and sexually dimorphic cell populations in the early genital tubercle</a> <small><em>(Dev Bio, September 2021)</em></small></li>
+        <li class="list-group-item"><a href="https://doi.org/10.1016/j.ydbio.2021.03.024">Altered sacral neural crest development in <em>Pax3</em> spina bifida mutants underlies deficits of bladder innervation and function</a> <small><em>(Dev Bio, August 2021)</em></small></li>
       </ul>
+
+      <p class="signup"><a href="http://eepurl.com/hyUyjD" class="btn btn-success" role="button">Join our announcements list!</a></p>
     </div>
     <div class="col-md-4">
-      <h3>Announcements</h3>
+      <h3>News</h3>
       <ul class="list-group posts">
         {% assign counter = 0 %}
           {% for post in site.posts %}
@@ -177,7 +137,7 @@ $(document).ready(function(){
       slidesToShow: 3,
       slidesToScroll: 1,
       infinite: false,
-      rows: 2
+      rows: 3
     });
 /*
     $('.slider.students').slick({
@@ -187,7 +147,7 @@ $(document).ready(function(){
       rows: 1
     });
 */
-/*
+
     $('a.featured').colorbox({
       maxWidth: "800px",
       rel:'gal',
@@ -198,6 +158,6 @@ $(document).ready(function(){
         return txt+" More info".link(ridurl);
       }
     });
-*/
+
 });
 </script>
