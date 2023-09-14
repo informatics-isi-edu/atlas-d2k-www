@@ -154,7 +154,13 @@ img.navlogo {
     background-color: #ffffff;
     padding-bottom: 50px;
     padding-left: 30px;
+    padding-right: 30px;
     height: 570px;
+}
+
+#whoweare .indent {
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 
@@ -257,8 +263,8 @@ h3 {
     font-size: 18px;
 }
 
-#gudmap.home .shortcuts {
-    padding-left: 30px;
+#gudmap.home .p {
+  font-size: 16px;
 }
 
 #gudmap .signup a {
@@ -278,13 +284,13 @@ div#cboxCurrent {
 .featured {
   padding-left: 30px;
 }
-*/
+
 
 .featured ul {
     padding-left: 20px;
     list-style-type: none;
 }
-
+*/
 .bottom h4.media-heading {
     font-size: 16px;
 }

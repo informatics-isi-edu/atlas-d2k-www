@@ -14,21 +14,21 @@ custom_js:
   <div class="col-md-8 featured" id="whoweare">
     <h3>Who We Are</h3>
 
-    <p>Since its inception, GUDMAP has focused on the kidney, lower urinary tract and nociceptors (pain receptors) and associated cell types in pain processing of the urinary tract and pelvic region.</p>
+    <p class="indent">Since its inception, GUDMAP has focused on the kidney, lower urinary tract and nociceptors (pain receptors) and associated cell types in pain processing of the urinary tract and pelvic region.</p>
 
-    <p>The main focus of the current GUDMAP3 phase is expanding our understanding of human development of the genito-urinary system.</p>
+    <p class="indent">The <strong>GenitoUrinary Development Molecular Anatomy Project (GUDMAP)</strong> is a consortium of laboratories working to provide the scientific and medical community with curated data and tools to facilitate research on the GenitoUrinary (GU) tract. The key components are:</p>
 
-    <p>The <strong>GenitoUrinary Development Molecular Anatomy Project (GUDMAP)</strong> is a consortium of laboratories working to provide the scientific and medical community with curated data and tools to facilitate research on the GenitoUrinary (GU) tract. The key components are:</p>
-
-    <ol>
+    <ul>
       <li>a molecular atlas of gene expression for the developing and mature organs of the human and mouse GU tract;</li>
       <li>a high resolution molecular anatomy that highlights development of the GU system;</li>
       <li>mouse strains to facilitate developmental and functional studies within the GU system;</li>
       <li>tutorials describing GU organogenesis and innervation; and</li>
-      <li>access to consortium generated data, unpublished and  published, via the GUDMAP data repository.</li>
-    </ol>
+      <li>access to consortium generated data, unpublished and  published, via the ATLAS-D2K data repository.</li>
+    </ul>
 
-    <p>The GUDMAP tools, website and database are a public resource funded by the <a href="https://www.nih.gov/">National Institutes of Health, USA</a>.</p>
+    <p class="indent">The main focus of the current GUDMAP4 phase is [expanding our understanding of human development of the genito-urinary system.]</p>
+
+    <p class="indent">The GUDMAP tools, tutorials and database are a public resource funded by the <a href="https://www.nih.gov/">National Institutes of Health, USA</a>.</p>
 </div>
   <div class="col-md-4 featured">
     <h3>Examples of GUDMAP imaging data</h3>
@@ -36,6 +36,8 @@ custom_js:
     <div class="image-carousel">
     {% include carousel.html %}
     </div>
+
+      <p class="signup"><a href="http://eepurl.com/hyUyjD" class="btn btn-success" role="button">Join our announcements list!</a></p>
 
   </div>
 
@@ -90,14 +92,15 @@ custom_js:
   -->
     </div>
     <div class="col-md-4">
-      <h3>GUDMAP Publications: <a href="/chaise/recordset/#2/Common:Publication/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM6JHQBcAjdafEAYRQFtaUIQAaEABTRIBsBLLMIj0YB9GhFQZBaWsIBmAaxwBPEAF0AvqwBKASQAia1lgAWKPjiSUAigFoAzAGkArABY16jUA@sort(Year::desc::,Month::desc::,RID::desc::)">240+</a></h3>
+      <h3>GUDMAP Publications</h3>
       <ul class="list-group posts">
         <li class="list-group-item"><a href="https://www.doi.org/10.1016/j.devcel.2022.07.004">Single-cell and spatial mapping identify cell types and signaling networks in the human ureter</a> <small><em>(Dev Cell, August 2022)</em></small></li>
         <li class="list-group-item"><a href="https://doi.org/10.1016/j.ydbio.2021.05.014">Single cell transcriptomic analysis of external genitalia reveals complex and sexually dimorphic cell populations in the early genital tubercle</a> <small><em>(Dev Bio, September 2021)</em></small></li>
         <li class="list-group-item"><a href="https://doi.org/10.1016/j.ydbio.2021.03.024">Altered sacral neural crest development in <em>Pax3</em> spina bifida mutants underlies deficits of bladder innervation and function</a> <small><em>(Dev Bio, August 2021)</em></small></li>
+        <li class="list-group-item"><a href="https://doi.org/10.3390/ijms22136838">5-HT3 Signaling Alters Development of Sacral Neural Crest Derivatives That Innervate the Lower Urinary Tract</a> <small><em>(International Journal of Molecular Sciences, June 2021)</em></small></li>
       </ul>
+      <a href="/chaise/recordset/#2/Common:Publication/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM6JHQBcAjdafEAYRQFtaUIQAaEABTRIBsBLLMIj0YB9GhFQZBaWsIBmAaxwBPEAF0AvqwBKASQAia1lgAWKPjiSUAigFoAzAGkArADY16jUA@sort(Year::desc::,Month::desc::,RID::desc::)">all publications ></a>
 
-      <p class="signup"><a href="http://eepurl.com/hyUyjD" class="btn btn-success" role="button">Join our announcements list!</a></p>
     </div>
     <div class="col-md-4">
       <h3>News</h3>
@@ -119,7 +122,7 @@ custom_js:
           {% endfor %}
       </ul>
 
-    <a id="more-news" href="/gudmap/news/">more news ></a><br>
+    <a id="more-news" href="/gudmap/news/">all news ></a><br>
     <!--    <a href="/publications/">publications ></a> -->
     </div>
 
@@ -137,7 +140,7 @@ $(document).ready(function(){
       slidesToShow: 3,
       slidesToScroll: 1,
       infinite: false,
-      rows: 3
+      rows: 2
     });
 /*
     $('.slider.students').slick({

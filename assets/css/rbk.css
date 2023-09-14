@@ -282,7 +282,7 @@ section.section-cta.section.row.clear { margin-top: 1em; margin-bottom: 1.1em; }
 
 section.section-cta.section.row.clear li { padding: 0; }
 
-#rbk .highlighted { padding-top: 25px; padding-bottom: 25px; background-color: #4d4e4f; color: #fff; }
+#rbk .highlighted { padding-top: 25px; padding-bottom: 25px; color: #fff; }
 
 #rbk .highlighted a { color: inherit; text-decoration: underline !important; }
 
