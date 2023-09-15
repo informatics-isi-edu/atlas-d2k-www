@@ -133,9 +133,11 @@ a.anchor {
     border-color: ##255F8C;
 }
 
-#home .btn.btn-primary, #content .btn.btn-primary, {
-  background: ##255F8C none repeat scroll 0 0;
-  border-color: ##255F8C;
+#home .btn.btn-primary,
+#content .btn.btn-primary,
+{
+    background: ##255F8C none repeat scroll 0 0;
+    border-color: ##255F8C;
 }
 
 .lead.announce {
@@ -315,15 +317,18 @@ div#statistics-1 {
     display: flex;
     align-items: center;
     /* Center content vertically */
-    justify-content: center;
+    justify-content: start;
     /* Center content horizontally */
     height: 60px;
     /* Adjust height as needed */
 }
 
+.statistic-container i {
+    width: 27%;
+}
+
 i.stat-icon {
     font-size: 2.5em;
-    margin-right: 20px;
 }
 
 #home h2.stat-number {
