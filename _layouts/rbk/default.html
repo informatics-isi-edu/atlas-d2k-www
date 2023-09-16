@@ -14,6 +14,7 @@
 
 		{%- comment -%} {{ content }} {%- endcomment -%}
 		<section class="section-{{page.tag}} container">
+		{% include breadcrumb.html %}
   			<h1 id="{{page.tag}}">{{ page.title }}</h1>
   			<div class="{{page.tag}}-content">
 
