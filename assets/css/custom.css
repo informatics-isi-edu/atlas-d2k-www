@@ -133,9 +133,11 @@ a.anchor {
     border-color: ##255F8C;
 }
 
-#home .btn.btn-primary, #content .btn.btn-primary, {
-  background: ##255F8C none repeat scroll 0 0;
-  border-color: ##255F8C;
+#home .btn.btn-primary,
+#content .btn.btn-primary,
+{
+    background: ##255F8C none repeat scroll 0 0;
+    border-color: ##255F8C;
 }
 
 .lead.announce {
@@ -475,6 +477,7 @@ ul.posts li time {
 }
 
 #content.container {
+    padding-top: 15px;
     padding-bottom: 50px;
     max-width: 1100px;
 }
