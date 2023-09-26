@@ -3,12 +3,20 @@ layout: resources
 title: Resources
 ---
 
-- [Cell Lines](/resources/cell-lines)
-- [Functional Assays](/resources/functional-assays)
-- Atlases
-  - [Mouse Genital Tubercule Reference Models](/resources/genital-tubercule-atlas/)
-  - [Adult Mouse Penis](/resources/adult-mouse-penis-3d/)
-- [Tissue Summaries](/resources/tissue-summaries/)
-- [GUDMAP Ontology](/resources/ontology/)
-- [Disease Resource](/resources/disease/)
-- [Community Tools and Resources](/resources/tools)
+<!-- List group -->
+<div class="panel panel-default">
+  <ul class="list-group">
+    <li class="list-group-item"><a href="/resources/cell-lines">Cell Lines</a></li>
+    <li class="list-group-item"><a href="/resources/functional-assays">Functional Assays</a></li>
+    <li class="list-group-item">Atlases
+    <ul>
+        <li class="list-group-item"><a href="/resources/genital-tubercule-atlas/">Mouse Genital Tubercule Reference Models</a></li>
+        <li class="list-group-item"><a href="/resources/adult-mouse-penis-3d/">Adult Mouse Penis</a></li>
+      </ul>
+    </li>
+    <li class="list-group-item"><a href="/resources/tissue-summaries/">Tissue Summaries</a></li>
+    <li class="list-group-item"><a href="/resources/ontology/">GUDMAP Ontology</a></li>
+    <li class="list-group-item"><a href="/resources/disease/">Disease Resource</a></li>
+    <li class="list-group-item"><a href="/resources/tools/">Community Tools and Resources</a></li>
+  </ul>
+</div>
