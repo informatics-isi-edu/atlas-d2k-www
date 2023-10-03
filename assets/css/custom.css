@@ -218,7 +218,7 @@ p.acknowledgement {
 }
 
 .home h3 {
-    margin-top: 0;
+/*    margin-top: 0; */
     text-align: left;
     padding-bottom: 0;
 }
@@ -269,7 +269,7 @@ p.cta {
     text-align: center;
     margin: 0 auto;
     /*  background: rgba(22, 22, 30, 0.5) !important;*/
-    background-image: url("/assets/img/carousel/Snap-29081-cloaca-li.png");
+    background-image: url("/assets/img/carousel/16-WMWC-prostate-mouse-strand.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -434,7 +434,7 @@ ul.posts li time {
 
 .consortium img {
     width: 420px;
-    margin: 0 auto;
+  /*  margin: 0 auto; */
     padding: 15px;
 }
 
@@ -985,6 +985,10 @@ div.bottom-img img {
 #home .carousel-caption a {
     color: #fff;
     text-decoration: underline !important;
+}
+
+#home a {
+  font-size: 18px;
 }
 
 

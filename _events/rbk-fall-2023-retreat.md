@@ -28,8 +28,8 @@ In light of emerging developments and pressing challenges in the field, this yea
 
 - **Programming for Future Investigators:** At RBK, we believe in nurturing the next generation of renal researchers. Our dedicated programming ensures that emerging scientists and researchers are well-equipped with the tools, knowledge, and mentorship they need to drive the industry forward. Through a blend of workshops, hands-on sessions, and networking opportunities, young investigators will be empowered to make meaningful contributions to the field.
 
-**More details coming soon!**  
-Registration details, schedules, and more information about our speakers will be released to RBK Consortium members soon.
+**For more details**  
+Registration details, schedules, and more information about our speakers are released to RBK consortium members via our internal group: rbk-all@groups.atlas-d2k.org.
 
 ---
 

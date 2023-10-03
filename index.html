@@ -215,6 +215,13 @@ custom_js:
       <li><a href="/collaboration/rbk-collab/">Apply to be a RBK Collaborating Group</a></li>
     </ul>
 
+    <h3>Upcoming Internal Events</h3>
+    <ul class="posts">
+      <li><a href="/events/rbk-fall-2023-retreat/">RBK Fall 2023 Retreat (Oct 23-24 in Silver Spring, MD)</a></li>
+      <li><a href="/events/gudmap-spring-2024-meeting/">GUDMAP 2024 Annual Meeting (April 24-25 in Bethesda, MD)</a></li>
+      <li><a href="/events/rbk-spring-2024-retreat/">RBK Spring 2024 Retreat (April 29-30 in Bethesda, MD)</a></li>
+    </ul>
+
   </div>
   <div class="col-md-6" id="consortiums">
   <h3>ReBuilding A Kidney (RBK) and GUDMAP<br/>
@@ -349,27 +356,26 @@ custom_js:
     </div>
   </div>
 </div>
+<div class="row" id="feat-img">
+  <h2>Featured Imaging Data</h2>
+  <div class="image-carousel">
+  {% include carousel.html %}
+  </div>
+</div>
 <div class="row" id="opps">
   <h2>Consortia Highlights</h2>
-  <div class="col-md-4">
 
-    <h3>Featured Imaging Data</h3>
-
-    <div class="image-carousel">
-    {% include carousel.html %}
-    </div>
-
-  </div>
-  <div class="col-md-4">
+  <div class="col-md-6">
     <h3>Recent Publications</h3>
     <ul class="posts">
       <li><a href="https://doi.org/10.1152/ajpcell.00288.2022">Functional maturation of kidney organoid tubules: PIEZO1-mediated Ca2+ signaling</a> <small><em>(American Physiological Society - Cell Physiology, 2023, RBK)</em></small></li>
       <li><a href="https://doi.org/10.1681/asn.0000000000000057">Lineage Tracing and Single-Nucleus Multiomics Reveal Novel Features of Adaptive and Maladaptive Repair after Acute Kidney Injury</a> <small><em>(JASN, 2023, RBK)</em></small></li>
       <li><a href="https://doi.org/10.1016/B978-0-12-823318-4.00037-8">Chapter 18 - Stress-induced senescence of tubular cells</a> <small><em>(Regenerative Nephrology, 2022, RBK)</em></small></li>
+      <li><a href="https://doi.org/10.1016/B978-0-12-823318-4.00019-6">Chapter 32 - Small molecules in regeneration</a> <small><em>(Regenerative Nephrology, 2022, RBK)</em></small></li>
       <li><a href="/chaise/recordset/#2/Common:Publication/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM6JHQBcAjdafEAYRQFtaUIQAaEABTRIBsBLLMIj0YB9GhFQZBaWsIBmAaxwBPEAF0AvqwBKASQAia1lgAWKPjiSUAigFoAzAGkArADYWIW46cAWNeo1AA@sort(Year::desc::,Month::desc::,RID::desc::)">more publications ></a></li>
     </ul>
   </div>
-  <div class="col-md-4">
+  <div class="col-md-6">
     <h3>Latest News</h3>
     <ul class="posts">
       {% for post in site.posts limit: 4 %}
