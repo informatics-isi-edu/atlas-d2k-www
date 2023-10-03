@@ -221,6 +221,7 @@ p.acknowledgement {
 /*    margin-top: 0; */
     text-align: left;
     padding-bottom: 0;
+    padding-top: 20px;
 }
 
 p.cta {
@@ -987,7 +988,7 @@ div.bottom-img img {
     text-decoration: underline !important;
 }
 
-#home a {
+#community a, #shortcuts a, #opps a {
   font-size: 18px;
 }
 
