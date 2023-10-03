@@ -6,7 +6,7 @@ title: Resources
 <!-- List group -->
 <div class="panel panel-default">
   <ul class="list-group">
-    <li class="list-group-item"><a href="/resources/cell-lines">Cell Lines</a></li>
+    <li class="list-group-item"><a href="/resources/cell-lines">Request iPSC Cell Lines</a></li>
     <li class="list-group-item"><a href="/resources/functional-assays">Functional Assays</a></li>
     <li class="list-group-item">Atlases
     <ul>
@@ -14,6 +14,7 @@ title: Resources
         <li class="list-group-item"><a href="/resources/adult-mouse-penis-3d/">Adult Mouse Penis</a></li>
       </ul>
     </li>
+    <li class="list-group-item"><a href="/resources/theiler-stages/">Theiler Stage Reference</a></li>
     <li class="list-group-item"><a href="/resources/tissue-summaries/">Tissue Summaries</a></li>
     <li class="list-group-item"><a href="/resources/ontology/">GUDMAP Ontology</a></li>
     <li class="list-group-item"><a href="/resources/disease/">Disease Resource</a></li>
