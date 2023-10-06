@@ -16,10 +16,9 @@ body {
 h1 {
     font-size: 36px;
     line-height: 1.05;
-    letter-spacing: -1px;
-    text-align: center;
-}
 
+}
+/*
 h1:after {
     content: url(/assets/img/header-chain.png);
     position: relative;
@@ -29,7 +28,7 @@ h1:after {
     display: block;
     margin-bottom: 44px;
 }
-
+*/
 
 /*
 h2 { font-size: 30px; line-height: 1.14; }
@@ -393,7 +392,7 @@ fieldset {
 #breadcrumbs {
     text-align: start !important;
 }
-
+/*
 .container {
     max-width: 820px;
     margin: 0 auto;
@@ -402,7 +401,13 @@ fieldset {
     padding-right: 10px;
     padding-bottom: 50px;
 }
+*/
 
+#content {
+  padding-top: 15px;
+  padding-bottom: 50px;
+  max-width: 1100px;
+}
 
 /*
 .container li { padding: 10px 0; }
@@ -516,6 +521,9 @@ body ::selection { background: #2c3e50; color: white; text-shadow: none; }
     margin-bottom: -170px;
 }
 
+#rbk.home {
+  padding-bottom: 50px;
+}
 
 /*
 #footer, .push { min-height: 99px; }
@@ -783,10 +791,20 @@ section.section-cta.section.row.clear li {
 #rbk .signup {
     padding: 20px;
     text-align: center;
+    background-color: #568cc6;
 }
 
 #rbk .signup i {
     display: inline;
+}
+
+h1#home-head {
+  text-align: center;
+  padding-top: 30px;
+}
+
+p#intro {
+  padding: 20px;
 }
 
 @media (max-width: 761px) {
@@ -1494,8 +1512,8 @@ section#twitter {
 .rbk-subnav {
     /* Add styles here to match your desired sub-navigation appearance */
     display: flex;
-    background-color: #0a2e78;
-    background-image: linear-gradient(to right, #0a2e78, #3a7cca);
+    background-color: #092C74;
+    /*background-image: linear-gradient(to right, #0a2e78, #3a7cca);*/
     height: 60px;
     padding-left: 35px;
 }
@@ -1520,6 +1538,6 @@ section#twitter {
 
 .rbk-subnav .rbk-brand img {
     /* Add styles here to customize your logo appearance */
-    height: 50px;
-    padding-top: 5px;
+    width: 250px;
+    padding-top: 15px;
 }
