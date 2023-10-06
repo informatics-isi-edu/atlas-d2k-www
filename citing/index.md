@@ -10,11 +10,11 @@ You may find specific information about citing the GUDMAP and RBK consortiums be
 
 ## Citation tools in ATLAS-D2K
 
-The ATLAS-D2K Center uses a data citation strategy that has been designed to ensure that all data is Findable, Accessible, Interoperable, and Reproducible (e.g. <a href="https://www.go-fair.org/fair-principles/">FAIR</a>). As part of this strategy, ATLAS-D2K follows the principles for data citation laid out in <a href="http://blogs.nature.com/scientificdata/2016/07/14/data-citations-at-scientific-data/">DataCitation</a>.
+The ATLAS-D2K Center uses a data citation strategy that has been designed to ensure that all data is Findable, Accessible, Interoperable, and Reproducible (e.g. [FAIR](https://www.go-fair.org/fair-principles/)). As part of this strategy, ATLAS-D2K follows the principles for data citation laid out in [DataCitation](http://blogs.nature.com/scientificdata/2016/07/14/data-citations-at-scientific-data/).
 
-Every data entry in ATLAS-D2K includes a persistent Record ID (i.e. RID) (e.g. <a href="https://www.atlas-d2k.org/id/W-R812">https://www.atlas-d2k.org/id/W-R812</a>). This citation, which has the same characteristics as a DOI, may be obtained by clicking the &quot;Share and Cite&quot; button on the upper right-hand part of the page for the data to be referenced.
+Every data entry in ATLAS-D2K includes a persistent Resource ID (i.e. RID) (e.g. [https://www.atlas-d2k.org/id/W-R812](https://www.atlas-d2k.org/id/W-R812)). This citation, which has the same characteristics as a DOI, may be obtained by clicking the &quot;Share and Cite&quot; button on the upper right-hand part of the page for the data to be referenced.
 
-![Screenshot of RBK page with the Share & Cite button - once URL in the Data Citation section is fixed](share-and-cite-button.png)
+![Screenshot of page with the Share & Cite button - once URL in the Data Citation section is fixed](share-and-cite-button.png)
 
 - "Versioned Link" references the exact instance of this data
 - "Live Link" references the current version.

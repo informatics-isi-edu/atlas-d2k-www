@@ -1,89 +1,70 @@
 ---
 layout: gudmap/page
-title: Citing GUDMAP
-
+title: How to Cite GUDMAP Data
 ---
 
-Users of GUDMAP-hosted data are expected to cite the primary publication for the particular data used, as is the accepted norm in scientific publishing. (A full list of papers with data deposited in GUDMAP is [here](/chaise/recordset/#2/Common:Publication/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM6JHQBcAjdafEAYRQFtaUIQAaEABTRIBsBLLMIj0YB9GhFQZBaWsIBmAaxwBPEAF0AvqwBKASQAia1lgAWKPjiSUAigFoAzAGkArADY16jUA@sort(Year::desc::,Month::desc::,RID::desc::)).). In addition, the [GUDMAP consortium](#citing-the-gudmap-consortium-anchor) should be cited, should be cited, along with our permanent identifier links (available via the "Share and cite" button on every data record )or via a generated DOI for a [Data Collection](#creating-citable-data-collections).
+If you're using GUDMAP data, proper citation is crucial. This guide will assist you in correctly referencing the data and the GUDMAP consortium.
 
-The GUDMAP Consortium uses a data citation strategy that has been designed to ensure that all data is Findable, Accessible, Interoperable, and Reproducible (e.g. [FAIR](https://www.go-fair.org/fair-principles/)). As part of this strategy, GUDMAP follows the principles for data citation laid out in [DataCitation](http://blogs.nature.com/scientificdata/2016/07/14/data-citations-at-scientific-data/).
+## 1. Basic Citation Guidelines:
+- Always cite the primary publication linked to the data you used. You can find a comprehensive list of such publications [here](/chaise/recordset/#2/Common:Publication/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM6JHQBcAjdafEAYRQFtaUIQAaEABTRIBsBLLMIj0YB9GhFQZBaWsIBmAaxwBPEAF0AvqwBKASQAia1lgAWKPjiSUAigFoAzAGkArADY16jUA@sort(Year::desc::,Month::desc::,RID::desc::)).
 
-* [Citing the GUDMAP Consortium](#citing-the-gudmap-consortium-anchor)
-* [Citing Data Associated with a Publication](#citing-data-associated-with-a-publication-anchor)
-* [Citing Data Not Associated with a Publication](#citing-data-not-associated-with-a-publication-anchor)
-* [Creating Citable Data Collections](#creating-citable-data-collections-anchor)
-* [Data Dissemination/Data Availability Statements](#data-dissemination-data-availability-statements-anchor)
-* [Links to GUDMAP Resources](#links-to-GUDMAP-resources-anchor)
-* [For Further Information](#for-further-information-anchor)
+- In addition, please cite the [GUDMAP consortium](#citing-the-gudmap-consortium). You can do this using the "Share and cite" button on each data record page or by referencing the provided DOI for a [Data Collection](#creating-citable-data-collections).
 
+## 2. Principles:
+The ATLAS-D2K Center adheres to the [FAIR](https://www.go-fair.org/fair-principles/) data citation strategy, ensuring data is Findable, Accessible, Interoperable, and Reproducible. Learn more about these principles at [DataCitation](http://blogs.nature.com/scientificdata/2016/07/14/data-citations-at-scientific-data/).
 
-## <a name="citing-the-gudmap-consortium-anchor" class="anchor"></a>Citing the GUDMAP Consortium
+We provide two primary mechanisms for citing data: Digital Object Identifiers (DOI)s provided via [*Data Collections*](#creating-citable-data-collections) and Resource IDs (RIDs) assigned to every data record in the ATLAS-D2K Center.
 
-In addition to the primary publications, if GUDMAP was utilized for finding data and additional associated data, please cite the consortium using a current consortium papers (see below) in acknowledgment and support of overall consortium efforts.
+## 3. Quick Links:
+- [Citing the GUDMAP Consortium](#citing-the-gudmap-consortium)
+- [Citing Data with a Publication](#citing-data-associated-with-a-publication)
+- [Citing Data without a Publication](#citing-data-not-associated-with-a-publication)
+- [Creating Citable Data Collections](#creating-citable-data-collections)
+- [Data Availability Statements](#data-availability-statements)
+- [How to Link to GUDMAP Resources](#links-to-GUDMAP-resources)
+- [Need More Help?](#need-more-help)
 
-Harding SD, Armit C, Armstrong J, Brennan J, Cheng Y, Haggarty B, Houghton D, Lloyd-MacGilp S, Pi X, Roochun Y, Sharghi M, Tindal C, McMahon AP, Gottesman B, Little MH, Georgas K, Aronow BJ, Potter SS, Brunskill EW, Southard-Smith EM, Mendelsohn C, Baldock RA, Davies JA, Davidson D. **The GUDMAP database – an online resource for genitourinary research. Development. 2011 Jul; 138(13):2845-53.** [View at PubMed](http://www.ncbi.nlm.nih.gov/pubmed/21652655).
+## Citing the GUDMAP Consortium
 
-McMahon AP, Aronow BJ, Davidson DR, Davies JA, Gaido KW, Grimmond S, Lessard JL, Little MH, Potter SS, Wilder EL, Zhang P. 2008. **GUDMAP: the genitourinary developmental molecular anatomy project. J Am Soc Nephrol. 19, 667-671.** [View at PubMed](http://www.ncbi.nlm.nih.gov/pubmed/18287559).
+If you've leveraged GUDMAP to find data or additional related data, please acknowledge the consortium by citing the following consortium papers:
 
+- Harding SD, et al. **The GUDMAP database – an online resource for genitourinary research. Development. 2011 Jul; 138(13):2845-53.** [View at PubMed](http://www.ncbi.nlm.nih.gov/pubmed/21652655).
 
-## <a name="citing-data-associated-with-a-publication-anchor" class="anchor"></a>Citing Data Associated with a Publication
+- McMahon AP, et al. **GUDMAP: the genitourinary developmental molecular anatomy project. J Am Soc Nephrol. 2008; 19, 667-671.** [View at PubMed](http://www.ncbi.nlm.nih.gov/pubmed/18287559).
 
-To enhance reproducibility and ensure that appropriate credit is made for data creation, data users are *strongly* encouraged to also cite the related data DOIs where appropriate to identify specific data entries for their readers. This creates a durable link from the manuscript to the large datasets that support the analysis and conclusions of the publication.
+## Citing Data Associated with a Publication
 
-In support of primary publications, GUDMAP issues individual Digital Object Identifiers (DOIs) that serve as persistent identifiers and links to data *entries* in the GUDMAP data repository. When possible, these DOIs are included in the manuscripts published by consortium members as direct pointers to specific data hosted in the GUDMAP data repository.
+When citing data, also include the related data DOIs or RIDs (Resource ID). This ensures a clear link between your manuscript and the underlying datasets. Citations should include:
 
-Data citations can be included in the bibliography of the paper and cited similarly to other types of publications in a manuscript. The exact format for data citation will vary from journal to journal, but in general, the citation should include:
+- **Author(s)**
+- **Collection title**
+- **Year of publication**
+- **Repository or publisher** (e.g., (Re)Building a Kidney Consortium)
+- **DOI of the dataset**
 
-* Author(s)
+Here's how to format such citations:
+>[1] Vezina CM (2018) *GUDMAP Consortium*. [Link to Data](https://doi.org/10.25548/W-QXXC).
 
-* Collection title (Nature data citation format does not specify this field, although other citation formats do recommend including the collection title.).
+## Citing Data Not Associated with a Publication
 
-* Year of publication
+Sometimes, GUDMAP data may be publicly available without a linked publication. In such cases, use the permanent **Resource ID (RID)** assigned by ATLAS-D2K. This citation can be obtained from the "Share and Cite" button on the data page you're referencing.
 
-* Repository name or publisher, e.g. (Re)Building a Kidney Consortium
+![Screenshot of Share and Cite button](share-and-cite-button-closeup.png)
 
-* DOI of data set being referenced.
+## Creating Citable Data Collections
 
-Here is an example of a data citation that conforms to the format recommended by [Nature](http://blogs.nature.com/scientificdata/2016/07/14/data-citations-at-scientific-data/):
+If your paper uses or aggregates GUDMAP data in unique ways, consider creating a new *Data Collection*. This allows readers to access the source data directly, promoting reproducibility. Learn how to [create a Data Collection here](https://github.com/informatics-isi-edu/gudmap-rbk/wiki/Create-citable-datasets) or email [help@atlas-d2k.org](mailto:help@atlas-d2k.org) for assistance.
 
-[1] Vezina CM (2018) *GUDMAP Consortium*. Available at [https://doi.org/10.25548/W-QXXC](https://doi.org/10.25548/W-QXXC).
+## Data Availability Statements
 
-which would be used in conjunction with the corresponding paper citation:
+To comply with journal requirements, always include data accessibility statements in your paper:
 
-[2] Joseph; Diya B. and Chandrashekar; Anoop S. and Abler; Lisa L. and Chu; Li-Fang and Thomson; James A. and Mendelsohn; Cathy and Vezina; Chad M., In vivo replacement of damaged bladder urothelium by Wolffian duct epithelial cells., Proc Natl Acad Sci U S A, 2018, 115 (33) 8394-8399, [https://doi.org/10.1073/pnas.1802966115](https://doi.org/10.1073/pnas.1802966115), [https://www.pnas.org/content/115/33/8394](https://www.pnas.org/content/115/33/8394)
+>**Data Accessibility**: For transparency and reproducibility, all raw files and data from this study are available at the ATLAS-D2K Center database: [https://doi.org/10.25548/W-QXXC](https://doi.org/10.25548/W-QXXC).
 
-Here is an example of how GUDMAP data and its associated manuscript can be cited in the body of the manuscript:
+## Links to GUDMAP Resources
 
-Apoptotic indices reported in this paper were based on analysis performed on the image data set from Vezina et al. [1] and confirmed the previously published observation of increased cell death in Dnmt1 knockout UGS epithelium [2].
+Avoid direct links to ATLAS-D2K site pages. Instead, use persistent identifiers like DOIs or RIDs from the "Share and Cite" button.
 
-## <a name="citing-data-not-associated-with-a-publication-anchor" class="anchor"></a>Citing Data Not Associated with a Publication
+## Need More Help?
 
-In some instances, data in the GUDMAP data repository will be released for public access and not have an associated publication. In this case, authors should use the persistent Record ID (i.e. RID) assigned by GUDMAP (e.g. [https://www.gudmap.org/id/W-QXXC](https://www.gudmap.org/id/W-QXXC)). This citation, which has the same characteristics as a DOI, can be obtained by clicking the "Share and Cite" button on the upper right-hand part of the page for the data to be referenced.
-
-![Screenshot of GUDMAP page with Share and Cite button](share-and-cite-button-closeup.png)
-
-The "Versioned Link" will reference the exact instance of this data while the "Live Link" will reference the current version.
-
-![Screenshot of modal window with appropriate links](share-and-cite-modal-720.png)
-
-## <a name="creating-citable-data-collections-anchor" class="anchor"></a>Creating Citable Data Collections
-
-If you are publishing a paper that uses subsets of GUDMAP data, or aggregates data in new ways, it is desirable to create a new *data collection*. Data collections are a curated set of GUDMAP data organized into one easily citable and referenced location with a Digital Object Identifier (DOI). This collection allows readers to unambiguously obtain full quality, source data that was referenced in the paper, which promotes reproducibility of scientific results.
-
-If you are an GUDMAP project publishing a paper, please [create and reference a "Data Collection" for data](https://github.com/informatics-isi-edu/gudmap-rbk/wiki/Create-citable-datasets) included in your paper and any additional data you wish to be considered relevant to the published project. Follow the above section on how to add your data citation in the bibliography section, and how to cite your data collection in the manuscript.
-
-Researchers outside of the GUDMAP can request the creation of a new collection from existing GUDMAP data by emailing help@gudmap.org.
-
-## <a name="data-dissemination-data-availability-statements-anchor" class="anchor"></a>Data Dissemination/Data Availability Statements
-
-In addition to including dataset references in the bibliography of your paper, journals are increasingly requiring statements of data accessibility. You can meet this requirement by including text similar to the following in the appropriate section (e.g. Data Availability, Methods, etc.):
-
->**Data Accessibility** To increase rigor, reproducibility, and transparency, raw image files and other data generated as part of this study were deposited into the GUDMAP consortium database and are fully accessible at: [https://doi.org/10.25548/W-QXXC](https://doi.org/10.25548/W-QXXC) **(25)**.
-
-## <a name="links-to-GUDMAP-resources-anchor" class="anchor"></a>Links to GUDMAP Resources
-
-With the exception of the main GUDMAP site ([www.gudmap.org](http://www.gudmap.org/)), links to pages within the site should never be used. Only persistent identifiers such as DOIs or GUDMAP specific identifiers (RIDs) obtained from the "Share and Cite" button (e.g. URLs in the form [https://www.gudmap.org/id/W-QXXC](https://www.gudmap.org/id/W-QXXC)) are guaranteed to work at all times. The GUDMAP repository makes no commitment to maintain links that do not follow these guidelines.
-
-## <a name="for-further-information-anchor" class="anchor"></a>For Further Information
-
-If you have any questions or wish to create a new GUDMAP data collection, send an email to [help@gudmap.org](mailto:help@gudmap.org).
+For further information or to create a new GUDMAP Data Collection, please reach out to [help@atlas-d2k.org](mailto:help@atlas-d2k.org).
