@@ -103,22 +103,22 @@ title: (Re)Building A Kidney (RBK) Consortium
         <div class="col-md-4">
           <h3>Latest News</h3>
           <ul class="posts">
-{% assign counter = 0 %}
-{% for post in site.posts %}
-  {% if post.tags contains 'rbk' %}
-    {% assign counter = counter | plus: 1 %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a><br/>
-      <time>
-        {{ post.date | date: "%m/%d/%Y" }}
-      </time>
-    </li>
-    {% if counter == 3 %}
-      {% break %}
-    {% endif %}
-  {% endif %}
-{% endfor %}
-</ul>
+          {% assign counter = 0 %}
+          {% for post in site.posts %}
+            {% if post.tags contains 'rbk' %}
+              {% assign counter = counter | plus: 1 %}
+              <li>
+                <a href="{{ post.url }}">{{ post.title }}</a><br/>
+                <time>
+                  {{ post.date | date: "%m/%d/%Y" }}
+                </time>
+              </li>
+              {% if counter == 3 %}
+                {% break %}
+              {% endif %}
+            {% endif %}
+          {% endfor %}
+          </ul>
 
         <a id="more-news" href="/rebuildingakidney/news/">more RBK news ></a><br>
         <!--    <a href="/publications/">publications ></a> -->
