@@ -69,6 +69,7 @@ h3 {
 
 #content h2 {
     font-size: 30px;
+    margin-top: 20px;
 }
 
 #content .news h2 {
@@ -76,6 +77,9 @@ h3 {
     margin-top: 20px;
 }
 
+#content h3 {
+    margin-top: 20px;
+}
 
 /*
 h3 {

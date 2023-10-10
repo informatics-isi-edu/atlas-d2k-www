@@ -5,7 +5,7 @@ title: Theiler Stage Reference
 
 The GUDMAP repository uses Theiler stages to describe age stages in mouse specimen. This page includes a reference table of the approximate correlation between Theiler Stages and dpc.
 
-The definitions of **Theiler stages** used in GUDMAP, and their relationship to days post-coitum (dpc), are those that appear on the [EMAP website](http://genex.hgu.mrc.ac.uk/Databases/Anatomy/MAstaging.shtml).
+The definitions of **Theiler stages** used in GUDMAP, and their relationship to days post-coitum (dpc), are those that appeared on the EMAP website (no longer active, but you can [find the paper here](https://www.ncbi.nlm.nih.gov/projects/Jax_GSA/IMGC2005_Workshop/emage_tutorial.pdf)).
 
 Each Theiler stage is identified with one 'average' age, and a range of variation of real ages, centering on this average, that can be seen when real developing embryos are studied.
 
@@ -91,7 +91,3 @@ Each Theiler stage is identified with one 'average' age, and a range of variatio
     <td>P4 - Adult</td>
   </tr>
 </table>
-
-
-
-Click here to browse [gene expression data in GUDMAP by Theiler Stage](http://legacy.gudmap.org/gudmap/pages/focus_stage_browse.html).

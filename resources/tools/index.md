@@ -33,6 +33,8 @@ title: Community Tools
 
 - <a href="https://nkdep.nih.gov/" target="_blank">National Kidney Disease Education Program (NKDEP)</a>: Initiative of the NIDDK to educate about kidney disease.
 
+- <a href="http://gataca.cchmc.org/gataca/gudmap" target="_blank">The GATACA GUDMAP Gene Explorer</a> at Cincinnati Children's Hospital Medical Center: A tool for the identification and analysis of genes responsible for functions and diseases of the genitourinary system.
+
 ### Organizations and Foundations:
 
 - <a href="https://www.kidney.org/kidneyDisease/" target="_blank">National Kidney Foundation</a>: Organization dedicated to preventing kidney disease and improving the health of those affected by it.

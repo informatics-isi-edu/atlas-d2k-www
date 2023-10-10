@@ -1,15 +1,13 @@
 ---
 layout: resources
 title: GUDMAP Ontology
-redirect_from:
-  - /Resources/Ontologies.html
 ---
 
 A high-resolution ontology has been developed by members of the GUDMAP consortium to describe the subcompartments of the developing murine genitourinary tract.
 
 This ontology incorporates what can be defined histologically and begins to encompass other structures and cell types already identified at the molecular level.
 
-The GUDMAP ontology encompasses Theiler stage (TS) 17-27 of development as well as the sexually mature adult. It has been written as a partonomic, text-based, hierarchical ontology that, for the embryological stages, has been developed as a high-resolution expansion of the existing Edinburgh Mouse Atlas Project (EMAP) ontology. As of 2015, an "abstract" (i.e. non-stage-specific) representation of mouse developmental anatomy has since been developed and is referred to as **EMAPA**.
+The GUDMAP ontology encompasses [Theiler stage](../theiler-stages/) (TS) 17-27 of development as well as the sexually mature adult. It has been written as a partonomic, text-based, hierarchical ontology that, for the embryological stages, has been developed as a high-resolution expansion of the existing Edinburgh Mouse Atlas Project (EMAP) ontology. As of 2015, an "abstract" (i.e. non-stage-specific) representation of mouse developmental anatomy has since been developed and is referred to as **EMAPA**.
 
 Other characteristics of this ontology:
 
@@ -36,10 +34,10 @@ View the complete set of EMAPA terms available in GUDMAP today:
 
 *Updated February 2015*.
 
-* [Early development and bladder ontology (PDF)](/Docs/Ontologies/Early_development_and_bladder_Ontology_Feb_2015.pdf)
-* [Urethra ontology (PDF)](/Docs/Ontologies/Urethra_Ontology_Feb_2015.pdf)
-* [Genital tubercle, external genitalia and reproductive structures (PDF)](/Docs/Ontologies/GT_Ontology_Feb_2015.pdf)
+* [Early development and bladder ontology (PDF)](Early_development_and_bladder_Ontology_Feb_2015.pdf)
+* [Urethra ontology (PDF)](Urethra_Ontology_Feb_2015.pdf)
+* [Genital tubercle, external genitalia and reproductive structures (PDF)](GT_Ontology_Feb_2015.pdf)
 
 ## Previous versions of the GUDMAP ontology
 
-See the [GUDMAP Ontology Archives](/resources/ontology/ontologies_archive.html) page to view previous versions of the GUDMAP ontology.
+See the [GUDMAP Ontology Archives](archive/) page to view previous versions of the GUDMAP ontology.

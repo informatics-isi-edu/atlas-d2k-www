@@ -3,7 +3,9 @@ layout: default
 title: Citing Our Data
 ---
 
-You may find specific information about citing the GUDMAP and RBK consortiums below:
+## Consortium-specific citation instructions
+
+Find specific information about citing the GUDMAP and RBK consortiums below:
 
 - [Citing GUDMAP](/gudmap/citing-gudmap/)
 - [Citing RBK](/rebuildingakidney/citing/)
@@ -14,7 +16,9 @@ The ATLAS-D2K Center uses a data citation strategy that has been designed to ens
 
 Every data entry in ATLAS-D2K includes a persistent Resource ID (i.e. RID) (e.g. [https://www.atlas-d2k.org/id/W-R812](https://www.atlas-d2k.org/id/W-R812)). This citation, which has the same characteristics as a DOI, may be obtained by clicking the &quot;Share and Cite&quot; button on the upper right-hand part of the page for the data to be referenced.
 
+<!--
 ![Screenshot of page with the Share & Cite button - once URL in the Data Citation section is fixed](share-and-cite-button.png)
+-->
 
 - "Versioned Link" references the exact instance of this data
 - "Live Link" references the current version.
