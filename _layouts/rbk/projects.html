@@ -1,0 +1,136 @@
+
+{% include header.html %}
+<link rel="stylesheet" href="/assets/css/rbk.css">
+<div class="rbk-subnav">
+	<a class="rbk-brand" href="/rebuildingakidney/">
+        <img alt="RBK Logo" src="/assets/img/rbk-logo.png">
+      </a>
+			<ul>
+					<li role="presentation"><a href="/rebuildingakidney/about/">About</a></li>
+					<li role="presentation"><a href="/rebuildingakidney/projects/">Projects</a></li>
+					<li role="presentation"><a href="/rebuildingakidney/citing/">Citing RBK</a></li>
+					<li role="presentation"><a href="/rebuildingakidney/contact/">Contact RBK</a></li>
+			</ul>
+</div>
+
+<section class="section-work container-full">
+
+<div class="innercontent">
+	<h1 id="{{ page.tag }}">{{ page.project_title }}</h1>
+			<h2>Key Personnel</h2>
+			<div class="pi-section">
+			<div class="pi personnel">
+			<img src="/rebuildingakidney/assets/img/pis/{{page.img}}.jpg" class="left" />
+			<p><strong>{{ page.pi }}</strong> (PI)<br>
+				<span class="inst">{{ page.institute }}</span></p>
+				<p style="clear:both"></p>
+			</div>
+			{% if page.copi != null %}
+			<div class="copi personnel">
+			<img src="/rebuildingakidney/assets/img/pis/{{page.coimg}}.jpg" class="left" />
+			<p><strong>{{ page.copi }}</strong> (PI)<br>
+				<span class="inst">{{ page.coinstitute }}</span></p>
+			</div>
+				<p style="clear:both"></p>
+				{% endif %}
+			{% if page.cocopi != null %}
+			<div class="copi personnel">
+			<img src="/rebuildingakidney/assets/img/pis/{{page.cocoimg}}.jpg" class="left" />
+			<p><strong>{{ page.cocopi }}</strong> (PI)<br>
+				<span class="inst">{{ page.cocoinstitute }}</span></p>
+			</div>
+				<p style="clear:both"></p>
+				{% endif %}
+			</div>
+			{% if page.personnel != null %}
+			<ul class="personnel-list">
+			{% for item in page.personnel %}
+				<li>{{ item.person }}<br/><span class="key-inst">{{ item.key-institute }}</span></li>
+			{% endfor %}
+			</ul>
+			{% endif %}
+		<p style="clear:both"></p>
+
+		{% if page.goals != null %}
+			<h2>Goals</h2>
+			<ol>
+				{% for item in page.goals %}
+				<li>{{ item.goal }}</li>
+				{% endfor %}
+			</ol>
+			{% endif %}
+
+			<h2>Project Description</h2>
+			{% if page.data != null %}
+			<p><small><a href="{{ page.data }}">RELATED DATA <i class="fa fa-angle-double-right"></i></a></small> </p>
+			{% endif %}
+			<p>{{ page.description }}</p>
+
+		{% if page.pub != false %}
+			<h2>Publications</h2>
+
+			{% assign thisAuthor = page.pi | split: " " %}
+
+			{% bibliography --group_by none --query @*[author ~= {{thisAuthor.last}}] %}
+
+			{% if page.copi != null %}
+
+				{% assign thisCoAuthor = page.copi | split: " " %}
+
+				{% bibliography --group_by none --query @*[author ~= {{thisCoAuthor.last}}] %}
+
+			{% endif %}
+		{% endif %}
+
+			{% if page.supplemental != null %}
+			<p>{{ page.supplemental }}</p>
+			{% endif %}
+
+			{% if page.gallery != null %}
+			<h2>Gallery</h2>
+			<div class="project-gallery">
+			  {% for item in page.gallery %}
+			    <div class="project-image">
+			      <div class="image">
+			        <a href="/rebuildingakidney/assets/img/projects/{{ item.image-path }}.png" data-lightbox="{{ page.pi }}" title="{{ item.title }}">
+							<img src="/assets/img/projects/{{ item.image-path }}.png" alt="TBD" width=250/>
+						</a>
+			      </div>
+						<!--
+			      <p>{{ item.image-desc }}</p>
+					-->
+			    </div>
+			  {% endfor %}
+				<p style="clear:both"></p>
+			</div>
+			{%  endif %}
+			{% if page.subprojects != null %}
+
+			<div class="subproject-desc">
+			{% for subproject in page.subprojects %}
+				<div class="subproject-sect">
+					<p class="project-name">{{ subproject.project_title }}</p>
+					<figure>
+					<img src="/rebuildingakidney/assets/img/pis/{{subproject.img}}.jpg" class="subproject-pic" width="176" alt="{{ subproject.pi }}">
+					<figcaption class="subproject-pi"><strong>PI:</strong> {{ subproject.pi }}<br/><em>{{ subproject.institute }}</em></figcaption>
+				</figure>
+				<p class="project-personnel"><strong>Key Personnel:</strong> {{ subproject.personnel }}</p>
+					<p class="project-blurb">{{ subproject.description }}</p>
+				</div>
+				{% if subproject.data != null %}
+				<p><small><a href="{{ subproject.data }}">RELATED DATA <i class="fa fa-angle-double-right"></i></a></small> </p>
+				{%  endif %}
+
+				{% if subproject.pub != false %}
+					{% assign thisSubAuthor = subproject.pi | split: " " %}
+					{% bibliography --group_by none --query @*[author ~= {{thisSubAuthor.last}}] %}
+				{%  endif %}
+
+			{% endfor %}
+			</div>
+			{% endif %}
+</div>
+
+</section>
+
+{% include footer.html %}

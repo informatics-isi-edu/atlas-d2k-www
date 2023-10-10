@@ -1,0 +1,22 @@
+{% include header.html %}
+<link rel="stylesheet" href="/assets/css/gudmap.css">
+<div class="gudmap-subnav">
+	<a class="gudmap-brand" href="/gudmap/">
+        <img alt="gudmap Logo" src="/assets/img/gudmap-logo.svg">
+      </a>
+			<ul>
+					<li role="presentation"><a href="/gudmap/about/">About</a></li>
+					<li role="presentation"><a href="/gudmap/projects/">Projects</a></li>
+					<li role="presentation"><a href="/gudmap/contact/">Contact Us</a></li>
+			</ul>
+</div>
+<div class="container" id="content">
+<div class="col-md-12">
+	<h1>{{ page.title }}</h1>
+
+		{{ content }}
+
+</div>
+{% include footer.html %}
+</div>
+<script type="text/javascript" src="/assets/slick/slick.min.js"></script>

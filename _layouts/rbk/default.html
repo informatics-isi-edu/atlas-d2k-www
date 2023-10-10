@@ -1,0 +1,30 @@
+{% include header.html %}
+<link rel="stylesheet" href="/assets/css/rbk.css">
+<div class="rbk-subnav">
+	<a class="rbk-brand" href="/rebuildingakidney/">
+        <img alt="RBK Logo" src="/assets/img/rbk-logo.png">
+      </a>
+			<ul>
+					<li role="presentation"><a href="/rebuildingakidney/about/">About</a></li>
+					<li role="presentation"><a href="/rebuildingakidney/projects/">Projects</a></li>
+					<li role="presentation"><a href="/rebuildingakidney/citing/">Citing RBK</a></li>
+					<li role="presentation"><a href="/rebuildingakidney/contact/">Contact RBK</a></li>
+			</ul>
+</div>
+
+		{%- comment -%} {{ content }} {%- endcomment -%}
+		<section class="section-{{page.tag}} container-fluid" id="content">
+		{% include breadcrumb.html %}
+  			<h1 id="{{page.tag}}">{{ page.title }}</h1>
+  			<div class="{{page.tag}}-content">
+
+				{{ content }}
+
+			</div>
+		</section>
+
+
+
+{% include footer.html %}
+
+<script type="text/javascript" src="/assets/slick/slick.min.js"></script>

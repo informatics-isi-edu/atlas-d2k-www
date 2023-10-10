@@ -1,0 +1,43 @@
+---
+layout: gudmap/projects-groups
+---
+
+<div class="project-page">
+
+		<div class="personnel">
+			<!--
+			<h2>Key Personnel</h2>
+		-->
+			<div class="pi-section">
+			<div class="pi personnel">
+			<img src="/assets/img/pis/{{page.img}}.jpg" class="left" />
+			<p><strong>{{ page.pi }}</strong> (PI)<br>
+				<span class="inst">{{ page.institute }}</span></p>
+				<p style="clear:both"></p>
+			</div>
+			{% if page.copi != null %}
+			<div class="copi personnel">
+			<img src="/assets/img/pis/{{page.coimg}}.jpg" class="left" />
+			<p><strong>{{ page.copi }}</strong> (PI)<br>
+				<span class="inst">{{ page.coinstitute }}</span></p>
+			</div>
+				<p style="clear:both"></p>
+				{% endif %}
+			</div>
+			{% if page.personnel != null %}
+			<ul class="personnel-list">
+			{% for item in page.personnel %}
+				<li>{{ item.person }}<br/><span class="key-inst">{{ item.key-institute }}</span></li>
+			{% endfor %}
+			</ul>
+			{% endif %}
+		</div>
+		<div class="project-info">
+
+			<h2>Project Description</h2>
+
+			<p>{{ page.description }}</p>
+
+		</div>
+
+</div>

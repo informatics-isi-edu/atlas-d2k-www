@@ -1,0 +1,20 @@
+---
+title: "Single-cell transcriptomics papers by Drummond and Humphreys"
+layout: post
+tag: rbk
+---
+
+Iain Drummond (MIDBL)  and Ben Humphreys (WUSTL) have both recently published the following papers based on single-cell transcriptomic research:
+
+**[Single-cell transcriptome reveals insights into the development and function of the zebrafish ovary](https://www.doi.org/10.7554/eLife.76014)**
+Liu, Yulong; Kossack, Michelle E; McFaul, Matthew E; Christensen, Lana N; Siebert, Stefan; Wyatt, Sydney R; Kamei, Caramai N; Horst, Samuel; Arroyo, Nayeli; Drummond, Iain A; Juliano, Celina E; Draper, Bruce W. *eLife*. 11:e76014. May 2022.
+
+**Abstract:** Zebrafish are an established research organism that has made many contributions to our understanding of vertebrate tissue and organ development, yet there are still significant gaps in our understanding of the genes that regulate gonad development, sex, and reproduction. Unlike the development of many organs, such as the brain and heart that form during the first few days of development, zebrafish gonads do not begin to form until the larval stage (≥5 days post-fertilization). Thus, forward genetic screens have identified very few genes required for gonad development. In addition, bulk RNA-sequencing studies that identify genes expressed in the gonads do not have the resolution necessary to define minor cell populations that may play significant roles in the development and function of these organs. To overcome these limitations, we have used single-cell RNA sequencing to determine the transcriptomes of cells isolated from juvenile zebrafish ovaries. This resulted in the profiles of 10,658 germ cells and 14,431 somatic cells. Our germ cell data represents all developmental stages from germline stem cells to early meiotic oocytes. Our somatic cell data represents all known somatic cell types, including follicle cells, theca cells, and ovarian stromal cells. Further analysis revealed an unexpected number of cell subpopulations within these broadly defined cell types. To further define their functional significance, we determined the location of these cell subpopulations within the ovary. Finally, we used gene knockout experiments to determine the roles of foxl2l and wnt9b for oocyte development and sex determination and/or differentiation, respectively. Our results reveal novel insights into zebrafish ovarian development and function, and the transcriptome profiles will provide a valuable resource for future studies.
+
+
+**[Mapping the single-cell transcriptomic response of murine diabetic kidney disease to therapies](https://www.doi.org/10.1016/j.cmet.2022.05.010)**
+Wu, Haojia; Villalobos, Romer Gonzalez; Yao, Xiang; Reilly, Dermot; Chen, Tao; Rankin, Matthew; Myshkin, Eugene; Breyer, Matthew D; Humphreys, Benjamin D. *Cell Metabolism*. 34(7):1064–1078.e6. July 2022.
+
+**Abstract:** Diabetic kidney disease (DKD) occurs in ∼40% of patients with diabetes and causes kidney failure, cardiovascular disease, and premature death. We analyzed the response of a murine DKD model to five treatment regimens using single-cell RNA sequencing (scRNA-seq). Our atlas of ∼1 million cells revealed a heterogeneous response of all kidney cell types both to DKD and its treatment. Both monotherapy and combination therapies targeted differing cell types and induced distinct and non-overlapping transcriptional changes. The early effects of sodium-glucose cotransporter-2 inhibitors (SGLT2i) on the S1 segment of the proximal tubule suggest that this drug class induces fasting mimicry and hypoxia responses. Diabetes downregulated the spliceosome regulator serine/arginine-rich splicing factor 7 (Srsf7) in proximal tubule that was specifically rescued by SGLT2i. In vitro proximal tubule knockdown of Srsf7 induced a pro-inflammatory phenotype, implicating alternative splicing as a driver of DKD and suggesting SGLT2i regulation of proximal tubule alternative splicing as a potential mechanism of action for this drug class.
+
+View the latest RBK publications here: [https://www.rebuildingakidney.org/publications/](/publications/)

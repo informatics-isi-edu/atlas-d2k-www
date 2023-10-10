@@ -1,159 +1,455 @@
 ---
 layout: home
-title: ATLAS-D2K - Bringing Data to Knowledge
+title: ATLAS-D2K - Transforming Data into Knowledge
+custom_css:
+  - colorbox
+custom_js:
+  - home-stat-queries
+  - jquery.colorbox
 ---
-<div class="row">
 
-  <div class="col-md-8">
-    <p>The Analysis, Technology, Leadership, Administration, and Science - Data to Knowledge (ATLAS-D2K) Center’s long-term goal is to bring complex data into an accessible form for our research communities and establish connections between molecular data of the kidney and lower urinary tract.</p>
+<div class="row homeBanner">
 
-    <p>We aim to make this online resource a data discovery hub with access to visualizations and analysis of cutting-edge biomedical mouse and human data for the kidney and lower urinary tract.
-    </p>
-
-    <p>Our data repository includes the total contributions of the <strong><a href="https://www.gudmap.org">GUDMAP</a></strong> and <strong><a href="https://www.rebuildingakidney.org">ReBuilding A Kidney (RBK)</a></strong> consortia, with growing cross-data linkages with the KPMP and HuBMAP consortia.</p>
-
-    <p>ATLAS-D2K will soon include more intersections between data, knowledge, and analysis tools from these consortia to bring cutting-edge data-to-knowledge abilities to broader portions of the research community.</p>
+  <div class="col-md-2">
 
   </div>
-  <div class="col-md-4 iotw">
-    <a href="/id/W-QZT6">
-    <img src="/assets/img/iotw/W-QZTE-vezina-ihc.jpeg" alt="C/O https://placeholder.com/#How_To_Use_Our_Placeholders">
-    </a>
-    <p class="caption">IHC of Mouse Bladder (TS26/18dpc) (Chad Vezina, University of Wisconsin)</p>
+
+  <div class="col-md-8">
+    <div class="formBlock">
+        <form class="search search-form" id="main-search">
+          <div class="input-group">
+            <input type="text" class="form-control" name="search_term" placeholder="Search data in ATLAS-D2K">
+            <span class="input-group-btn">
+              <button class="btn btn-default" type="submit">
+                <i class="fa fa-search" aria-hidden="true"></i>
+              </button>
+            </span>
+          </div>
+          <div class="search-panel">
+            <input type="radio" id="gene" name="search_param" value="gene"
+                   checked>
+            <label for="gene">GENE</label>
+            <input type="radio" id="anatomy" name="search_param" value="anatomy"
+                   >
+            <label for="anatomy">ANATOMY</label>
+            <input type="radio" id="species" name="search_param" value="species"
+                   >
+            <label for="species">SPECIES</label>
+            <input type="radio" id="proteins" name="search_param" value="proteins"
+                   >
+            <label for="proteins">PROTEIN</label>
+          </div>
+        </form>
+    </div>
+  </div>
+
+  <div class="col-md-2">
+
   </div>
 </div>
 
-<div class="row">
 
+<div class="container-fluid content home">
+
+  <div class="jumbotron">
+    <div class="overlay">
+      <h1>ATLAS-D2K</h1>
+      <h2>Transforming Data to Knowledge</h2>
+      <p>The Analysis, Technology, Leadership, Administration, and Science - Data to Knowledge (ATLAS-D2K) Center’s long-term goal is to bring complex data into an accessible form for our research communities and establish connections between molecular data of the kidney and lower urinary tract.</p>
+      <p class="cta"><a class="btn btn-primary btn-lg" href="/about/" role="button">Learn more</a></p>
+    </div>
+  </div>
+
+<!-- Display statistics of data -->
+
+
+        <div class="row statistics" id="statistics-1">
+
+            <!-- Data Section - Row 1 -->
+
+            <div class="col-md-3">
+                <div class="well">
+                    <div class="statistic-container">
+                        <i class="stat-icon fa-solid fa-flask"></i>
+                        <div>
+                            <h2 class="stat-number">
+                              <a href="/deriva-webapps/plot/?config=all-data-summary">
+
+                              <span class="stat-number" id="stat-assay-number">
+                                <i class="fas fa-sync-alt fa-spin"></i>
+                              </span>
+
+                            </a></h2>
+                            <p class="statistic-label">Assay Types</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="well">
+                  <div class="statistic-container">
+                      <i class="stat-icon fa-solid fa-vial"></i>
+                      <div>
+                          <h2 class="stat-number"><a href="/chaise/recordset/#2/Gene_Expression:Specimen/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM6JHQBcAjdafEAcRwhwH0BRADwAcMckkBLFCEADQgAyqxxZuAW1r0AwpjBFeEesKKK0SegDMA1jgCeIALoBfIQCUAkgBETQrAAsU3XEkoBFALQBNAGwAjACyJqZmQA@sort(RCT::desc::,Stage_Ordinal,RID)">
+                            <span class="stat-number" id="stat-specimen-number">
+                              <i class="fas fa-sync-alt fa-spin"></i>
+                            </span>
+
+                          </a></h2>
+                          <p class="statistic-label">Specimen</p>
+                      </div>
+                  </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+              <div class="well">
+                <div class="statistic-container">
+                    <i class="stat-icon fa-solid fa-microscope"></i>
+                    <div>
+                        <h2 class="stat-number"><a href="/chaise/recordset/#2/Gene_Expression:Specimen/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM6JHQBcAjdafEAcRwhwH0BRADwAcMckkBLFCEADQgAyqxxZuAW1r0AglzABPegBVFY+gDMA1jkUgAugF8hAJQCSAEUNCsACxTdcSSgEYAbAFoATJYBiAAqCIB4+-qbBoQAaAMxUAJqRXr5Uskme7payjIYmyOjYeAigxGRoFAjUtAws7Jw8fMGi4lIyAMKYYES8EPTCRF1oSFq6+sZmVjYg9o7OlACKnvHurgCyucZAA@sort(RCT::desc::,Stage_Ordinal,RID)">
+                          <span class="stat-number" id="stat-imaging-number">
+                            <i class="fas fa-sync-alt fa-spin"></i>
+                          </span>
+                        </a></h2>
+                        <p class="statistic-label">Imaging</p>
+                    </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <div class="well">
+                <div class="statistic-container">
+                    <i class="stat-icon fa-solid fa-dna"></i>
+                    <div>
+                        <h2 class="stat-number"><a href="/chaise/recordset/#2/RNASeq:Study/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM6JAEsIAjdafEAJQDkBBAZRwEcQAaEAUQA8AHHDIQC2OCABcA+gzFooATwlUAkgBEJAMwDWOOSAC6AXzah0YsmgoJq9Jqw49+gkeIkOBw0ZIAqc-hu26hhzKKvocWAAWKIS4SJQAigC0AJoAUgAaAOrsIACMAGyJ8QDSNF45uQDsiZwAnMUALDlJackATPpGyOjYeLAgAMKYYGKEKBBSYiNoceFRMThxVlQ4ADY4YEh4hoZAA@sort(RMT::desc::,RID)">
+                          <span class="stat-number" id="stat-transcriptomics-number">
+                            <i class="fas fa-sync-alt fa-spin"></i>
+                          </span>
+
+                          </a>
+                        </h2>
+                        <p class="statistic-label">Transcriptomics</p>
+                    </div>
+                </div>
+              </div>
+            </div>
+
+        </div>
+
+        <div class="row statistics" id="statistics-2">
+            <!-- Data Section - Row 2 -->
+
+            <div class="col-md-3">
+                <div class="well">
+                  <div class="statistic-container">
+                      <i class="stat-icon fa-solid fa-clone"></i>
+                      <div>
+                          <h2 class="stat-number"><a href="/resources/cell-lines/">
+                            <span class="stat-number" id="stat-cell-lines-number">
+                              <i class="fas fa-sync-alt fa-spin"></i>
+                            </span>
+                          </a></h2>
+                          <p class="statistic-label">Cell Lines</p>
+                      </div>
+                  </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="well">
+                  <div class="statistic-container">
+                      <i class="stat-icon fa-solid fa-list"></i>
+                      <div>
+                          <h2 class="stat-number"><a href="/chaise/recordset/#2/Protocol:Protocol@sort(RMT::desc::,RID)">
+                            <span class="stat-number" id="stat-protocols-number">
+                            <i class="fas fa-sync-alt fa-spin"></i>
+                          </span>
+                      </a></h2>
+                          <p class="statistic-label">Protocols</p>
+                      </div>
+                  </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="well">
+                  <div class="statistic-container">
+                      <i class="stat-icon fa-solid fa-droplet"></i>
+                      <div>
+                          <h2 class="stat-number"><a href="/chaise/recordset/#2/Antibody:Antibody_Tests@sort(RID)">
+                            <span class="stat-number" id="stat-antibody-validation-number">
+                              <i class="fas fa-sync-alt fa-spin"></i>
+                            </span>
+                          </a></h2>
+                          <p class="statistic-label">Antibody Validation</p>
+                      </div>
+                  </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="well">
+                  <div class="statistic-container">
+                      <i class="stat-icon fa-solid fa-newspaper"></i>
+                      <div>
+                          <h2 class="stat-number"><a href="/chaise/recordset/#2/Common:Publication/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM6JHQBcAjdafEAYRQFtaUIQAaEABTRIBsBLLMIj0YB9GhFQZBaWsIBmAaxwBPEAF0AvqwBKASQAia1lgAWKPjiSUAigFoAzAGkArABYWIW46cA2Neo1AA@sort(Year::desc::,Month::desc::,RID::desc::)?pcid=navbar/recordset&ppid=23vl276c1oam2l7l2etv1eko">
+                            <span class="stat-number" id="stat-pubs-number">
+                              <i class="fas fa-sync-alt fa-spin"></i>
+                            </span>
+                          </a></h2>
+                          <p class="statistic-label">Publications</p>
+                      </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+
+<div class="row" id="community">
+  <h2>Participating Consortia</h2>
+  <div class="col-md-6" id="news-atlas">
+
+    <h3>Funding Opportunities</h3>
+    <ul class="posts">
+      <li><a href="/collaboration/op-pool/">Learn about Opportunity Pools</a></li>
+      <li><a href="/collaboration/gudmap-collab/">Apply to be a GUDMAP Collaborating Group</a></li>
+      <li><a href="/collaboration/rbk-collab/">Apply to be a RBK Collaborating Group</a></li>
+    </ul>
+
+    <h3>Upcoming Internal Events</h3>
+    <ul class="posts">
+      <li><a href="/events/rbk-fall-2023-retreat/">RBK Fall 2023 Retreat (Oct 23-24 in Silver Spring, MD)</a></li>
+      <li><a href="/events/gudmap-spring-2024-meeting/">GUDMAP 2024 Annual Meeting (April 24-25 in Bethesda, MD)</a></li>
+      <li><a href="/events/rbk-spring-2024-retreat/">RBK Spring 2024 Retreat (April 29-30 in Bethesda, MD)</a></li>
+    </ul>
+
+  </div>
+  <div class="col-md-6" id="consortiums">
+  <h3>ReBuilding A Kidney (RBK) and GUDMAP<br/>
+  <small>The ATLAS-D2K Center supports the data and resources of the RBK and GUDMAP Consortiums. Click an image to learn more.</small></h3>
+    <div class="consortium">
+      <a href="/rebuildingakidney/">
+        <img src="/assets/img/rbk-horizontal.png" alt="RBK Consortium" class="img-responsive">
+      </a>
+    </div>
+    <div class="consortium">
+      <a href="/gudmap/">
+        <img src="/assets/img/gudmap-horizontal.png" alt="GUDMAP Consortium" class="img-responsive">
+      </a>
+    </div>
+  </div>
+
+</div>
+
+<div class="row" id="feat-img">
+  <h2>Featured Imaging Data</h2>
+  <div class="image-carousel">
+  {% include carousel.html %}
+  </div>
+</div>
+
+<div class="row" id="shortcuts">
+<h2>Browse these shortcuts for GUDMAP and RBK data<br/>
+<small>Available Species: Human, Mouse and Canine</small></h2>
 <div class="col-md-12">
   <div class="shortcuts">
-
-
-  <h3>Browse these shortcuts for GUDMAP and RBK data...<br/>
-    <small>For more search options, click the DATA menu above.</small>
 <!--
 <small>Over 11,000 records and 4,000 images</small>
 -->
-</h3>
+
 <div class="row shortcut-links">
 <div class="col-md-4">
   <ul>
     <li class="sub-parent">SEARCH BY...</li>
-    <li><a href="/chaise/recordset/#2/Common:Gene?pcid=static/home">Gene</a></li>
-    <li><a href="/chaise/recordset/#2/Vocabulary:Anatomy/?pcid=static/home">Anatomy: Facet Search</a></li>
+    <li><a href="/chaise/recordset/#2/Common:Gene">Gene</a></li>
+    <li><a href="/chaise/recordset/#2/Vocabulary:Anatomy/">Anatomy: Facet Search</a></li>
     <li><a href="/deriva-webapps/treeview/">Anatomy: Tree View</a></li>
     <!--
-    <li><a href="/deriva-webapps/boolean-search/">Anatomy: Boolean Search</a></li> -->
-    <li><a href="/chaise/recordset/#2/Common:Principal_Investigator@sort(Person)?pcid=navbar/static">Investigator</a></li>
+    <li><a href="/deriva-webapps/boolean-search/">Anatomy: Boolean Search</a></li>
+    <li><a href="/chaise/recordset/#2/Common:Principal_Investigator@sort(Person)">Investigator</a></li>
+    -->
   </ul>
   <ul>
     <li class="sub-parent">VISUALIZATIONS</li>
     <li><a href="/deriva-webapps/plot/?config=study-violin">mRNA-Seq Data</a></li>
-    <li><a href="/chaise/recordset/#2/RNASeq:Study/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM6JAEsIAjdafEAJQDkBBAZRwEcQAaEANUKTTABtCALzAAXQiggB9BqLRQAnlIBmAaxwKQAXQC+bUOlFk0FBNXpNWHbrwHCxE6Tb6CR4yVLoAHL4KwOPNQ1tPWoASQARbQ4IFFEpCDR+fjhRDDQcHV0gA@sort(RMT::desc::,RID)?pcid=static/home">scRNA-Seq
+    <li><a href="/chaise/recordset/#2/RNASeq:Study/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM6JAEsIAjdafEAJQDkBBAZRwEcQAaEANUKTTABtCALzAAXQiggB9BqLRQAnlIBmAaxwKQAXQC+bUOlFk0FBNXpNWHbrwHCxE6Tb6CR4yVLoAHL4KwOPNQ1tPWoASQARbQ4IFFEpCDR+fjhRDDQcHV0gA@sort(RMT::desc::,RID)">scRNA-Seq
     Data</a></li>
   </ul>
   <ul>
     <li class="sub-parent">DATA COLLECTIONS</li>
-<!--      <li><a href="/chaise/record/#2/Common:Collection/RID=17-3ZHJ?pcid=static/home">Featured Image Annotations</a></li> -->
-    <li><a href="/chaise/recordset/#2/Common:Collection@sort(RID)?pcid=static/home">All Data Collections</a></li>
+<!--      <li><a href="/chaise/record/#2/Common:Collection/RID=17-3ZHJ">Featured Image Annotations</a></li> -->
+    <li class="info-label"><a class="tooltiplink" href="/chaise/recordset/#2/Common:Collection/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM6JHQBcAjdafEAYRQFtaUIQAaalAG3ZyyIEtGA+jQioMfNLQEAzANY4AniAC6AX1YAlAJIARZaywALFL1xJKARQC0AZgDSAVgAsylaqA@sort(RMT::desc::,RID)">Data Collections <i class="fas fa-info-circle" aria-hidden="true"></i><span>Customized collections of datasets, usually to collect data within a publication.</span></a></li>
   </ul>
 </div>
 <div class="col-md-4">
   <ul>
     <li class="sub-parent">IMAGING</li>
-    <li><a href="/chaise/recordset/#2/Gene_Expression:Specimen/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM6JHQBcAjdafEAcRwhwH0BRADwAcMckkBLFCEADQgAyqxxZuAW1r0AglzABPegBVFY+gDMA1jkUgAugF8hAJQCSAEUNCsACxTdcSSgEYAbAFoATJYBipoZGxkA@sort(RCT::desc::,Stage_Ordinal,RID)?pcid=static/home">In-situ Hybridization</a></li>
-    <li><a href="/chaise/recordset/#2/Gene_Expression:Specimen/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM6JHQBcAjdafEAcRwhwH0BRADwAcMckkBLFCEADQgAyqxxZuAW1r0AglzABPegBVFY+gDMA1jkUgAugF8hAOTDTDQrAAsU3XEkoBJABIBhQ0eNA?pcid=static/home">Immunohistochemistry</a></li>
-    <li><a href="/chaise/recordset/#2/Gene_Expression:Specimen/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM6JHQBcAjdafEAcRwhwH0BRADwAcMckkBLFCEADQgAyqxxZuAW1r0AglzABPegBVFY+gDMA1jkUgAugF8hAOTDTDQrAAsU3XEkoAJbkiIoANigDm+48ZAA@sort(Stage_Ordinal,RID)?pcid=static/home">Histology</a></li>
+    <li><a href="/chaise/recordset/#2/Gene_Expression:Specimen/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM6JHQBcAjdafEAcRwhwH0BRADwAcMckkBLFCEADQgAyqxxZuAW1r0AglzABPegBVFY+gDMA1jkUgAugF8hAOTDTDQrAAsU3XEkoAJbkiIoANigDm+48ZAA@sort(Stage_Ordinal,RID)">Histology</a></li>
+    <li><a href="/chaise/recordset/#2/Gene_Expression:Specimen/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM6JHQBcAjdafEAcRwhwH0BRADwAcMckkBLFCEADQgAyqxxZuAW1r0AglzABPegBVFY+gDMA1jkUgAugF8hAOTDTDQrAAsU3XEkoBJABIBhQ0eNA">Immunohistochemistry</a></li>
+    <li><a href="/chaise/recordset/#2/Gene_Expression:Specimen/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM6JHQBcAjdafEAcRwhwH0BRADwAcMckkBLFCEADQgAyqxxZuAW1r0AglzABPegBVFY+gDMA1jkUgAugF8hAJQCSAEUNCsACxTdcSSgEYAbAFoATJYBipoZGxkA@sort(RCT::desc::,Stage_Ordinal,RID)">In-situ Hybridization</a></li>
     <li><a href="/chaise/recordset/#2/Gene_Expression:Specimen/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM6JHQBcAjdafEAcRwhwH0BRADwAcMckkBLFCEADQgAyqxxZuAW1r0AglzABPegBVFY+gDMA1jkUgAugF8hAJQCSAEUNCsACxTdcSSgEYAbAFp3l2Y0NGxkA@sort(RCT::desc::,Stage_Ordinal,RID)">NanoCT</a></li>
-    <!--
-<li><a href="/chaise/recordset/#2/Gene_Expression:Specimen@sort(RCT::desc::,Stage_Ordinal,RID)?pcid=home/static">All Specimen Data</a></li>
--->
   </ul>
   <ul>
-    <li class="sub-parent">SEQUENCING</li>
-    <li><a href="/chaise/recordset/#2/RNASeq:Study/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM6JAEsIAjdafEAJQDkBBAZRwEcQAaEAUQA8AHHDIQC2OCABcA+gzFooATwlUAkgBEJAMwDWOOSAC6AXzah0YsmgoJq9Jqw49+gkeIkOBw0ZIAqc-hu26hhzKKvocWAAWKIS4SJQAigC0AJoAUgAaAOr6BoZAA@sort(RMT::desc::,RID)?pcid=static/home">mRNA-Seq</a></li>
-    <li><a href="/chaise/recordset/#2/RNASeq:Study/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM6JAEsIAjdafEAJQDkBBAZRwEcQAaEAUQA8AHHDIQC2OCABcA+gzFooATwlUAkgBEJAMwDWOOSAC6AXzah0YsmgoJq9Jqw49+gkeIkOBw0ZIAqc-hu26hhzKKvocWAAWKIS4SJQAjABsALQAigDSNF7sIKnJAJoAUvkATPoGhkA@sort(RMT::desc::,RID)?pcid=static/home">scRNA-Seq/snRNA-Seq</a></li>
-    <li><a href="/chaise/recordset/#2/RNASeq:Study/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM6JAEsIAjdafEAJQDkBBAZRwEcQAaEAUQA8AHHDIQC2OCABcA+gzFooATwlUAkgBEJAMwDWOOSAC6AXzah0YsmgoJq9Jqw49+gkeIkOBw0ZIAqc-hu26hhzKKvocWAAWKIS4SJQAigC0AJoAUgAayfoGhkA@sort(RMT::desc::,RID)?pcid=static/home">ChIP-Seq</a></li>
-    <li><a href="/chaise/recordset/#2/Microarray:Sample@sort(RID)?pcid=static/home">Microarray</a></li>
-    <!--
-    <li><a href="/chaise/recordset/#2/RNASeq:Study/?pcid=static/home">All Studies</a></li>
-    -->
+    <li class="sub-parent info-label">OMICS DATA  <a class="tooltiplink" href=""><i class="fas fa-info-circle" aria-hidden="true"></i><span>Describes studies of omics data, organized by Experiment and Replicate records.</span></a></li>
+    <li><a href="/chaise/recordset/#2/RNASeq:Study/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM6JAEsIAjdafEAJQDkBBAZRwEcQAaEAUQA8AHHDIQC2OCABcA+gzFooATwlUAkgBEJAMwDWOOSAC6AXzah0YsmgoJq9Jqw49+gkeIkOBw0ZIAqc-hu26hhzKKvocWAAWKIS4SJQAigC0AJoAUgAaAOr6BoZAA@sort(RMT::desc::,RID)">mRNA-Seq</a></li>
+    <li><a href="/chaise/recordset/#2/RNASeq:Study/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM6JAEsIAjdafEAJQDkBBAZRwEcQAaEAUQA8AHHDIQC2OCABcA+gzFooATwlUAkgBEJAMwDWOOSAC6AXzah0YsmgoJq9Jqw49+gkeIkOBw0ZIAqc-hu26hhzKKvocWAAWKIS4SJQAjABsALQAigDSNF7sIKnJAJoAUvkATPoGhkA@sort(RMT::desc::,RID)">scRNA-Seq/snRNA-Seq</a></li>
+    <li><a href="/chaise/recordset/#2/Microarray:Sample@sort(RID)">Microarray</a></li>
+    <li><a href="/chaise/recordset/#2/RNASeq:Study/*::facets::N4IghgdgJiBcDaoDGALA9gSyQUwM53hAEUBaATQCkyAGEAXQBoRc0BXAJxwGtsBPOENgAeAB2zsMAW2wQALgH1ZvMfIBmPfgF8GydFjwFi5AGwBGALL0mLDtz4CkHMLIxoI83LOetcajSE06TSA">ATAC-Seq</a></li>
+    <li><a href="/chaise/recordset/#2/RNASeq:Study/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM6JAEsIAjdafEAJQDkBBAZRwEcQAaEAUQA8AHHDIQC2OCABcA+gzFooATwlUAkgBEJAMwDWOOSAC6AXzah0YsmgoJq9Jqw49+gkeIkOBw0ZIAqc-hu26hhzKKvocWAAWKIS4SJQAigC0AJoAUgAayfoGhkA@sort(RMT::desc::,RID)">ChIP-Seq</a></li>
+    <li><a href="/chaise/recordset/#2/RNASeq:Study/*::facets::N4IghgdgJiBcDaoDGALA9gSyQUwM53hAEYA2AWgBEBNABQCUQBdAGhFzQFcAnHAa2wCecENgAeAB2xcMAW2wQALgH0FAyUoBm-IQF9mydFjwEQARTJUSRALJNW7bn0HCk3MAoxoIS3AvcdcTW0QHUYdIA">Metabolomics</a></li>
   </ul>
 </div>
 <div class="col-md-4">
   <ul>
-    <li class="sub-parent">EXPERIMENT PROTOCOLS</li>
-    <li><a href="/chaise/recordset/#2/Protocol:Protocol@sort(RMT::desc::,RID)?pcid=static/home">All Protocols</a></li>
-  </ul>
-  <ul>
-    <li class="sub-parent">CELL & ANIMAL MODELS</li>
-    <li><a href="/chaise/recordset/#2/Cell_Line:Reporter_Cell_Line@sort(ID)?pcid=static/home">Transgenic Reporter Cell Lines</a></li>
-    <li><a href="/chaise/recordset/#2/Cell_Line:Parental_Cell_Line?pcid=static/home">Parental Cell Lines</a></li>
-    <li><a href="/chaise/recordset/#2/Cell_Line:Mouse_Strain@sort(ID)?pcid=static/home">Transgenic Mouse Strains</a></li>
-  </ul>
-  <ul>
-    <li class="sub-parent">ANTIBODIES</li>
-    <li><a href="/chaise/recordset/#2/Antibody:Antibody_Tests@sort(RID)?pcid=static/home">Antibody Validation</a></li>
-    <li><a href="/chaise/recordset/#2/Antibody:Antibodies?pcid=static/home">Antibody Listings</a></li>
+    <li class="sub-parent">LAB RESOURCES & TOOLS</li>
+    <li><a href="/resources/cell-lines/">Request iPSC Cell Lines</a></li>
+    <li><a href="/chaise/recordset/#2/Protocol:Protocol@sort(RMT::desc::,RID)">Protocols</a></li>
+    <li><a class="tooltiplink" href="/resources/functional-assays/">Functional Assays Handbook <i class="fas fa-info-circle" aria-hidden="true"></i><span>Functional assays with a current focus on physiological assays which link to related protocols.</span></a></li>
+    <li><a href="/chaise/recordset/#2/Antibody:Antibody_Tests@sort(RID)">Antibody Validation</a></li>
+    <li><a href="/chaise/recordset/#2/Cell_Line:Mouse_Strain@sort(ID)">Transgenic Mouse Strains</a></li>
+    <li><a href="/chaise/recordset/#2/Common:Publication/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM6JHQBcAjdafEAYRQFtaUIQAaEABTRIBsBLLMIj0YB9GhFQZBaWsIBmAaxwBPEAF0AvqwBKASQAia1lgAWKPjiSUAigFoAzAGkArABYWIW46cA2Neo1AA@sort(Year::desc::,Month::desc::,RID::desc::)?pcid=navbar&ppid=1qns20zx1wfw2gvf260c2htn">Publications</a></li>
   </ul>
 </div>
 </div>
-<!--
-<div class="row">
 
-<div class="col-md-12">
-    <iframe class="embed-responsive" name="resources-viewer" id="resources-viewer" style="width: 675px; height: 350px; border-style: none; border-color: inherit; border-width: 0px; " src="/deriva-webapps/plot/?config=gudmap-data-summary-responsive">
-    </iframe>
-</div>
-
-</div>
--->
 </div>
 </div>
 
 
 </div>
-<div class="row">
-<div class="col-md-12">
-  <section id="news">
+
+<div class="row" id="featured-tools">
+  <div class="col-md-12">
+    <h2>Featured Tools</h2>
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+      </ol>
+
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img src="/assets/img/home-slides/slide-1.png" alt="...">
+          <div class="carousel-caption">
+            Bulk RNA-Seq Visualization (Violin Plots) <a href="/deriva-webapps/plot/?config=study-violin">Learn more</a>
+          </div>
+        </div>
+        <div class="item">
+          <img src="/assets/img/home-slides/slide-2.png" alt="...">
+          <div class="carousel-caption">
+            UCSC Cell Browser - Single Cell RNA-Seq Visualization <a href="/chaise/recordset/#2/RNASeq:Study/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM6JAEsIAjdafEAJQDkBBAZRwEcQAaEANUKTTABtCALzAAXQiggB9BqLRQAnlIBmAaxwKQAXQC+bUOlFk0FBNXpNWHbrwHCxE6Tb6CR4yVLoAHL4KwOPNQ1tPWoASQARbQ4IFFEpCDR+fjhRDDQcHV0gA@sort(RMT::desc::,RID)?pcid=static/home">Learn more</a>
+          </div>
+        </div>
+        <div class="item">
+          <img src="/assets/img/home-slides/slide-3.png" alt="...">
+          <div class="carousel-caption">
+            K.I.T. - Kidney Interactive Transcriptomics - an online analyzer for kidney single cell <br/>datasets (via the Humphreys Lab of the RBK Consortium) <a href="http://humphreyslab.com/SingleCell/" target="_blank">Learn more</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Controls -->
+      <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+</div>
+
+<div class="row" id="opps">
+  <h2>Consortia Highlights</h2>
+
+  <div class="col-md-6">
+    <h3>Recent Publications</h3>
+    <ul class="posts">
+      <li><a href="https://doi.org/10.1152/ajpcell.00288.2022">Functional maturation of kidney organoid tubules: PIEZO1-mediated Ca2+ signaling</a> <small><em>(American Physiological Society - Cell Physiology, 2023, RBK)</em></small></li>
+      <li><a href="https://doi.org/10.1681/asn.0000000000000057">Lineage Tracing and Single-Nucleus Multiomics Reveal Novel Features of Adaptive and Maladaptive Repair after Acute Kidney Injury</a> <small><em>(JASN, 2023, RBK)</em></small></li>
+      <li><a href="https://doi.org/10.1016/B978-0-12-823318-4.00037-8">Chapter 18 - Stress-induced senescence of tubular cells</a> <small><em>(Regenerative Nephrology, 2022, RBK)</em></small></li>
+      <li><a href="https://doi.org/10.1016/B978-0-12-823318-4.00019-6">Chapter 32 - Small molecules in regeneration</a> <small><em>(Regenerative Nephrology, 2022, RBK)</em></small></li>
+      <li><a href="/chaise/recordset/#2/Common:Publication/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM6JHQBcAjdafEAYRQFtaUIQAaEABTRIBsBLLMIj0YB9GhFQZBaWsIBmAaxwBPEAF0AvqwBKASQAia1lgAWKPjiSUAigFoAzAGkArADYWIW46cAWNeo1AA@sort(Year::desc::,Month::desc::,RID::desc::)">more publications ></a></li>
+    </ul>
+  </div>
+  <div class="col-md-6">
     <h3>Latest News</h3>
     <ul class="posts">
       {% for post in site.posts limit: 4 %}
     <li>
-      <h4>
-        <a href="{{ post.url }}">{{ post.title }}</a>
-      </h4>
+      <a href="{{ post.url }}">{{ post.title }}</a><br/>
       <time>
         {{ post.date | date: "%m/%d/%Y" }}
         </time>
     </li>
     {% endfor %}
     </ul>
-  <!--  <a id="more-news" href="/news/">more news ></a><br>
-    <a href="/publications/">publications ></a> -->
-  </section>
-</div>
-</div>
-<!--
-<h4>Contributing Consortia</h4>
+  <a id="more-news" href="/news/">more news ></a><br>
+  <!--    <a href="/publications/">publications ></a> -->
 
-<div class="gallery">
-  <div class="consortium">
-    <a href="https://www.gudmap.org" target="_blank">
-    <img src="http://via.placeholder.com/200x200" alt="">
-    </a>
+
   </div>
-  <div class="consortium">
-    <img src="http://via.placeholder.com/200x200" alt="">
-  </div>
-  <div class="consortium">
-    <img src="http://via.placeholder.com/200x200" alt="">
-  </div>
-  <div class="consortium">
-    <img src="http://via.placeholder.com/200x200" alt="">
-  </div>
-  <div class="consortium">
-    <img src="http://via.placeholder.com/200x200" alt="">
-  </div>
--->
 </div>
+
+
+
+<script>
+
+$(document).ready(function(){
+    // attach the submit even for the forms
+    // more could be added to the list in future if required
+    var searchForms = [$("#main-search")];
+
+    searchForms.forEach(function ($form) {
+      $form.submit(function (e) {
+        e.preventDefault();
+        var $inputs = {};
+        $.each($(this).serializeArray(), function(i, field) {
+          console.log(field);
+            $inputs[field.name] = field.value;
+        });
+        // call the search
+        search($inputs.search_param, $inputs.search_term);
+      });
+    });
+
+    //Carousel
+
+    $('.slider').slick({
+      slidesToShow: 4,
+      slidesToScroll: 1,
+      infinite: false,
+      rows: 2
+    });
+/*
+    $('.slider.students').slick({
+      slidesToShow: 4,
+      slidesToScroll: 1,
+      infinite: false,
+      rows: 1
+    });
+*/
+/*
+    $('a.featured').colorbox({
+      maxWidth: "800px",
+      rel:'gal',
+      transition: 'fade',
+      title:function () {
+        var ridurl = $(this).find('img').attr('alt');
+        var txt = $(this).attr('title');
+        return txt+" More info".link(ridurl);
+      }
+    });
+*/
+});
+</script>
+
+</div> <!-- end of home content div -->
+<script type="text/javascript" src="/assets/slick/slick.min.js"></script>

@@ -1,0 +1,36 @@
+---
+layout: gudmap/default
+---
+<div class="section-news">
+{% include breadcrumb-posts.html %}
+
+<div class="innercontent">
+   <h1>{{ page.title }}</h1>
+   <p class="pub-date">Posted on {{ page.date | date: "%b %-d, %Y" }}</p>
+
+    {{ content }}
+
+   <div class="news-link">
+    <a href="/news/">See all news</a>
+  </div>
+</div>
+</div>
+
+<!--
+
+<div class="post">
+
+  <header class="post-header">
+    <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+  </header>
+
+  <article class="post-content">
+    {{ content }}
+
+    <div class="news-link">
+     <a href="/news/">See all news</a>
+   </div>
+  </article>
+
+</div>
+-->

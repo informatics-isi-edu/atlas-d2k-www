@@ -1,0 +1,25 @@
+/* 
+    Document   : optviewer_table
+    Created on : 02-Apr-2014, 11:10:45
+    Author     : roochun
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+.model_type{
+    padding: 5px; 
+    font-weight: bold; 
+    text-align: center; 
+    width: 70px; 
+    background-image:url('../table_images/blue_grad.png');
+    background-repeat:repeat-y;
+    font-size: 9pt;    
+}
+
+.model_sex{
+    background: #e1e8ee;
+    font-weight: bold; 
+    text-align: center; 
+    width: 55px; 
+    font-size: 9pt;
+}

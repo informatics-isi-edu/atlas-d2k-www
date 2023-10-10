@@ -1,0 +1,166 @@
+---
+layout: gudmap/home
+title: GUDMAP Consortium
+custom_css:
+  - colorbox
+custom_js:
+  - jquery.colorbox
+---
+
+
+<div class="container-fluid content home" id="gudmap">
+<div class="row">
+  <h1 class="tagline">The GenitoUrinary Development Molecular Anatomy Project (GUDMAP) provides data and tools<br/> that facilitate research on the GenitoUrinary (GU) tract for the scientific and medical community.</h1>
+  <div class="col-md-8 featured" id="whoweare">
+    <h3>Who We Are</h3>
+
+    <p class="indent">Since its inception, GUDMAP has focused on the kidney, lower urinary tract and nociceptors (pain receptors) and associated cell types in pain processing of the urinary tract and pelvic region.</p>
+
+    <p class="indent">The <strong>GenitoUrinary Development Molecular Anatomy Project (GUDMAP)</strong> is a consortium of laboratories working to provide the scientific and medical community with curated data and tools to facilitate research on the GenitoUrinary (GU) tract. The key components are:</p>
+
+    <ul>
+      <li>a molecular atlas of gene expression for the developing and mature organs of the human and mouse GU tract;</li>
+      <li>a high resolution molecular anatomy that highlights development of the GU system;</li>
+      <li>mouse strains to facilitate developmental and functional studies within the GU system;</li>
+      <li>tutorials describing GU organogenesis and innervation; and</li>
+      <li>access to consortium generated data, unpublished and  published, via the ATLAS-D2K data repository.</li>
+    </ul>
+
+    <p class="indent">The main focus of the current GUDMAP4 phase is [expanding our understanding of human development of the genito-urinary system.]</p>
+
+    <p class="indent">The GUDMAP tools, tutorials and database are a public resource funded by the <a href="https://www.nih.gov/">National Institutes of Health, USA</a>.</p>
+</div>
+  <div class="col-md-4 featured">
+    <h3>Examples of GUDMAP imaging data</h3>
+
+    <div class="image-carousel">
+    {% include carousel.html %}
+    </div>
+
+      <p class="signup"><a href="http://eepurl.com/hyUyjD" class="btn btn-success" role="button">Join our announcements list!</a></p>
+
+  </div>
+
+  </div>
+  <div class="row bottom">
+
+    <div class="col-md-4">
+      <h3>Tutorials <small><em><a href="/tutorials/">View all</a></em></small></h3>
+
+      <div class="media">
+        <div class="media-left">
+          <a href="/tutorials/innervation/">
+            <img class="media-object" src="/assets/img/tutorials/Fig5C_Alice Illustrations_PG_v4.png" alt="Illustration of pelvic ganglia and nerves">
+          </a>
+        </div>
+        <div class="media-body">
+          <h4 class="media-heading"><a href="/tutorials/innervation/">Lower Urinary Tract Innervation and its Development</a> <sup><em>New</em></sup></h4>
+        </div>
+      </div>
+
+      <div class="media">
+        <div class="media-left">
+          <a href="/tutorials/urogenital-dev/">
+            <img class="media-object" src="/assets/img/tutorials/TS21_WMISH_Mventral_crop-thumb.jpg" alt="urogenital system at approximately TS21">
+          </a>
+        </div>
+        <div class="media-body">
+          <h4 class="media-heading"><a href="/tutorials/urogenital-dev/">Urogenital System Development</a></h4>
+        </div>
+      </div>
+      <div class="media">
+      <div class="media-left">
+        <a href="/tutorials/kidney-dev/">
+          <img class="media-object" src="/assets/img/tutorials/mouse-vs-human-kidneyx895-thumb.jpg" alt="Mouse vs human kidney illustration">
+        </a>
+      </div>
+      <div class="media-body">
+        <h4 class="media-heading"><a href="/tutorials/kidney-dev/">Development of the Kidney in Mouse and Human</a></h4>
+      </div>
+    </div>
+    <!--
+    <div class="media">
+      <div class="media-left">
+        <a href="/tutorials/prostate-dev/">
+          <img class="media-object" src="/assets/img/tutorials/16dpc-UGS-wholemount-thumb.jpg" alt=" the UGS and other components of a 16 dpc (days post conception) male mouse lower urinary tract.">
+        </a>
+      </div>
+      <div class="media-body">
+        <h4 class="media-heading"><a href="/tutorials/prostate-dev/">Prostate Development</a></h4>
+      </div>
+    </div>
+  -->
+    </div>
+    <div class="col-md-4">
+      <h3>GUDMAP Publications</h3>
+      <ul class="list-group posts">
+        <li class="list-group-item"><a href="https://www.doi.org/10.1016/j.devcel.2022.07.004">Single-cell and spatial mapping identify cell types and signaling networks in the human ureter</a> <small><em>(Dev Cell, August 2022)</em></small></li>
+        <li class="list-group-item"><a href="https://doi.org/10.1016/j.ydbio.2021.05.014">Single cell transcriptomic analysis of external genitalia reveals complex and sexually dimorphic cell populations in the early genital tubercle</a> <small><em>(Dev Bio, September 2021)</em></small></li>
+        <li class="list-group-item"><a href="https://doi.org/10.1016/j.ydbio.2021.03.024">Altered sacral neural crest development in <em>Pax3</em> spina bifida mutants underlies deficits of bladder innervation and function</a> <small><em>(Dev Bio, August 2021)</em></small></li>
+        <li class="list-group-item"><a href="https://doi.org/10.3390/ijms22136838">5-HT3 Signaling Alters Development of Sacral Neural Crest Derivatives That Innervate the Lower Urinary Tract</a> <small><em>(International Journal of Molecular Sciences, June 2021)</em></small></li>
+      </ul>
+      <a href="/chaise/recordset/#2/Common:Publication/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM6JHQBcAjdafEAYRQFtaUIQAaEABTRIBsBLLMIj0YB9GhFQZBaWsIBmAaxwBPEAF0AvqwBKASQAia1lgAWKPjiSUAigFoAzAGkArADY16jUA@sort(Year::desc::,Month::desc::,RID::desc::)">all publications ></a>
+
+    </div>
+    <div class="col-md-4">
+      <h3>News</h3>
+      <ul class="list-group posts">
+        {% assign counter = 0 %}
+          {% for post in site.posts %}
+            {% if post.tags contains 'gudmap' %}
+            {% assign counter = counter | plus: 1 %}
+            <li class="list-group-item">
+              <a href="{{ post.url }}">{{ post.title }}</a><br/>
+              <time>
+                {{ post.date | date: "%m/%d/%Y" }}
+              </time>
+            </li>
+            {% if counter == 4 %}
+            {% break %}
+            {% endif %}
+            {% endif %}
+          {% endfor %}
+      </ul>
+
+    <a id="more-news" href="/gudmap/news/">all news ></a><br>
+    <!--    <a href="/publications/">publications ></a> -->
+    </div>
+
+  </div>
+</div>
+
+
+<script>
+
+$(document).ready(function(){
+
+    //Carousel
+
+    $('.slider').slick({
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      infinite: false,
+      rows: 2
+    });
+/*
+    $('.slider.students').slick({
+      slidesToShow: 4,
+      slidesToScroll: 1,
+      infinite: false,
+      rows: 1
+    });
+*/
+
+    $('a.featured').colorbox({
+      maxWidth: "800px",
+      rel:'gal',
+      transition: 'fade',
+      title:function () {
+        var ridurl = $(this).find('img').attr('alt');
+        var txt = $(this).attr('title');
+        return txt+" More info".link(ridurl);
+      }
+    });
+
+});
+</script>
