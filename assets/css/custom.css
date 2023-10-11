@@ -481,7 +481,8 @@ ul.posts li time {
 #content.container {
     font-size: 18px;
     margin: 0 auto;
-    line-height: 25px;
+    line-height: 1.5;
+    color: #4b4444;
 }
 
 #content.container {
@@ -1026,6 +1027,15 @@ div.bottom-img img {
     border: 5px white solid;
 }
 
+div#cboxTitle {
+    background-color: #fff;
+    padding: 5px;
+}
+
+div#cboxCurrent {
+    background-color: #fff;
+    padding: 5px 10px;
+}
 
 /* Tutorials */
 

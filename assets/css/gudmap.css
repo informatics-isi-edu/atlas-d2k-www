@@ -651,6 +651,10 @@ ul.personnel-list li {
     font-size: 0.9em;
 }
 
+.project-page h2 {
+  margin-top: 0;
+}
+
 span.key-inst {
     font-size: 0.9em;
     line-height: 140%;

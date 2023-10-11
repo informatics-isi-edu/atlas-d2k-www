@@ -104,7 +104,7 @@ a.anchor {
 }
 
 a.anchor:target {
-    padding-top: 130px;
+  /*  padding-top: 130px; */
 }
 
 a.anchor:hover {
@@ -113,7 +113,7 @@ a.anchor:hover {
 
 
 /* Selection colors (easy to forget) ------------------------------------	*/
-
+/*
 ::selection {
     background: #ffffb2;
 }
@@ -121,7 +121,7 @@ a.anchor:hover {
 ::-moz-selection {
     background: #ffffb2;
 }
-
+*/
 img::selection {
     background: transparent;
 }
@@ -1017,6 +1017,10 @@ span.citation {
     font-size: .8em;
     font-weight: bold;
     line-height: 1;
+}
+
+.projects-content li {
+  padding: 10px 0;
 }
 
 .work-belt {
