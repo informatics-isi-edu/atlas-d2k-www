@@ -1,7 +1,7 @@
 ---
 title: "Introducing New RBK Collaborator Group with Zhongwei Li (USC)"
 layout: post
-tag:
+tag: rbk
 ---
 
 The ATLAS-D2K Center is excited to introduce a new Collaborator Group for the ReBuilding A Kidney (RBK) Consortium! We welcome Principal Investigator Zhongwei Li from the University of Southern California (USC) to the consortium with his grant "The Synthetic Kidney: A Revolutionary Solution for the Shortage of Kidneys for Transplantation" ([see the project page here](/projects/synthetic-kidney/)).

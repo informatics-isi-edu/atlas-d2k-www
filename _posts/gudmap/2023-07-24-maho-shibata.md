@@ -1,7 +1,7 @@
 ---
 title: "Welcome to the new GUDMAP Collaborator Group: Maho Shibata (George Washington University)"
 layout: post
-tag:
+tag: gudmap
 ---
 
 The ATLAS-D2K Center is excited to introduce a new Collaborator Group for the GUDMAP Consortium: Maho Shibata from the George Washington University.

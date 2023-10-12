@@ -1,7 +1,7 @@
 ---
 title: "Introducing the 2023 RBK Opportunity Pool Awardees"
 layout: post
-tag:
+tag: rbk
 ---
 
 We are excited to announce the distinguished recipients of the 2023 RBK Opportunity Pool grants! The ATLAS-D2K Center, the coordinating center for the RBK, administers [funding opportunities](/collaboration/op-pool/2023-rbk/) to support research efforts that address scientific gaps and challenges identified by the RBK or foster new collaborations. This year's awardees have displayed exceptional dedication and innovation in their respective fields.
