@@ -1,12 +1,12 @@
 ---
-title: "ATLAS-D2K Center Online Resource has integrated"
+title: "Website Updates! New homepage and full integration with GUDMAP and RBK resources"
 layout: post
 tag:
 ---
 
 The ATLAS-D2K Center is excited to announce that all of the resources that were formerly hosted on separate websites specific to GUDMAP and RBK have now been fully integrated into the ATLAS-D2K Center online resource!
 
-The homepage has been redesigned to provide information about available data and resources, showcase featured images, highlight available tools (with more coming soon!) and promote funding opportunities and events from GUDMAP and RBK.
+The homepage has been redesigned to provide information and statistics about available data and resources, showcase featured images, highlight available tools (with more coming soon!) and promote funding opportunities and events from GUDMAP and RBK.
 
 In the revamped top-level navigation, you'll find an incredible breadth and depth of data, tutorials, atlases, be able to request iPSC cell lines, search through functional assays and more!
 
