@@ -22,10 +22,15 @@
     padding-bottom: 0;
     cursor: pointer;
 }
+/* old angular navbar rules - using to offset angular navbar on treeview */
+ul#navbar-menu { /* adding this new rule for treeview */
+    margin-top: 25px;
+    margin-left: 30px;
+}
 
-.navbar-inverse .navbar-nav>li>a {
-    color: #ddc785;
-    font-size: .95em;
+.navbar-inverse .navbar-nav>li>a { /* changed for treeview */
+    color: #fff;
+    font-size: 16px;
 }
 
 .navbar-inverse .navbar-nav>li>a:hover {
@@ -81,8 +86,9 @@ span#brand-text {
     height: 33px;
 }
 
-ul.nav.navbar-nav.navbar-right {
+login ul.nav.navbar-nav.navbar-right { /* changed for treeview */
     line-height: 30px;
+    margin-top: 25px;
     /*	padding-top: 10px;
 	padding-bottom: 10px;*/
 }
@@ -113,6 +119,10 @@ button.navbar-toggle.collapsed {
 .navbar-nav>li,
 .navbar-nav {
     float: left !important;
+}
+
+#fb-navbar-main-collapse .nav.navbar-nav.navbar-right.rid-search { /* added rule for treeview */
+  margin-top: 25px;
 }
 
 .navbar-nav.navbar-right:last-child {

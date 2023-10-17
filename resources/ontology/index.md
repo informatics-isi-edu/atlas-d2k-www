@@ -28,7 +28,7 @@ Click the following links to access the papers describing the ontology:
 View the complete set of EMAPA terms available in GUDMAP today:
 
 * [Mouse Anatomy Tree (hierarchical view)](/deriva-webapps/treeview/)
-* [Anatomical Faceted Search](/chaise/recordset/#2/Vocabulary:Anatomy?pcid=static)
+* [Anatomical Faceted Search](/chaise/recordset/#2/Vocabulary:Anatomy)
 
 ## Supplementary ontology documents
 
