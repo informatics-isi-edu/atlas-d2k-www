@@ -32,7 +32,11 @@
     <script src='/assets/js/{{ js_file }}.js' type="text/javascript"></script>
     {% endfor %} {% endif %}
 
-  
+    <!-- JSON-LD tags -->
+  	{% if page.layout == "home" %}
+  	{% include home-json-ld.html %}
+  	{% endif %}
+
     {% include navbar-dependencies.html %}
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
