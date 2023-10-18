@@ -1,8 +1,6 @@
 ---
 layout: resources
 title: GUDMAP Ontology Archive
-redirect_from:
-  - /resources/ontology/ontologies_archive.html
 ---
 
 This page lists previous versions of the GUDMAP ontology. To access the current version, [click here](/resources/ontology/).
