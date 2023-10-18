@@ -60,7 +60,7 @@ ul#navbar-menu { /* adding this new rule for treeview */
     color: #59C4FF;
 }
 
-.navbar-brand:not(#chaise-app-root #mainnav.navbar-inverse .navbar-brand) {
+.navbar-brand:not(#chaise-app-root #mainnav.navbar-inverse .navbar-brand):not(.chaise-body #mainnav.navbar-inverse .navbar-brand) {
     padding: 5px 0 0 0;
     height: 100px;
 }
@@ -80,6 +80,7 @@ span#brand-text {
     margin-left: 10px
 }
 
+.chaise-body span#brand-text,
 #chaise-app-root span#brand-text {
     background: url(/assets/img/logo-cropped-for-chaise.png);
     background-size: 100%;
