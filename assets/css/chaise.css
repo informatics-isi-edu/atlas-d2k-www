@@ -22,11 +22,6 @@
     padding-bottom: 0;
     cursor: pointer;
 }
-/* old angular navbar rules - using to offset angular navbar on treeview */
-ul#navbar-menu { /* adding this new rule for treeview */
-    margin-top: 25px;
-    margin-left: 30px;
-}
 
 .navbar-inverse .navbar-nav>li>a { /* changed for treeview */
     color: #fff;
@@ -60,7 +55,7 @@ ul#navbar-menu { /* adding this new rule for treeview */
     color: #59C4FF;
 }
 
-.navbar-brand:not(#chaise-app-root #mainnav.navbar-inverse .navbar-brand) {
+.navbar-brand:not(#chaise-app-root #mainnav.navbar-inverse .navbar-brand):not(.chaise-body #mainnav.navbar-inverse .navbar-brand) {
     padding: 5px 0 0 0;
     height: 100px;
 }
@@ -80,6 +75,7 @@ span#brand-text {
     margin-left: 10px
 }
 
+.chaise-body span#brand-text,
 #chaise-app-root span#brand-text {
     background: url(/assets/img/logo-cropped-for-chaise.png);
     background-size: 100%;
@@ -88,7 +84,6 @@ span#brand-text {
 
 login ul.nav.navbar-nav.navbar-right { /* changed for treeview */
     line-height: 30px;
-    margin-top: 25px;
     /*	padding-top: 10px;
 	padding-bottom: 10px;*/
 }
@@ -119,10 +114,6 @@ button.navbar-toggle.collapsed {
 .navbar-nav>li,
 .navbar-nav {
     float: left !important;
-}
-
-#fb-navbar-main-collapse .nav.navbar-nav.navbar-right.rid-search { /* added rule for treeview */
-  margin-top: 25px;
 }
 
 .navbar-nav.navbar-right:last-child {
