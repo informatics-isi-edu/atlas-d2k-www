@@ -10,6 +10,7 @@
     width: 100%;
     font-size: 16px;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    border: 0;
 }
 
 .navbar-inverse {
@@ -28,8 +29,14 @@
     font-size: 16px;
 }
 
+.navbar-inverse .navbar-nav>div>a:hover,
 .navbar-inverse .navbar-nav>li>a:hover {
-    background-color: rgb(221, 199, 133, .5);
+    background-color: #407CCA;
+}
+
+.navbar-inverse .navbar-nav>.open>a,
+.navbar-inverse .navbar-nav>.show>a {
+    background-color: #080808;
 }
 
 .navbar-inverse .navbar-nav>li>a:visited {
