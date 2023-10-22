@@ -79,7 +79,8 @@ span#brand-text {
     white-space: nowrap;
     overflow: hidden;
     margin-top: -6px;
-    margin-left: 10px
+    margin-left: 10px;
+    width: 142.37px;
 }
 
 .chaise-body span#brand-text,
