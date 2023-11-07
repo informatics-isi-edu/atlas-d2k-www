@@ -28,7 +28,13 @@ We provide two primary mechanisms for citing data: Digital Object Identifiers (D
 
 If you've leveraged RBK to find data or additional related data, please acknowledge the consortium by citing the following consortium papers:
 
+<!--
+
 - Oxburgh L, et al. **(Re)Building a Kidney. J Am Soc Nephrol. 2017 Jan 17. pii: ASN.2016101077.** [View at PubMed](https://www.ncbi.nlm.nih.gov/pubmed/28096308).
+
+-->
+
+> Oxburgh L, Carroll TJ, Cleaver O, Gossett DR, Hoshizaki DK, Hubbell JA, Humphreys BD, Jain S, Jensen J, Kaplan DL, Kesselman C, Ketchum CJ, Little MH, McMahon AP, Shankland SJ, Spence JR, Valerius MT, Wertheim JA, Wessely O, Zheng Y, Drummond IA. **(Re)Building a Kidney. J Am Soc Nephrol. 2017 May;28(5):1370-1378. doi: 10.1681/ASN.2016101077**. Epub 2017 Jan 17. PMID: 28096308; PMCID: PMC5407737.
 
 ## Citing Data Associated with a Publication
 
