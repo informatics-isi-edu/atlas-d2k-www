@@ -11,7 +11,7 @@ Specifically, we are looking for additional projects in the following subject ar
 <p>Current subject areas of interest are LIMITED to <strong>Physiologic Function</strong> and <strong>Repair/Regeneration</strong>:</p>
 
 <p>  1.	Physiologic Function</p>
-<p>It is critical that bioengineered devices and biologicals (e.g. organoids, bioprinted devices) developed in RBK reflect the physiologic functions of the kidney. Specialized tools and expertise are needed to help evaluate these functions. Successful applications must involve a collaboration with an existing RBK member (<a href="https://www.rebuildingakidney.org/projects">https://www.rebuildingakidney.org/projects</a>) and propose to evaluate physiological function in RBK developed bioengineered devices or biologicals.  Examples might include: </p>
+<p>It is critical that bioengineered devices and biologicals (e.g. organoids, bioprinted devices) developed in RBK reflect the physiologic functions of the kidney. Specialized tools and expertise are needed to help evaluate these functions. Successful applications must involve a collaboration with an existing RBK member (<a href="/rebuildingakidney/projects/">https://www.atlas-d2k.org/rebuildingakidney/projects/</a>) and propose to evaluate physiological function in RBK developed bioengineered devices or biologicals.  Examples might include: </p>
 <ul>
   <li>Develop novel way to non-invasively image renal function.  Engineer or apply physiologically-relevant biosensors and reporters to image/measure physiologic processes in real-time.</li>
   <li>Perfuse organoids or bioengineered  devices and assess flow-dependent function (e.g. PAH secretion; glucose, Na+ and HCO3- reabsorption in the proximal tubule; K+ and H+ secretion in distal tubule).</li>
@@ -19,7 +19,7 @@ Specifically, we are looking for additional projects in the following subject ar
 </ul>
 
 <p>2.	Repair/Regeneration</p>
-<p>It remains a major focus of the RBK to better understand productive repair in response to injury.  Applicants may propose either a new standalone project OR a collaboration with an existing RBK member (<a href="https://www.rebuildingakidney.org/projects">https://www.rebuildingakidney.org/projects</a>). Examples might include:</p>
+<p>It remains a major focus of the RBK to better understand productive repair in response to injury.  Applicants may propose either a new standalone project OR a collaboration with an existing RBK member (<a href="https://www.atlas-d2k.org/rebuildingakidney/projects/">https://www.atlas-d2k.org/rebuildingakidney/projects/</a>). Examples might include:</p>
 <ul>
   <li>Profile endogenous repair/regeneration pathways in cells and tissues.  When appropriate, the use of human samples is strongly encouraged.</li>
   <li>Define repair circuits to identify drug targets that will enhance endogenous repair and develop target-based small screening assays.  Use phenotype screening assays to identify small molecules that will activate innate reparative responses.</li>
@@ -30,4 +30,4 @@ Specifically, we are looking for additional projects in the following subject ar
 
 For complete details about this program, go to:
 
-<a href="https://www.rebuildingakidney.org/partnership-project-program.html">rebuildingakidney.org/partnership-project-program.html</a>
+<a href="https://www.atlas-d2k.org/collaboration/op-pool/">atlas-d2k.org/collaboration/op-pool/</a>

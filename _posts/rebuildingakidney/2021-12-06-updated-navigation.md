@@ -16,4 +16,4 @@ The following are the top-level menu items and what you can expect to find:
 * **INTERNAL** - *For members of the RBK consortium*, this section includes direct links for creating data records, links to internal collaboration websites and links to documentation for submitting data.
 * **"Go to RID" search bar** - Although this isn't technically part of the navigation, it is a useful feature on the right side of the top menu bar that lets you enter an "RID" to go directly to a data record. **RID** stands for "Record ID", the unique permanent identifier for all RBK data.
 
-We hope this will help make the ReBuilding a Kidney website more useful for you. If you have feedback, please let us know [via the Contact page](/contact.html)!
+We hope this will help make the ReBuilding a Kidney website more useful for you. If you have feedback, please let us know [via the Contact page](/contact/)!

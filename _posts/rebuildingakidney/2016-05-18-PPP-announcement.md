@@ -20,4 +20,4 @@ Applications of 5 pages requesting up to $150,000 total costs for per year for a
 
 For complete details about this program, go to:
 
-<a href="https://www.rebuildingakidney.org/partnership-project-program.html">rebuildingakidney.org/partnership-project-program.html</a>
+<a href="https://www.atlas-d2k.org/collaboration/op-pool/">atlas-d2k.org/collaboration/op-pool/</a>

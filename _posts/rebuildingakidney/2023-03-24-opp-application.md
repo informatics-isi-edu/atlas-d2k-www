@@ -10,4 +10,4 @@ The application portal is available now for the 2023 [RBK Opportunity Pool](http
 
 The deadline for completing the submission is **Monday, April 3rd**.
 
-The interface is pretty straightforward, but if you have any questions, please send them to [help@atlas-d2k.org](help@atlas-d2k.org).
+The interface is pretty straightforward, but if you have any questions, please send them to [help@atlas-d2k.org](mailto:help@atlas-d2k.org).

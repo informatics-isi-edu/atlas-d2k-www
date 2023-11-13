@@ -4,7 +4,7 @@ layout: post
 tag: rbk
 ---
 
-Ryuji Morizane’s lab has just published a new paper in *Frontiers in Cell and Developmental Biology* that calls out work done through the [Functional Assays Working Group](/functional-assays/) (check out the link to access the Functional Assays Handbook search):
+Ryuji Morizane’s lab has just published a new paper in *Frontiers in Cell and Developmental Biology* that calls out work done through the [Functional Assays Working Group](/resources/functional-assays/) (check out the link to access the Functional Assays Handbook search):
 
 >**[Live functional assays reveal longitudinal maturation of transepithelial transport in kidney organoids](https://doi.org/10.3389/fcell.2022.978888)**
 Rizki-Safitri, Astia; Gupta, Navin; Hiratsuka, Ken; Kobayashi, Kenichi; Zhang, Chengcheng; Ida, Kazumi; Satlin, Lisa M.; Morizane, Ryuji. *Frontiers in Cell and Developmental Biology*. Volume 10. August 15, 2022.
