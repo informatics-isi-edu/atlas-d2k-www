@@ -3,23 +3,39 @@ layout: default
 title: ATLAS-D2K Events
 ---
 
-<p>The following events represent internal meetings for the GUDMAP and RBK consortia:</p>
+{% assign current_date = site.time | date: '%s' %}
 
+<h2>Upcoming Events</h2>
 <ul>
   {% assign sorted_events = site.events | sort: "start_date" %}
   {% for event in sorted_events %}
-     <li>
+    {% assign event_start_date = event.start_date | date: '%s' %}
+    {% if event_start_date >= current_date %}
+      <li>
         <h3><a href="{{ event.url }}">{{ event.title }}</a></h3>
         <p>Date:
-           {{ event.start_date | date: "%B %d, %Y" }} -
-           {{ event.end_date | date: "%B %d, %Y" }}
+          {{ event.start_date | date: "%B %d, %Y" }} -
+          {{ event.end_date | date: "%B %d, %Y" }}
         </p>
         <p>Location: {{ event.location }}</p>
-     </li>
+      </li>
+    {% endif %}
   {% endfor %}
 </ul>
 
-
-<!-- add this after 10/24/23
 <h2>Past Events</h2>
--->
+<ul>
+  {% for event in sorted_events %}
+    {% assign event_start_date = event.start_date | date: '%s' %}
+    {% if event_start_date < current_date %}
+      <li>
+        <h3><a href="{{ event.url }}">{{ event.title }}</a></h3>
+        <p>Date:
+          {{ event.start_date | date: "%B %d, %Y" }} -
+          {{ event.end_date | date: "%B %d, %Y" }}
+        </p>
+        <p>Location: {{ event.location }}</p>
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>

@@ -219,11 +219,27 @@ custom_js:
     </ul>
 
     <h3>Upcoming Internal Events</h3>
+    <!-- original manual listing
     <ul class="posts">
       <li><a href="/events/rbk-fall-2023-retreat/">RBK Fall 2023 Retreat (Oct 23-24 in Silver Spring, MD)</a></li>
       <li><a href="/events/gudmap-spring-2024-meeting/">GUDMAP 2024 Annual Meeting (April 24-25 in Bethesda, MD)</a></li>
       <li><a href="/events/rbk-spring-2024-retreat/">RBK Spring 2024 Retreat (April 29-30 in Bethesda, MD)</a></li>
     </ul>
+    -->
+
+    <ul class="posts">
+  {% assign current_date = 'now' | date: '%s' %}
+  {% assign sorted_events = site.events | sort: "start_date" %}
+  {% for event in sorted_events %}
+    {% assign event_start_date = event.start_date | date: '%s' %}
+    {% if event_start_date >= current_date %}
+      <li>
+        <a href="{{ event.url }}">{{ event.title }} in {{ event.location }}</a>
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>
+
 
   </div>
   <div class="col-md-6" id="consortiums">
