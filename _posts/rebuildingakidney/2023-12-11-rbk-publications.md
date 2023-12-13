@@ -4,7 +4,7 @@ layout: post
 tag: rbk
 ---
 
-We are thrilled to bring you the latest updates from our community of researchers who are making significant strides in kidney regeneration and related fields. This newsletter highlights three recent publications that each represent a leap forward in our understanding and capabilities in kidney research.
+We are thrilled to bring you the latest updates from our community of researchers who are making significant strides in kidney regeneration and related fields. This newsletter highlights four recent publications that each represent a leap forward in our understanding and capabilities in kidney research.
 
 ### **In Vivo Assessment of Laboratory-Grown Kidney Tissue Grafts**
 
@@ -35,3 +35,15 @@ Summary: Kidney organoids are three-dimensional structures derived from stem cel
 *URL:* [https://doi.org/10.1038/s41592-023-02103-7](https://doi.org/10.1038/s41592-023-02103-7)
 
 Summary: Existing approaches to scoring single-nucleus assay for transposase-accessible chromatin with sequencing (snATAC-seq) feature matrices from sequencing reads are inconsistent, affecting downstream analyses and displaying artifacts. We show that, even with sparse single-cell data, quantitative counts are informative for estimating the regulatory state of a cell, which calls for a consistent treatment. We propose Paired-Insertion Counting as a uniform method for snATAC-seq feature characterization and provide a probability model for inferring latent insertion dynamics from snATAC-seq count matrices.
+
+### Stromal netrin 1 coordinates renal arteriogenesis and mural cell differentiation
+
+*Authors:* Luo, Peter M. and Gu, Xiaowu and Chaney, Christopher and Carroll, Thomas and Cleaver, Ondine
+
+*Journal:* Development
+
+*URL:* [https://doi.org/10.1242/dev.201884](https://doi.org/10.1242/dev.201884)
+
+Summary: The kidney vasculature has a complex architecture that is essential for renal function. The molecular mechanisms that direct development of kidney blood vessels are poorly characterized. We identified a regionally restricted, stroma-derived signaling molecule, netrin 1 (Ntn1), as a regulator of renal vascular patterning in mice. Stromal progenitor (SP)-specific ablation of Ntn1 (Ntn1SPKO) resulted in smaller kidneys with fewer glomeruli, as well as profound defects of the renal artery and transient blood flow disruption. Notably, Ntn1 ablation resulted in loss of arterial vascular smooth muscle cell (vSMC) coverage and in ectopic SMC deposition at the kidney surface. This was accompanied by dramatic reduction of arterial tree branching that perdured postnatally. Transcriptomic analysis of Ntn1SPKO kidneys revealed dysregulation of vSMC differentiation, including downregulation of Klf4, which we find expressed in a subset of SPs. Stromal Klf4 deletion similarly resulted in decreased smooth muscle coverage and arterial branching without, however, the disruption of renal artery patterning and perfusion seen in Ntn1SPKO. These data suggest a stromal Ntn1-Klf4 axis that regulates stromal differentiation and reinforces stromal-derived smooth muscle as a key regulator of renal blood vessel formation.
+
+[*Browse through more RBK-related publications here.*](https://www.atlas-d2k.org/chaise/recordset/#2/Common:Publication/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM6JHQBcAjdafEAYRQFtaUIQAaEABTRIBsBLLMIj0YB9GhFQZBaWsIBmAaxwBPEAF0AvqwBKASQAia1lgAWKPjiSUAigFoAzAGkArABY16jUA@sort(Year::desc::,Month::desc::,RID::desc::))
