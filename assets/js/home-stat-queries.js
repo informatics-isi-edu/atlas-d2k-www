@@ -86,7 +86,7 @@ $(document).ready(function () {
       '#stat-antibody-validation-number',
       '#stat-pubs-number'
     ],
-    "/catalog/2/attributegroup/Dashboard:Release_Status/Consortium=ALL/Species=ALL/ID;Data_Type,Released",
+    "/catalog/2/attributegroup/Dashboard:Release_Status/Consortium=ALL/Species=ALL/!(Released=0)/ID;Data_Type,Released",
     ":,stat/dataset:load",
     "Dashboard:Release_Status"
   );
