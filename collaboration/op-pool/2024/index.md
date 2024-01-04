@@ -4,8 +4,6 @@ title: ATLAS-D2K Opportunity Pool - 2024
 published: false
 ---
 
-NOTE: add links to current RBK2 CDA (/rebuildingakidney/downloads/RBK2-Consortium-CDA-V1.pdf) and
-
 The (Re)Building a Kidney consortium (RBK) is an initiative funded by the National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK) that has developed two strategies to address the challenges associated with treating kidney diseases:
 
 1. A “rebuild strategy” that includes de novo kidney fabrication (synthetic kidney) with stem cells and replacement by transplantation, and
