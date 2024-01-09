@@ -1,5 +1,5 @@
 ---
-title: "New Research Funding Opportunity: ATLAS-D2K Opportunity Pool 2024"
+title: "New Research Funding Opportunity - ATLAS-D2K Opportunity Pool 2024"
 layout: post
 tag:
 ---
@@ -11,4 +11,3 @@ For a comprehensive understanding of the funding opportunity, including project 
 **Detailed FOA**: [ATLAS-D2K Opportunity Pool 2024](https://www.atlas-d2k.org/collaboration/op-pool/2024/)
 
 We encourage eligible and interested researchers to apply and contribute to the advancement of kidney and genitourinary research. For any questions or additional information, please feel free to contact the program officials listed in the announcement.
-
