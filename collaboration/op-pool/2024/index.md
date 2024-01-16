@@ -5,7 +5,7 @@ published: true
 ---
 
 <p class="note">This announcement was posted on Monday, January 8, 2024.<br/>
-Applications are due <strong>Monday, March 15th, 2024</strong>.</p>
+Applications are due <strong>Friday, March 15th, 2024</strong>.</p>
 
 ## Introduction
 
@@ -73,7 +73,7 @@ Since glue grants are expected to be mutually beneficial to GUDMAP/RBK and the p
 
 ## Application Instructions
 
-Applications may request up to $100,000 (total costs) for one year and are due **Monday, March 15th, 2024**.
+Applications may request up to $100,000 (total costs) for one year and are due **Friday, March 15th, 2024**.
 
 * The application is the standard PHS 398 form, including face, abstract, detailed budget, biosketches (up to 5 pages each), and research plan. The research plan is limited to 5 pages, including specific aims.
 
