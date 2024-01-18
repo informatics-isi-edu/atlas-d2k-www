@@ -4,7 +4,13 @@ layout: post
 tag: rbk
 ---
 
-TBD
+Here are two new publications from the RBK consortium:
+
+"Spatial Transcriptomics Defines Injury-Specific Microenvironments in the Adult Mouse Kidney and Novel Cellular Interactions in Regeneration and Disease (preprint)," spearheaded by Michal Polonsky and team from Andy McMahon's lab (USC), utilizes cutting-edge spatial transcriptomics to unravel the complex cellular interplay and gene expression patterns in kidney injury and repair.
+
+"3D Hydrogel Encapsulation Regulates Nephrogenesis in Kidney Organoids," led by Bryan Nerger and colleagues from Joe Bonventre's lab (BWH), delves into the impact of mechanical signals on nephrogenesis, revealing how hydrogel encapsulation influences kidney organoid development.
+
+These studies not only enhance our understanding of kidney function and disease but also pave the way for innovative approaches in kidney regenerative medicine.
 
 ### Spatial transcriptomics defines injury-specific microenvironments in the adult mouse kidney and novel cellular interactions in regeneration and disease [preprint]
 
