@@ -40,8 +40,4 @@ Spatial transcriptomics predicted a molecular interplay amongst neighboring cell
 *Summary:* Acute kidney injury (AKI) causes epithelial damage followed by subsequent repair. While successful repair restores kidney function, this process is often incomplete and can lead to chronic kidney disease (CKD) in a process called failed repair. To better understand the epigenetic reprogramming driving this AKI-to-CKD transition we generated a single nucleus multiomic atlas for the full mouse AKI time course, consisting of ~280,000 single nucleus transcriptomes and epigenomes. We reveal cell-specific dynamic alterations in gene regulatory landscapes reflecting especially activation of proinflammatory pathways. We further generated single nucleus multiomic data from four human AKI samples including validation by genome-wide identification of NF-kB binding sites. A regularized regression analysis identifies key regulators involved in both successful and failed repair cell fate, identifying the transcription factor CREB5 as a regulator of both successful and failed tubular repair that also drives proximal tubule cell proliferation after injury. Our interspecies multiomic approach provides a foundation to comprehensively understand cell states in AKI.
 
 
-
-Best,
-
-
 [*Browse through more RBK-related publications here.*](https://www.atlas-d2k.org/chaise/recordset/#2/Common:Publication/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM6JHQBcAjdafEAYRQFtaUIQAaEABTRIBsBLLMIj0YB9GhFQZBaWsIBmAaxwBPEAF0AvqwBKASQAia1lgAWKPjiSUAigFoAzAGkArABY16jUA@sort(Year::desc::,Month::desc::,RID::desc::))
