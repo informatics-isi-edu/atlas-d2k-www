@@ -1,16 +1,10 @@
 ---
-title: "New publications by Andy McMahon and Joe Bonventre labs"
+title: "New publications from McMahon, Bonventre and Humphreys labs"
 layout: post
 tag: rbk
 ---
 
-Here are two new publications from the RBK consortium:
-
-"Spatial Transcriptomics Defines Injury-Specific Microenvironments in the Adult Mouse Kidney and Novel Cellular Interactions in Regeneration and Disease (preprint)," spearheaded by Michal Polonsky and team from Andy McMahon's lab (USC), utilizes cutting-edge spatial transcriptomics to unravel the complex cellular interplay and gene expression patterns in kidney injury and repair.
-
-"3D Hydrogel Encapsulation Regulates Nephrogenesis in Kidney Organoids," led by Bryan Nerger and colleagues from Joe Bonventre's lab (BWH), delves into the impact of mechanical signals on nephrogenesis, revealing how hydrogel encapsulation influences kidney organoid development.
-
-These studies not only enhance our understanding of kidney function and disease but also pave the way for innovative approaches in kidney regenerative medicine.
+Here are three new publications from the RBK consortium:
 
 ### Spatial transcriptomics defines injury-specific microenvironments in the adult mouse kidney and novel cellular interactions in regeneration and disease [preprint]
 
@@ -34,6 +28,20 @@ Spatial transcriptomics predicted a molecular interplay amongst neighboring cell
 *URL:* [https://doi.org/10.1002/adma.202308325](https://doi.org/10.1002/adma.202308325)
 
 *Summary:* Stem cell‐derived kidney organoids contain nephron segments that recapitulate morphological and functional aspects of the human kidney. However, directed differentiation protocols for kidney organoids are largely conducted using biochemical signals to control differentiation. Here, the hypothesis that mechanical signals regulate nephrogenesis is investigated in 3D culture by encapsulating kidney organoids within viscoelastic alginate hydrogels with varying rates of stress relaxation. Tubular nephron segments are significantly more convoluted in kidney organoids differentiated in encapsulating hydrogels when compared with those in suspension culture. Hydrogel viscoelasticity regulates the spatial distribution of nephron segments within the differentiating kidney organoids. Consistent with these observations, a particle‐based computational model predicts that the extent of deformation of the hydrogel–organoid interface regulates the morphology of nephron segments. Elevated extracellular calcium levels in the culture medium, which can be impacted by the hydrogels, decrease the glomerulus‐to‐tubule ratio of nephron segments. These findings reveal that hydrogel encapsulation regulates nephron patterning and morphology and suggest that the mechanical microenvironment is an important design variable for kidney regenerative medicine.
+
+### Epigenetic reprogramming driving successful and failed repair in acute kidney injury [preprint]
+
+*Authors:* Yoshiharu Muto, Eryn E Dixon, Yasuhiro Yoshimura, Nicolas Ledru, Yuhei Kirita,  Haojia Wu and Benjamin D Humphreys
+
+*Journal:* BioRxiv
+
+*URL:* [https://www.biorxiv.org/content/10.1101/2024.01.20.576421v2](https://www.biorxiv.org/content/10.1101/2024.01.20.576421v2)
+
+*Summary:* Acute kidney injury (AKI) causes epithelial damage followed by subsequent repair. While successful repair restores kidney function, this process is often incomplete and can lead to chronic kidney disease (CKD) in a process called failed repair. To better understand the epigenetic reprogramming driving this AKI-to-CKD transition we generated a single nucleus multiomic atlas for the full mouse AKI time course, consisting of ~280,000 single nucleus transcriptomes and epigenomes. We reveal cell-specific dynamic alterations in gene regulatory landscapes reflecting especially activation of proinflammatory pathways. We further generated single nucleus multiomic data from four human AKI samples including validation by genome-wide identification of NF-kB binding sites. A regularized regression analysis identifies key regulators involved in both successful and failed repair cell fate, identifying the transcription factor CREB5 as a regulator of both successful and failed tubular repair that also drives proximal tubule cell proliferation after injury. Our interspecies multiomic approach provides a foundation to comprehensively understand cell states in AKI.
+
+
+
+Best,
 
 
 [*Browse through more RBK-related publications here.*](https://www.atlas-d2k.org/chaise/recordset/#2/Common:Publication/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM6JHQBcAjdafEAYRQFtaUIQAaEABTRIBsBLLMIj0YB9GhFQZBaWsIBmAaxwBPEAF0AvqwBKASQAia1lgAWKPjiSUAigFoAzAGkArABY16jUA@sort(Year::desc::,Month::desc::,RID::desc::))
