@@ -4,7 +4,7 @@ layout: post
 tag: rbk
 ---
 
-Here are three new publications from the RBK consortium:
+Here are three new publications from members of the RBK consortium:
 
 ### Spatial transcriptomics defines injury-specific microenvironments in the adult mouse kidney and novel cellular interactions in regeneration and disease [preprint]
 
