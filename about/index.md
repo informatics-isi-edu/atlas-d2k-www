@@ -27,6 +27,10 @@ With the support of NIDDK and in collaboration with renowned research consortia,
 
 Embodying the essence of flexibility, the ATLAS-D2K Center is ever-evolving, committed to adapting to the ever-changing biomedical research environment, ensuring our stakeholders stay at the forefront of innovation and discovery.
 
+![Graphic that depicts how ATLAS-D2K connects with RBK and GUDMAP](/assets/img/ATLAS-Overview-Graphic.jpg)
+
+*This overview graphic depicts the capabilities and connections that ATLAS-D2K provides the GUDMAP and RBK consortiums.*
+
 ## The People
 
 ### PIs

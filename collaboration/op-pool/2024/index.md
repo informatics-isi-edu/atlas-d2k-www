@@ -7,6 +7,18 @@ published: true
 <p class="note">This announcement was posted on Monday, January 8, 2024.<br/>
 Applications are due <strong>Friday, March 15th, 2024</strong>.</p>
 
+* [Introduction](#introduction)
+* [Application Instructions](#application-instructions)
+* [Budget](#budget)
+* [Eligible Project Directors/Principal Investigators](#eligible-project-directorsprincipal-investigators)
+* [Eligible Organizations](#eligible-organizations)
+* [Peer Review](#peer-review)
+* [Additional Information](#additional-information)
+* [Policies](#policies)
+* [Progress Reports](#progress-reports)
+* [Acknowledgment](#acknowledgment)
+* [Scientiﬁc/Research Contact(s)](#scientiﬁcresearch-contacts)
+
 ## Introduction
 
 The ATLAS-D2K Opportunity Pool funding program aims to address gaps or catalyze new partnerships in kidney and genitourinary research. This specific funding opportunity invites "glue grant" applications from investigators who are working in areas of high relevance to the GenitoUrinary Development Molecular Anatomy Project (GUDMAP) or the (Re)Building a Kidney (RBK) consortium and are currently supported by other signiﬁcant non-GUDMAP/RBK funding sources. Examples of other signiﬁcant funding sources include, but are not limited to, an NIH R01, RC2, R21, ISAC award, DP3, U01 award, or a VA MERIT award.
@@ -87,7 +99,7 @@ Applications may request up to $100,000 (total costs) for one year and are due *
 
 * All applications must be submitted via the application portal available at the link below:
 
-**Application Portal:** *Pending*
+    **[Link to Application Portal](https://idg.partners.org/prog/atlas-d2k_opportunity_pool_2024)**
 
 If you have any questions about using the portal, please contact [help@atlas-d2k.org](mailto:help@atlas-d2k.org).
 
