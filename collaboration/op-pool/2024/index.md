@@ -35,9 +35,9 @@ Limited funds are expected to be expended on generating new experimental data. P
 
 [https://www.atlas-d2k.org/](http://www.atlas-d2k.org/)
 
-[https://www.atlas-d2k.org/gudmap/projects/](http://www.atlas-d2k.org/gudmap/projects/)
+[https://www.atlas-d2k.org/gudmap/projects/](/gudmap/projects/)
 
-[https://www.atlas-d2k.org/rebuildingakidney/projects/](http://www.atlas-d2k.org/rebuildingakidney/projects/)
+[https://www.atlas-d2k.org/rebuildingakidney/projects/](/rebuildingakidney/projects/)
 
 Since glue grants are expected to be mutually beneficial to GUDMAP/RBK and the parent grant, research products from the Opportunity Pool will be made publicly available upon completion of the project on or via the ATLAS-D2K website via the parent grant’s sharing infrastructure and in a public repository. These products could include integrated datasets and analyses (*e.g.*, Seurat objects), data visualizations (*e.g.*, Shiny apps), and/or white papers (*e.g.*, reporting on issues of data quality and the potential for standardization).
 
