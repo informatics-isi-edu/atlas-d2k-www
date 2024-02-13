@@ -10,7 +10,7 @@ title: GUDMAP Projects
 <ul class="projects-list">
 {% for project in site.data.gudmap.projects-g4 %}
 	<li><a href="/gudmap/projects/gudmap4/{{ project.slug}}/">{{project.project_title}}</a>  <small>({{project.pi}}, <em>{{project.institute}}</em>{% if project.copi != null %}
-    / {{project.copi}}, <em>{{project.coinstitute}}</em>{% elsif project.cocopi != null %}  / {{item.cocopi}}, <em>{{item.cocoinstitute}}</em>{% endif %})</small></li>
+    / {{project.copi}}, <em>{{project.coinstitute}}</em>{% endif %}{% if project.cocopi != null %}  / {{project.cocopi}}, <em>{{project.cocoinstitute}}</em>{% endif %})</small></li>
 {% endfor %}
 </ul>
 
