@@ -23,6 +23,14 @@ layout: gudmap/projects-groups
 			</div>
 				<p style="clear:both"></p>
 				{% endif %}
+				{% if page.cocopi != null %}
+				<div class="cocopi personnel">
+				<img src="/assets/img/pis/{{page.cocoimg}}.jpg" class="left" />
+				<p><strong>{{ page.cocopi }}</strong> (PI)<br>
+					<span class="inst">{{ page.cocoinstitute }}</span></p>
+				</div>
+					<p style="clear:both"></p>
+				{% endif %}
 			</div>
 			{% if page.personnel != null %}
 			<ul class="personnel-list">

@@ -1,11 +1,14 @@
 - project_title: >
     Creating high-resolution multi-omics molecular atlases for developing urogenital organs
   slug: chen-group
-  title: Chen Group
+  title: Chen/Ding Group
   pub: false
   pi: 'Feng Chen'
   institute: 'Washington University, St. Louis'
   img: chen
+  copi: 'Li Ding'
+  coinstitute: 'Washington University, St. Louis'
+  coimg: ding
   description: >
     The GenitoUrinary Development Molecular Anatomy Project (GUDMAP) has been providing valuable references for the research community studying urogenital development and diseases. It is a recurring theme that rapidly advancing new technologies are instrumental in enhancing and expanding reference databases. Cross fertilization of atlas building efforts spanning various organ systems and disease types will undoubtedly boost the technology penetration across these projects. To build multi-dimensional atlases of developing urogenital organs that incorporate the latest multi-omics and spatial molecular mapping technologies, we have assembled a team with expertise both in urogenital development and multi-dimensional, multi-platform, molecular atlas building. We propose to utilize the infrastructure we developed at our institution for the NCI Human Tumor Atlas Network (HTAN) and other large scale projects as a springboard to help effectively and efficiently propel GUDMAP to the next level with transcriptome-wide coverage, single cell level resolution, and spatial mapping with unprecedented clarity. We will take advantage of our experience in the incorporation of single nucleus (sn) RNA-seq and snATAC-seq to establish a comprehensive epigenetic and transcriptomic landscape in targeted urogenital organs and structures (lower urinary tract (LUT), selected male reproductive organs, kidney vasculature, lymphatics, and nerves) at single cell resolution (Aim 1). We will then add the spatial dimension to this molecular landscape to build 2D and 3D molecular atlases by incorporating spatial transcriptomics (ST), CODEX, and light sheet microscopy (LSM) (Aim 2). In Aim 3, we will extend our study to disease models, focusing on murine models of congenital anomalies of the kidney and the urinary tract (CAKUT). With the proposed experiments, we aim at building multidimensional molecular atlases for developing urogenital organs at unprecedented cellular resolution and gene coverage with the highest efficiency possible. Aim 1: Characterize the epigenetic and transcriptomic landscapes of developing urogenital organs with single cell omics We will perform integrated transcriptomic and epigenetic profiling of the developing/maturing LUT, male reproductive organs, and the kidney at E16.5, NB, and 3 weeks of age. Although the focus for the kidney will be on vasculature, lymphatics, and nerves, since there is a lack of single cell omics data on most of the selected stages, our data will also help to strengthen GUDMAP data for the broadest use by the research community. Aim 2: Construct multi-dimensional molecular atlases for developing urogenital organs using spatial transcriptomics and advanced imaging technologies A major challenge for atlas building in biological systems has been spatially assigning large number of molecular features to the anatomical and cellular structures. We have successfully established experimental procedures and computational analyses pipelines for spatial transcriptomics, CODEX, and light sheet microscopic imaging, to map gene expression data, including transcriptome-wide data to cells and structures. We will use these technologies to analyze the developing/maturing lower urinary tract, male reproductive organs, and the kidney at E16.5, NB, and 3 weeks of age for the construction of truly multi-dimensional, multiplatform molecular atlases. Aim 3: Building molecular atlases for key urogenital structures using murine CAKUT models with cell ablation or gene inactivation CAKUT occurs in many different forms representing a significant cause of morbidity and mortality in the pediatric population. We have generated and analyzed several CAKUT murine models in the past. Building atlases of the target organs for these models will provide high resolution, spatially registered molecular references for key stages of disease initiation and progression. Moreover, such atlases will help researchers better understand normal urogenital development by knowing the tolerance of the systems and processes in dealing with various disturbances. We will use a highly reproducible murine model of CAKUT with inactivation of canonical Smad signaling in ureteral mesenchyme, causing a uniform ureteropelvic junction (UPJ) obstruction phenotype prenatally. We will use the technologies outlined in Aims 1 and 2 to build molecular atlases of the relevant structures (ureter, kidney, UPJ) at key time points and compare the atlases of defective development with those of normal development.
 - project_title: >
@@ -21,27 +24,36 @@
 - project_title: >
     Building a multi-scale vascular atlas of the mouse lower urinary tract
   slug: keast-group
-  title: Keast Group
+  title: Keast/Osborne Group
   pub: false
   pi: 'Janet R. Keast'
   institute: 'University of Melbourne'
   img: keast
+  copi: 'Peregrine Osborne'
+  coinstitute: 'University of Melbourne'
+  coimg: osborne
   description: >
     This GUDMAP Atlas project is focused on the lower urinary tract (LUT; bladder and urethra) of male and female mice. The Specific Aims are to build 3D multiscale anatomical atlases of (1) the mouse LUT vasculature and (2) the autonomic and sensory innervation of this vasculature. Times of the life cycle from embryo to adult have been selected to reveal the impact of major changes in organ structure and function on vascular patterning. The outcomes of Aim 1 will fill a major gap in GUDMAP and the broader literature, where LUT vascular structures have been under-explored in comparison with LUT muscle wall and epithelium. The outcomes of Aim 2 will provide a second important dimension to GUDMAP and the literature, by superimposing on the vascular atlases the closely associated axonal plexuses (sensory and autonomic) that regulate LUT vascular function. Most of these axon classes do not originate from pelvic ganglia, so provide to the GUDMAP database new resources that are quite distinct from the existing knowledge base. In addition to developing new knowledge on the vascular system, the outcomes of the project will support generation of new hypotheses on LUT function in health and disease.
 - project_title: >
     High resolution transcriptome and gene regulatory mapping of human ureter and bladder across the lifespan
   slug: lee-group
-  title: Byron Lee Group
+  title: Lee/Ting/Wessely Group
   pub: false
   pi: 'Byron H. Lee'
-  institute: 'Cleveland Clinic Lerner COM-CWRU'
+  institute: 'MDAnderson Cancer Center'
   img: lee
+  copi: 'Angela Ting'
+  coinstitute: 'MDAnderson Cancer Center'
+  coimg: ting
+  cocopi: 'Oliver Wessely'
+  cocoinstitute: 'Cleveland Clinic'
+  cocoimg: wessely
   description: >
      Benign urologic diseases of the lower urinary tract such as urinary tract infections, benign prostatic hyperplasia, voiding dysfunction, urinary incontinence, interstitial cystitis, painful bladder syndrome, and urethral strictures incur significant health care burden in the US. Our lack of a comprehensive molecular and cellular understanding of these tissues in the normal and disease states has directly hindered the development of effective novel therapies for these conditions. We are proposing to generate high-resolution transcriptome and gene regulatory data set for healthy human ureter and bladder tissues across the lifespan in both sexes. The overall goal is to construct a highly integrated cellular and molecular anatomical map of the ureter and bladder in humans. This will enable us to comprehensively understand the cellular composition and lineage relationships of the lower urinary tract system. Towards this aim, we have established a robust tissue procurement and processing workflow. This allows us to recover the lower urinary track en bloc from deceased organ donors and process them, with high cell viability and tissue integrity, for molecular assays. We propose to collect scRNA-seq and Visium spatial transcriptomics data on organ donors in 3 age groups that reflect distinct physiological states in terms of lower urinary tract functions across the human life span. For each donor, we will analyze five specified anatomic locations, lower ureter, dome, ureteral orifice, bladder neck, and urethra, to comprehensively characterize parts of the lower urinary tract that have unique tissues structures and functions. We will use these data to understand the lineage relationships between the different cell types and validate novel markers for each novel cell type by immunostaining. Finally, we will perform scATAC-seq on the most informative tissue locations to gain further insight into the underlying gene regulatory networks. Together these studies will provide, for the first time, a comprehensive analysis of the human bladder and ureter throughout life. These molecular data will become a valuable resource to the research community and ultimately, support efforts in organ repair and regeneration.
 - project_title: >
     Regulation of prostate organogenesis by tissue-resident macrophages
   slug: shibata-group
-  title: Maho Shibata Group
+  title: Shibata Group
   pub: false
   pi: 'Maho Shibata'
   institute: 'The George Washington University'
@@ -61,11 +73,14 @@
 - project_title: >
     Bedside to Bench Resources for Lower Urinary Tract Research
   slug: strand-group
-  title: Strand Group
+  title: Strand/Vezina Group
   pub: false
   pi: 'Doug Strand'
   institute: 'University of Texas Southwestern'
   img: strand
+  copi: 'Chad Vezina'
+  coinstitute: 'University of Wisconsin-Madison'
+  coimg: vezina
   description: >
     Lower urinary tract dysfunction (LUTD) is nearly ubiquitous in men of advancing age and involves a dynamic interplay among the prostate, bladder and urethra. The cellular and molecular mechanisms of prostate enlargement are largely unknown. Furthermore, bladder dysfunction persists in a third of men after transurethral resection of the prostate, but the cellular basis of bladder remodeling and dysfunction are poorly understood. Contemporary single cell sequencing technologies could fundamentally revitalize our knowledge of LUTD as they have for other diseases. Unfortunately, most investigators are unable to access bladder, urethra and prostate from young and aged, disease-free males (controls) to leverage these technologies and determine how cellular behaviors change with age and disease. Moreover, the cost to deploy single cell sequencing makes a comprehensive examination of the lower urinary tract untenable for most investigators.<br/><br/>
 
