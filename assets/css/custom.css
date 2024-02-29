@@ -144,6 +144,10 @@ a.anchor {
     border-color: ##255F8C;
 }
 
+.center-text {
+  text-align: center;
+}
+
 .lead.announce {
     text-align: center;
     margin-top: 20px;
