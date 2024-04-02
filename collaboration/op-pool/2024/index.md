@@ -4,8 +4,7 @@ title: Funding Opportunity Announcement - ATLAS-D2K Opportunity Pool 2024
 published: true
 ---
 
-<p class="note">This announcement was posted on Monday, January 8, 2024.<br/>
-Applications are due <strong>Friday, March 15th, 2024</strong>.</p>
+<p class="note">The application period for this FOA is now over.</p>
 
 * [Introduction](#introduction)
 * [Application Instructions](#application-instructions)
@@ -99,7 +98,7 @@ Applications may request up to $100,000 (total costs) for one year and are due *
 
 * All applications must be submitted via the application portal available at the link below:
 
-    **[Link to Application Portal](https://idg.partners.org/prog/atlas-d2k_opportunity_pool_2024)**
+    **The application portal is now closed.**
 
 If you have any questions about using the portal, please contact [help@atlas-d2k.org](mailto:help@atlas-d2k.org).
 
