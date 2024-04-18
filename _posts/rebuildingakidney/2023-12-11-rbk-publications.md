@@ -4,7 +4,7 @@ layout: post
 tag: rbk
 ---
 
-We are thrilled to bring you the latest updates from our community of researchers who are making significant strides in kidney regeneration and related fields. This newsletter highlights four recent publications that each represent a leap forward in our understanding and capabilities in kidney research.
+We are thrilled to bring you the latest updates from our community of researchers who are making significant strides in kidney regeneration and related fields. Here are four recent publications that each represent a leap forward in our understanding and capabilities in kidney research.
 
 ### **In Vivo Assessment of Laboratory-Grown Kidney Tissue Grafts**
 

@@ -207,62 +207,14 @@ custom_js:
             </div>
         </div>
 
-<div class="row" id="community">
-  <h2>Participating Consortia</h2>
-  <div class="col-md-6" id="news-atlas">
+<!-- Display assays matrix -->
 
-    <h3>Funding Opportunities</h3>
-    <ul class="posts">
-      <li><a href="/collaboration/op-pool/">Learn about Opportunity Pools</a></li>
-      <li><a href="/collaboration/gudmap-collab/">Apply to be a GUDMAP Collaborating Group</a></li>
-      <li><a href="/collaboration/rbk-collab/">Apply to be a RBK Collaborating Group</a></li>
-    </ul>
-
-    <h3>Upcoming Internal Events</h3>
-    <!-- original manual listing
-    <ul class="posts">
-      <li><a href="/events/rbk-fall-2023-retreat/">RBK Fall 2023 Retreat (Oct 23-24 in Silver Spring, MD)</a></li>
-      <li><a href="/events/gudmap-spring-2024-meeting/">GUDMAP 2024 Annual Meeting (April 24-25 in Bethesda, MD)</a></li>
-      <li><a href="/events/rbk-spring-2024-retreat/">RBK Spring 2024 Retreat (April 29-30 in Bethesda, MD)</a></li>
-    </ul>
-    -->
-
-    <ul class="posts">
-  {% assign current_date = 'now' | date: '%s' %}
-  {% assign sorted_events = site.events | sort: "start_date" %}
-  {% for event in sorted_events %}
-    {% assign event_start_date = event.start_date | date: '%s' %}
-    {% if event_start_date >= current_date %}
-      <li>
-        <a href="{{ event.url }}">{{ event.title }} in {{ event.location }}</a>
-      </li>
-    {% endif %}
-  {% endfor %}
-</ul>
-
-
-  </div>
-  <div class="col-md-6" id="consortiums">
-  <h3>ReBuilding A Kidney (RBK) and GUDMAP<br/>
-  <small>The ATLAS-D2K Center supports the data and resources of the RBK and GUDMAP Consortiums. Click an image to learn more.</small></h3>
-    <div class="consortium">
-      <a href="/rebuildingakidney/">
-        <img src="/assets/img/rbk-horizontal.png" alt="RBK Consortium" class="img-responsive">
-      </a>
-    </div>
-    <div class="consortium">
-      <a href="/gudmap/">
-        <img src="/assets/img/gudmap-horizontal.png" alt="GUDMAP Consortium" class="img-responsive">
-      </a>
-    </div>
-  </div>
-
-</div>
-
-<div class="row" id="feat-img">
-  <h2>Featured Imaging Data</h2>
-  <div class="image-carousel">
-  {% include carousel.html %}
+<div class="row" id="matrix">
+  <h2>Data Types Matrix</h2>
+  <p class="center-text">Click a cell or labels along the axes to navigate to the corresponding datasets.<br/>Note that the -omics data numbers indicate Studies which include multiple Experiments with multiple Replicates.</p>
+  <div class="col-12">
+      <iframe name="resources-viewer" id="resources-viewer" style="border-style: none; border-color: inherit; border-width: 0px; width: 100%; height: 730px;" src="/deriva-webapps/matrix/?config=all-data-type-by-species">
+      </iframe>
   </div>
 </div>
 
@@ -334,6 +286,59 @@ custom_js:
 </div>
 
 
+</div>
+
+
+<div class="row" id="community">
+  <h2>Participating Consortia</h2>
+  <div class="col-md-6" id="news-atlas">
+
+    <h3>Current Funding Opportunities</h3>
+    <ul class="posts">
+      <li><a href="/collaboration/gudmap-collab/">Apply to be a GUDMAP Collaborating Group</a></li>
+      <li><a href="/collaboration/rbk-collab/">Apply to be a RBK Collaborating Group</a></li>
+      <li><a href="/collaboration/">View all opportunities</a></li>
+    </ul>
+
+    <h3>Upcoming Internal Events</h3>
+
+    <ul class="posts">
+  {% assign current_date = 'now' | date: '%s' %}
+  {% assign sorted_events = site.events | sort: "start_date" %}
+  {% for event in sorted_events %}
+    {% assign event_start_date = event.start_date | date: '%s' %}
+    {% if event_start_date >= current_date %}
+      <li>
+        <a href="{{ event.url }}">{{ event.title }} in {{ event.location }}</a>
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>
+
+
+  </div>
+  <div class="col-md-6" id="consortiums">
+  <h3>ReBuilding A Kidney (RBK) and GUDMAP<br/>
+  <small>The ATLAS-D2K Center supports the data and resources of the RBK and GUDMAP Consortiums. Click an image to learn more.</small></h3>
+    <div class="consortium">
+      <a href="/rebuildingakidney/">
+        <img src="/assets/img/rbk-horizontal.png" alt="RBK Consortium" class="img-responsive">
+      </a>
+    </div>
+    <div class="consortium">
+      <a href="/gudmap/">
+        <img src="/assets/img/gudmap-horizontal.png" alt="GUDMAP Consortium" class="img-responsive">
+      </a>
+    </div>
+  </div>
+
+</div>
+
+<div class="row" id="feat-img">
+  <h2>Featured Imaging Data</h2>
+  <div class="image-carousel">
+  {% include carousel.html %}
+  </div>
 </div>
 
 <div class="row" id="featured-tools">

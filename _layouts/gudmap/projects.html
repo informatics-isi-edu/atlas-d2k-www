@@ -11,7 +11,7 @@ layout: gudmap/projects-groups
 			<div class="pi-section">
 			<div class="pi personnel">
 			<img src="/assets/img/pis/{{page.img}}.jpg" class="left" />
-			<p><strong>{{ page.pi }}</strong> (PI)<br>
+			<p><strong>{{ page.pi }}</strong> (Contact PI)<br>
 				<span class="inst">{{ page.institute }}</span></p>
 				<p style="clear:both"></p>
 			</div>
@@ -22,6 +22,14 @@ layout: gudmap/projects-groups
 				<span class="inst">{{ page.coinstitute }}</span></p>
 			</div>
 				<p style="clear:both"></p>
+				{% endif %}
+				{% if page.cocopi != null %}
+				<div class="cocopi personnel">
+				<img src="/assets/img/pis/{{page.cocoimg}}.jpg" class="left" />
+				<p><strong>{{ page.cocopi }}</strong> (PI)<br>
+					<span class="inst">{{ page.cocoinstitute }}</span></p>
+				</div>
+					<p style="clear:both"></p>
 				{% endif %}
 			</div>
 			{% if page.personnel != null %}
