@@ -551,17 +551,36 @@ th.c_Description {
 }
 
 
-/* Study:Cellbrowser_URI: indent iframe */
-
-.r_s_RNASeq.r_t_Study #row-Cellbrowser_URI .entity-value {
-    padding-left: 40px;
-}
-
-
 /* Study:TPM_Visualization: indent iframe */
 
 .r_s_RNASeq.r_t_Study #row-TPM_Visualization .entity-value {
     padding-left: 40px;
+}
+
+
+/**** Adjust styles for cellbrowser and vitessce iframe ****/
+
+/* Study:Cellbrowser_URI: indent iframe */
+.r_s_RNASeq.r_t_Study #row-Cellbrowser_URI .entity-value {
+    padding-left: 40px;
+}
+
+/* reduce gap between <h3> and <p> */
+.r_s_RNASeq.r_t_Study #row-Cellbrowser_URI .entity-value .markdown-container > h3,
+.r_s_RNASeq.r_t_Study .entity-row-ATLAS-D2K-scRNA-Seq-Analysis .entity-value .markdown-container > h3 {
+    margin-bottom: 5px;
+}
+
+/* reduce gap between <p> text and <figure> container, inverse of margin-top on .iframe-btn-container set to 8px */
+.r_s_RNASeq.r_t_Study #row-Cellbrowser_URI .entity-value .markdown-container > p,
+.r_s_RNASeq.r_t_Study .entity-row-ATLAS-D2K-scRNA-Seq-Analysis .entity-value .markdown-container > p {
+    margin-bottom: -8px;
+}
+
+/* Color of axes labels in Cell Set vitessce grid item */
+.vit-makeStyles-vegaContainer > svg > g > text {
+    /* fill is an inline style set by vitessce, use important to override */
+    fill: #080808 !important;
 }
 
 
