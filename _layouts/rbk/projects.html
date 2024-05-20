@@ -1,22 +1,11 @@
+---
+# req_authn: authn
+layout: rbk/default-proj
+---
 
-{% include header.html %}
-<link rel="stylesheet" href="/assets/css/rbk.css">
-<div class="rbk-subnav">
-	<a class="rbk-brand" href="/rebuildingakidney/">
-        <img alt="RBK Logo" src="/assets/img/rbk-logo.png">
-      </a>
-			<ul>
-					<li role="presentation"><a href="/rebuildingakidney/about/">About</a></li>
-					<li role="presentation"><a href="/rebuildingakidney/projects/">Projects</a></li>
-					<li role="presentation"><a href="/rebuildingakidney/citing/">Citing RBK</a></li>
-					<li role="presentation"><a href="/rebuildingakidney/contact/">Contact RBK</a></li>
-			</ul>
-</div>
+<h1 id="{{page.tag}}">{{ page.project_title }}</h1>
+<div class="{{page.tag}}-content">
 
-<section class="section-work container-full">
-
-<div class="innercontent">
-	<h1 id="{{ page.tag }}">{{ page.project_title }}</h1>
 			<h2>Key Personnel</h2>
 			<div class="pi-section">
 			<div class="pi personnel">
@@ -65,7 +54,7 @@
 			<p><small><a href="{{ page.data }}">RELATED DATA <i class="fa fa-angle-double-right"></i></a></small> </p>
 			{% endif %}
 			<p>{{ page.description }}</p>
-
+<!--
 		{% if page.pub != false %}
 			<h2>Publications</h2>
 
@@ -81,7 +70,7 @@
 
 			{% endif %}
 		{% endif %}
-
+-->
 			{% if page.supplemental != null %}
 			<p>{{ page.supplemental }}</p>
 			{% endif %}
@@ -129,8 +118,3 @@
 			{% endfor %}
 			</div>
 			{% endif %}
-</div>
-
-</section>
-
-{% include footer.html %}
