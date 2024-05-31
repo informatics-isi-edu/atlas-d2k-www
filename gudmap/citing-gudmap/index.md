@@ -53,7 +53,7 @@ Sometimes, GUDMAP data may be publicly available without a linked publication. I
 
 ## Creating Citable Data Collections
 
-If your paper uses or aggregates GUDMAP data in unique ways, consider creating a new *Data Collection*. This allows readers to access the source data directly, promoting reproducibility. Learn how to [create a Data Collection here](https://github.com/informatics-isi-edu/gudmap-rbk/wiki/Create-citable-datasets) or email [help@atlas-d2k.org](mailto:help@atlas-d2k.org) for assistance.
+If your paper uses or aggregates GUDMAP data in unique ways, consider creating a new *Data Collection*. This allows readers to access the source data directly, promoting reproducibility. Learn how to [create a Data Collection here](https://informatics-isi-edu.github.io/atlas-d2k-docs/docs/create-citable-datasets/) or email [help@atlas-d2k.org](mailto:help@atlas-d2k.org) for assistance.
 
 ## Data Availability Statements
 
