@@ -1,5 +1,5 @@
 ---
-title: "New publication from Beno Freedman's lab"
+title: "New Insights into Polycystic Kidney Disease from Freedman's Lab"
 layout: post
 tag: rbk
 ---

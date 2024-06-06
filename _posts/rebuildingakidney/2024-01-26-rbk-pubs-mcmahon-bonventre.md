@@ -1,5 +1,5 @@
 ---
-title: "New publications from McMahon, Bonventre and Humphreys labs"
+title: "Innovative Kidney Research: New Papers from McMahon, Bonventre, and Humphreys"
 layout: post
 tag: rbk
 ---

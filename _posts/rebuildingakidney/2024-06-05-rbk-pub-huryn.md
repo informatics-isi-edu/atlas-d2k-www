@@ -1,5 +1,5 @@
 ---
-title: "New publication from Donna Huryn"
+title: "Donna Huryn's Research on HDAC8 Inhibitors Published in BMCL"
 layout: post
 tag: rbk
 ---

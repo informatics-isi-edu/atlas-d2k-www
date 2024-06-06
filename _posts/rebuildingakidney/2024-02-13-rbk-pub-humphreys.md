@@ -1,5 +1,5 @@
 ---
-title: "New publication from Ben Humphreys' lab"
+title: "Nature Communications Features Latest Research from Humphreys' Lab on Kidney Repair"
 layout: post
 tag: rbk
 ---
