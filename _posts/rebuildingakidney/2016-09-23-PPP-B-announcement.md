@@ -4,7 +4,7 @@ tag: rbk
 layout: post
 ---
 
-We are happy to announce the addition of many new projects to the RBK Consortium. You can find more complete information about these projects under the <a href="/projects.html">Projects</a> page.
+We are happy to announce the addition of many new projects to the RBK Consortium. You can find more complete information about these projects under the <a href="/rbk/projects/">Projects</a> page.
 
 ##### Awardees of RBK Partnership Pilot Program
 
@@ -27,7 +27,7 @@ The following proposals were chosen out of many worthy applications for the late
 
 ##### New R01 Grantee
 
-We also are welcoming a new R01 grant: 
+We also are welcoming a new R01 grant:
 <dl>
   <dt>Developing pro-regenerative drug therapies for acute kidney injury</dt>
   <dd>Neil Hukriede</dd>

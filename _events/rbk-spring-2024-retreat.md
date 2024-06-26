@@ -4,6 +4,7 @@ start_date: 2024-04-29
 end_date: 2024-04-30
 location: Chevy Chase, MD
 layout: default
+tags: rbk
 ---
 
 Save the date for the RBK Spring Scientific Meeting scheduled to take place in Chevy Chase, MD area on Monday and Tuesday, April 29 and 30.

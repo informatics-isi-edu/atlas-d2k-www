@@ -1,7 +1,9 @@
 ---
 title: "Janet Keast Presents State of the Science at CAIRIBU Summer Summit"
 layout: post
-tag: rbk
+tags:
+  - gudmap
+
 ---
 
 On June 6th, 2024, Janet Keast, a prominent member of the GUDMAP consortium, is delivering a "State of the Science" presentation at the CAIRIBU Summer Summit. The summit is being held at the University of Wisconsin School of Medicine in Madison, WI.

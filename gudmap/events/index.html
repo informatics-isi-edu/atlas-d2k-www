@@ -1,0 +1,53 @@
+---
+layout: gudmap/page
+title: GUDMAP Events
+---
+
+{% assign sorted_events = site.events | sort: "start_date" %}
+{% assign has_upcoming_events = false %}
+{% for event in sorted_events %}
+  {% assign event_start_date = event.start_date | date: '%s' %}
+  {% if event_start_date >= current_date and event.tags contains "gudmap" %}
+    {% assign has_upcoming_events = true %}
+  {% endif %}
+{% endfor %}
+
+{% if has_upcoming_events %}
+  <p>Here are upcoming scheduled events for the GUDMAP consortium:</p>
+  <ul>
+    {% for event in sorted_events %}
+      {% assign event_start_date = event.start_date | date: '%s' %}
+      {% if event_start_date >= current_date and event.tags contains "gudmap" %}
+        <li>
+          <h3><a href="{{ event.url }}">{{ event.title }}</a></h3>
+          <p>Date:
+            {{ event.start_date | date: "%B %d, %Y" }} -
+            {{ event.end_date | date: "%B %d, %Y" }}
+          </p>
+          <p>Location: {{ event.location }}</p>
+        </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+{% else %}
+  <p>There are no upcoming events scheduled at this time. Please check back later.</p>
+{% endif %}
+
+<!--
+<h2>Past Events</h2>
+<ul>
+  {% for event in sorted_events %}
+    {% assign event_start_date = event.start_date | date: '%s' %}
+    {% if event_start_date < current_date %}
+      <li>
+        <h3><a href="{{ event.url }}">{{ event.title }}</a></h3>
+        <p>Date:
+          {{ event.start_date | date: "%B %d, %Y" }} -
+          {{ event.end_date | date: "%B %d, %Y" }}
+        </p>
+        <p>Location: {{ event.location }}</p>
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>
+-->

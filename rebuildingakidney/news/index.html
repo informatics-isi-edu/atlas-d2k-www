@@ -2,7 +2,7 @@
 layout: rbk/default
 title: News (RBK)
 tag: archive
-published: false
+published: true
 pagination:
   enabled: true
   tag: rbk
@@ -11,10 +11,12 @@ pagination:
 <div class="news">
   <!-- This loops through the paginated posts -->
 {% for post in paginator.posts %}
+{% if post.tags contains 'rbk' %}
   <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
   <p class="pub-date">
     <span class="date">{{ post.date | date: "%b %-d, %Y" }}</span>
   </p>
+  {% endif %}
 {% endfor %}
 
  {%- comment -%} Pagination links {%- endcomment -%}

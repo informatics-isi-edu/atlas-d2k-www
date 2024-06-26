@@ -5,11 +5,11 @@ published: true
 tag: gudmap
 ---
 
-[![Jamboree Flyer](/events/2021-gudmap-jamboree/GUDMAP-15-Year-Jamboree-Flyer.png){:.pull-right.post-image}](/events/2021-gudmap-jamboree/GUDMAP-15-Year-Jamboree-Flyer.png)
+[![Jamboree Flyer](/gudmap/events/2021-gudmap-jamboree/GUDMAP-15-Year-Jamboree-Flyer.png){:.pull-right.post-image}](/events/2021-gudmap-jamboree/GUDMAP-15-Year-Jamboree-Flyer.png)
 
 The agenda for the Jamboree is now available!
 
-[GUDMAP Jamboree Agenda](/events/2021-gudmap-jamboree/2021-GUDMAP-Jamboree-Agenda-Draft.pdf)
+[GUDMAP Jamboree Agenda](/gudmap/events/2021-gudmap-jamboree/2021-GUDMAP-Jamboree-Agenda-FINAL.pdf)
 
 We are excited to announce our outstanding guest speakers:
 
@@ -20,6 +20,6 @@ We are excited to announce our outstanding guest speakers:
 
 We've also posted a flyer for the event. Please share this with anyone you feel would be interested in this meeting!
 
-Available as a [PDF](/events/2021-gudmap-jamboree/GUDMAP-15-Year-Jamboree-Flyer.pdf) or [PNG](/events/2021-gudmap-jamboree/GUDMAP-15-Year-Jamboree-Flyer.png).
+Available as a [PDF](/gudmap/events/2021-gudmap-jamboree/GUDMAP-15-Year-Jamboree-Flyer.pdf) or [PNG](/gudmap/events/2021-gudmap-jamboree/GUDMAP-15-Year-Jamboree-Flyer.png).
 
-For more information, [go to the event page here](/events/2021-gudmap-jamboree/).
+For more information, [go to the event page here](/gudmap/events/2021-gudmap-jamboree/).
