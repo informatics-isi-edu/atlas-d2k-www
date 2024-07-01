@@ -156,9 +156,9 @@
       subhref: "#"
       subsubcategories:
         - subsubtitle: "Current GUDMAP Ontology (since 2015)"
-          subsubhref: "/reference/ontology/"
+          subsubhref: "/resources/ontology/"
         - subsubtitle: "GUDMAP Ontology Archive"
-          subsubhref: "/reference/ontology/archive/"
+          subsubhref: "/resources/ontology/archive/"
     - subtitle: "Disease Resource"
       subhref: "/disease/"
     - subtitle: "External Resources"

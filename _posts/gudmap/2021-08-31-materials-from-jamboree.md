@@ -5,9 +5,9 @@ published: true
 tag: gudmap
 ---
 
-Thank you to all in the community who attended the GUDMAP Jamboree! It was a rousing success with 105 attendees and 214 people registered. We have many of the talks and posters available for the public (including the webcast of the Town Hall sessions with questions submitted by meeting registrants) and you can find it all on **[the event page here](/events/2021-gudmap-jamboree/)**:
+Thank you to all in the community who attended the GUDMAP Jamboree! It was a rousing success with 105 attendees and 214 people registered. We have many of the talks and posters available for the public (including the webcast of the Town Hall sessions with questions submitted by meeting registrants) and you can find it all on **[the event page here](/gudmap/events/2021-gudmap-jamboree/)**:
 
-### [GUDMAP Jamboree page](/events/2021-gudmap-jamboree/)
+### [GUDMAP Jamboree page](/gudmap/events/2021-gudmap-jamboree/)
 
 We are also excited to announce the winners of the poster contest!
 
@@ -38,4 +38,4 @@ We are also excited to announce the winners of the poster contest!
   Nicole Weaver (University of Notre Dame), "gldc is essential for embryonic development and kidney organogenesis"</li>
 </ul>
 
-### [You can find all publicly available posters here.](/events/2021-gudmap-jamboree/#posters)
+### [You can find all publicly available posters here.](/gudmap/events/2021-gudmap-jamboree/#posters)

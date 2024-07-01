@@ -15,4 +15,4 @@ Hukriede, Neil A.; Soranno, Danielle E.; Sander, Veronika; Perreau, Tayla; Starr
 >[Validation of HDAC8 Inhibitors as Drug Discovery Starting Points to Treat Acute Kidney Injury](https://www.doi.org/10.1021/acsptsci.1c00243)
 Long, Keith; Vaughn, Zoe; McDaniels, Michael David; Joyasawal, Sipak; Przepiorski, Aneta; Parasky, Emily; Sander, Veronika; Close, David; Johnston, Paul A.; Davidson, Alan J.; de Caestecker, Mark; Hukriede, Neil A.; Huryn, Donna M. *ACS Pharmacology & Translational Science.* March 2022.
 
-View the latest RBK publications here: [https://www.rebuildingakidney.org/publications/](/publications/)
+View the latest RBK publications here: [https://www.rebuildingakidney.org/publications/](/chaise/recordset/#2/Common:Publication/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM6JHQBcAjdafEAYRQFtaUIQAaEABTRIBsBLLMIj0YB9GhFQZBaWsIBmAaxwBPEAF0AvqwBKASQAia1lgAWKPjiSUAigFoAzAGkArABY16jUA@sort(Year::desc::,Month::desc::,RID::desc::))

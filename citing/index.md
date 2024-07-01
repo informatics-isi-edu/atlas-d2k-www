@@ -32,4 +32,4 @@ If you are publishing a paper that uses more than one type of ATLAS-D2K data, or
 
 If you are an RBK or GUDMAP project publishing a paper, please [create and reference a Data Collection](https://informatics-isi-edu.github.io/atlas-d2k-docs/docs/create-citable-datasets/) for data included in your paper and any additional data you wish to be considered relevant to the published project. Follow the instructions for your consortium ([GUDMAP citation page](/gudmap/citing-gudmap/) and [RBK citation page](/rebuildingakidney/citing/)) on how to add your data citation in the bibliography section, and how to cite your data collection in the manuscript.
 
-Researchers outside of the RBK or GUDMAP may request the creation of a new collection from existing data by emailing [help@atlas-d2k.org](help@atlas-d2k.org).
+Researchers outside of the RBK or GUDMAP may request the creation of a new collection from existing data by emailing [help@atlas-d2k.org](mailto:help@atlas-d2k.org).
