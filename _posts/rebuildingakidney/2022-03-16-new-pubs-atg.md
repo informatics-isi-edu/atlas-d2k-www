@@ -4,7 +4,7 @@ layout: post
 tag: rbk
 ---
 
-The [AKI Therapeutics Group](/projects/aki-therapeutics/) of the ReBuilding a Kidney Consortium has just published three papers in [Stem Cell Research & Therapy](https://www.doi.org/10.1186/s13287-022-02752-z), [Nature Reviews Nephrology](https://www.doi.org/10.1038/s41581-022-00539-2) and [ACS Pharmacology & Translational Science](https://www.doi.org/10.1021/acsptsci.1c00243):
+The [AKI Therapeutics Group](/rebuildingakidney/projects/aki-therapeutics/) of the ReBuilding a Kidney Consortium has just published three papers in [Stem Cell Research & Therapy](https://www.doi.org/10.1186/s13287-022-02752-z), [Nature Reviews Nephrology](https://www.doi.org/10.1038/s41581-022-00539-2) and [ACS Pharmacology & Translational Science](https://www.doi.org/10.1021/acsptsci.1c00243):
 
 > [Modeling oxidative injury response in human kidney organoids](https://www.doi.org/10.1186/s13287-022-02752-z)
 Przepiorski, Aneta; Vanichapol, Thitinee; Espiritu, Eugenel B.; Crunk, Amanda E.; Parasky, Emily; McDaniels, Michael D.; Emlet, Dave R.; Salisbury, Ryan; Happ, Cassandra L.; Vernetti, Lawrence A.; MacDonald, Matthew L.; Kellum, John A.; Kleyman, Thomas R.; Baty, Catherine J.; Davidson, Alan J.; Hukriede, Neil A. *Stem Cell Research & Therapy.* 13(1):76. February 2022.

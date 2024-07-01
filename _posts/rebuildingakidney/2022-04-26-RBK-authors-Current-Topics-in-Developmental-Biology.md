@@ -4,7 +4,7 @@ layout: post
 tag: rbk
 ---
 
-Two chapters in the latest volume of the [Current Topics in Developmental Biology](https://www.sciencedirect.com/bookseries/current-topics-in-developmental-biology/vol/148/suppl/C) series were authored and co-edited by members of the RBK project, [Visualizing Vascularization and Cell Interactions in Implanted Organoids](/projects/visualizing-interactions-implanted-organoids/).
+Two chapters in the latest volume of the [Current Topics in Developmental Biology](https://www.sciencedirect.com/bookseries/current-topics-in-developmental-biology/vol/148/suppl/C) series were authored and co-edited by members of the RBK project, [Visualizing Vascularization and Cell Interactions in Implanted Organoids](/rebuildingakidney/projects/visualizing-interactions-implanted-organoids/).
 
 Ondine Cleaver and junior investigator Annie Ryan authored [Chapter Seven - Plumbing our organs: Lessons from vascular development to instruct lab generated tissues](https://www.doi.org/10.1016/bs.ctdb.2022.02.013).
 

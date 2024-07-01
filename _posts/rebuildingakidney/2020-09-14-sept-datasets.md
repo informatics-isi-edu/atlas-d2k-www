@@ -8,7 +8,7 @@ Here are some recent data releases from the RBK Consortium:
 
 ### Source data for new publication from the Carroll lab
 
-The Carroll lab (part of the [Application of Progenitor Niche Signals to Ex Vivo Nephorgenesis project](/projects/progenitor-niche-signals/)) has a new publication in *Development*, [Identification and Characterization of Cellular Heterogeneity within the Developing Renal Interstitium](https://www.doi.org/10.1242/dev.190108) and they have released the source data and related protocols in this new collection:
+The Carroll lab (part of the [Application of Progenitor Niche Signals to Ex Vivo Nephorgenesis project](/rebuildingakidney/projects/progenitor-niche-signals/)) has a new publication in *Development*, [Identification and Characterization of Cellular Heterogeneity within the Developing Renal Interstitium](https://www.doi.org/10.1242/dev.190108) and they have released the source data and related protocols in this new collection:
 
 * [16-WYG2: Cellular Heterogeneity within the Developing Renal Interstitium](/id/16-WYG2?pcid=email/internal) - data collection consisting of 21 in situ hybridization, 5 immunohistochemistry records and 3 protocols.
 

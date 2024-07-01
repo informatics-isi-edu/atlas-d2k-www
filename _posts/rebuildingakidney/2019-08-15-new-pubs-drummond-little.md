@@ -5,7 +5,7 @@ tag: rbk
 ---
 
 
-The following are some recently posted publications from the RBK Consortium: two from [the Drummond lab](/projects/interconnected-tubule/) and one from [the Little lab](/projects/generating-organoids/). You can find all RBK publications by [clicking here](https://www.rebuildingakidney.org/publications/).
+The following are some recently posted publications from the RBK Consortium: two from [the Drummond lab](/rebuildingakidney/projects/interconnected-tubule/) and one from [the Little lab](/projects/generating-organoids/). You can find all RBK publications by [clicking here](https://www.rebuildingakidney.org/publications/).
 
 > [Fibroblast growth factor signaling mediates progenitor cell aggregation and nephron regeneration in the adult zebrafish kidney.](https://www.doi.org/10.1016/j.ydbio.2019.06.011) Gallegos, Thomas F.; Kamei, Caramai N.; Rohly, Michael; Drummond, Iain A. Dev Biol. June 2019.
 

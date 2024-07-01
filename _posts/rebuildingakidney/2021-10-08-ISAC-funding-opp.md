@@ -13,8 +13,6 @@ ISAC provides:
 * [Funding](https://www.dkisac.org/shared/fundingPrograms.aspx) for small high-risk/high reward projects via a streamlined process to support cutting-edge research and accelerate true innovation in scientific areas of interest to the [Kidney-Urologic-Hematologic](https://www.niddk.nih.gov/about-niddk/offices-divisions/division-kidney-urologic-hematologic-diseases) (KUH) research communities.
 * Collaboration and Events for researchers and trainees to efficiently exchange ideas and resources to accelerate innovation.
 
-* * *
-
 **What is the ISAC Award?**
 
 The [ISAC Award](https://www.dkisac.org/shared/fundingPrograms.aspx) provides seed funding for exceptionally innovative, disruptive (high-risk/high-reward) research relevant to [KUH communities](https://www.niddk.nih.gov/about-niddk/offices-divisions/division-kidney-urologic-hematologic-diseases) that has the potential to lead to groundbreaking or paradigm-shifting results that will change the field.  ISAC awards are NOT Pilot & Feasibility projects for the generation of more preliminary data for traditional NIH applications (e.g., R01).
@@ -76,4 +74,4 @@ Phone: 706-721-3542
 
 Fax: 706-721-3688
 
-Email: [rmcindoe@augusta.edu](rmcindoe@augusta.edu)
+Email: [rmcindoe@augusta.edu](mailto:rmcindoe@augusta.edu)
