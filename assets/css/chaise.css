@@ -167,21 +167,21 @@ nav.navbar .navbar-nav div.dropdown-menu {
 }
 
 /* Adjust content below the navbar on homepage - targeted to static pages only */
-.container-fluid#home, .container-fluid#content {
+.container-fluid#home, .container-fluid#content, .container-fluid#gudmap, .container-fluid#rbk {
     padding-top: 0px; /* Adjust this value according to your navbar height */
 }
 
 /* Optional: Add a media query for smaller screens */
 @media (max-width: 1179px) {
-    .container-fluid#home, .container-fluid#content {
+    .container-fluid#home, .container-fluid#content, .container-fluid#gudmap, .container-fluid#rbk {
         padding-top: 45px; /* Adjust this value according to your navbar height when it collapses */
     }
 @media (max-width: 1026px) {
-    .container-fluid#home, .container-fluid#content {
+    .container-fluid#home, .container-fluid#content, .container-fluid#gudmap, .container-fluid#rbk {
         padding-top: 95px; /* Adjust this value according to your navbar height when it collapses */
     }
 @media (max-width: 991px) {
-    .container-fluid#home, .container-fluid#content {
+    .container-fluid#home, .container-fluid#content, .container-fluid#gudmap, .container-fluid#rbk {
         padding-top: 335px; /* Adjust this value according to your navbar height when it collapses */
     }
   }
