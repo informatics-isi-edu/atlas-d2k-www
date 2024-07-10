@@ -154,9 +154,39 @@ a#login-link {
     color: #fff;
 }
 
+/* The following styles are tests to fix responsiveness issues with mobile version of navigation */
+
 nav.navbar .navbar-nav div.dropdown-menu {
   background-color: #fff;
 }
+
+/* Ensure navbar items wrap */
+.navbar-collapse {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Adjust content below the navbar on homepage */
+.container-fluid#home {
+    padding-top: 0px; /* Adjust this value according to your navbar height */
+}
+
+/* Optional: Add a media query for smaller screens */
+@media (max-width: 1060px) {
+    .container-fluid#home {
+        padding-top: 45px; /* Adjust this value according to your navbar height when it collapses */
+    }
+@media (max-width: 1026px) {
+    .container-fluid#home {
+        padding-top: 95px; /* Adjust this value according to your navbar height when it collapses */
+    }
+@media (max-width: 991px) {
+    .container-fluid#home {
+        padding-top: 335px; /* Adjust this value according to your navbar height when it collapses */
+    }
+  }
+
+/* End test styles for responsiveness */
 
 /* breakpoint media queries for navbar when browser window is narrow */
 
