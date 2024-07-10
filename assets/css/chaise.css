@@ -154,6 +154,9 @@ a#login-link {
     color: #fff;
 }
 
+nav.navbar .navbar-nav div.dropdown-menu {
+  background-color: #fff;
+}
 
 /* breakpoint media queries for navbar when browser window is narrow */
 
