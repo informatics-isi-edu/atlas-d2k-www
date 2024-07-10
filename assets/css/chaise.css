@@ -172,7 +172,7 @@ nav.navbar .navbar-nav div.dropdown-menu {
 }
 
 /* Optional: Add a media query for smaller screens */
-@media (max-width: 1060px) {
+@media (max-width: 1179px) {
     .container-fluid#home {
         padding-top: 45px; /* Adjust this value according to your navbar height when it collapses */
     }
