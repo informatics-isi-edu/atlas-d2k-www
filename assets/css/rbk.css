@@ -1513,7 +1513,7 @@ section#twitter {
 
 /* subnavigation for RBK subsite */
 
-.rbk-subnav {
+#rbk .rbk-subnav {
     /* Add styles here to match your desired sub-navigation appearance */
     display: flex;
     background-color: #092C74;
@@ -1522,7 +1522,7 @@ section#twitter {
     padding-left: 35px;
 }
 
-.rbk-subnav ul {
+#rbk .rbk-subnav ul {
     list-style: none;
     padding: 0 15px;
     margin: 16px 0 0 0;
@@ -1530,17 +1530,17 @@ section#twitter {
     color: #fff;
 }
 
-.rbk-subnav ul li {
+#rbk .rbk-subnav ul li {
     margin-left: 10px;
 }
 
-.rbk-subnav ul li a {
+#rbk .rbk-subnav ul li a {
     padding: 15px 15px !important;
     line-height: 20px;
     color: #fff;
 }
 
-.rbk-subnav .rbk-brand img {
+#rbk .rbk-subnav .rbk-brand img {
     /* Add styles here to customize your logo appearance */
     width: 250px;
     padding-top: 15px;

@@ -16,6 +16,7 @@ pagination:
   per_page: 10
   permalink: "/page:num/"
   sort_reverse: true
+  
 
 scholar:
   bibliography: '**/*.bib'
@@ -40,7 +41,7 @@ page_gen:
     template: 'gudmap/projects'
     name: 'slug'
     dir: 'gudmap/projects/gudmap4'
-  
+
 
 collections:
   events:

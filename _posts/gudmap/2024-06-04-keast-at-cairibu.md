@@ -1,7 +1,7 @@
 ---
 title: "Janet Keast Presents State of the Science at CAIRIBU Summer Summit"
 layout: post
-tags:
+tag:
   - gudmap
 
 ---

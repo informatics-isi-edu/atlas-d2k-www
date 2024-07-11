@@ -9,29 +9,15 @@ pagination:
 ---
 
 <div class="news">
-  <!-- This loops through the paginated posts -->
-{% for post in paginator.posts %}
-{% if post.tags contains 'rbk' %}
+  <ul class="posts">
+  {% assign gudmap_posts = site.posts | where: "tag", "rbk" %}
+  {% for post in gudmap_posts %}
   <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
   <p class="pub-date">
     <span class="date">{{ post.date | date: "%b %-d, %Y" }}</span>
   </p>
-  {% endif %}
-{% endfor %}
+  {% endfor %}
+</ul>
 
- {%- comment -%} Pagination links {%- endcomment -%}
-<div class="pagination">
-  {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
-  {% else %}
-    <span class="previous">Previous</span>
-  {% endif %}
-  <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
-  {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path }}" class="next">Next</a>
-  {% else %}
-    <span class="next ">Next</span>
-  {% endif %}
-</div>
 
 </div>

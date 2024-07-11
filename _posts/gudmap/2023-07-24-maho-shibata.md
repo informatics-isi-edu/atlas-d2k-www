@@ -1,7 +1,7 @@
 ---
 title: "Welcome to the new GUDMAP Collaborator Group: Maho Shibata (George Washington University)"
 layout: post
-tags:
+tag:
   - gudmap
 
 ---

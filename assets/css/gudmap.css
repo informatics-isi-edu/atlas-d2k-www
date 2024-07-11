@@ -155,7 +155,7 @@ img.navlogo {
     padding-bottom: 50px;
     padding-left: 30px;
     padding-right: 30px;
-    height: 570px;
+  /*  height: 570px; */
 }
 
 #whoweare .indent {
@@ -217,14 +217,14 @@ h3 {
 
 /* Content area - home */
 
-.content.home {
+#gudmap .content.gud-home {
     background-color: #efefef;
-    /*  padding: 10px 25px 0; */
+    padding: 10px 25px 0;
     max-width: 1675px;
     padding-top: 10px;
 }
 
-#gudmap.home h1.tagline {
+#gudmap .gud-home h1.tagline {
     margin-top: 15px;
     margin-bottom: 18px;
     font-size: 20px;
@@ -235,35 +235,35 @@ h3 {
 
 
 /*
-.home h2 {
+.gud-home h2 {
     font-size: 1.3em;
 }
 */
 
-.home .featured h3,
+.gud-home .featured h3,
 .bottom h3 {
     font-size: 18px;
     margin-top: 10px;
     font-weight: bold;
 }
 
-#gudmap.home .row {
+#gudmap.gud-home .row {
     max-width: 100%;
 }
 
-#gudmap.home h1,
-#gudmap.home h2,
-#gudmap.home h3 {
+#gudmap.gud-home h1,
+#gudmap.gud-home h2,
+#gudmap.gud-home h3 {
     margin-bottom: 10px;
 }
 
-#gudmap.home h2 {
+#gudmap.gud-home h2 {
     font-weight: bold;
     text-align: left;
     font-size: 18px;
 }
 
-#gudmap.home .p {
+#gudmap.gud-home .p {
   font-size: 16px;
 }
 
@@ -378,44 +378,6 @@ figcaption {
     padding-top: 15px;
 }
 
-
-/* Footer style - static
-
-#footer {
-  padding-top: 20px;
-  background-color: #000;
-}
-
-#footer ul {
-    list-style: none;
-    padding: 10px 15px;
-    display: flex;
-    justify-content: center;
-}
-
-#footer li {
-    padding: 0 15px;
-    font-size: .9em;
-    margin-top: 0;
-}
-
-.acknowledge {
-    margin: 0 auto;
-    text-align: center;
-}
-
-.acknowledge a {
-    padding: 0 10px 0 10px;
-}
-
-.flex-footer {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    display: flex;
-    justify-content: center;
-}
-*/
 
 
 /* Tutorials section */
@@ -961,7 +923,7 @@ p.pub-date {
 
 /* subnavigation for GUDMAP subsite */
 
-.gudmap-subnav {
+#gudmap .gudmap-subnav {
     /* Add styles here to match your desired sub-navigation appearance */
     display: flex;
     background-color: #0A414E;
@@ -969,25 +931,32 @@ p.pub-date {
     padding-left: 35px;
 }
 
-.gudmap-subnav ul {
+#gudmap .gudmap-subnav ul {
     list-style: none;
     display: flex;
     color: #fff;
 }
 
-.gudmap-subnav ul li {
+#gudmap .gudmap-subnav ul li {
     margin-left: 10px;
 }
 
-.gudmap-subnav ul li a {
+#gudmap .gudmap-subnav ul li a {
     padding: 15px 15px !important;
     line-height: 20px;
     color: #fff;
 }
 
-.gudmap-subnav .gudmap-brand img {
+#gudmap .gudmap-subnav .gudmap-brand img {
     /* Add styles here to customize your logo appearance */
     height: 40px;
     padding-top: 15px;
     padding-left: 5px;
+}
+
+#gudmap p.pub-date {
+    margin-top: 0;
+    font-weight: normal;
+    font-style: italic;
+    font-size: .8em;
 }

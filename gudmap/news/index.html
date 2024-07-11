@@ -3,15 +3,17 @@ layout: gudmap/page
 title: News (GUDMAP)
 tag: archive
 published: true
-
 ---
-
-
-
-<ul>
-{% for post in site.posts %}
-  <li>
-    <a href="{{ post.url }}">{{ post.title }}</a>
-  </li>
-{% endfor %}
+<div class="news">
+  <ul class="posts">
+  {% assign gudmap_posts = site.posts | where: "tag", "gudmap" %}
+  {% for post in gudmap_posts %}
+  <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+  <p class="pub-date">
+    <span class="date">{{ post.date | date: "%b %-d, %Y" }}</span>
+  </p>
+  {% endfor %}
 </ul>
+
+
+</div>

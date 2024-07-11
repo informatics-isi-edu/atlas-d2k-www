@@ -1,5 +1,5 @@
 ---
-title: "Data release summary: September 2021"
+title: "New Releases on Sacral Visceral Sensory Trancriptome in Wildtype Mice"
 layout: post
 published: true
 tag: gudmap
