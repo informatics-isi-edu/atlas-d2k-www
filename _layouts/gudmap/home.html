@@ -13,7 +13,7 @@
 			</ul>
 </div>
 
-<div id="content" class="container-fluid gudmap-home">
+<div class="container-fluid gudmap-home">
 		{{ content }}
 </div>
 
@@ -22,3 +22,16 @@
 {% include footer.html %}
 </div>
 <script type="text/javascript" src="/assets/slick/slick.min.js"></script>
+<style>
+        body.has-gudmap {
+
+            background-color: #efefef;
+        }
+    </style>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            if (document.querySelector("div#gudmap")) {
+                document.body.classList.add("has-gudmap");
+            }
+        });
+    </script>
