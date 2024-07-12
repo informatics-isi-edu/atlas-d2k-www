@@ -1,10 +1,10 @@
 ---
-title: "Lewis' Lab Paper on the Development of Vascularized Kidney Tissue Models Via Bioprinting"
+title: "A perfusable, vascularized kidney organoid-on-chip model (Jennifer Lewis, Harvard)"
 layout: post
 tag: rbk
 ---
 
-We are excited to announce that Jennifer Lewis (Harvard) of the [Engineering Functional Kidneys group](/rebuildingakidney/projects/engineering-functional-kidneys/) in the Rebuilding a Kidney (RBK) consortium has just published a paper in the journal, _Biofabrication_.
+Jennifer Lewis (Harvard) of the [Engineering Functional Kidneys group](/rebuildingakidney/projects/engineering-functional-kidneys/) has just published a paper in the journal, _Biofabrication_, on the development of vascularized kidney tissue models via bioprinting.
 
 ### A perfusable, vascularized kidney organoid-on-chip model
 
