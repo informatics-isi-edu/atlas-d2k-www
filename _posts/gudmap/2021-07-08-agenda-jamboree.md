@@ -5,7 +5,7 @@ published: true
 tag: gudmap
 ---
 
-[![Jamboree Flyer](/gudmap/events/2021-gudmap-jamboree/GUDMAP-15-Year-Jamboree-Flyer.png){:.pull-right.post-image}](/events/2021-gudmap-jamboree/GUDMAP-15-Year-Jamboree-Flyer.png)
+[![Jamboree Flyer](/gudmap/events/2021-gudmap-jamboree/GUDMAP-15-Year-Jamboree-Flyer.png){:.pull-right.post-image}](/gudmap/events/2021-gudmap-jamboree/GUDMAP-15-Year-Jamboree-Flyer.png)
 
 The agenda for the Jamboree is now available!
 
