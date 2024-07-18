@@ -1,5 +1,8 @@
 {% include header.html %}
 <link rel="stylesheet" href="/assets/css/rbk.css">
+<div class="container-fluid" id="rbk">
+
+
 <div class="rbk-subnav">
 	<a class="rbk-brand" href="/rebuildingakidney/">
         <img alt="RBK Logo" src="/assets/img/rbk-logo.png">
@@ -13,15 +16,18 @@
 </div>
 
 		{%- comment -%} {{ content }} {%- endcomment -%}
-		<section class="section-{{page.tag}} container-fluid" id="content">
+		<section class="section-{{page.tag}} container-fluid">
+			<div id="rbk-content">
+
+
 		{% include breadcrumb.html %}
-  			
+
 
 				{{ content }}
 
 			</div>
 		</section>
-
+</div>
 
 
 {% include footer.html %}
