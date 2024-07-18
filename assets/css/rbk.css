@@ -844,6 +844,10 @@ p.note a {
     color: #fff;
 }
 
+.bg-warning {
+  background-color: #fcf8e3;
+}
+
 @media (max-width: 726px) {
     .section-about figure.pull-left {
         float: none;
