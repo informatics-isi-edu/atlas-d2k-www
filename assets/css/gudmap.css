@@ -247,12 +247,19 @@ h3 {
     font-weight: bold;
 }
 
+#gudmap .gud-home .gud-cards {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
 #gudmap .gud-home .gud-cards h3 {
     text-align: center;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 #gudmap .gud-home .gud-cards img {
-    max-width: 200px;
+    max-width: 150px;
     margin: 0 auto;
 }
 
