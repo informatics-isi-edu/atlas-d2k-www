@@ -238,6 +238,24 @@ h3 {
     font-style: italic;
 }
 
+#gudmap .gud-home .hotlinks {
+    margin-top: 15px;
+    margin-bottom: 18px;
+    font-size: 20px;
+    font-weight: normal;
+    text-align: center;
+    font-weight: bold;
+}
+
+#gudmap .gud-home .gud-cards h3 {
+    text-align: center;
+}
+
+#gudmap .gud-home .gud-cards img {
+    max-width: 200px;
+    margin: 0 auto;
+}
+
 
 /*
 .gud-home h2 {
