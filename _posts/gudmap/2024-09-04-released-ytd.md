@@ -1,5 +1,5 @@
 ---
-title: "New Single-Cell and Spatial Datasets on Human Ureter and Prostate Tissue (GUDMAP)"
+title: "New Single-Cell and Spatial Datasets on Human Ureter and Prostate Tissue by Angela Ting and Douglas Strand (GUDMAP)"
 layout: post
 tag:
   - gudmap
@@ -8,7 +8,7 @@ tag:
 
 We are excited to announce GUDMAP's release of two new single-cell and spatial transcriptomic datasets from recent studies on the human ureter and prostate. The first dataset, from the study led by Angela Ting at MD Anderson Cancer Center, provides a detailed map of cell populations and signaling networks within the human ureter, with a focus on stromal and urothelial compartments. The second, from Doug Strand at UT Southwestern, explores the effects of 5-alpha reductase inhibitors on prostate tissue, revealing the transition of prostate luminal cells to a club cell-like state in response to treatment.
 
-## Single-cell and spatial mapping Identify cell types and signaling Networks in the human ureter (PI: Angela Ting, MDACC)
+### Single-cell and spatial mapping Identify cell types and signaling Networks in the human ureter (PI: Angela Ting, MDACC)
 
 [FIND DATA HERE](https://doi.org/10.25548/17-HCKM)
 
@@ -18,7 +18,7 @@ Related publication:
 We define and spatially map cell populations within the human ureter using single-cell RNA sequencing, spatial gene expression, and immunofluorescence approaches. We focus on the stromal and urothelial cell populations to enumerate the distinct cell types composing the human ureter and infer potential cell-cell communication networks underpinning the bi-directional crosstalk between these compartments. Furthermore, we analyze and experimentally validate the importance of the sonic hedgehog (SHH) signaling pathway in adult progenitor cell maintenance. The SHH-expressing basal cells support organoid generation in vitro and accurately predict the differentiation trajectory from basal progenitor cells to terminally differentiated umbrella cells.
 
 
-## 5-Alpha reductase inhibitors induce a prostate luminal to club cell transition in human benign prostatic hyperplasia (PI: Doug Strand, UTSW)
+### 5-Alpha reductase inhibitors induce a prostate luminal to club cell transition in human benign prostatic hyperplasia (PI: Doug Strand, UTSW)
 
 [FIND DATA HERE](https://doi.org/10.25548/17-J6A0)
 

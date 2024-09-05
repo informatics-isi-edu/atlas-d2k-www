@@ -8,7 +8,7 @@ tag:
 
 Explore the recently released data from Maho Shibata (George Washington University), supporting her publication in *Development*.
 
-## Macrophages of multiple hematopoietic origins reside in the developing prostate (PI: Maho Shibata, George Washington University)
+### Macrophages of multiple hematopoietic origins reside in the developing prostate (PI: Maho Shibata, George Washington University)
 
 [FIND DATA HERE](https://doi.org/10.25548/17-J4RE)
 
