@@ -3,22 +3,93 @@
 navbar {
     height: 102px;
     background-color: #0A2327;
-    display: block;
-    background-size: contain;
-    background-repeat: no-repeat;
+    margin: 0 auto;
+    width: 100%;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    border: 0;
 }
 
+nav.navbar.navbar-inverse {
 
+  background-color: inherit;
+  margin: 0 auto;
+  padding: 0px 5px 0px 20px;
+  min-height: 50px;
+  flex-wrap: wrap;
+  border: 0;
+}
+
+.navbar-brand {
+  padding: 5px 0 0 0;
+  height: 100px;
+}
+
+.nav.navbar-nav {
+  margin-left: 15px;
+  margin-top: 22px;
+}
+
+.navbar-inverse .navbar-nav>li {
+    padding-bottom: 0;
+    cursor: pointer;
+}
+
+.navbar-inverse .navbar-nav>li>a { /* changed for treeview */
+    color: #fff;
+    font-size: 18px;
+}
+
+.navbar-inverse .navbar-nav>div>a:hover,
+.navbar-inverse .navbar-nav>li>a:hover {
+    background-color: #407CCA;
+}
+
+.navbar-inverse .navbar-nav>.open>a,
+.navbar-inverse .navbar-nav>.show>a {
+    background-color: #080808;
+}
+
+.navbar-inverse .navbar-nav>li>a:visited {
+    color: #ddc785;
+}
+
+.navbar-inverse .navbar-nav>li>a.disabled {
+    color: #bbbbbb;
+}
+
+.navbar-inverse .navbar-brand,
+.navbar-inverse .navbar-nav.navbar-right>li>a {
+    color: #59C4FF;
+}
 /*
-span#brand-text {
-  text-indent: -999px;
-  background: url(/assets/img/deriva-h50-simple.png) no-repeat;
-  height: 50px;
-  display: block;
-  width: 170px;
-  background-size: contain;
+.navbar-brand:not(#chaise-app-root #mainnav.navbar-inverse .navbar-brand):not(.chaise-body #mainnav.navbar-inverse .navbar-brand) {
+    padding: 5px 0 0 0;
+    height: 100px;
 }
 */
+span#brand-text {
+    display: block;
+    height: 98px;
+    background: url(/assets/img/atlas-logo-inverted.png);
+  /*  background-size: cover; */
+    background-size: 120px 83px;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    margin-top: -6px;
+    margin-left: 10px;
+    width: 142.37px;
+}
+
+.nav li {
+    margin-top: 0;
+}
+
+a.nav-link span {
+    color: #fff;
+}
 
 
 /* The rest of the custom stylesheet */
@@ -177,34 +248,14 @@ p.acknowledgement {
 @media (min-width: 768px) {
     .navbar-nav {
         float: left;
-        /*   margin: 0 0 0 35px; */
     }
 }
 
-
-/* Adjust content below the navbar on homepage - targeted to static pages only */
-.container-fluid#home, .container-fluid#content, .container#content, .container-fluid#gudmap, .container-fluid#rbk {
-    padding-top: 0px; /* Adjust this value according to your navbar height */
+@media (max-width: 767px) {
+    .navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
+        color: #ddd;
+    }
 }
-
-/* Optional: Add a media query for smaller screens */
-@media (max-width: 1179px) {
-    .container-fluid#home, .container-fluid#content, .container#content, .container-fluid#gudmap, .container-fluid#rbk {
-        padding-top: 45px; /* Adjust this value according to your navbar height when it collapses */
-    }
-  }
-@media (max-width: 1026px) {
-    .container-fluid#home, .container-fluid#content, .container#content, .container-fluid#gudmap, .container-fluid#rbk {
-        padding-top: 95px; /* Adjust this value according to your navbar height when it collapses */
-    }
-  }
-@media (max-width: 991px) {
-    .container-fluid#home, .container-fluid#content, .container#content, .container-fluid#gudmap, .container-fluid#rbk {
-        padding-top: 335px; /* Adjust this value according to your navbar height when it collapses */
-    }
-  }
-
-/* End test styles for responsiveness */
 
 
 
