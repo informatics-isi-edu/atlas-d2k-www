@@ -91,6 +91,12 @@ a.nav-link span {
     color: #fff;
 }
 
+p.teaser {
+  margin: 0;
+  padding: 15px;
+  font-weight: bold;
+  background-color: #FFFFBF;
+}
 
 /* The rest of the custom stylesheet */
 
