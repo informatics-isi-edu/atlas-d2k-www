@@ -6,3 +6,4 @@ _site/
 
 _includes/navbar-dependencies.html
 .DS_Store
+assets/img/.DS_Store
