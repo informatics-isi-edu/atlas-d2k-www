@@ -1,7 +1,7 @@
 /* Styles for placeholder navbar - before navbar kicks in */
 
 navbar {
-    height: 102px;
+  /*  height: 102px; */
     background-color: #0A2327;
     display: block;
     background-size: contain;
