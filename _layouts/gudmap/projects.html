@@ -10,14 +10,14 @@ layout: gudmap/projects-groups
 		-->
 			<div class="pi-section">
 			<div class="pi personnel">
-			<img src="/assets/img/pis/{{page.img}}.jpg" class="left" />
+			<img src="{{ "/assets/img/pis/{{page.img}}.jpg" | relative_url }}" class="left" />
 			<p><strong>{{ page.pi }}</strong> (Contact PI)<br>
 				<span class="inst">{{ page.institute }}</span></p>
 				<p style="clear:both"></p>
 			</div>
 			{% if page.copi != null %}
 			<div class="copi personnel">
-			<img src="/assets/img/pis/{{page.coimg}}.jpg" class="left" />
+			<img src="{{ "/assets/img/pis/{{page.coimg}}.jpg" | relative_url }}" class="left" />
 			<p><strong>{{ page.copi }}</strong> (PI)<br>
 				<span class="inst">{{ page.coinstitute }}</span></p>
 			</div>
@@ -25,7 +25,7 @@ layout: gudmap/projects-groups
 				{% endif %}
 				{% if page.cocopi != null %}
 				<div class="cocopi personnel">
-				<img src="/assets/img/pis/{{page.cocoimg}}.jpg" class="left" />
+				<img src="{{ "/assets/img/pis/{{page.cocoimg}}.jpg" | relative_url }}" class="left" />
 				<p><strong>{{ page.cocopi }}</strong> (PI)<br>
 					<span class="inst">{{ page.cocoinstitute }}</span></p>
 				</div>

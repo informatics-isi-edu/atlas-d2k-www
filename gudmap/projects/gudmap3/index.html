@@ -8,7 +8,7 @@ title: GUDMAP3 Projects
 Main focus is expanding our understanding of human development of the genito-urinary system.</em></p>
 <ul class="projects-list">
 {% for project in site.data.gudmap.projects-g3 %}
-  <li><a href="/gudmap/projects/gudmap3/{{project.slug}}/">{{project.project_title}}</a>  <small>({{project.pi}}, <em>{{project.institute}}</em>{% if project.copi != null %}
+  <li><a href="{{ "/gudmap/projects/gudmap3/{{project.slug}}/" | relative_url }}">{{project.project_title}}</a>  <small>({{project.pi}}, <em>{{project.institute}}</em>{% if project.copi != null %}
     / {{project.copi}}, <em>{{project.coinstitute}}</em>{% elsif project.multipis != null %}{% for item in project.multipis %}  / {{item.multipi}}, <em>{{item.mpi-institute}}</em>{% endfor %}{% endif %})</small></li>
 {% endfor %}
 </ul>

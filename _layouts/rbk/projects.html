@@ -9,14 +9,14 @@ layout: rbk/default-proj
 			<h2>Key Personnel</h2>
 			<div class="pi-section">
 			<div class="pi personnel">
-			<img src="/rebuildingakidney/assets/img/pis/{{page.img}}.jpg" class="left" />
+			<img src="{{ "/rebuildingakidney/assets/img/pis/{{page.img}}.jpg" | relative_url }}" class="left" />
 			<p><strong>{{ page.pi }}</strong> (PI)<br>
 				<span class="inst">{{ page.institute }}</span></p>
 				<p style="clear:both"></p>
 			</div>
 			{% if page.copi != null %}
 			<div class="copi personnel">
-			<img src="/rebuildingakidney/assets/img/pis/{{page.coimg}}.jpg" class="left" />
+			<img src="{{ "/rebuildingakidney/assets/img/pis/{{page.coimg}}.jpg" | relative_url }}" class="left" />
 			<p><strong>{{ page.copi }}</strong> (PI)<br>
 				<span class="inst">{{ page.coinstitute }}</span></p>
 			</div>
@@ -24,7 +24,7 @@ layout: rbk/default-proj
 				{% endif %}
 			{% if page.cocopi != null %}
 			<div class="copi personnel">
-			<img src="/rebuildingakidney/assets/img/pis/{{page.cocoimg}}.jpg" class="left" />
+			<img src="{{ "/rebuildingakidney/assets/img/pis/{{page.cocoimg}}.jpg" | relative_url }}" class="left" />
 			<p><strong>{{ page.cocopi }}</strong> (PI)<br>
 				<span class="inst">{{ page.cocoinstitute }}</span></p>
 			</div>
@@ -63,8 +63,8 @@ layout: rbk/default-proj
 			  {% for item in page.gallery %}
 			    <div class="project-image">
 			      <div class="image">
-			        <a href="/rebuildingakidney/assets/img/projects/{{ item.image-path }}.png" data-lightbox="{{ page.pi }}" title="{{ item.title }}">
-							<img src="/assets/img/projects/{{ item.image-path }}.png" alt="TBD" width=250/>
+			        <a href="{{ "/rebuildingakidney/assets/img/projects/{{ item.image-path }}.png" | relative_url }}" data-lightbox="{{ page.pi }}" title="{{ item.title }}">
+							<img src="{{ "/assets/img/projects/{{ item.image-path }}.png" | relative_url }}" alt="TBD" width=250/>
 						</a>
 			      </div>
 						<!--
@@ -82,7 +82,7 @@ layout: rbk/default-proj
 				<div class="subproject-sect">
 					<p class="project-name">{{ subproject.project_title }}</p>
 					<figure>
-					<img src="/rebuildingakidney/assets/img/pis/{{subproject.img}}.jpg" class="subproject-pic" width="176" alt="{{ subproject.pi }}">
+					<img src="{{ "/rebuildingakidney/assets/img/pis/{{subproject.img}}.jpg" | relative_url }}" class="subproject-pic" width="176" alt="{{ subproject.pi }}">
 					<figcaption class="subproject-pi"><strong>PI:</strong> {{ subproject.pi }}<br/><em>{{ subproject.institute }}</em></figcaption>
 				</figure>
 				<p class="project-personnel"><strong>Key Personnel:</strong> {{ subproject.personnel }}</p>

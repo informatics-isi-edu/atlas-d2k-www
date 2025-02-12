@@ -1,15 +1,15 @@
 {% include header.html %}
-<link rel="stylesheet" href="/assets/css/gudmap.css">
+<link rel="stylesheet" href="{{ "/assets/css/gudmap.css" | relative_url }}">
 <div class="container-fluid" id="gudmap">
 <div class="gudmap-subnav">
-	<a class="gudmap-brand" href="/gudmap/">
-        <img alt="gudmap Logo" src="/assets/img/gudmap-logo.svg">
+	<a class="gudmap-brand" href="{{ "/gudmap/" | relative_url }}">
+        <img alt="gudmap Logo" src="{{ "/assets/img/gudmap-logo.svg" | relative_url }}">
       </a>
 			<ul>
-					<li role="presentation"><a href="/gudmap/about/">About</a></li>
-					<li role="presentation"><a href="/gudmap/projects/">Projects</a></li>
-					<li role="presentation"><a href="/gudmap/citing-gudmap/">Citing GUDMAP</a></li>
-					<li role="presentation"><a href="/contact/">Contact GUDMAP</a></li>
+					<li role="presentation"><a href="{{ "/gudmap/about/" | relative_url }}">About</a></li>
+					<li role="presentation"><a href="{{ "/gudmap/projects/" | relative_url }}">Projects</a></li>
+					<li role="presentation"><a href="{{ "/gudmap/citing-gudmap/" | relative_url }}">Citing GUDMAP</a></li>
+					<li role="presentation"><a href="{{ "/contact/" | relative_url }}">Contact GUDMAP</a></li>
 			</ul>
 </div>
 
@@ -21,7 +21,7 @@
 
 {% include footer.html %}
 </div>
-<script type="text/javascript" src="/assets/slick/slick.min.js"></script>
+<script type="text/javascript" src="{{ "/assets/slick/slick.min.js" | relative_url }}"></script>
 <style>
         body.has-gudmap {
 

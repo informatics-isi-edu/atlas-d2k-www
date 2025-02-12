@@ -1,13 +1,13 @@
 {% include header.html %}
-<link rel="stylesheet" href="/assets/css/rbk.css">
+<link rel="stylesheet" href="{{ "/assets/css/rbk.css" | relative_url }}">
 <div class="rbk-subnav">
-	<a class="rbk-brand" href="/rebuildingakidney/">
-        <img alt="RBK Logo" src="/assets/img/rbk-logo.png">
+	<a class="rbk-brand" href="{{ "/rebuildingakidney/" | relative_url }}">
+        <img alt="RBK Logo" src="{{ "/assets/img/rbk-logo.png" | relative_url }}">
       </a>
 			<ul>
-					<li role="presentation"><a href="/rebuildingakidney/about/">About</a></li>
-					<li role="presentation"><a href="/rebuildingakidney/projects/">Projects</a></li>
-					<li role="presentation"><a href="/contact/">Contact</a></li>
+					<li role="presentation"><a href="{{ "/rebuildingakidney/about/" | relative_url }}">About</a></li>
+					<li role="presentation"><a href="{{ "/rebuildingakidney/projects/" | relative_url }}">Projects</a></li>
+					<li role="presentation"><a href="{{ "/contact/" | relative_url }}">Contact</a></li>
 			</ul>
 </div>
 
@@ -22,4 +22,4 @@
 </section>
 {% include footer.html %}
 
-<script type="text/javascript" src="/assets/slick/slick.min.js"></script>
+<script type="text/javascript" src="{{ "/assets/slick/slick.min.js" | relative_url }}"></script>

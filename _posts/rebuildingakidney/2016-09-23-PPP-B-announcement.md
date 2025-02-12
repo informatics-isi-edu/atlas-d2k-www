@@ -4,7 +4,7 @@ tag: rbk
 layout: post
 ---
 
-We are happy to announce the addition of many new projects to the RBK Consortium. You can find more complete information about these projects under the <a href="/rebuildingakidney/projects/">Projects</a> page.
+We are happy to announce the addition of many new projects to the RBK Consortium. You can find more complete information about these projects under the <a href="{{ "/rebuildingakidney/projects/" | relative_url }}">Projects</a> page.
 
 ##### Awardees of RBK Partnership Pilot Program
 

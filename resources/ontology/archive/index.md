@@ -28,51 +28,51 @@ Click the following links to access PDF or Word versions of the ontology broken 
   <tbody>
     <tr>
       <td>TS17 (10.5dpc)</td>
-      <td><a href="/gudmap/Docs/Ontologies/TS17_Database_Version_8GroupsTrailing.pdf">PDF</a></td>
-      <td><a href="/gudmap/Docs/Ontologies/TS17_Database_Version_8GroupsTrailing.doc">Word</a></td>
+      <td><a href="{{ "/gudmap/Docs/Ontologies/TS17_Database_Version_8GroupsTrailing.pdf" | relative_url }}">PDF</a></td>
+      <td><a href="{{ "/gudmap/Docs/Ontologies/TS17_Database_Version_8GroupsTrailing.doc" | relative_url }}">Word</a></td>
       <td>TS23 (15dpc)</td>
-      <td><a href="/gudmap/Docs/Ontologies/TS23_Database_Version_8GroupsTrailing.pdf">PDF</a></td>
-      <td><a href="/gudmap/Docs/Ontologies/TS23_Database_Version_8GroupsTrailing.doc">Word</a></td>
+      <td><a href="{{ "/gudmap/Docs/Ontologies/TS23_Database_Version_8GroupsTrailing.pdf" | relative_url }}">PDF</a></td>
+      <td><a href="{{ "/gudmap/Docs/Ontologies/TS23_Database_Version_8GroupsTrailing.doc" | relative_url }}">Word</a></td>
     </tr>
     <tr>
       <td>TS18 (11dpc)</td>
-      <td><a href="/gudmap/Docs/Ontologies/TS18_Database_Version_8GroupsTrailing.pdf">PDF</a></td>
-      <td><a href="/gudmap/Docs/Ontologies/TS18_Database_Version_8GroupsTrailing.doc">Word</a></td>
+      <td><a href="{{ "/gudmap/Docs/Ontologies/TS18_Database_Version_8GroupsTrailing.pdf" | relative_url }}">PDF</a></td>
+      <td><a href="{{ "/gudmap/Docs/Ontologies/TS18_Database_Version_8GroupsTrailing.doc" | relative_url }}">Word</a></td>
       <td>TS24 (16dpc)</td>
-      <td><a href="/gudmap/Docs/Ontologies/TS24_Database_Version_8GroupsTrailing.pdf">PDF</a></td>
-      <td><a href="/gudmap/Docs/Ontologies/TS24_Database_Version_8GroupsTrailing.doc">Word</a></td>
+      <td><a href="{{ "/gudmap/Docs/Ontologies/TS24_Database_Version_8GroupsTrailing.pdf" | relative_url }}">PDF</a></td>
+      <td><a href="{{ "/gudmap/Docs/Ontologies/TS24_Database_Version_8GroupsTrailing.doc" | relative_url }}">Word</a></td>
     </tr>
     <tr>
       <td>TS19 (11.5dpc)</td>
-      <td><a href="/gudmap/Docs/Ontologies/TS19_Database_Version8GroupsTrailing.pdf">PDF</a></td>
-      <td><a href="/gudmap/Docs/Ontologies/TS19_Database_Version8GroupsTrailing.doc">Word</a></td>
+      <td><a href="{{ "/gudmap/Docs/Ontologies/TS19_Database_Version8GroupsTrailing.pdf" | relative_url }}">PDF</a></td>
+      <td><a href="{{ "/gudmap/Docs/Ontologies/TS19_Database_Version8GroupsTrailing.doc" | relative_url }}">Word</a></td>
       <td>TS25 (17dpc)</td>
-      <td><a href="/gudmap/Docs/Ontologies/TS25_Database_Version_8GroupsTrailing.pdf">PDF</a></td>
-      <td><a href="/gudmap/Docs/Ontologies/TS25_Database_Version_8GroupsTrailing.doc">Word</a></td>
+      <td><a href="{{ "/gudmap/Docs/Ontologies/TS25_Database_Version_8GroupsTrailing.pdf" | relative_url }}">PDF</a></td>
+      <td><a href="{{ "/gudmap/Docs/Ontologies/TS25_Database_Version_8GroupsTrailing.doc" | relative_url }}">Word</a></td>
     </tr>
     <tr>
       <td>TS20 (12dpc)</td>
-      <td><a href="/gudmap/Docs/Ontologies/TS20_Database_Version_8GroupsTrailing.pdf">PDF</a></td>
-      <td><a href="/gudmap/Docs/Ontologies/TS20_Database_Version_8GroupsTrailing.doc">Word</a></td>
+      <td><a href="{{ "/gudmap/Docs/Ontologies/TS20_Database_Version_8GroupsTrailing.pdf" | relative_url }}">PDF</a></td>
+      <td><a href="{{ "/gudmap/Docs/Ontologies/TS20_Database_Version_8GroupsTrailing.doc" | relative_url }}">Word</a></td>
       <td>TS26 (18dpc)</td>
-      <td><a href="/gudmap/Docs/Ontologies/TS26_Database_Version_8GroupsTrailing.pdf">PDF</a></td>
-      <td><a href="/gudmap/Docs/Ontologies/TS26_Database_Version_8GroupsTrailing.doc">Word</a></td>
+      <td><a href="{{ "/gudmap/Docs/Ontologies/TS26_Database_Version_8GroupsTrailing.pdf" | relative_url }}">PDF</a></td>
+      <td><a href="{{ "/gudmap/Docs/Ontologies/TS26_Database_Version_8GroupsTrailing.doc" | relative_url }}">Word</a></td>
     </tr>
     <tr>
       <td>TS21 (13dpc)</td>
-      <td><a href="/gudmap/Docs/Ontologies/TS21_Database_Version_8GroupsTrailing.pdf">PDF</a></td>
-      <td><a href="/gudmap/Docs/Ontologies/TS21_Database_Version_8GroupsTrailing.doc">Word</a></td>
+      <td><a href="{{ "/gudmap/Docs/Ontologies/TS21_Database_Version_8GroupsTrailing.pdf" | relative_url }}">PDF</a></td>
+      <td><a href="{{ "/gudmap/Docs/Ontologies/TS21_Database_Version_8GroupsTrailing.doc" | relative_url }}">Word</a></td>
       <td>TS27 (P0-P3)</td>
-      <td><a href="/gudmap/Docs/Ontologies/TS27_Database_Version_8GroupsTrailing.pdf">PDF</a></td>
-      <td><a href="/gudmap/Docs/Ontologies/TS27_Database_Version_8GroupsTrailing.doc">Word</a></td>
+      <td><a href="{{ "/gudmap/Docs/Ontologies/TS27_Database_Version_8GroupsTrailing.pdf" | relative_url }}">PDF</a></td>
+      <td><a href="{{ "/gudmap/Docs/Ontologies/TS27_Database_Version_8GroupsTrailing.doc" | relative_url }}">Word</a></td>
     </tr>
     <tr>
       <td>TS22 (14dpc)</td>
-      <td><a href="/gudmap/Docs/Ontologies/TS22_Database_Version8GroupsTrailing.pdf">PDF</a></td>
-      <td><a href="/gudmap/Docs/Ontologies/TS22_Database_Version8GroupsTrailing.doc">Word</a></td>
+      <td><a href="{{ "/gudmap/Docs/Ontologies/TS22_Database_Version8GroupsTrailing.pdf" | relative_url }}">PDF</a></td>
+      <td><a href="{{ "/gudmap/Docs/Ontologies/TS22_Database_Version8GroupsTrailing.doc" | relative_url }}">Word</a></td>
       <td>TS28 (P4-Adult)</td>
-      <td><a href="/gudmap/Docs/Ontologies/TS28_Database_Version_8GroupsTrailing.pdf">PDF</a></td>
-      <td><a href="/gudmap/Docs/Ontologies/TS28_Database_Version_8GroupsTrailing.doc">Word</a></td>
+      <td><a href="{{ "/gudmap/Docs/Ontologies/TS28_Database_Version_8GroupsTrailing.pdf" | relative_url }}">PDF</a></td>
+      <td><a href="{{ "/gudmap/Docs/Ontologies/TS28_Database_Version_8GroupsTrailing.doc" | relative_url }}">Word</a></td>
     </tr>
   </tbody>
 </table>
@@ -98,51 +98,51 @@ Click the following links to access flat file views, broken down by Theiler stag
   <tbody>
     <tr>
       <td>TS17 (10.5dpc)</td>
-      <td><a href="/gudmap/Docs/Ontologies/TS17_Database_Version_6.pdf">PDF</a></td>
-      <td><a href="/gudmap/Docs/Ontologies/TS17_Database_Version_6.doc">Word</a></td>
+      <td><a href="{{ "/gudmap/Docs/Ontologies/TS17_Database_Version_6.pdf" | relative_url }}">PDF</a></td>
+      <td><a href="{{ "/gudmap/Docs/Ontologies/TS17_Database_Version_6.doc" | relative_url }}">Word</a></td>
       <td>TS23 (15dpc)</td>
-      <td><a href="/gudmap/Docs/Ontologies/TS23_Database_Version_6.pdf">PDF</a></td>
-      <td><a href="/gudmap/Docs/Ontologies/TS23_Database_Version_6.doc">Word</a></td>
+      <td><a href="{{ "/gudmap/Docs/Ontologies/TS23_Database_Version_6.pdf" | relative_url }}">PDF</a></td>
+      <td><a href="{{ "/gudmap/Docs/Ontologies/TS23_Database_Version_6.doc" | relative_url }}">Word</a></td>
     </tr>
     <tr>
       <td>TS18 (11dpc)</td>
-      <td><a href="/gudmap/Docs/Ontologies/TS18_Database_Version_6.pdf">PDF</a></td>
-      <td><a href="/gudmap/Docs/Ontologies/TS18_Database_Version_6.doc">Word</a></td>
+      <td><a href="{{ "/gudmap/Docs/Ontologies/TS18_Database_Version_6.pdf" | relative_url }}">PDF</a></td>
+      <td><a href="{{ "/gudmap/Docs/Ontologies/TS18_Database_Version_6.doc" | relative_url }}">Word</a></td>
       <td>TS24 (16dpc)</td>
-      <td><a href="/gudmap/Docs/Ontologies/TS24_Database_Version_6.pdf">PDF</a></td>
-      <td><a href="/gudmap/Docs/Ontologies/TS24_Database_Version_6.doc">Word</a></td>
+      <td><a href="{{ "/gudmap/Docs/Ontologies/TS24_Database_Version_6.pdf" | relative_url }}">PDF</a></td>
+      <td><a href="{{ "/gudmap/Docs/Ontologies/TS24_Database_Version_6.doc" | relative_url }}">Word</a></td>
     </tr>
     <tr>
       <td>TS19 (11.5dpc)</td>
-      <td><a href="/gudmap/Docs/Ontologies/TS19_Database_Version_6.pdf">PDF</a></td>
-      <td><a href="/gudmap/Docs/Ontologies/TS19_Database_Version_6.doc">Word</a></td>
+      <td><a href="{{ "/gudmap/Docs/Ontologies/TS19_Database_Version_6.pdf" | relative_url }}">PDF</a></td>
+      <td><a href="{{ "/gudmap/Docs/Ontologies/TS19_Database_Version_6.doc" | relative_url }}">Word</a></td>
       <td>TS25 (17dpc)</td>
-      <td><a href="/gudmap/Docs/Ontologies/TS25_Database_Version_6.pdf">PDF</a></td>
-      <td><a href="/gudmap/Docs/Ontologies/TS25_Database_Version_6.doc">Word</a></td>
+      <td><a href="{{ "/gudmap/Docs/Ontologies/TS25_Database_Version_6.pdf" | relative_url }}">PDF</a></td>
+      <td><a href="{{ "/gudmap/Docs/Ontologies/TS25_Database_Version_6.doc" | relative_url }}">Word</a></td>
     </tr>
     <tr>
       <td>TS20 (12dpc)</td>
-      <td><a href="/gudmap/Docs/Ontologies/TS20_Database_Version_6.pdf">PDF</a></td>
-      <td><a href="/gudmap/Docs/Ontologies/TS20_Database_Version_6.doc">Word</a></td>
+      <td><a href="{{ "/gudmap/Docs/Ontologies/TS20_Database_Version_6.pdf" | relative_url }}">PDF</a></td>
+      <td><a href="{{ "/gudmap/Docs/Ontologies/TS20_Database_Version_6.doc" | relative_url }}">Word</a></td>
       <td>TS26 (18dpc)</td>
-      <td><a href="/gudmap/Docs/Ontologies/TS26_Database_Version_6.pdf">PDF</a></td>
-      <td><a href="/gudmap/Docs/Ontologies/TS26_Database_Version_6.doc">Word</a></td>
+      <td><a href="{{ "/gudmap/Docs/Ontologies/TS26_Database_Version_6.pdf" | relative_url }}">PDF</a></td>
+      <td><a href="{{ "/gudmap/Docs/Ontologies/TS26_Database_Version_6.doc" | relative_url }}">Word</a></td>
     </tr>
     <tr>
       <td>TS21 (13dpc)</td>
-      <td><a href="/gudmap/Docs/Ontologies/TS21_Database_Version_6.pdf">PDF</a></td>
-      <td><a href="/gudmap/Docs/Ontologies/TS21_Database_Version_6.doc">Word</a></td>
+      <td><a href="{{ "/gudmap/Docs/Ontologies/TS21_Database_Version_6.pdf" | relative_url }}">PDF</a></td>
+      <td><a href="{{ "/gudmap/Docs/Ontologies/TS21_Database_Version_6.doc" | relative_url }}">Word</a></td>
       <td>TS27 (P0-P3)</td>
-      <td><a href="/gudmap/Docs/Ontologies/TS27_Database_Version_6.pdf">PDF</a></td>
-      <td><a href="/gudmap/Docs/Ontologies/TS27_Database_Version_6.doc">Word</a></td>
+      <td><a href="{{ "/gudmap/Docs/Ontologies/TS27_Database_Version_6.pdf" | relative_url }}">PDF</a></td>
+      <td><a href="{{ "/gudmap/Docs/Ontologies/TS27_Database_Version_6.doc" | relative_url }}">Word</a></td>
     </tr>
     <tr>
       <td>TS22 (14dpc)</td>
-      <td><a href="/gudmap/Docs/Ontologies/TS22_Database_Version_6.pdf">PDF</a></td>
-      <td><a href="/gudmap/Docs/Ontologies/TS22_Database_Version_6.doc">Word</a></td>
+      <td><a href="{{ "/gudmap/Docs/Ontologies/TS22_Database_Version_6.pdf" | relative_url }}">PDF</a></td>
+      <td><a href="{{ "/gudmap/Docs/Ontologies/TS22_Database_Version_6.doc" | relative_url }}">Word</a></td>
       <td>TS28 (P4-Adult)</td>
-      <td><a href="/gudmap/Docs/Ontologies/TS28_Database_Version_6.pdf">PDF</a></td>
-      <td><a href="/gudmap/Docs/Ontologies/TS28_Database_Version_6.doc">Word</a></td>
+      <td><a href="{{ "/gudmap/Docs/Ontologies/TS28_Database_Version_6.pdf" | relative_url }}">PDF</a></td>
+      <td><a href="{{ "/gudmap/Docs/Ontologies/TS28_Database_Version_6.doc" | relative_url }}">Word</a></td>
     </tr>
   </tbody>
 </table>

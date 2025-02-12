@@ -17,7 +17,7 @@ custom_js:
       <h1>ATLAS-D2K</h1>
       <h2>Transforming Data to Knowledge</h2>
       <p>The Analysis, Technology, Leadership, Administration, and Science - Data to Knowledge (ATLAS-D2K) Center’s long-term goal is to bring complex data into an accessible form for our research communities and establish connections between molecular data of the kidney and lower urinary tract.</p>
-      <p class="cta"><a class="btn btn-primary btn-lg" href="/about/" role="button">Learn more</a></p>
+      <p class="cta"><a class="btn btn-primary btn-lg" href="{{ "/about/" | relative_url }}" role="button">Learn more</a></p>
     </div>
   </div>
 
@@ -173,7 +173,7 @@ custom_js:
   <p class="center-text">Click a cell or labels along the axes to navigate to the corresponding datasets.<br/>Note that the -omics data numbers indicate Studies which include multiple Experiments with multiple Replicates.</p>
 
 
-    <img src="/assets/img/atlas-data-matrix.png" alt="Data matrix of available data types" width="800px" class="center-block img-responsive">
+    <img src="{{ "/assets/img/atlas-data-matrix.png" | relative_url }}" alt="Data matrix of available data types" width="800px" class="center-block img-responsive">
 
 
 
@@ -190,50 +190,50 @@ custom_js:
 <div class="col-md-4">
   <ul>
     <li class="sub-parent">SEARCH BY...</li>
-    <li><a href="/chaise/recordset/#2/Common:Gene">Gene</a></li>
-    <li><a href="/chaise/recordset/#2/Vocabulary:Anatomy/">Anatomy: Facet Search</a></li>
-    <li><a href="/deriva-webapps/treeview/">Anatomy: Tree View</a></li>
+    <li><a href="{{ "/chaise/recordset/#2/Common:Gene" | relative_url }}">Gene</a></li>
+    <li><a href="{{ "/chaise/recordset/#2/Vocabulary:Anatomy/" | relative_url }}">Anatomy: Facet Search</a></li>
+    <li><a href="{{ "/deriva-webapps/treeview/" | relative_url }}">Anatomy: Tree View</a></li>
 
   </ul>
   <ul>
     <li class="sub-parent">VISUALIZATIONS</li>
-    <li><a href="/deriva-webapps/plot/?config=study-violin">mRNA-Seq Data</a></li>
-    <li><a href="/chaise/recordset/#2/RNASeq:Study/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM6JAEsIAjdafEAJQDkBBAZRwEcQAaEANUKTTABtCALzAAXQiggB9BqLRQAnlIBmAaxwKQAXQC+bUOlFk0FBNXpNWHbrwHCxE6Tb6CR4yVLoAHL4KwOPNQ1tPWoASQARbQ4IFFEpCDR+fjhRDDQcHV0gA@sort(RMT::desc::,RID)">scRNA-Seq
+    <li><a href="{{ "/deriva-webapps/plot/?config=study-violin" | relative_url }}">mRNA-Seq Data</a></li>
+    <li><a href="{{ "/chaise/recordset/#2/RNASeq:Study/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM6JAEsIAjdafEAJQDkBBAZRwEcQAaEANUKTTABtCALzAAXQiggB9BqLRQAnlIBmAaxwKQAXQC+bUOlFk0FBNXpNWHbrwHCxE6Tb6CR4yVLoAHL4KwOPNQ1tPWoASQARbQ4IFFEpCDR+fjhRDDQcHV0gA@sort(RMT::desc::,RID)" | relative_url }}">scRNA-Seq
     Data</a></li>
   </ul>
   <ul>
     <li class="sub-parent">DATA COLLECTIONS</li>
 
-    <li class="info-label"><a class="tooltiplink" href="/chaise/recordset/#2/Common:Collection/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM6JHQBcAjdafEAYRQFtaUIQAaalAG3ZyyIEtGA+jQioMfNLQEAzANY4AniAC6AX1YAlAJIARZaywALFL1xJKARQC0AZgDSAVgAsLEFbv2AbMpWqgA@sort(RMT::desc::,RID)">Data Collections <i class="fas fa-info-circle" aria-hidden="true"></i><span>Customized collections of datasets, usually to collect data within a publication.</span></a></li>
+    <li class="info-label"><a class="tooltiplink" href="{{ "/chaise/recordset/#2/Common:Collection/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM6JHQBcAjdafEAYRQFtaUIQAaalAG3ZyyIEtGA+jQioMfNLQEAzANY4AniAC6AX1YAlAJIARZaywALFL1xJKARQC0AZgDSAVgAsLEFbv2AbMpWqgA@sort(RMT::desc::,RID)" | relative_url }}">Data Collections <i class="fas fa-info-circle" aria-hidden="true"></i><span>Customized collections of datasets, usually to collect data within a publication.</span></a></li>
   </ul>
 </div>
 <div class="col-md-4">
   <ul>
     <li class="sub-parent">IMAGING</li>
-    <li><a href="/chaise/recordset/#2/Gene_Expression:Specimen/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM6JHQBcAjdafEAcRwhwH0BRADwAcMckkBLFCEADQgAyqxxZuAW1r0AglzABPegBVFY+gDMA1jkUgAugF8hAOTDTDQrAAsU3XEkoAJbkiIoANigDm+48ZAA@sort(Stage_Ordinal,RID)">Histology</a></li>
-    <li><a href="/chaise/recordset/#2/Gene_Expression:Specimen/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM6JHQBcAjdafEAcRwhwH0BRADwAcMckkBLFCEADQgAyqxxZuAW1r0AglzABPegBVFY+gDMA1jkUgAugF8hAOTDTDQrAAsU3XEkoBJABIBhQ0eNA">Immunohistochemistry</a></li>
-    <li><a href="/chaise/recordset/#2/Gene_Expression:Specimen/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM6JHQBcAjdafEAcRwhwH0BRADwAcMckkBLFCEADQgAyqxxZuAW1r0AglzABPegBVFY+gDMA1jkUgAugF8hAJQCSAEUNCsACxTdcSSgEYAbAFoATJYBipoZGxkA@sort(RCT::desc::,Stage_Ordinal,RID)">In-situ Hybridization</a></li>
-    <li><a href="/chaise/recordset/#2/Gene_Expression:Specimen/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM6JHQBcAjdafEAcRwhwH0BRADwAcMckkBLFCEADQgAyqxxZuAW1r0AglzABPegBVFY+gDMA1jkUgAugF8hAJQCSAEUNCsACxTdcSSgEYAbAFp3l2Y0NGxkA@sort(RCT::desc::,Stage_Ordinal,RID)">NanoCT</a></li>
+    <li><a href="{{ "/chaise/recordset/#2/Gene_Expression:Specimen/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM6JHQBcAjdafEAcRwhwH0BRADwAcMckkBLFCEADQgAyqxxZuAW1r0AglzABPegBVFY+gDMA1jkUgAugF8hAOTDTDQrAAsU3XEkoAJbkiIoANigDm+48ZAA@sort(Stage_Ordinal,RID)" | relative_url }}">Histology</a></li>
+    <li><a href="{{ "/chaise/recordset/#2/Gene_Expression:Specimen/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM6JHQBcAjdafEAcRwhwH0BRADwAcMckkBLFCEADQgAyqxxZuAW1r0AglzABPegBVFY+gDMA1jkUgAugF8hAOTDTDQrAAsU3XEkoBJABIBhQ0eNA" | relative_url }}">Immunohistochemistry</a></li>
+    <li><a href="{{ "/chaise/recordset/#2/Gene_Expression:Specimen/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM6JHQBcAjdafEAcRwhwH0BRADwAcMckkBLFCEADQgAyqxxZuAW1r0AglzABPegBVFY+gDMA1jkUgAugF8hAJQCSAEUNCsACxTdcSSgEYAbAFoATJYBipoZGxkA@sort(RCT::desc::,Stage_Ordinal,RID)" | relative_url }}">In-situ Hybridization</a></li>
+    <li><a href="{{ "/chaise/recordset/#2/Gene_Expression:Specimen/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM6JHQBcAjdafEAcRwhwH0BRADwAcMckkBLFCEADQgAyqxxZuAW1r0AglzABPegBVFY+gDMA1jkUgAugF8hAJQCSAEUNCsACxTdcSSgEYAbAFp3l2Y0NGxkA@sort(RCT::desc::,Stage_Ordinal,RID)" | relative_url }}">NanoCT</a></li>
   </ul>
   <ul>
     <li class="sub-parent info-label">OMICS DATA  <a class="tooltiplink" href=""><i class="fas fa-info-circle" aria-hidden="true"></i><span>Describes studies of omics data, organized by Experiment and Replicate records.</span></a></li>
-    <li><a href="/chaise/recordset/#2/RNASeq:Study/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM6JAEsIAjdafEAJQDkBBAZRwEcQAaEAUQA8AHHDIQC2OCABcA+gzFooATwlUAkgBEJAMwDWOOSAC6AXzah0YsmgoJq9Jqw49+gkeIkOBw0ZIAqc-hu26hhzKKvocWAAWKIS4SJQAigC0AJoAUgAaAOr6BoZAA@sort(RMT::desc::,RID)">mRNA-Seq</a></li>
-    <li><a href="/chaise/recordset/#2/RNASeq:Study/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM6JAEsIAjdafEAJQDkBBAZRwEcQAaEAUQA8AHHDIQC2OCABcA+gzFooATwlUAkgBEJAMwDWOOSAC6AXzah0YsmgoJq9Jqw49+gkeIkOBw0ZIAqc-hu26hhzKKvocWAAWKIS4SJQAjABsALQAigDSNF7sIKnJAJoAUvkATPoGhkA@sort(RMT::desc::,RID)">scRNA-Seq/snRNA-Seq</a></li>
-    <li><a href="/chaise/recordset/#2/Microarray:Sample@sort(RID)">Microarray</a></li>
-    <li><a href="/chaise/recordset/#2/RNASeq:Study/*::facets::N4IghgdgJiBcDaoDGALA9gSyQUwM53hAEUBaATQCkyAGEAXQBoRc0BXAJxwGtsBPOENgAeAB2zsMAW2wQALgH1ZvMfIBmPfgF8GydFjwFi5AGwBGALL0mLDtz4CkHMLIxoI83LOetcajSE06TSA">ATAC-Seq</a></li>
-    <li><a href="/chaise/recordset/#2/RNASeq:Study/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM6JAEsIAjdafEAJQDkBBAZRwEcQAaEAUQA8AHHDIQC2OCABcA+gzFooATwlUAkgBEJAMwDWOOSAC6AXzah0YsmgoJq9Jqw49+gkeIkOBw0ZIAqc-hu26hhzKKvocWAAWKIS4SJQAigC0AJoAUgAayfoGhkA@sort(RMT::desc::,RID)">ChIP-Seq</a></li>
-    <li><a href="/chaise/recordset/#2/RNASeq:Study/*::facets::N4IghgdgJiBcDaoDGALA9gSyQUwM53hAEYA2AWgBEBNABQCUQBdAGhFzQFcAnHAa2wCecENgAeAB2xcMAW2wQALgH0FAyUoBm-IQF9mydFjwEQARTJUSRALJNW7bn0HCk3MAoxoIS3AvcdcTW0QHUYdIA">Metabolomics</a></li>
+    <li><a href="{{ "/chaise/recordset/#2/RNASeq:Study/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM6JAEsIAjdafEAJQDkBBAZRwEcQAaEAUQA8AHHDIQC2OCABcA+gzFooATwlUAkgBEJAMwDWOOSAC6AXzah0YsmgoJq9Jqw49+gkeIkOBw0ZIAqc-hu26hhzKKvocWAAWKIS4SJQAigC0AJoAUgAaAOr6BoZAA@sort(RMT::desc::,RID)" | relative_url }}">mRNA-Seq</a></li>
+    <li><a href="{{ "/chaise/recordset/#2/RNASeq:Study/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM6JAEsIAjdafEAJQDkBBAZRwEcQAaEAUQA8AHHDIQC2OCABcA+gzFooATwlUAkgBEJAMwDWOOSAC6AXzah0YsmgoJq9Jqw49+gkeIkOBw0ZIAqc-hu26hhzKKvocWAAWKIS4SJQAjABsALQAigDSNF7sIKnJAJoAUvkATPoGhkA@sort(RMT::desc::,RID)" | relative_url }}">scRNA-Seq/snRNA-Seq</a></li>
+    <li><a href="{{ "/chaise/recordset/#2/Microarray:Sample@sort(RID)" | relative_url }}">Microarray</a></li>
+    <li><a href="{{ "/chaise/recordset/#2/RNASeq:Study/*::facets::N4IghgdgJiBcDaoDGALA9gSyQUwM53hAEUBaATQCkyAGEAXQBoRc0BXAJxwGtsBPOENgAeAB2zsMAW2wQALgH1ZvMfIBmPfgF8GydFjwFi5AGwBGALL0mLDtz4CkHMLIxoI83LOetcajSE06TSA" | relative_url }}">ATAC-Seq</a></li>
+    <li><a href="{{ "/chaise/recordset/#2/RNASeq:Study/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM6JAEsIAjdafEAJQDkBBAZRwEcQAaEAUQA8AHHDIQC2OCABcA+gzFooATwlUAkgBEJAMwDWOOSAC6AXzah0YsmgoJq9Jqw49+gkeIkOBw0ZIAqc-hu26hhzKKvocWAAWKIS4SJQAigC0AJoAUgAayfoGhkA@sort(RMT::desc::,RID)" | relative_url }}">ChIP-Seq</a></li>
+    <li><a href="{{ "/chaise/recordset/#2/RNASeq:Study/*::facets::N4IghgdgJiBcDaoDGALA9gSyQUwM53hAEYA2AWgBEBNABQCUQBdAGhFzQFcAnHAa2wCecENgAeAB2xcMAW2wQALgH0FAyUoBm-IQF9mydFjwEQARTJUSRALJNW7bn0HCk3MAoxoIS3AvcdcTW0QHUYdIA" | relative_url }}">Metabolomics</a></li>
   </ul>
 </div>
 <div class="col-md-4">
   <ul>
     <li class="sub-parent">LAB RESOURCES & TOOLS</li>
-    <li><a href="/resources/cell-lines/">Request iPSC Cell Lines</a></li>
-    <li><a href="/chaise/recordset/#2/Protocol:Protocol@sort(RMT::desc::,RID)">Protocols</a></li>
-    <li><a class="tooltiplink" href="/resources/functional-assays/">Functional Assays Handbook <i class="fas fa-info-circle" aria-hidden="true"></i><span>Functional assays with a current focus on physiological assays which link to related protocols.</span></a></li>
-    <li><a href="/chaise/recordset/#2/Antibody:Antibody_Tests@sort(RID)">Antibody Validation</a></li>
-    <li><a href="/chaise/recordset/#2/Cell_Line:Mouse_Strain@sort(ID)">Transgenic Mouse Strains</a></li>
-    <li><a href="/chaise/recordset/#2/Common:Publication/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM6JHQBcAjdafEAYRQFtaUIQAaEABTRIBsBLLMIj0YB9GhFQZBaWsIBmAaxwBPEAF0AvqwBKASQAia1lgAWKPjiSUAigFoAzAGkArABYWIW46cA2Neo1AA@sort(Year::desc::,Month::desc::,RID::desc::)?pcid=navbar&ppid=1qns20zx1wfw2gvf260c2htn">Publications</a></li>
+    <li><a href="{{ "/resources/cell-lines/" | relative_url }}">Request iPSC Cell Lines</a></li>
+    <li><a href="{{ "/chaise/recordset/#2/Protocol:Protocol@sort(RMT::desc::,RID)" | relative_url }}">Protocols</a></li>
+    <li><a class="tooltiplink" href="{{ "/resources/functional-assays/" | relative_url }}">Functional Assays Handbook <i class="fas fa-info-circle" aria-hidden="true"></i><span>Functional assays with a current focus on physiological assays which link to related protocols.</span></a></li>
+    <li><a href="{{ "/chaise/recordset/#2/Antibody:Antibody_Tests@sort(RID)" | relative_url }}">Antibody Validation</a></li>
+    <li><a href="{{ "/chaise/recordset/#2/Cell_Line:Mouse_Strain@sort(ID)" | relative_url }}">Transgenic Mouse Strains</a></li>
+    <li><a href="{{ "/chaise/recordset/#2/Common:Publication/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM6JHQBcAjdafEAYRQFtaUIQAaEABTRIBsBLLMIj0YB9GhFQZBaWsIBmAaxwBPEAF0AvqwBKASQAia1lgAWKPjiSUAigFoAzAGkArABYWIW46cA2Neo1AA@sort(Year::desc::,Month::desc::,RID::desc::)?pcid=navbar&ppid=1qns20zx1wfw2gvf260c2htn" | relative_url }}">Publications</a></li>
   </ul>
 </div>
 </div>
@@ -249,16 +249,16 @@ custom_js:
   <h2>Participating Consortia</h2>
   <div class="col-md-6" id="news-atlas">
       <div class="consortium">
-        <a href="/gudmap/">
-          <img src="/assets/img/gudmap-horizontal.png" alt="GUDMAP Consortium" class="img-responsive center-block">
+        <a href="{{ "/gudmap/" | relative_url }}">
+          <img src="{{ "/assets/img/gudmap-horizontal.png" | relative_url }}" alt="GUDMAP Consortium" class="img-responsive center-block">
         </a>
       </div>
 
   </div>
   <div class="col-md-6" id="consortiums">
     <div class="consortium">
-      <a href="/rebuildingakidney/">
-        <img src="/assets/img/rbk-horizontal.png" alt="RBK Consortium" class="img-responsive center-block">
+      <a href="{{ "/rebuildingakidney/" | relative_url }}">
+        <img src="{{ "/assets/img/rbk-horizontal.png" | relative_url }}" alt="RBK Consortium" class="img-responsive center-block">
       </a>
     </div>
   </div>
@@ -323,4 +323,4 @@ $(document).ready(function(){
 </script>
 
 </div> <!-- end of home content div -->
-<script type="text/javascript" src="/assets/slick/slick.min.js"></script>
+<script type="text/javascript" src="{{ "/assets/slick/slick.min.js" | relative_url }}"></script>
