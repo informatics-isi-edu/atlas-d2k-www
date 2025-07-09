@@ -23,12 +23,6 @@ Click the following links to access the papers describing the ontology:
 
 >[A high-resolution anatomical ontology of the developing murine genitourinary tract.](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?db=pubmed&cmd=Retrieve&dopt=AbstractPlus&list_uids=17452023&query_hl=5&itool=pubmed_docsum) Gene Expr Patterns. 2007 Jun;7(6):680-99
 
-## EMAPA terms available in GUDMAP
-
-View the complete set of EMAPA terms available in GUDMAP today:
-
-* [Mouse Anatomy Tree (hierarchical view)](/deriva-webapps/treeview/)
-* [Anatomical Faceted Search](/chaise/recordset/#2/Vocabulary:Anatomy)
 
 ## Supplementary ontology documents
 

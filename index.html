@@ -173,72 +173,7 @@ title: ATLAS-D2K - Transforming Data into Knowledge
 
 
 </div>
-<!--
-<div class="row" id="shortcuts">
-<h2>Browse these shortcuts for GUDMAP and RBK data<br/>
-<small>Available Species: Human, Mouse and Canine</small></h2>
-<div class="col-md-12">
-  <div class="shortcuts">
 
-
-<div class="row shortcut-links">
-<div class="col-md-4">
-  <ul>
-    <li class="sub-parent">SEARCH BY...</li>
-    <li><a href="{{ "/chaise/recordset/#2/Common:Gene" | relative_url }}">Gene</a></li>
-    <li><a href="{{ "/chaise/recordset/#2/Vocabulary:Anatomy/" | relative_url }}">Anatomy: Facet Search</a></li>
-    <li><a href="{{ "/deriva-webapps/treeview/" | relative_url }}">Anatomy: Tree View</a></li>
-
-  </ul>
-  <ul>
-    <li class="sub-parent">VISUALIZATIONS</li>
-    <li><a href="{{ "/deriva-webapps/plot/?config=study-violin" | relative_url }}">mRNA-Seq Data</a></li>
-    <li><a href="{{ "/chaise/recordset/#2/RNASeq:Study/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM6JAEsIAjdafEAJQDkBBAZRwEcQAaEANUKTTABtCALzAAXQiggB9BqLRQAnlIBmAaxwKQAXQC+bUOlFk0FBNXpNWHbrwHCxE6Tb6CR4yVLoAHL4KwOPNQ1tPWoASQARbQ4IFFEpCDR+fjhRDDQcHV0gA@sort(RMT::desc::,RID)" | relative_url }}">scRNA-Seq
-    Data</a></li>
-  </ul>
-  <ul>
-    <li class="sub-parent">DATA COLLECTIONS</li>
-
-    <li class="info-label"><a class="tooltiplink" href="{{ "/chaise/recordset/#2/Common:Collection/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM6JHQBcAjdafEAYRQFtaUIQAaalAG3ZyyIEtGA+jQioMfNLQEAzANY4AniAC6AX1YAlAJIARZaywALFL1xJKARQC0AZgDSAVgAsLEFbv2AbMpWqgA@sort(RMT::desc::,RID)" | relative_url }}">Data Collections <i class="fas fa-info-circle" aria-hidden="true"></i><span>Customized collections of datasets, usually to collect data within a publication.</span></a></li>
-  </ul>
-</div>
-<div class="col-md-4">
-  <ul>
-    <li class="sub-parent">IMAGING</li>
-    <li><a href="{{ "/chaise/recordset/#2/Gene_Expression:Specimen/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM6JHQBcAjdafEAcRwhwH0BRADwAcMckkBLFCEADQgAyqxxZuAW1r0AglzABPegBVFY+gDMA1jkUgAugF8hAOTDTDQrAAsU3XEkoAJbkiIoANigDm+48ZAA@sort(Stage_Ordinal,RID)" | relative_url }}">Histology</a></li>
-    <li><a href="{{ "/chaise/recordset/#2/Gene_Expression:Specimen/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM6JHQBcAjdafEAcRwhwH0BRADwAcMckkBLFCEADQgAyqxxZuAW1r0AglzABPegBVFY+gDMA1jkUgAugF8hAOTDTDQrAAsU3XEkoBJABIBhQ0eNA" | relative_url }}">Immunohistochemistry</a></li>
-    <li><a href="{{ "/chaise/recordset/#2/Gene_Expression:Specimen/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM6JHQBcAjdafEAcRwhwH0BRADwAcMckkBLFCEADQgAyqxxZuAW1r0AglzABPegBVFY+gDMA1jkUgAugF8hAJQCSAEUNCsACxTdcSSgEYAbAFoATJYBipoZGxkA@sort(RCT::desc::,Stage_Ordinal,RID)" | relative_url }}">In-situ Hybridization</a></li>
-    <li><a href="{{ "/chaise/recordset/#2/Gene_Expression:Specimen/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM6JHQBcAjdafEAcRwhwH0BRADwAcMckkBLFCEADQgAyqxxZuAW1r0AglzABPegBVFY+gDMA1jkUgAugF8hAJQCSAEUNCsACxTdcSSgEYAbAFp3l2Y0NGxkA@sort(RCT::desc::,Stage_Ordinal,RID)" | relative_url }}">NanoCT</a></li>
-  </ul>
-  <ul>
-    <li class="sub-parent info-label">OMICS DATA  <a class="tooltiplink" href=""><i class="fas fa-info-circle" aria-hidden="true"></i><span>Describes studies of omics data, organized by Experiment and Replicate records.</span></a></li>
-    <li><a href="{{ "/chaise/recordset/#2/RNASeq:Study/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM6JAEsIAjdafEAJQDkBBAZRwEcQAaEAUQA8AHHDIQC2OCABcA+gzFooATwlUAkgBEJAMwDWOOSAC6AXzah0YsmgoJq9Jqw49+gkeIkOBw0ZIAqc-hu26hhzKKvocWAAWKIS4SJQAigC0AJoAUgAaAOr6BoZAA@sort(RMT::desc::,RID)" | relative_url }}">mRNA-Seq</a></li>
-    <li><a href="{{ "/chaise/recordset/#2/RNASeq:Study/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM6JAEsIAjdafEAJQDkBBAZRwEcQAaEAUQA8AHHDIQC2OCABcA+gzFooATwlUAkgBEJAMwDWOOSAC6AXzah0YsmgoJq9Jqw49+gkeIkOBw0ZIAqc-hu26hhzKKvocWAAWKIS4SJQAjABsALQAigDSNF7sIKnJAJoAUvkATPoGhkA@sort(RMT::desc::,RID)" | relative_url }}">scRNA-Seq/snRNA-Seq</a></li>
-    <li><a href="{{ "/chaise/recordset/#2/Microarray:Sample@sort(RID)" | relative_url }}">Microarray</a></li>
-    <li><a href="{{ "/chaise/recordset/#2/RNASeq:Study/*::facets::N4IghgdgJiBcDaoDGALA9gSyQUwM53hAEUBaATQCkyAGEAXQBoRc0BXAJxwGtsBPOENgAeAB2zsMAW2wQALgH1ZvMfIBmPfgF8GydFjwFi5AGwBGALL0mLDtz4CkHMLIxoI83LOetcajSE06TSA" | relative_url }}">ATAC-Seq</a></li>
-    <li><a href="{{ "/chaise/recordset/#2/RNASeq:Study/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM6JAEsIAjdafEAJQDkBBAZRwEcQAaEAUQA8AHHDIQC2OCABcA+gzFooATwlUAkgBEJAMwDWOOSAC6AXzah0YsmgoJq9Jqw49+gkeIkOBw0ZIAqc-hu26hhzKKvocWAAWKIS4SJQAigC0AJoAUgAayfoGhkA@sort(RMT::desc::,RID)" | relative_url }}">ChIP-Seq</a></li>
-    <li><a href="{{ "/chaise/recordset/#2/RNASeq:Study/*::facets::N4IghgdgJiBcDaoDGALA9gSyQUwM53hAEYA2AWgBEBNABQCUQBdAGhFzQFcAnHAa2wCecENgAeAB2xcMAW2wQALgH0FAyUoBm-IQF9mydFjwEQARTJUSRALJNW7bn0HCk3MAoxoIS3AvcdcTW0QHUYdIA" | relative_url }}">Metabolomics</a></li>
-  </ul>
-</div>
-<div class="col-md-4">
-  <ul>
-    <li class="sub-parent">LAB RESOURCES & TOOLS</li>
-    <li><a href="{{ "/resources/cell-lines/" | relative_url }}">Request iPSC Cell Lines</a></li>
-    <li><a href="{{ "/chaise/recordset/#2/Protocol:Protocol@sort(RMT::desc::,RID)" | relative_url }}">Protocols</a></li>
-    <li><a class="tooltiplink" href="{{ "/resources/functional-assays/" | relative_url }}">Functional Assays Handbook <i class="fas fa-info-circle" aria-hidden="true"></i><span>Functional assays with a current focus on physiological assays which link to related protocols.</span></a></li>
-    <li><a href="{{ "/chaise/recordset/#2/Antibody:Antibody_Tests@sort(RID)" | relative_url }}">Antibody Validation</a></li>
-    <li><a href="{{ "/chaise/recordset/#2/Cell_Line:Mouse_Strain@sort(ID)" | relative_url }}">Transgenic Mouse Strains</a></li>
-    <li><a href="{{ "/chaise/recordset/#2/Common:Publication/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM6JHQBcAjdafEAYRQFtaUIQAaEABTRIBsBLLMIj0YB9GhFQZBaWsIBmAaxwBPEAF0AvqwBKASQAia1lgAWKPjiSUAigFoAzAGkArABYWIW46cA2Neo1AA@sort(Year::desc::,Month::desc::,RID::desc::)?pcid=navbar&ppid=1qns20zx1wfw2gvf260c2htn" | relative_url }}">Publications</a></li>
-  </ul>
-</div>
-</div>
-
-</div>
-</div>
-
-
-</div>
--->
 
 <div class="row" id="community">
   <h2>Participating Consortia</h2>

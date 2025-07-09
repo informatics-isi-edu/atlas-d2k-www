@@ -3,7 +3,6 @@
   slug: cohn-group
   title: Cohn Group
   category: cat1
-  data: '/chaise/record/#2/Common:Principal_Investigator/RID=W-Q5YJ?pcid=static'
   pi: 'Marty Cohn'
   institute: 'University of Florida'
   img: cohn
@@ -62,7 +61,6 @@
   slug: mcmahon-group
   title: McMahon Group
   category: cat1
-  data: '/chaise/record/#2/Common:Principal_Investigator/RID=W-Q45P?pcid=static'
   pi: 'Andrew McMahon'
   institute: 'University of Southern California'
   img: mcmahon
@@ -73,7 +71,6 @@
   slug: mendelsohn-group
   title: Mendelsohn Group
   category: cat1
-  data: '/chaise/record/#2/Common:Principal_Investigator/RID=W-Q6T0?pcid=static'
   pi: 'Cathy Mendelsohn'
   institute: 'Columbia University'
   img: mendelsohn
@@ -91,7 +88,6 @@
   slug: southard-smith-group
   title: Southard-Smith Group
   category: cat1
-  data: '/chaise/record/#2/Common:Principal_Investigator/RID=W-Q5GW?pcid=static'
   pi: 'Michelle Southard-Smith'
   institute: 'Vanderbilt University Medical Center'
   img: southard-smith
@@ -103,7 +99,6 @@
   title: Strand Group
   category: cat1
   pub: false
-  data: '/chaise/record/#2/Common:Principal_Investigator/RID=W-R83A?pcid=static'
   pi: 'Doug Strand'
   institute: 'University of Texas Southwestern Medical Center'
   img: strand
@@ -117,7 +112,6 @@
   slug: vezina-group
   title: Vezina Group
   category: cat1
-  data: '/chaise/record/#2/Common:Principal_Investigator/RID=W-Q46W?pcid=static'
   pi: 'Chad Vezina'
   institute: 'University of Wisconsin-Madison'
   img: vezina
@@ -133,7 +127,6 @@
   slug: keast-group
   title: Keast Group
   category: cat1
-  data: '/chaise/record/#2/Common:Principal_Investigator/RID=W-Q9Z2?pcid=static'
   pi: 'Janet Keast'
   institute: 'University of Melbourne'
   img: keast

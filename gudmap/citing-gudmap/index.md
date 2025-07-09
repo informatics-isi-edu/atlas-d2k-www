@@ -6,7 +6,7 @@ title: How to Cite GUDMAP Data
 If you're using GUDMAP data, proper citation is crucial. This guide will assist you in correctly referencing the data and the GUDMAP consortium.
 
 ## 1. Basic Citation Guidelines:
-- Always cite the primary publication linked to the data you used. You can find a comprehensive list of such publications [here](/chaise/recordset/#2/Common:Publication/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM6JHQBcAjdafEAYRQFtaUIQAaEABTRIBsBLLMIj0YB9GhFQZBaWsIBmAaxwBPEAF0AvqwBKASQAia1lgAWKPjiSUAigFoAzAGkArADY16jUA@sort(Year::desc::,Month::desc::,RID::desc::)).
+- Always cite the primary publication linked to the data you used. You can find a comprehensive list of such publications [here]({{ "/publications/" | relative_url }}).
 
 - In addition, please cite the [GUDMAP consortium](#citing-the-gudmap-consortium). You can do this using the "Share and cite" button on each data record page or by referencing the provided DOI for a [Data Collection](#creating-citable-data-collections).
 

@@ -32,7 +32,6 @@
   status: Completed
   description: >
     We are interested in the capacities of adult kidney progenitor cells to model the kidney interstitium. Our project focuses on two such populations, a resident mesenchymal stem cell population characterized by expression of Gli1, and dedifferentiated tubular epithelial cells defined by expression of Havcr-1. We will isolate these cell types, define their differentiation capacity in vitro, and coculture them in collaboration with other RBK investigators to model the kidney interstitium in 3D.
-  data: '/chaise/record/#2/Common:Principal_Investigator/RID=W-Q47M?pcid=static'
   personnel:
     - person: 'Monica Chang-Panesso'
       key-institute: 'Washington University in St. Louis'
@@ -70,9 +69,9 @@
       key-institute: 'Tufts University'
   subprojects:
     - {project_title: 'Focus on: Stromal Biology', pi: 'Thomas Carroll', img: carroll , institute: 'University of Texas Southwestern', personnel: 'Alicia Fessler, Ashwani Kumar Gupta, Harini	Ramalingam', description: 'Optimal kidney functions require complex patterning of both the nephrons and blood vessels. We study how the distinct interstitial microenvironments that exist within the embryonic and adult kidney affect the development and function of this organ. Our ultimate goal is to define the stromal signals that promote the growth of 3-D, physiologically responsive nephrons with integrated vasculature in biological scaffolds.'}
-    - {project_title: 'Focus on: Vascular Biology', pi: 'Ondine Cleaver', img: cleaver , institute: 'University of Texas Southwestern', data: '/chaise/record/#2/Common:Principal_Investigator/RID=14-3Q4R', personnel: 'Edward Daniel', description: 'Nascent blood vessels develop in a coordinated manner with kidney nephrons. We aim to establish a molecular signature for endothelial cells (ECs) in the developing kidney, from nephron stem cell generation to nephron tubule differentiation, throughout embryonic development and into adulthood. Preliminary observations reveal distinct heterogeneity in EC gene expression in the developing kidney; however its functional impact is unknown. We will define when and where blood vessels appear during nephron formation, distinguishing vasculogenic versus angiogenic events. We will test necessity and sufficiency of endothelial signals on nephron progenitor self-renewal versus differentiation. We will also determine whether specific, regionally expressed factors play functional roles in either helping to sustain progenitors or trigger NPC expansion versus differentiation.'}
-    - {project_title: 'Focus on: Biomaterials', pi: 'David Kaplan', img: kaplan , institute: 'Tufts University', data: '/chaise/record/#2/Common:Principal_Investigator/RID=W-R134', personnel: 'Shreyas Jadhav, Sophia Szymkowiak', description: 'We focus on the design and study of 3D scaffolds to support kidney cell and tissue needs.  Silk protein scaffolds provide our framework due to the versatility and utility towards cell and tissue goals, including porous features for transport, tunable mechanical properties, support for long term tissue growth, controlled/slow degradation and an absence of cell-specific epitopes for signaling. We will use silk biomaterial scaffold systems to provide structure and, with the addition of appropriate ECM components, signaling cues for nephrogenesis via cells from our project collaborators (Leif, Tom, Ondine).  The goal is to utilize these scaffolds to engineer modular, compartmentalized systems that support and guide nephron progenitor cell (NPC) maintenance and differentiation, and cellular signaling between stromal cells, cells of the vasculature, and NPCs.'}
-    - {project_title: 'Focus on: Nephron Progenitor Biology', pi: 'Leif Oxburgh', img: oxburgh , institute: 'Maine Medical Center', data: '/chaise/record/#2/Common:Principal_Investigator/RID=W-R13G', personnel: 'Prasenjit Sarkar', description: 'We study the population dynamics of the nephron progenitor cell population with the aim of identifying the sub-populations that are best suited to new tissue formation. This in-depth study of the micro anatomy of the nephron progenitor cell niche involves understanding proliferation, adhesion, and signaling properties of the various nephron progenitor sub populations, defining their growth properties on biological scaffolds, and characterizing the influence of stromal and vascular cells on them.'}
+    - {project_title: 'Focus on: Vascular Biology', pi: 'Ondine Cleaver', img: cleaver , institute: 'University of Texas Southwestern', personnel: 'Edward Daniel', description: 'Nascent blood vessels develop in a coordinated manner with kidney nephrons. We aim to establish a molecular signature for endothelial cells (ECs) in the developing kidney, from nephron stem cell generation to nephron tubule differentiation, throughout embryonic development and into adulthood. Preliminary observations reveal distinct heterogeneity in EC gene expression in the developing kidney; however its functional impact is unknown. We will define when and where blood vessels appear during nephron formation, distinguishing vasculogenic versus angiogenic events. We will test necessity and sufficiency of endothelial signals on nephron progenitor self-renewal versus differentiation. We will also determine whether specific, regionally expressed factors play functional roles in either helping to sustain progenitors or trigger NPC expansion versus differentiation.'}
+    - {project_title: 'Focus on: Biomaterials', pi: 'David Kaplan', img: kaplan , institute: 'Tufts University', personnel: 'Shreyas Jadhav, Sophia Szymkowiak', description: 'We focus on the design and study of 3D scaffolds to support kidney cell and tissue needs.  Silk protein scaffolds provide our framework due to the versatility and utility towards cell and tissue goals, including porous features for transport, tunable mechanical properties, support for long term tissue growth, controlled/slow degradation and an absence of cell-specific epitopes for signaling. We will use silk biomaterial scaffold systems to provide structure and, with the addition of appropriate ECM components, signaling cues for nephrogenesis via cells from our project collaborators (Leif, Tom, Ondine).  The goal is to utilize these scaffolds to engineer modular, compartmentalized systems that support and guide nephron progenitor cell (NPC) maintenance and differentiation, and cellular signaling between stromal cells, cells of the vasculature, and NPCs.'}
+    - {project_title: 'Focus on: Nephron Progenitor Biology', pi: 'Leif Oxburgh', img: oxburgh , institute: 'Maine Medical Center', personnel: 'Prasenjit Sarkar', description: 'We study the population dynamics of the nephron progenitor cell population with the aim of identifying the sub-populations that are best suited to new tissue formation. This in-depth study of the micro anatomy of the nephron progenitor cell niche involves understanding proliferation, adhesion, and signaling properties of the various nephron progenitor sub populations, defining their growth properties on biological scaffolds, and characterizing the influence of stromal and vascular cells on them.'}
 - project_title: >
     Cellular Diversity in Human Nephrogenesis
   slug: Cellular Diversity in Human Nephrogenesis
@@ -86,7 +85,6 @@
   status: Completed
   description: >
     The functional unit of the mammalian kidney is the nephron. Though there is a general appreciation for when and how different cell types of the nephron form from studies in the mouse, there is little understanding of these processes in the human kidney, and no rigorous accounting for the full range of mature cell types that underpin kidney function in either mouse or man. An understanding of the diversity of nephron cell types is essential for the goals of (Re)Building A Kidney Consortium where generating functional kidney structures is the consortium target. Further, individual cell types are likely targets for distinct disease features; as an example, mutations in genes producing podocyte specific gene products result in glomerular nephritis. We will combine two complementary strategies, MARIS (Method for Analyzing RNA following Intracellular Sorting) and Drop-seq, to obtain detailed comparative transcriptional profiles of mouse and human nephron progenitors and nephrons to address the question of cellular diversity.
-  data: '/chaise/record/#2/Common:Principal_Investigator/RID=W-Q45P?pcid=static'
   personnel:
     - person: 'Andy Ransick'
       key-institute: 'University of Southern California'
@@ -132,7 +130,6 @@
   status: Completed
   description: >
     Our objective is to aid RBK studies of in vitro cell populations by generating kidney cell type specific human pluripotent stem cell (hPSC) reporter lines. Such cell lines will enable both the optimization of differentiation protocols tailored to achieve specific cell types, and comparisons to in vivo human kidney cell types that will advance our understanding of in vitro tissue development and maintenance. We will use CRISPR/Cas9 gene editing to create GFP knock-in cell lines, targeting genes expressed in discrete cell types and according to consortium needs. These lines will be designed to label nephron and stromal progenitors, podocytes, and proximal and distal tubules. Additionally, cell type transition points offer glimpses into the factors that drive differentiation. We will create three dual-label reporter lines to illuminate transitions between progenitor and advanced cell types including nephron progenitors, fibrotic interstitium, and the juxtaglomerular apparatus.
-  data: '/chaise/record/#2/Common:Principal_Investigator/RID=W-R13T'
   personnel:
     - person: 'Joseph V. Bonventre'
       key-institute: 'Brigham and Women''s Hospital'
@@ -153,7 +150,6 @@
   status: Completed
   description: >
     Kidney function is based on the intricate interplay of a range of highly specialized cells. Thus, any approach in rebuilding the kidney depends on the generation of the right cell types in sufficient amounts and purity. This project will address this critical need. We will use state-of-the-art technology and a Quality-by-Design approach to guide a multistep differentiation process of human pluripotent stem cells obtaining pure populations of functional kidney cells. We will then characterize those cells for their ability to assemble into kidney-like structures and perform some of the critical functions executed by a healthy kidney.
-  data: '/chaise/record/#2/Common:Principal_Investigator/RID=14-3QCR'
   personnel:
     - person: 'Mike Bukys'
       key-institute: 'Cleveland Clinic'
@@ -171,7 +167,6 @@
   status: Completed
   description: >
     We propose to generate modified human pluripotent stem cell (hPSC) reporter lines with a genetically encoded activity sensor that tags key cell types important in development and function of the urinary collecting system.   We will leverage an existing WTC11 hiPSC line that harbors GCaMP6 as an activity sensor thereby enhancing the functional utility of these lines by superimposing physiology onto development during or after a desired cell type or kidney organoid is formed.  Multi-labeled reporter hiPSC cell lines of the collecting system in this proposal will enable RBK members to incorporate this essential component of the kidneys in efforts to optimize nephron formation, patterning and organization in scaffolds with the goal of making a kidney that maintains homeostasis and successfully expels urine.
-  data: '/chaise/record/#2/Common:Principal_Investigator/RID=W-Q5FG?pcid=static'
   personnel:
     - person: 'Bendi Gong'
       key-institute: 'Washington University in St. Louis'
@@ -189,7 +184,6 @@
   status: Completed
   description: >
     To restore kidney function, filtering nephrons must connect to a tubule network to pass fluid. How cells rearrange and form new connections is not known. We are using the regenerating zebrafish kidney as a model to discover how tubule interconnections are made and to uncover signals that drive cell rearrangments required to "plumb" the kidney. Knowledge of these signals will be an important part of the molecular toolbox for growing new organs.
-  data: '/chaise/record/#2/Common:Principal_Investigator/RID=W-QXH8?pcid=static'
   personnel:
     - person: 'Tom Gallegos'
       key-institute: 'Massachusetts General Hospital'
@@ -207,7 +201,6 @@
   status: Completed
   description: >
     We have previously shown that human kidney tissue can be generated from human pluripotent stem cells. Our project focuses on characterizing and optimizing this approach to improve tubular maturation and cellular function and generating reporter lines for the isolation of specific cell types. In the long term, human kidney tissue generated in this way may be used for drug screening, tissue regeneration or cell therapy.
-  data: '/chaise/record/#2/Common:Principal_Investigator/RID=W-Q5F2'
   personnel:
     - person: 'Andrew Elefanty'
       key-institute: 'Murdoch Childrens Research Institute'
@@ -235,7 +228,6 @@
   status: Completed
   description: >
     Our partnership project aims to establish conditions for the transportation and storage of human kidney biopsies. These protocols will be optimized to ensure maximal cell viability and preservation of mRNA integrity. In the second phase of this project, we will compare single cell RNA sequencing technologies: FACS-seq and Drop-seq. Our goal is to determine which approach will be best adapted to the large-scale investigation of human kidney disease in large populations.
-  data: '/chaise/record/#2/Common:Principal_Investigator/RID=W-Q47M?pcid=static'
 - project_title: >
     Identifying Kidney Cell Phenotype Factors Using Single Cell RNA Sequencing
   slug: Single Cell RNA Sequencing
@@ -266,7 +258,6 @@
   status: Completed
   description: >
     An improved understanding of renal repair mechanisms, and their limits, may enable the development of approaches to lower renal burden. With this long-term goal in sight, we will apply approaches to identify the transcriptional signatures of reparative cell types in a mouse model of acute kidney injury to identify signatures that underlie effective and non-effective renal repair. We will employ FACS to isolate nuclei of replicating, reparative renal tubular cell types expressing a genetically activated green fluorescent protein restricted to nephron nuclei, and EDU-labeling to identify the replicating component of nephron nuclei post-ischemia reperfusion injury (IRI). Single nuclear transcriptional profiling (NUC-seq) will be performed in each model at 72hrs and 28days after IRI to provide new insights into the diversity of cellular responses associated with different stages and different outcomes to renal injury. Key predictions will be followed up by secondary molecular analysis of tissue sections by quantitative PCR, in situ hybridization and immunostaining. Further, findings will be related to human kidney transplant injury through the analysis of existing RNA-seq data from protocol biopsies. Together these studies aim to provide new insights into individual cell actions in injury and repair of the mammalian nephron.
-  data: '/chaise/record/#2/Common:Principal_Investigator/RID=W-Q45P?pcid=static'
   personnel:
     - person: 'Andrew Ransick'
       key-institute: 'University of Southern California'
@@ -284,7 +275,6 @@
   status: Completed
   description: >
     We will extend our hGUDMAP studies of the human fetal kidney to generate new resources for the RBK consortium. In a collaboration with ABCAM, we will characterize rabbit monoclonal antibodies for cross species (mouse and human) cell-type specificity in identifying key cell types of the developing kidney. We will validate MARIS (Method for Analyzing RNA following Intracellular Sorting) as a broadly applicable approach for acquiring transcriptional signatures from specific cell types in the developing kidneys. Finally, recognizing the importance of Six2 in regulating nephron progenitors, we will compare the Six2 regulatory landscape in the embryonic kidney with that of pluripotent stem cell derived Six2+ nephron progenitors generated in cell culture.
-  data: '/chaise/record/#2/Common:Principal_Investigator/RID=W-Q45P?pcid=static'
   personnel:
     - person: 'Jill McMahon'
       key-institute: 'University of Southern California'
@@ -370,7 +360,6 @@
   status: Completed
   description: >
     Kidney function, both under normal conditions and in the setting of disease, is predominantly controlled by the amount, localization and activation state of proteins in specific cells at specific sites and under specific spatial influences that in turn regulate cell differentiation, division, metabolism, morphology, membrane polarization, secretion and transport. Imaging mass cytometry (IMC) takes advantage of laser ionization and time of flight mass spectrometry to simultaneously identify up to 42 metal ion-conjugated antibodies from tissue sections at high spatial resolution with essentially no background signal. In the current proposal, human kidney samples will be used to develop protocols for high-fidelity staining with individual antibodies to identify cell types and protein activation states of interest in the kidney (SA 1) followed by staining of normal and diseased human kidney sections with pooled, metal ion-conjugated antibodies for multiplex IMC image reconstruction to simultaneously define the activation/expression states of multiple cells in the human kidney (SA 2).
-  data: '/chaise/record/#2/Common:Principal_Investigator/RID=14-3Q2R'
   personnel:
     - person: 'Nikhil Singh'
       key-institute: 'Yale University'
@@ -386,7 +375,6 @@
   status: Completed
   description: >
     Human pluripotent stem cell derived organoid models, including kidney organoids, are most similar to fetal tissue in vitro. Therefore, while the goal of directed differentiation is to generate bona fide mature, functional cell types or organ-like systems, it is critical to have a comprehensive understanding of in vitro derived tissues relative to immature and mature human tissue. By extension, it is important to have high quality, reproducible and accessible in vivo human-tissue derived data sets in order to confidently benchmark in vitro studies. However, significant limitations exist for purifying specific populations of cells from rare human tissue samples to obtain cell-specific transcriptional profiles. The goal of this proposal  is to provide high quality transcriptome data from the developing and adult human kidney using single cell RNA sequencing (scRNAseq), which is an unbiased approach that does not rely on specific reagents or bulk populations of cells.
-  data: '/chaise/record/#2/Common:Principal_Investigator/RID=W-R83G?pcid=static'
   personnel:
     - person: 'Cristina Cebrian Ligero'
       key-institute: 'University of Michigan'
@@ -423,6 +411,5 @@
   status: Completed
   description: >
     Single cell RNA-Seq provides a powerful particle biology approach for the study of cellular level heterogeneities. The technology for single cell RNA-Seq is rapidly evolving, yet several fundamental challenges remain. First, there is gene expression noise, resulting from the pulsatile, bursting nature of gene expression. Second, there is the technical noise that results from the technical challenges of transcript detection when working with picogram amounts of RNA. A third problem is the artifact changes in gene expresso that result from the process of generating single cell suspensions for analysis. During enzymatic dissociation at 37 deg the gene expression patterns of cells are changing. In this project we test a novel method for single cell dissociation that uses proteases active in the cold. These proteases are isolated from organisms that thrive in extreme cold environments. The use of such "cold active" proteases for cell dissociation is analogous to the use heat stable polymerases from thermophilic organisms for PCR. By carrying out cell dissociation at 5-10 deg instead of 37 deg the gene expression artifacts normally associated with this process could be dramatically reduced. The proposed improvement in methodology could have widespread impact on single cell RNA-Seq studies, rendering results more realistic representations of the in vivo state.
-  data: '/chaise/record/#2/Common:Principal_Investigator/RID=W-Q5HT?pcid=static'
   supplemental: >
     <blockquote>With regards to the Potter project, the report commented: 'But it was pointed out that the dissociation process itself, as well as exposure to cold, also produce tissue changes that could make interpretation of data problematic – although this is a step in the right direction. It was also proposed to look for damage markers to determine the state of the samples. The RBK needs to meet these challenges head on – cell dissociation will lead to changes in the tissue. How can these be minimized?'<br/><br/>In response, there is possible concern that while the use of psychrophilic, cold active proteases will reduce the gene expression changes associated with 37O C dissociation protocols, it nevertheless will introduce cold shock stress artifacts associated with incubation at 6O C. Indeed, there is a well-documented cold shock response following a period of exposure to mild hypothermia, typically 25-33O C, with several genes, including Cirp, Rbm3, P53 and Il8 shown to be up-regulated in various cell types (Sonna et al., 2002).  Nevertheless, at much lower temperatures the mammalian transcriptional machinery is largely inactive and few if any RNA transcript level changes result. For example, no changes in gene transcript levels were found following incubation at temperatures below 5O C (Fujita, 1999). Although the cells surely experience a cold shock at these low temperatures, they are effectively unable to transcribe new RNA, or turnover old, and therefore their gene expression profiles remain unchanged.</blockquote><br/><span class="citation">Sonna, L. A., Fujita, J., Gaffin, S. L., & Lilly, C. M. (2002). Invited Review: Effects of heat and cold stress on mammalian gene expression. <em>Journal of Applied Physiology, 92</em>(4), 1725-1742. doi:10.1152/japplphysiol.01143.2001</span><br/><br/><span class="citation">Fujita, J. (1999). Cold shock response in mammalian cells. <em>J Mol Microbiol Biotechnol, 1</em>(2), 243-55.</span>
