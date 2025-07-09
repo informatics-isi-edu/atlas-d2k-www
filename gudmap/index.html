@@ -196,9 +196,9 @@ $(document).ready(function(){
       rel:'gal',
       transition: 'fade',
       title:function () {
-        var ridurl = $(this).find('img').attr('alt');
+      /*  var ridurl = $(this).find('img').attr('alt');*/
         var txt = $(this).attr('title');
-        return txt+" More info".link(ridurl);
+        return txt;
       }
     });
 
