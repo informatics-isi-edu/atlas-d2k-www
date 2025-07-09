@@ -37,7 +37,7 @@ title: (Re)Building A Kidney (RBK) Consortium
             {% if post.tags contains 'rbk' %}
               {% assign counter = counter | plus: 1 %}
               <li>
-                <a href="{{ post.url }}">{{ post.title }}</a><br/>
+                <a href="{{ post.url | relative_url }}">{{ post.title }}</a><br/>
                 <time>
                   {{ post.date | date: "%m/%d/%Y" }}
                 </time>
