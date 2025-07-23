@@ -5,13 +5,11 @@ permalink: /resources/collections/
 ---
 
 
-{% assign collections = site.pages
-     | where_exp: "p",
-       "p.path contains 'resources/collections/' and p.name != 'index.md'"
-     | sort: "title" %}
-
 <ul class="collection-list">
-  {% for p in collections %}
-    <li><a href="{{ p.url | relative_url }}">{{ p.title }}</a></li>
+  {% for p in site.pages %}
+    {%- if p.url != page.url        /* skip this landing page            */
+        and p.dir contains '/resources/collections/' -%}
+      <li><a href="{{ p.url | relative_url }}">{{ p.title }}</a></li>
+    {%- endif -%}
   {% endfor %}
 </ul>
