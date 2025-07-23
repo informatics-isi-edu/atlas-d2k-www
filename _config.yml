@@ -19,7 +19,6 @@ pagination:
   permalink: "/page:num/"
   sort_reverse: true
 
-
 scholar:
   bibliography: '**/*.bib'
   sort-by: year
@@ -59,3 +58,20 @@ plugins:
   - jekyll-seo-tag
   - jekyll-redirect-from
   - jekyll-datapage-generator
+  - jekyll-optional-front-matter
+  - jekyll-titles-from-headings
+
+defaults:
+  # 1) Protocols -------------------------------------------------
+  - scope:
+      path: "resources/protocols"
+      type: "pages"
+    values:
+      layout: protocol          # or default
+
+  # 2) Collections ----------------------------------------------
+  - scope:
+      path: "resources/collections"
+      type: "pages"
+    values:
+      layout: collection        # choose or create another layout
