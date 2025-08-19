@@ -5,10 +5,10 @@ title: Protocols Library
 
 
 <ul class="protocol-list">
-  {% for p in site.pages %}
-    {%- if p.url != page.url        /* skip this landing page            */
-        and p.dir contains '/resources/protocols/' -%}
+  {% assign pages_alpha = site.pages | sort: "title" %}
+  {% for p in pages_alpha %}
+    {% if p.dir contains "/resources/protocols/" and p.url != page.url and p.title %}
       <li><a href="{{ p.url | relative_url }}">{{ p.title }}</a></li>
-    {%- endif -%}
+    {% endif %}
   {% endfor %}
 </ul>
